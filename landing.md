@@ -8,7 +8,7 @@ title: Landing
 <section id="banner" class="style2">
 	<div class="inner">
 		<span class="image">
-			<img src="images/pic07.jpg" alt="" />
+			<img src="assets/images/pic07.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h1>Landing</h1>
@@ -37,7 +37,7 @@ title: Landing
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="images/pic08.jpg" alt="" data-position="center center" />
+			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -53,7 +53,7 @@ title: Landing
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="images/pic09.jpg" alt="" data-position="top center" />
+			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -69,7 +69,7 @@ title: Landing
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
