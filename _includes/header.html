@@ -1,0 +1,24 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "default" %} class="alt"{% endif %}>
+	<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+		<li><a href="{{ site.url }}{{ site.baseurl }}">Home</a></li>
+		<li><a href="landing.html">Landing</a></li>
+		<li><a href="generic.html">Generic</a></li>
+		<li><a href="elements.html">Elements</a></li>
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
