@@ -50,6 +50,8 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-assets
+  - uglifier
 
 # Coming soon
 
