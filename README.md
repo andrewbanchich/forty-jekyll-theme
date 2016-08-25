@@ -15,7 +15,7 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 # Added Features
 
-* [Formspree.io](https://formspree.io/) **contact form integration** - just add your email to the `_config.yml` and it works!
+* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
 * Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
 * **Automatic sitemap generation** via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
