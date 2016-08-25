@@ -2,11 +2,11 @@
 	{% for post in site.posts limit:site.home-tiles-count %}
         <article>
                 <span class="image">
-                        <img src="{{ page.image }}" alt="" />
+                        <img src="{{ post.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
+                        <h3><a href="{{ post.url }}" class="link">{{ post.title }}</a></h3>
+                        <p>{{ post.description }}</p>
                 </header>
         </article>
 	{% endfor %}
