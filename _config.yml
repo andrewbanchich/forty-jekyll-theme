@@ -50,7 +50,6 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-admin
 
 # Coming soon
 
