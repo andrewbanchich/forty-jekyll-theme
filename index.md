@@ -29,7 +29,7 @@ author:
 <section id="one" class="tiles">
 	<article>
 		<span class="image">
-			<img src="images/pic01.jpg" alt="" />
+			<img src="assets/images/pic01.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Aliquam</a></h3>
@@ -38,7 +38,7 @@ author:
 	</article>
 	<article>
 		<span class="image">
-			<img src="images/pic02.jpg" alt="" />
+			<img src="assets/images/pic02.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Tempus</a></h3>
@@ -47,7 +47,7 @@ author:
 	</article>
 	<article>
 		<span class="image">
-			<img src="images/pic03.jpg" alt="" />
+			<img src="assets/images/pic03.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Magna</a></h3>
@@ -56,7 +56,7 @@ author:
 	</article>
 	<article>
 		<span class="image">
-			<img src="images/pic04.jpg" alt="" />
+			<img src="assets/images/pic04.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Ipsum</a></h3>
@@ -65,7 +65,7 @@ author:
 	</article>
 	<article>
 		<span class="image">
-			<img src="images/pic05.jpg" alt="" />
+			<img src="assets/images/pic05.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Consequat</a></h3>
@@ -74,7 +74,7 @@ author:
 	</article>
 	<article>
 		<span class="image">
-			<img src="images/pic06.jpg" alt="" />
+			<img src="assets/images/pic06.jpg" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="landing.html" class="link">Etiam</a></h3>
