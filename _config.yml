@@ -60,3 +60,8 @@ tiles-source: posts
 
 sass:
     sass_dir: assets/sass
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
