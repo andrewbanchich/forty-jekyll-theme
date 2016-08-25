@@ -57,3 +57,6 @@ gems:
 
 # Would you like the home page tiles to pull pages or posts?
 tiles-source: posts
+
+sass:
+    sass_dir: assets/sass
