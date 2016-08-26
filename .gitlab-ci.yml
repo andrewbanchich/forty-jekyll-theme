@@ -5,7 +5,7 @@ image: ruby:2.3
 test:
   stage: test
   script:
-  - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-assets
+  - gem install jekyll jekyll-sitemap jekyll-seo-tag
   - jekyll build -d test
   artifacts:
     paths:
@@ -16,7 +16,7 @@ test:
 pages:
   stage: deploy
   script:
-  - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-assets
+  - gem install jekyll jekyll-sitemap jekyll-seo-tag
   - jekyll build -d public
   artifacts:
     paths:
