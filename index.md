@@ -5,6 +5,7 @@ landing-title: Hi, my name is Forty
 description: 
 image: 
 author: 
+nav-menu: 
 ---
 
 <!-- Banner -->
