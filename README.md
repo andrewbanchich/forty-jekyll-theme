@@ -16,11 +16,11 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 # Added Features
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
+* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
 * Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
 * **Automatic sitemap generation** via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
 * Set **featured images** in front matter for the homepage posts grid.
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
 * **Coming soon**: Easily configure the navigation menu properties from `_config.yml`.
 * **Coming soon**: Automatic RSS/Atom feed generation.
 * **Coming soon**: Automatic asset optimization using the [Jekyll Assets](https://github.com/jekyll/jekyll-assets) plugin.
