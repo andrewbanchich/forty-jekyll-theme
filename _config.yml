@@ -25,6 +25,7 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jemoji
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
