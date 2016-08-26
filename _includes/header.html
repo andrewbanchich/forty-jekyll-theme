@@ -13,7 +13,7 @@
 <nav id="menu">
 	<ul class="links">
 	    {% for page in site.pages %}
-		{% if page.path == "index.html" %}
+		{% if page.url == "index.html" %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %}
 		{% endfor %}
@@ -22,12 +22,6 @@
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 		{% endif %}
 		{% endfor %}
-		
-		
-		<li><a href="{{ site.url }}{{ site.baseurl }}">Home</a></li>
-		<li><a href="landing.html">Landing</a></li>
-		<li><a href="generic.html">Generic</a></li>
-		<li><a href="elements.html">Elements</a></li>
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
