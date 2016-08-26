@@ -10,6 +10,8 @@
                         <p>{{ post.description }}</p>
                 </header>
         </article>
+    {% else %}
+    Configuration error
 	{% endif %}
 	{% endfor %}
 	{% for page in site.pages limit:site.tiles-count %}
