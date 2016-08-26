@@ -13,7 +13,7 @@
 <nav id="menu">
 	<ul class="links">
 	    {% for page in site.pages %}
-		{% if page.layout == "default" %}
+		{% if page.path == "index.html" %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %}
 		{% endfor %}
