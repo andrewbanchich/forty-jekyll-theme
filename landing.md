@@ -1,6 +1,7 @@
 ---
 layout: landing
 title: Landing
+image: assets/images/pic07.jpg
 ---
 
 <!-- Banner -->
@@ -8,7 +9,7 @@ title: Landing
 <section id="banner" class="style2">
 	<div class="inner">
 		<span class="image">
-			<img src="assets/images/pic07.jpg" alt="" />
+			<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
 			<h1>Landing</h1>
