@@ -21,8 +21,8 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * **Automatic sitemap generation** via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
 * **Automatic RSS/Atom feed generation** via the [Jekyll Feed](https://github.com/jekyll/jekyll-feed) plugin.
-* **Coming soon**: Easily configure the navigation menu properties from `_config.yml`.
 * Set **featured images** in front matter for the homepage posts grid.
+* **Coming soon**: Easily configure the navigation menu properties from `_config.yml`.
 * **Coming soon**: Automatic asset optimization using the [Jekyll Assets](https://github.com/jekyll/jekyll-assets) plugin.
 
 # Credits
