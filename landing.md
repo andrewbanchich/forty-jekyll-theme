@@ -1,7 +1,9 @@
 ---
 layout: landing
 title: Landing
+description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
 image: assets/images/pic07.jpg
+menu: yes
 ---
 
 <!-- Banner -->
@@ -15,8 +17,7 @@ image: assets/images/pic07.jpg
 			<h1>Landing</h1>
 		</header>
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet nullam consequat<br />
-			sed veroeros. tempus adipiscing nulla.</p>
+			<p>{{ page.description }}</p>
 		</div>
 	</div>
 </section>
