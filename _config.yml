@@ -6,6 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 home-tiles-count: 6
+tiles-source: pages
 
 # Site settings
 title-bold: Forty
