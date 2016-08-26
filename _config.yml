@@ -54,10 +54,4 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-assets
-
-# Coming soon
-
-# Would you like the home page tiles to pull pages or posts?
-tiles-source: posts
 
