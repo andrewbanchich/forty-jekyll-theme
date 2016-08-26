@@ -12,15 +12,15 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-	    {% for page in site.pages %}
-		{% if page.layout == "default" %}
-		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-		{% endif %}
+        {% for page in site.pages %}
+		    {% if page.layout == "default" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+	    	{% endif %}
 		{% endfor %}
 		{% for page in site.pages %}
-		{% if page.layout != "default" %}
-		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-		{% endif %}
+		    {% if page.layout != "default" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		    {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
