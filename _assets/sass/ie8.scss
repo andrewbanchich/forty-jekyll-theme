@@ -28,7 +28,7 @@
 	.tiles {
 		article {
 			width: 50%;
-			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+			-ms-behavior: url('_assets/js/ie/backgroundsize.min.htc');
 			background-size: cover;
 		}
 	}
@@ -36,7 +36,7 @@
 /* Banner */
 
 	#banner {
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		-ms-behavior: url('_assets/js/ie/backgroundsize.min.htc');
 
 		&:after {
 			display: none;
