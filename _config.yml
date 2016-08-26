@@ -20,6 +20,12 @@ zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
 tiles-count: 6
@@ -36,7 +42,10 @@ pinterest_url:
 slack_url: 
 twitter_url: https://twitter.com/andrewbanchich
 
-# SEO
+# Build settings
+markdown: kramdown
+
+# Plugin: jekyll-seo-tag
 twitter:
   username: andrewbanchich
 # Add one or more of the following
@@ -46,13 +55,3 @@ facebook:
   admins: 
 logo:
 google_site_verification: 
-
-# Build settings
-markdown: kramdown
-
-# Plugins
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
