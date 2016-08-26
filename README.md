@@ -23,8 +23,6 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
 * :thumbsup: **Emoji** support via the [Jemoji](https://github.com/jekyll/jemoji) plugin.
 * Set **featured images** in front matter.
-* **Coming soon**: Easily configure the navigation menu properties from `_config.yml`.
-* **Coming soon**: Automatic asset optimization using the [Jekyll Assets](https://github.com/jekyll/jekyll-assets) plugin.
 
 # Credits
 
