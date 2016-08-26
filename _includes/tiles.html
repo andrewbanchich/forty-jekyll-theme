@@ -1,4 +1,5 @@
 <section id="one" class="tiles">
+	{% if site.tiles-source == "posts" %}
 	{% for post in site.posts limit:site.home-tiles-count %}
         <article>
                 <span class="image">
@@ -10,4 +11,19 @@
                 </header>
         </article>
 	{% endfor %}
+	{% endif %}
+	{% if site.tiles-source == "pages" %}
+	{% for page in site.pages limit:site.home-tiles-count %}
+        <article>
+                <span class="image">
+                        <img src="{{ page.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                </header>
+        </article>
+	{% endfor %}
+	{% endif %}
+	
 </section>
