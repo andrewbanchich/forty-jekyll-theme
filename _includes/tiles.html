@@ -11,7 +11,8 @@
                 </header>
         </article>
 	{% endfor %}
-	{% elseif site.tiles-source == "pages" %}
+	{% endif %}
+	{% if site.tiles-source == "pages" %}
 	{% for page in site.pages limit:site.tiles-count %}
         <article>
                 <span class="image">
@@ -23,6 +24,5 @@
                 </header>
         </article>
 	{% endfor %}
-	{% else %}
 	{% endif %}
 </section>
