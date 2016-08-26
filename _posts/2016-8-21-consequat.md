@@ -2,7 +2,7 @@
 layout: post
 title: Consequat
 description: Ipsum dolor sit amet
-image: _assets/images/pic05.jpg
+image: assets/images/pic05.jpg
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 

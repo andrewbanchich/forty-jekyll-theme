@@ -2,7 +2,7 @@
 
 A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
 
-![Forty Theme](_assets/images/forty.jpg "Forty Theme")
+![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
 # How to Use
 
