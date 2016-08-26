@@ -22,7 +22,7 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * **Automatic RSS/Atom feed generation** via the [Jekyll Feed](https://github.com/jekyll/jekyll-feed) plugin.
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
 * Set **featured images** in front matter for the homepage posts grid.
-* :thumbsup: Emoji support
+* :thumbsup: **Emoji** support
 * **Coming soon**: Easily configure the navigation menu properties from `_config.yml`.
 * **Coming soon**: Automatic asset optimization using the [Jekyll Assets](https://github.com/jekyll/jekyll-assets) plugin.
 
