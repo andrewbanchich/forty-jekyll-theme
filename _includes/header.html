@@ -12,6 +12,9 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
+		{% if page.layout == "default" %}
+		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+		{% endif %}
 		{% for page in site.pages %}
 		{% if page.title %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
