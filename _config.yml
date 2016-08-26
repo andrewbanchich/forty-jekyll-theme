@@ -22,7 +22,7 @@ phone: (716) 555-5555
 
 # Homepage tiles
 tiles-source: pages
-home-tiles-count: 6
+tiles-count: 6
 
 # Social settings
 500px_url: 
