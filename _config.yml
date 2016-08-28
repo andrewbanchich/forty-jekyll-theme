@@ -27,7 +27,7 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-press
-  - therubyrunner
+  - therubyracer
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
