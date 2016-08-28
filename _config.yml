@@ -26,8 +26,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
   - jemoji
-  - jekyll-press
-  - therubyracer
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
