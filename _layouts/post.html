@@ -22,7 +22,7 @@
 		<header class="major">
 			<h1>{{ page.title }}</h1>
 		</header>
-		<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
 	</div>
 </section>
