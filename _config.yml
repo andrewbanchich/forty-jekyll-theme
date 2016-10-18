@@ -8,7 +8,7 @@
 # Site settings
 title-bold: Forty
 title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
+email: somosdeaquilab@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://somosdeaqui.co/" # the base hostname & protocol for your site
@@ -33,15 +33,15 @@ tiles-count: 6
 
 # Social settings
 500px_url: 
-facebook_url: 
-github_url: https://github.com/somosdeaqui/Forty-Jekyll-Theme
+facebook_url: https://facebook.com/somosdeaquilab
+github_url: 
 gitlab_url: 
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/somosdeaquilab
 
 # Build settings
 markdown: kramdown
