@@ -10,7 +10,7 @@ title-bold: Forty
 title-normal: by HTML5 UP
 email: somosdeaquilab@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "http://somosdeaqui.co/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://somosdeaqui.co/" # the base hostname & protocol for your site
 author: 
 street_address: 1234 Somewhere Road
