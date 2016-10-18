@@ -11,7 +11,7 @@ title-normal: by HTML5 UP
 email: somosdeaquilab@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://github.com/somosdeaqui/Forty-Jekyll-Theme" # the base hostname & protocol for your site
+url: "http://somosdeaqui.co/" # the base hostname & protocol for your site
 author: 
 street_address: 1234 Somewhere Road
 city: Nashville
