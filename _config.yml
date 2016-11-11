@@ -24,7 +24,7 @@ phone: (716) 555-5555
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
 #  - jemoji
 
 # Homepage tiles
