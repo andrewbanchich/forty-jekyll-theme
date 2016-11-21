@@ -22,9 +22,9 @@ phone: (716) 555-5555
 
 # Plugins
 gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-seo-tag
+#  - jekyll-feed
 #  - jemoji
 
 # Homepage tiles
