@@ -1,6 +1,6 @@
 # Site settings
-title-bold: Forty
-title-normal: by HTML5 UP
+title: Forty
+subtitle: by HTML5 UP
 email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
