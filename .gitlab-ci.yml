@@ -1,6 +1,6 @@
 image: ruby:2.3
 
-forty_jekyll_theme:
+pages:
   stage: build
   script:
   - gem install jekyll
