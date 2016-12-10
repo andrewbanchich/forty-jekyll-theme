@@ -1,25 +1,14 @@
-# This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/jekyll
 image: ruby:2.3
 
-test:
-  stage: test
-  script:
-  - gem install jekyll
-  - jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
-
-pages:
-  stage: deploy
+forty_jekyll_theme:
+  stage: build
   script:
   - gem install jekyll
   - jekyll build -d public
+  - gem build forty_jekyll_theme.gemspec
   artifacts:
     paths:
     - public
+    - "forty_jekyll_theme-*.gem"
   only:
   - master
