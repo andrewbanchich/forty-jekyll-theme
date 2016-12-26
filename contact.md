@@ -37,5 +37,5 @@ nav-menu: true
 <ul class="icons">
   <li><a href="http://twitter.com/nuclearkatie" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
   <li><a href="https://github.com/nuclearkatie" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-  <li><a href="https://linkedin/in/nuclearkatie" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+  <li><a href="https://www.linkedin.com/in/nuclearkatie" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 </ul>
