@@ -21,7 +21,7 @@ nav-menu: true
   <div class="contact-method">
     <span class="icon alt fa-envelope"></span>
     <h3>Email</h3>
-    <a href="#">{{ site.email }}</a>
+    <a href="mailto:radioactivekate@gmail.com">{{ site.email }} </a>
   </div>
 </section>
 
@@ -37,5 +37,5 @@ nav-menu: true
 <ul class="icons">
   <li><a href="http://twitter.com/nuclearkatie" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
   <li><a href="https://github.com/nuclearkatie" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-  <li><a href="https://www.linkedin.com/in/nuclearkatie" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+  <li><a href="http://www.linkedin.com/in/nuclearkatie" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 </ul>
