@@ -14,6 +14,6 @@ nav-menu: true
 
 <center>
 		<ul class="actions">
-			<li><a href="https://github.com/nuclearkatie/CV/blob/master/Katie_Mummah_CV.pdf" class="button big">Current CV</a></li>
+			<li><a href="katie_mummah_cv.pdf" class="button big">Current CV</a></li>
 		</ul>
 </center>
