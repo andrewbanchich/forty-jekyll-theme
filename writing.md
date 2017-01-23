@@ -1,17 +1,17 @@
 ---
-title: Landing
+title: Blog
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: Thoughts and rambles
+image: assets/images/typewriter.jpg
 nav-menu: true
 ---
 
 <section id="banner" class="style2">
   <div class="inner">
-  <span class="image">
-  <img src="{{ site.baseurl }}/%7B%7B%20page.image%20%7D%7D" alt="">
-</span>
-  <header class="major">
+    <span class="image">
+      <img src="{{ site.baseurl }}/%7B%7B%20page.image%20%7D%7D" alt="">
+    </span>
+    <header class="major">
 
 # Landing
 

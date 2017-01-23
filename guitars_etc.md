@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Music
+description: Projects, Tunes, Soundcloud etc
+image: assets/images/fj.jpg
 nav-menu: true
 ---
 
