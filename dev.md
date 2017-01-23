@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software Development
-description: Education, Experience & Current Projects
+description: 'Education, Experience & Current Projects'
 image: assets/images/better_notes.png
 ---
 

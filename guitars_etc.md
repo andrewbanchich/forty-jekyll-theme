@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Music
-description: Projects, Tunes, Soundcloud etc
+description: 'Projects, Tunes, Soundcloud etc'
 image: assets/images/fj.jpg
 nav-menu: true
 ---
