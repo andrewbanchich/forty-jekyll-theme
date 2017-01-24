@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "forty_jekyll_theme"
-  spec.version       = "0.2.2"
+  spec.version       = "1.0"
   spec.authors       = ["Andrew Banchich"]
   spec.email         = ["andrewbanchich@gmail.com"]
 
@@ -14,5 +14,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "jekyll", "~> 3.3"
   spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
 end
