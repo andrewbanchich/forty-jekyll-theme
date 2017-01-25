@@ -1,17 +1,17 @@
 # Site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title: Trevor's Blog
+subtitle: Notes from my learning and daily work!
+email: oumei.vip@gmail.com
+description: Fullstack engineer </br> Mobile Application Developer </br> 6+ years for mobile application development including Android & iOS platforms </br>  Having knowledges with Ruby, Nodejs, Java, Kotin, Swift etc.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://trevorwang.gitlab.io" # the base hostname & protocol for your site
+author: Trevor Wang
+street_address: 
+city: Shanghai
+state: Shanghai
+zip_code: 200000
+country: China
+phone: 131 8423 7194
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -20,14 +20,8 @@ tiles-count: 6
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+github_url: https://github.com/trevorwang
+twitter_url: https://twitter.com/trevorwang
 
 # Build settings
 markdown: kramdown

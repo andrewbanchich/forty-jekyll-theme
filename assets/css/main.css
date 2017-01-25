@@ -3906,11 +3906,18 @@
 		visibility: visible;
 	}
 
-		body.is-menu-visible #menu .inner {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
-			opacity: 1;
-			visibility: visible;
-		}
+	body.is-menu-visible #menu .inner {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+		visibility: visible;
+	}
+
+	img[src*='#center'] {
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
