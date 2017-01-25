@@ -42,7 +42,8 @@ Just create an Android project from the IDE.
 * Convert Java file to Kotlin file  
 ![Convert Java File to Kotlin File](/assets/images/pic-convert-java-files-kotlin-files.png#center)
 * The final code will be as following:   
-```kotlin
+
+```kotlin   
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
