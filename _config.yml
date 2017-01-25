@@ -25,6 +25,7 @@ twitter_url: https://twitter.com/trevorwang
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 sass:
   style: compressed
