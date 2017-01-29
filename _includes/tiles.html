@@ -1,5 +1,5 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
+	<!-- {% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
         <article>
                 <span class="image">
@@ -11,7 +11,7 @@
                 </header>
         </article>
 	{% endif %}
-	{% endfor %}
+	{% endfor %} -->
 	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
         <article>
