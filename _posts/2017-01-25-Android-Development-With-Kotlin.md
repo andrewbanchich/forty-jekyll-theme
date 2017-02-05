@@ -26,14 +26,14 @@ Statically typed programming language for the JVM, Android and the browser. ***1
   Command Line Compiler or First Class IDE Support. Freedom to choose.
 
 ### How to?
-#### Install kotlin plugin
+#### Install kotlin plugin 
 First, if using Android Studio, you'll need to install the Kotlin plugin. Go to File | Settings | Plugins | Install JetBrains plugin… and then search for and install Kotlin. You'll need to restart the IDE after this completes.   
 
 ![How to install plugin](/assets/images/pic-install-kotlin-plugin.png#center)
 
-#### Creating a project
+#### Creating a project 
 Just create an Android project from the IDE.
-#### Converting Java code to Kotlin
+#### Converting Java code to Kotlin 
 
 * Setup kotlin runtime, select "Confure Kotlin in Project"  
 ![Setup Kotlin runtime](/assets/images/pic-configure-kotlin-sdk.png#center)
