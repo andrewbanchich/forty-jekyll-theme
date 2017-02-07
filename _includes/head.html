@@ -6,4 +6,7 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | absolute_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | absolute_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | absolute_url }}" /><![endif]-->
+	{% if jekyll.environment == 'production' and site.google_analytics %}
+  		{% include google-analytics.html %}
+  	{% endif %}
 </head>

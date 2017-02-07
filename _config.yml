@@ -11,7 +11,7 @@ city: Shanghai
 state: Shanghai
 zip_code: 200000
 country: China
-phone: 131 8423 7194
+phone: +86 131 8423 7194
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -22,7 +22,7 @@ tiles-count: 6
 facebook_url:
 github_url: https://github.com/trevorwang
 twitter_url: https://twitter.com/trevorwang
-
+google_analytics: UA-91564813-1
 # Build settings
 markdown: kramdown
 highlighter: rouge
