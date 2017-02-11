@@ -28,7 +28,7 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-## Hell of A Vacation<em><a href="VacationCalculator.md">Learn more</a>
+## Hell of A Vacation<em><a href="VacationCalculator">Open</a>
 
 
 
