@@ -19,15 +19,15 @@ tiles-count: 4
 
 # Social settings
 500px_url:
-facebook_url:
+facebook_url: https://www.facebook.com/mericutku.gulfiliz
 github_url: https://github.com/mgulfiliz
 gitlab_url: 
 googleplus_url: https://plus.google.com
-instagram_url: https://instagram.com
+instagram_url: https://www.instagram.com/yazdediseytanri
 linkedin_url: https://www.linkedin.com
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com
+twitter_url: https://twitter.com/yazdediseytanri
 
 # Build settings
 markdown: kramdown
