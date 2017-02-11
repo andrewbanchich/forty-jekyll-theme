@@ -30,7 +30,7 @@ nav-menu: true
 
 <h3> 
 # Hell of A Vacation<em><a href="https://mgulfiliz.github.io/mgulfiliz.github.io/python/2017/02/11/Vacation_Calculator.html">Open</a> 
-</h3>
+
 
 
 
