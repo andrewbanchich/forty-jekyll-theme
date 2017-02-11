@@ -21,19 +21,4 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-## Vacation Calculator
 
-</header>
-
-{% gist VacationCalculator %}
-
-</div>
-  <p></p>
-</section>
-  <p>
-</p>
-  <section id="two" class="spotlights">
-  <section><a href="generic.html">
-  
-<div class="content">
-  <div class="inner"><header class="major">
