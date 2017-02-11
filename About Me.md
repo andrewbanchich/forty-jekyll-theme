@@ -10,7 +10,7 @@ nav-menu: true
 #Apprentice Software Developer.<br /><br />
 #Industrial Automation Technician<br /><br />
 #A Painter.<br /><br />
-#Metal Music Fan.<br /><br />
+#Metal Music Listener.<br /><br />
 #and Father of 2 Cat.<br /><br />
 #Future Founder Of "Ludic Science"<br /><br />
 
