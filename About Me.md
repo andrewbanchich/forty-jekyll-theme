@@ -6,11 +6,11 @@ image: assets/images/LUDIC SCIENCE ENTERTAINTMENT.jpg
 nav-menu: true
 ---
 
-<br />Physics Student in Tracia University in Edirne,Turkey.
-<br />Apprentice Software Developer.
-<br />Industrial Automation Technician
-<br />A Painter.
-<br />Metal Music Fan.
-<br />and Father of 2 Cat.
-<br />Future Founder Of "Ludic Science"
+#Physics Student in Tracia University in Edirne,Turkey.
+#Apprentice Software Developer.
+#Industrial Automation Technician
+#A Painter.
+#Metal Music Fan.
+#and Father of 2 Cat.
+#Future Founder Of "Ludic Science"
 
