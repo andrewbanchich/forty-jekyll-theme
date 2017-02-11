@@ -2,7 +2,7 @@
 layout: post
 title: About Me
 description: Who I'am and What I Do
-image: assets/images/LUDIC SCIENCE ENTERTAINTMENT.jpg
+image: assets/images/LUDIC SCIENCE ENTERTAINTMENT.png
 nav-menu: true
 ---
 
