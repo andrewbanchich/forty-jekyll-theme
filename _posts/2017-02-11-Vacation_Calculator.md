@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Hell of a Vacation
+title:  "Vacation Calculator"
+date:   2017-02-11 
+categories: Python
 ---
-"""
 
 def hotel_cost(nights):
     return nights * 140
@@ -30,4 +31,4 @@ def trip_cost(city,days,spending_money):
  
 print trip_cost("Los Angeles",5,600)
 
-"""
+
