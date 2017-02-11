@@ -11,12 +11,10 @@ city: Edirne
 state: Tracia
 zip_code: 22100
 country: TURKEY
-phone: (716) 555-5555
+phone: (536) 949-18-94 
 
 # Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 2
-tiles-source: posts
+tiles-source: posts  # accepts "posts" or "pages"
 tiles-count: 4
 
 # Social settings
