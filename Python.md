@@ -13,12 +13,12 @@ nav-menu: true
 </span>
   <header class="major">
 
-<h1>Python</h1>
+<h1> Python </h1>
 
 </header>
   <div class="content">
 
-<h2>{{ page.description }}</h2>
+<h2> {{ page.description }} </h2>
 
 </div>
 </div>
@@ -28,7 +28,7 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-<h2># Hell of A Vacation<em><a href="https://mgulfiliz.github.io/mgulfiliz.github.io/python/2017/02/11/Vacation_Calculator.html">Open</a></h2>
+<h2> # Hell of A Vacation<em><a href="https://mgulfiliz.github.io/mgulfiliz.github.io/python/2017/02/11/Vacation_Calculator.html">Open</a> </h2>
 
 
 
