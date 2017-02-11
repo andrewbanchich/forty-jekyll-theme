@@ -25,7 +25,7 @@ nav-menu: true
 
 </header>
 
-A basic Vacation Cost Calculator with Python
+{% gist VacationCalculator %}
 
 </div>
   <p></p>
