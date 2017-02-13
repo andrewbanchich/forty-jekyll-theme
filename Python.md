@@ -28,9 +28,10 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
+{% highlight ruby %}
 <h3> 
-# Vacation Calculator<em>{% gist 844a118b9228ea9cf141ea53003d5494 %}>Open</a> 
-
+# Vacation Calculator {% gist 844a118b9228ea9cf141ea53003d5494 %}
+{% endhighlight %}
 
 
 
