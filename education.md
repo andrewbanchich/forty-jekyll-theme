@@ -28,6 +28,7 @@ nav-menu: true
         <h2>Awards &amp; Honors</h2>
         <h4>Awards</h4>
         <ul class="alt">
+					<li>2016-2017 | Roy G. Post Foundation Scholarship</li>
           <li>2016-2017 | Edith and Harry Darby Leadership Award</li>
         	<li>2015-2017 | DOE Nuclear Energy University Program Scholarship</li>
         	<li>2015-2017 | Nuclear Regulatory Commission Scholarship</li>
@@ -37,6 +38,7 @@ nav-menu: true
 
         <h4>Honors</h4>
         <ul class="alt">
+					<li>2017 | Knights of St. Patrick</li>
           <li>2016 | Alpha Nu Sigma</li>
           <li>2016 | William R. Schowalter Award.</li>
           <li>2016 | ANS Commendation for Service &amp; Leadership</li>
