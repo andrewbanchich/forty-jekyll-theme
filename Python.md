@@ -28,10 +28,10 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-{% highlight ruby %}
+
 <h3> 
-# Vacation Calculator {% gist 844a118b9228ea9cf141ea53003d5494 %}
-{% endhighlight %}
+# Vacation Calculator <em><a href="_posts/2017-02-11-Vacation_Calculator">Learn more</a>
+
 
 
 
