@@ -28,7 +28,6 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-
 <h3> 
 # Vacation Calculator <em><a href="_posts/2017-02-11-Vacation_Calculator">Learn more</a>
 
