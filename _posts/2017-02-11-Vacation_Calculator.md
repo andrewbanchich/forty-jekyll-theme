@@ -6,6 +6,6 @@ categories: Python
 ---
 {% highlight ruby %}
 
-<script src="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.js"></script>
+{% gist 844a118b9228ea9cf141ea53003d5494 %}
 
 {% endhighlight %}
