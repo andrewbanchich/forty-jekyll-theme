@@ -29,9 +29,7 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
-# Hell of A Vacation<em><a href="<script src="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.js"></script>">Open</a> 
-
-<script src="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.js"></script>
+# Vacation Calculator<em><a href="<script src="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.js"></script>">Open</a> 
 
 
 
