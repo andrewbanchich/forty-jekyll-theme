@@ -29,7 +29,7 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
-# Vacation Calculator<em><a href="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.js">Open</a> 
+# Vacation Calculator<em><a href="https://gist.github.com/mgulfiliz/844a118b9228ea9cf141ea53003d5494.html">Open</a> 
 
 
 
