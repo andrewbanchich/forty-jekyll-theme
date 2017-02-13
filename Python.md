@@ -29,7 +29,7 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
-# Vacation Calculator <em><a href="_posts/2017-02-11-Vacation_Calculator">Learn more</a>
+# Vacation Calculator <em><a href="_posts/2017-02-11-Vacation_Calculator.md">Learn more</a>
 
 
 
