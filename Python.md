@@ -32,6 +32,8 @@ nav-menu: true
 # PygLatin <em><a href="pyhton/2017/02/14/PygLatin.html">Look</a>
 <br />
 # Vacation Calculator <em><a href="python/2017/02/11/Vacation_Calculator.html">Look</a>
+<br />
+# It's Dangerous to Go Alone! Take This <em><a href="python/2017/02/11/It's Dangerous to Go Alone! Take This.html">Look</a> 
 
 
 
