@@ -31,6 +31,7 @@ twitter_url: https://twitter.com/yazdediseytanri
 
 # Build settings
 markdown: kramdown
-
+paginate: 5
+highlighter: rouge
 sass:
   style: compressed

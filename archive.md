@@ -1,9 +1,10 @@
 ---
 layout: page
-title: page
-description: "Coding and other software development stuff"
+title: Python
+description: "My Progress On Python"
+nav-menu: true
 ---
-a
+
 {% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
