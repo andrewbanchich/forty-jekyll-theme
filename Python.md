@@ -29,13 +29,15 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
-# It's Dangerous to Go Alone! Take This <em><a href="/python/2017/02/11/It's_Dangerous_to_Go_Alone!_Take_This.html">Look</a> 
-<br />
-# PygLatin <em><a href="/python/2017/02/14/PygLatin.html">Look</a>
-<br />
-# Vacation Calculator <em><a href="/python/2017/02/11/Vacation_Calculator.html">Look</a>
+<li><a href="/python/2017/02/14/It's_Dangerous_to_Go_Alone!_Take_This.html" class="button small">Look</a></li> # It's Dangerous to Go Alone! Take This
+<li><a href="/python/2017/02/14/PygLatin.html.html" class="button small">Look</a></li> # PygLatin
+<li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button small">Look</a></li> # Vacation Calculator
 
- vaca <li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button small">Small</a></li>
+
+<br />
+
+
+
 
 
 
