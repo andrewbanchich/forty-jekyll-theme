@@ -7,6 +7,4 @@ image: null
 author: null
 ---
 
-
-
 #Published by Meriç Utku Gülfiliz 11.02.2017
