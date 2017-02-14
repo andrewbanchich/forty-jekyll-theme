@@ -29,9 +29,15 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
+# A Day at the Supermarket <li><a href="/python/2017/02/14/A_Day_at_the_Supermarket.html" class="button special small">Look</a></li>
+
 # It's Dangerous to Go Alone! Take This <li><a href="/python/2017/02/14/It's_Dangerous_to_Go_Alone!_Take_This.html" class="button special small">Look</a></li> 
+
 # PygLatin <li><a href="/python/2017/02/14/PygLatin.html" class="button special small">Look</a></li> 
-# Vacation Calculator <li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button special small">Look</a></li> 
+
+# Vacation Calculator <li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button special small">Look</a></li>
+
+
 
 
 
