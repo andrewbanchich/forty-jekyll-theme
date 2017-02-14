@@ -10,7 +10,6 @@ tags:
   - Python
 ---
 
-#Vacation Calculator:
 <h3>
 When planning a vacation, it's very important to know exactly how much you're going to spend.
 You're going to need to take a plane ride to get to your location.

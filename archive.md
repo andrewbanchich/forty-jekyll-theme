@@ -4,7 +4,7 @@ title: page
 description: "Coding and other software development stuff"
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
