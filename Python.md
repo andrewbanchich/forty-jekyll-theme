@@ -1,53 +1,46 @@
 ---
-title: Phyton
 layout: landing
-description: 'My Progress On Python.'
-image: assets/images/pic07.jpg
+title: Python
+description: "My Progress On Python"
 nav-menu: true
 ---
 
-<section id="banner" class="style2">
-  <div class="inner">
-  <span class="image">
-  <img src="{{ site.baseurl }}/%7B%7B%20page.image%20%7D%7D" alt="">
-</span>
-  <header class="major">
-
-<h1> Python </h1>
-
-</header>
-  <div class="content">
-
-<h2> {{ page.description }} </h2>
-
+{% for post in site.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <div class="entry">
+        {{ post.excerpt }}
+    </div>
+    
+    {% if post.excerpt %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more small">Read More ...</a>
+    {% endif %}
 </div>
-</div>
-</section>
+<hr>
+{% endfor %}
 
-<div id="main">
-  <section id="one">
-  <div class="inner"><header class="major">
-
-<h3> 
-# A Day at the Supermarket <li><a href="/python/2017/02/14/A_Day_at_the_Supermarket.html" class="button special small">Look</a></li>
-
-# It's Dangerous to Go Alone! Take This <li><a href="/python/2017/02/14/It's_Dangerous_to_Go_Alone!_Take_This.html" class="button special small">Look</a></li> 
-
-# PygLatin <li><a href="/python/2017/02/14/PygLatin.html" class="button special small">Look</a></li> 
-
-# Vacation Calculator <li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button special small">Look</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
