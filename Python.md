@@ -29,7 +29,7 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
-# It's Dangerous to Go Alone! Take This <em><a href="python/2017/02/11/It's Dangerous to Go Alone! Take This.html">Look</a> 
+# It's Dangerous to Go Alone! Take This <em><a href="/python/2017/02/11/It's Dangerous to Go Alone! Take This.html">Look</a> 
 <br />
 # PygLatin <em><a href="_posts/2017-02-14-PygLatin.html">Look</a>
 <br />
