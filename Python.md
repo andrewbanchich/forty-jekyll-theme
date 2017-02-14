@@ -29,7 +29,11 @@ nav-menu: true
   <div class="inner"><header class="major">
 
 <h3> 
+# PygLatin <em><a href="pyhton/2017/02/14/PygLatin.html">Look</a>
+
 # Vacation Calculator <em><a href="python/2017/02/11/Vacation_Calculator.html">Look</a>
+
+
 
 
 
