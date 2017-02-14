@@ -31,5 +31,6 @@ twitter_url: https://twitter.com/yazdediseytanri
 
 # Build settings
 markdown: kramdown
+
 sass:
   style: compressed
