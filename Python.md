@@ -30,7 +30,7 @@ nav-menu: true
 
 <h3> 
 # PygLatin <em><a href="pyhton/2017/02/14/PygLatin.html">Look</a>
-
+<br />
 # Vacation Calculator <em><a href="python/2017/02/11/Vacation_Calculator.html">Look</a>
 
 
