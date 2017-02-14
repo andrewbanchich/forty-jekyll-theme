@@ -31,9 +31,11 @@ nav-menu: true
 <h3> 
 # It's Dangerous to Go Alone! Take This <em><a href="/python/2017/02/11/It's_Dangerous_to_Go_Alone!_Take_This.html">Look</a> 
 <br />
-# PygLatin <em><a href="/python/2017-02-14-PygLatin.html">Look</a>
+# PygLatin <em><a href="/python/2017/02/14/PygLatin.html">Look</a>
 <br />
 # Vacation Calculator <em><a href="/python/2017/02/11/Vacation_Calculator.html">Look</a>
+
+ vaca <li><a href="/python/2017/02/11/Vacation_Calculator.html" class="button small">Small</a></li>
 
 
 
