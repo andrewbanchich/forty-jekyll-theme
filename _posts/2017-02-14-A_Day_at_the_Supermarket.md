@@ -36,7 +36,7 @@ tags:
 <li>Strings are like lists with characters as elements. You can loop through strings the same way you loop through lists!</li>
 </ul>
     
-    <h4>What I've Practiced:</4>
+    <h4>What I've Practiced:</h4>
 <ul>
     <li>Using <code>for</code> loops with lists and dictionaries.</li>
     <li>Writing functions with loops, lists, and dictionaries.</li>
