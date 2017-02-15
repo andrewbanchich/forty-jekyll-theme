@@ -38,10 +38,10 @@ I've been recently working on Python 3.In this blog post I'm posting my learning
 ## What I've Practiced:
 * Using `for` loops with lists and dictionaries.
 * Writing functions with loops, lists, and dictionaries.
-* Updating data in response to changes in the environment (for instance, decreasing the number of bananas in `stock` by 1 when you sell one).
+- Updating data in response to changes in the environment (for instance, decreasing the number of bananas in `stock` by 1 when you sell one).
 
 ### Thanks for shopping at the Massive supermarket!
 
 {% gist dc643ee0f6a9d64b23e10d068ab95a4b %}
 </h3>
-</p>
+
