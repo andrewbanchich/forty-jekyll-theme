@@ -11,6 +11,7 @@ tags:
   - Data Structures
   - Dictionaries
 ---
+<p>
 <h3>
 I've been recently working on Python 3.In this blog post I'm posting my learning progress on Python with projects.
 
@@ -43,3 +44,4 @@ I've been recently working on Python 3.In this blog post I'm posting my learning
 
 {% gist dc643ee0f6a9d64b23e10d068ab95a4b %}
 </h3>
+</p>
