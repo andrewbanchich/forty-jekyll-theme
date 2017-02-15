@@ -18,7 +18,7 @@ Great! Now that you've got your 3 main costs figured out, I'm put them together 
 You can't expect to only spend money on the plane ride, hotel, and rental car when going on a vacation. There also needs to be room for additional costs like fancy food or souvenirs.
 Now that you have it all together, let's take a trip.
 <!--end-of-excerpt-->
-What if we went to Los Angeles for 5 days and brought an extra 600 dollars of spending money?
+What if we went to Los Angeles for 5 days and brought an extra 600 dollars of spending money??
 
 {% gist 844a118b9228ea9cf141ea53003d5494 %}
 
