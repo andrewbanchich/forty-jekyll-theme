@@ -4,7 +4,6 @@ title: "Vacation Calculator"
 subtitle: ""
 date:  2017-02-14 09:11
 author:  "M.Utku"
-excerpt_separator: <!--end-of-excerpt-->
 published: true
 tags: 
   - Python
