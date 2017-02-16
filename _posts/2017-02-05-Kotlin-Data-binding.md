@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
 </layout>
 ```
 
-Please checkout full source code [here](https://github.com/trevorwang/android-kotlin-example/tree/kotlin-databinding)
+You can checkout whole source code from [here](https://github.com/trevorwang/android-kotlin-example/tree/kotlin-databinding)
 
 ## References
 
