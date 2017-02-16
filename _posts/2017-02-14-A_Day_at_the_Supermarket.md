@@ -15,7 +15,6 @@ tags:
 
     <h2>"It's Dangerous to Go Alone! Take This</h2>
 <p>In this project, I'm try to write a backpack code to order a backpack in game.</p>
-
         <h4>What I've Learned:</h4>
 <ul>
     <li>A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces.</li>
