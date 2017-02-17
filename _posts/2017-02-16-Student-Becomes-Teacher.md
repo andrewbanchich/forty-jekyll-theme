@@ -16,7 +16,8 @@ tags:
 ---
 
 <p>I'm going to be the teacher of mine own class. Make a gradebook for all of mine students.When teaching a class, it's important to take the students' averages in order to assign grades.</p>
-    <p><h4>What I Learned:</h4></p>
+    
+# what i
 <ul>
     <li>When you divide an integer by another integer, the result is always an integer (rounded down, if needed).</li>
     <li>When you divide a float by an integer, the result is always a float.</li>
