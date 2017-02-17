@@ -14,7 +14,7 @@ tags:
   - Lists & Dictionaries
   - Student Becomes the Teacher
 ---
-
+<p>
 <p>I'm going to be the teacher of mine own class. Make a gradebook for all of mine students.When teaching a class, it's important to take the students' averages in order to assign grades.</p>
     
 # What I Learned:
@@ -26,5 +26,5 @@ tags:
     <li>The <code>\</code> character is a continuation character. The following line is considered a continuation of the current line.</li>
     
 </ul>
-
 {% gist 13dff9049782b8498ef50147e0fe8080 %}
+</p>

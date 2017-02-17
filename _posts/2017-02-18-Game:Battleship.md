@@ -11,7 +11,7 @@ tags:
   - Battleship!
   - Python
 ---    
-    
+<p> 
     <ul>
 <li>In this project I've build a simplified, one-player version of the classic board game Battleship! In this version of the game, there will be a single ship hidden in a random location on a 5x5 grid. The player will have 10 guesses to try to sink the ship.</li>
 <li>To build this game we will use our knowledge of lists, conditionals and functions in Python.</li>
@@ -25,4 +25,4 @@ tags:
 <li>Use functions to allow the game to have more features like rematches, statistics and more!</li>
     </ul>
 {% gist 90350a600753e09fe72ab21e58ee0ba0 %}
-
+</p>
