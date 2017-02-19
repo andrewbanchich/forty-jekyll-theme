@@ -1,10 +1,10 @@
 # Site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: BrandonKlotz
+subtitle: Process & Design
+email: brandonklotz94@gmail.com
+description: Process & Design
+baseurl: "/website" # the subpath of your site, e.g. /blog
+url: "https://brandonklotz.github.io" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
