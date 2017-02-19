@@ -1,8 +1,8 @@
 # Site settings
 title: BrandonKlotz
-subtitle: Process & Design
+subtitle: Insight & Foresight
 email: brandonklotz94@gmail.com
-description: Process & Design
+description: Insight & Foresight
 baseurl: "BrandonKlotz/website" # the subpath of your site, e.g. /blog
 url: "https://brandonklotz.github.io" # the base hostname & protocol for your site
 author:
