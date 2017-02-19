@@ -3,7 +3,7 @@ title: BrandonKlotz
 subtitle: Process & Design
 email: brandonklotz94@gmail.com
 description: Process & Design
-baseurl: "/website" # the subpath of your site, e.g. /blog
+baseurl: "BrandonKlotz/website" # the subpath of your site, e.g. /blog
 url: "https://brandonklotz.github.io" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
