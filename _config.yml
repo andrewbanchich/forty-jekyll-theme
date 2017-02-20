@@ -3,7 +3,7 @@ title: BrandonKlotz
 subtitle: Insight & Foresight
 email: brandonklotz94@gmail.com
 description: Insight & Foresight
-baseurl: "/website" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://brandonklotz.github.io" # the base hostname & protocol for your site
 author: brandon klotz
 street_address:
