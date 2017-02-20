@@ -248,3 +248,9 @@ interface AppComponent {
 ```
 
 Now you have complete a project integrated with dagger2. You can chekcout the whole project from [here](https://github.com/trevorwang/android-kotlin-example/tree/kotlin-dagger)
+
+
+#### References
+1. [Dagger2](https://google.github.io/dagger/)
+2. [Dagger 2 Dependency Injection for Android Developers](https://medium.com/@methodsignature/dagger-2-dependency-injection-for-android-developers-51d60e7397e6#.f4yp32sbb)
+3. [Dependency Injection with Dagger 2](https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2)
