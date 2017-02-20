@@ -15,7 +15,7 @@ phone:
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 5
 
 # Social settings
 500px_url:
