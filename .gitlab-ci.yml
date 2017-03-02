@@ -3,7 +3,7 @@ image: ruby
 pages:
   stage: build
   script:
-  - gem install jekyll -v 3.3.1
+  - gem install jekyll
   - jekyll build -d public
   artifacts:
     paths:
