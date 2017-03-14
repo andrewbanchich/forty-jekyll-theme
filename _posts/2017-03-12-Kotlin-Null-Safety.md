@@ -9,7 +9,6 @@ image: assets/images/pic-kotlin.png
 # Kotlin Null Safety
 
 > Kotlin's type system is aimed to eliminate `NullPointerException`'s from our code. The only possible causes of NPE's may be
-
 > 1. An explicit call to throw `NullPointerException()`
 > 2. Usage of the `!!` operator that is described below
 > 3. External Java code has caused it
