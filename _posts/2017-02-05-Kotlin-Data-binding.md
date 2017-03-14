@@ -4,7 +4,7 @@ title: Kotlin & Databinding
 description: Enable Databinding in a Kotlin Android Project
 image: assets/images/pic-Data-Binding-Technique-Android.png
 ---
-
+    
 
 # Kotlin  DataBinding
 
