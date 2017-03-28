@@ -1,21 +1,21 @@
 # Site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: NJU-ITxia
+subtitle: 
+email: fibomat@gmail.com
+description: 全南大最大的科技公益服务平台
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
+street_address: 仙林/鼓楼
+city: 
+state: 
 zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
 
 # Social settings
 500px_url:
