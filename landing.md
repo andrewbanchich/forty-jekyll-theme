@@ -1,6 +1,6 @@
 ---
 title: Landing
-layout: landing
+layout: page
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
 image: assets/images/pic07.jpg
 nav-menu: true
@@ -13,7 +13,7 @@ nav-menu: true
 </span>
   <header class="major">
 
-# Landing
+ Landing
 
 </header>
   <div class="content">
@@ -28,7 +28,7 @@ nav-menu: true
   <section id="one">
   <div class="inner"><header class="major">
 
-## Sed amet aliquam
+ Sed amet aliquam
 
 </header>
 
@@ -42,56 +42,54 @@ Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc r
   <section id="two" class="spotlights">
   <section><a href="generic.html">
   <img src="assets/images/pic08.jpg" alt="" data-position="center center">
-</a>{:.image}
+</a>
 
 <div class="content">
   <div class="inner"><header class="major">
 
-### Orci maecenas
+Orci maecenas
 
 </header>
 
 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
 
-<em><a href="generic.html">Learn more</a>{:.button}
+<em><a href="generic.html">Learn more</a>
 
 </em></div>
   <em></em>
 </div></section>
   <em></em>
   <section>
-  <em><a href="generic.html"><img src="assets/images/pic09.jpg" alt="" data-position="top center"></a>{:.image}
+  <em><a href="generic.html"><img src="assets/images/pic09.jpg" alt="" data-position="top center"></a>
 
 </em>
   <div class="content">
   <em></em>
-  <div class="inner"><em><header class="major">
-
-### Rhoncus magna
+  <div class="inner"><em><header class="major">Rhoncus magna
 
 </header>
 
 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
 
-</em>   <a href="generic.html">Learn more</a>{:.button}
+</em>   <a href="generic.html">Learn more</a>
 
 </div>
 </div>
 </section>
   <section><a href="generic.html">
   <img src="assets/images/pic10.jpg" alt="" data-position="25% 25%">
-</a>{:.image}
+</a>
 
 <div class="content">
   <div class="inner"><header class="major">
 
-### Sed nunc ligula
+Sed nunc ligula
 
 </header>
 
 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
 
-<em><a href="generic.html">Learn more</a>{:.button}
+<em><a href="generic.html">Learn more</a>
 
 </em></div>
   <em></em>
@@ -105,13 +103,13 @@ Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc r
   <em></em>
   <div class="inner"><em><header class="major">
 
-## Massa libero
+Massa libero
 
 </header>
 
 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
 
-</em>   <a href="generic.html">Get Started</a>{:.button .next}
+</em>   <a href="generic.html">Get Started</a>
 
 </div>
 </section>

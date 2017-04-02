@@ -12,7 +12,7 @@
         </article>
 	{% endif %}
 	{% endfor %}
-	{% for page in site.pages limit:site.tiles-count %}
+	{% for page in site.data.index_url limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
         <article>
                 <span class="image">
