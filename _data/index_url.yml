@@ -1,17 +1,17 @@
 - title: 介绍 
-  image: 
+  image: intro.jpg
   description: 
   url: introduction
 - title: 服务
-  image:
+  image: service.jpg
   description:
   url: service
 - title: 募捐
-  image:
+  image: donation.jpg
   description:
   url: donation
 - title: 招新
-  image:
+  image: hiring.jpg
   description:
   url: hiring
 - title: 

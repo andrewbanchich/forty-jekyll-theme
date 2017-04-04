@@ -2,7 +2,7 @@
 title: 服务
 layout: post
 description: 
-image: assets/images/pic07.jpg
+image: assets/images/service.jpg
 nav-menu: true
 index: true
 ---
