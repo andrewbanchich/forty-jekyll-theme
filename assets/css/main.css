@@ -2199,9 +2199,9 @@
 			max-width: 30%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+		.image.left img, .image.right img {
+			width: 100%;
+		}
 
 		.image.left {
 			float: left;
@@ -2222,7 +2222,9 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				width: 60%;
 			}
 
 		.image.main {
@@ -2261,7 +2263,7 @@
 		padding-left: 1em;
 	}
 
-		ul li {
+		ul. li {
 			padding-left: 0.5em;
 		}
 
@@ -2279,7 +2281,10 @@
 					border-top: 0;
 					padding-top: 0;
 				}
-
+				ul.alt li ul li{
+					border-top: solid 0px rgba(212, 212, 255, 0.1);					
+					padding-left: 0.5em;
+				}
 		ul.icons {
 			cursor: default;
 			list-style: none;

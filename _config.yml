@@ -5,29 +5,29 @@ email: fibomat@gmail.com
 description: 全南大最大的科技公益服务平台
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 仙林/鼓楼
-city: 
-state: 
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: 
+# street_address: 仙林/鼓楼
+# city: 
+# state: 
+# zip_code: 55555
+# country: United States of America
+# phone: (716) 555-5555
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 4
 
 # Social settings
-500px_url:
+weixin_url: assets/images/weixin.jpg
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/NJU-itxia/
+# gitlab_url: https://gitlab.com/u/andrewbanchich
+# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+# instagram_url: https://instagram.com
+# linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+# twitter_url: https://twitter.com/andrewbanchich
 
 # Build settings
 markdown: kramdown
