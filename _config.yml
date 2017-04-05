@@ -19,6 +19,7 @@ tiles-count: 4
 
 # Social settings
 weixin_url: assets/images/weixin.jpg
+bbs_url: http://bbs.nju.edu.cn/bbsdoc?board=NoteBook
 facebook_url:
 github_url: https://github.com/NJU-itxia/
 # gitlab_url: https://gitlab.com/u/andrewbanchich

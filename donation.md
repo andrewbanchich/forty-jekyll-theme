@@ -29,4 +29,4 @@ IT侠成立至今，秉承着为大家公益服务的理念，解决了广大师
 
 我们将定期更新捐赠者列表，对于帮助过IT的校友，会得到IT侠的急诊室服务。
 
-![](assets/images/alipay.jpg)
+![](assets/images/alipay-sm.jpg)
