@@ -2,12 +2,14 @@
 title: 招新
 layout: post
 description: 
-image: assets/images/hiring.jpg
+image: assets/images/recruiment.jpg
 ---
+
+<p></p>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
-		<h3>Geek组（核心部门）</h3>
+		<h3>GEEK 组（核心部门）</h3>
 		<ul class="alt">
 			<li>
 				<h4>主要职能</h4>
@@ -25,7 +27,7 @@ image: assets/images/hiring.jpg
 	</div>
 
 	<div class="4u 12u$(medium)">
-		<h3>OP组（关键部门）</h3>
+		<h3>OP 组（关键部门）</h3>
 		<ul class="alt">
 			<li>
 				<h4>主要职能</h4>
@@ -37,16 +39,16 @@ image: assets/images/hiring.jpg
 			</li>
 			<li>
 				<h4>活动方式</h4>
-				<p>管理微信公众号，业余时间接受Web组与Geek组关于电脑软硬件等方面的培训，内外兼修，提高姿势水平，尤其是网站管理、常用软件知识，甚至是建站教程</p>
+				<p>管理微信公众号，业余时间接受 WEB 组与 GEEK 组关于电脑软硬件等方面的培训，内外兼修，提高姿势水平，尤其是网站管理、常用软件知识，甚至是建站教程</p>
 			</li>
 		</ul>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Web组（高端部门）</h3>
+		<h3>WEB 组（高端部门）</h3>
 		<ul class="alt">
 			<li>
 				<h4>主要职能</h4>
-				<p>开发运维IT侠预约网站<br>接受校内有偿建站任务<br>普及Web知识，提高信息化建设水平</p>
+				<p>开发运维IT侠预约网站<br>接受校内有偿建站任务<br>普及Web 知识，提高信息化建设水平</p>
 			</li>
 			<li>
 				<h4>招收对象</h4>

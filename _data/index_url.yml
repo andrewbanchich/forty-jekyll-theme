@@ -1,4 +1,4 @@
-- title: 介绍 
+- title: 关于
   image: intro.jpg
   description: 
   url: introduction
@@ -6,14 +6,14 @@
   image: service.jpg
   description:
   url: service
-- title: 募捐
+- title: 捐赠
   image: donation.jpg
   description:
   url: donation
 - title: 招新
-  image: hiring.jpg
+  image: recruiment.jpg
   description:
-  url: hiring
+  url: recruiment
 - title: 
   image:
   description:

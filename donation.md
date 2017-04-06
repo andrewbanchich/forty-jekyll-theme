@@ -1,5 +1,5 @@
 ---
-title: 募捐
+title: 捐赠
 layout: post
 description: 
 image:
