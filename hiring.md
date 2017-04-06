@@ -60,3 +60,12 @@ image: assets/images/hiring.jpg
 	</div>
 </div>
 
+<div>
+<h3>报名通道</h3>
+
+<p>扫描下方二维码，或者直接点击<a href="http://form.mikecrm.com/wfmPk8">报名链接</a></p>
+
+<img  src="assets/images/hiring_qrcode.jpg">
+	
+</div>
+

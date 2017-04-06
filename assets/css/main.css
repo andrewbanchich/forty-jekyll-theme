@@ -2244,6 +2244,19 @@
 				}
 
 			}
+		img.people{
+			display: inline-block;
+		    max-height: 180px;
+		    max-width: 100%;
+		    height: auto;
+		    padding: 2px;
+		    line-height: 1.6;
+		    /*background-color: #fff;*/
+		    /*border: 1px solid #ddd;*/
+		    /*border-radius: 0;*/
+		    -webkit-transition: all .2s ease-in-out;
+		    transition: all .2s ease-in-out;"
+		}
 
 /* List */
 

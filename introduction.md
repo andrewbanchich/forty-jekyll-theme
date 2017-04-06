@@ -10,22 +10,40 @@ IT侠的前身是南京大学小百合BBS下Notebook版的软件侠。2012年夏
 
 IT侠的运营宗旨是为南大在校师生提供完全免费的计算机软硬件服务。用行动说话，据IT侠预约系统不完全统计，三年来处理预约订单三千多次，为广大师生节省了几十万元。团队于2013年荣获江苏省百优志愿服务“小薇奖”（重点项目）。倡导公益之心，荣获广泛好评，我们将善意和爱心扩散到南大每个领域。
 
-## 历任主席 
-
+<h2>历任主席</h2> 
 <div class="row">
-	<div class="3u 12$(medium)">
-		<span class="image left">
-			<img src="assets/images/people/intro.jpg">
-		</span>
-		<h3>Name</h3>
-		<h5>2018-2019</h5>
-		<h5>Depart Physics</h5>
+	<div class="6u 12u$(medium)">
+		<h3>鼓楼</h3>
+		{% for pre in site.data.president %}
+		<div class="box row">
+			<div class="6u 12u$(medium)">
+				<img class="people" src="assets/images/people/{{ pre.img }}">
+			</div>
+			<div class="6u$ 12u$(medium)">
+				<h4>{{pre.name}}</h4>
+				<h5>{{pre.time}}</h5>
+				<h5>{{pre.college}}</h5>
+				
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="6u$ 12u$(medium) ">
+		<h3>仙林</h3>
+		{% for pre in site.data.president_xianlin %}
+		<div class="box row">
+			<div class="6u 12u$(medium)">
+				<img class="people" src="assets/images/people/{{ pre.img }}">
+			</div>
+			<div class="6u$ 12u$(medium)">
+				<h4>{{pre.name}}</h4>
+				<h5>{{pre.time}}</h5>
+				<h5>{{pre.college}}</h5>
+				
+			</div>
+		</div>
+		{% endfor %}
 	</div>
 </div>
-- 王耀来 物理学院（2013-？）
-- 孙继祖 教育研究院（？-2015.01）
-- 黄晴 数学系（2015.01-2015.09）
-- 钟家鑫 物理学院（2015.09-2017.01）
-- 张睿 新闻传播学院 （2017.01-至今）
 
 

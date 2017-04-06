@@ -1,0 +1,20 @@
+# - name: 王耀来
+#   time: 2013.01 - 2014.09
+#   college: 物理学院
+#   img: 
+# - name: 孙继祖
+#   time: 2014.09 - 2015.01
+#   college: 教育研究院
+#   img: 
+- name: 黄晴
+  time: 2015.01 - 2015.09
+  college: 数学系
+  img: huangqing.jpg 
+- name: 钟家鑫
+  time: 2015.09 - 2017.01
+  college: 物理学院
+  img: zhongjiaxin.jpg
+- name: 张睿
+  time: 2017.01 - 至今
+  college: 新闻传播学院
+  img: zhangrui.jpg

@@ -1,8 +1,8 @@
 # Site settings
-title: NJU-ITxia
+title: NJU-ITXIA
 subtitle: 
-email: fibomat@gmail.com
-description: 全南大最大的科技公益服务平台
+email: njuitman@163.com
+description: 南大最大的科技公益服务平台
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: 

@@ -1,96 +1,44 @@
 <!-- Contact -->
-<!--section id="contact">
-	<div class="inner">
-		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>{{ site.street_address }}<br />
-					{{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-					{{ site.country }}</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section-->
-
 <!-- Footer -->
 	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				{% if site.weixin_url %}
-				<li><a href="{{ site.weixin_url }}" class="icon alt fa-weixin" target="_blank"><span class="label">Wechat</span></a></li>
-				{% endif %}
-				{% if site.facebook_url %}
-				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-				{% endif %}
-				{% if site.instagram_url %}
-				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-				{% endif %}
-				{% if site.pinterest_url %}
-				<li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-				{% endif %}
-				{% if site.500px_url %}
-				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
-				{% endif %}
-				{% if site.gitlab_url %}
-				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
-				{% endif %}
-				{% if site.github_url %}
-				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-				{% endif %}
-				{% if site.bbs_url %}
-				<li><a href="{{ site.bbs_url }}" class="icon alt fa-question" target="_blank"><span class="label">Little Lilly</span></a></li>
-				{% endif %}
-				{% if site.linkedin_url %}
-				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-				{% endif %}
-			</ul>
+		<div class="inner row">
+			<div class="4u 12u$(medium)" style="text-align: center;">
+				<h4>联系我们</h4>
+				<ul class="icons">
+					{% if site.weixin_url %}
+					<li><a href="{{ site.weixin_url }}" class="icon alt fa-weixin" target="_blank"><span class="label">Wechat</span></a></li>
+					{% endif %}
+					{% if site.gitlab_url %}
+					<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+					{% endif %}
+					{% if site.github_url %}
+					<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+					{% endif %}
+					{% if site.bbs_url %}
+					{% endif %}
+					<li><a href="mail.to:{{site.email}}" class="icon alt fa-envelope" target="_blank"><span class="label">E-mail</span></a></li>
+				</ul>	
+			</div>
+			<div class="4u 12u$(medium)" style="text-align: center;">
+				<h4>友情链接</h4>
+				<span><a href="http://bbs.nju.edu.cn/bbsdoc?board=NoteBook">小百合NoteBook版</a></span>
+				<br><span><a href="http://nic.nju.edu.cn">网络中心</a></span>
+				<br><span><a href="http://zijingbt.njuftp.org">ZijingBT</a></span>
+				<br><span><a href="http://mirrors.ustc.edu.cn/">科大镜像</a></span>
+			</div>
+			<div class="4u$ 12u$(medium)" style="text-align: center;">
+				<h4>关注我们</h4>
+				<img src="{{ site.weixin_url }}" >
+			</div>
+			
+		</div>
+		<div style="text-align: center;">
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
-			</ul>
+				<li>&copy; {{ site.title }} {{ site.subtitle }}2017</li>
+			</ul>	
 		</div>
 	</footer>
 
-</div>
 
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
