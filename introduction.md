@@ -12,6 +12,16 @@ IT侠的运营宗旨是为南大在校师生提供完全免费的计算机软硬
 
 ## 历任主席 
 
+<div class="row">
+	<div class="3u 12$(medium)">
+		<span class="image left">
+			<img src="assets/images/people/intro.jpg">
+		</span>
+		<h3>Name</h3>
+		<h5>2018-2019</h5>
+		<h5>Depart Physics</h5>
+	</div>
+</div>
 - 王耀来 物理学院（2013-？）
 - 孙继祖 教育研究院（？-2015.01）
 - 黄晴 数学系（2015.01-2015.09）
