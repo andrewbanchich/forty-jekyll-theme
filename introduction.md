@@ -16,10 +16,10 @@ IT侠的运营宗旨是为南大在校师生提供完全免费的计算机软硬
 		<h3>鼓楼</h3>
 		{% for pre in site.data.president %}
 		<div class="box row">
-			<div class="6u 12u$(small)">
+			<div class="6u 12u$(xsmall)">
 				<img class="people" src="assets/images/people/{{ pre.img }}">
 			</div>
-			<div class="6u$ 12u$(small)">
+			<div class="6u$ 12u$(xsmall)">
 				<h4>{{pre.name}}</h4>
 				<h5>{{pre.time}}</h5>
 				<h5>{{pre.college}}</h5>
@@ -32,10 +32,10 @@ IT侠的运营宗旨是为南大在校师生提供完全免费的计算机软硬
 		<h3>仙林</h3>
 		{% for pre in site.data.president_xianlin %}
 		<div class="box row">
-			<div class="6u 12u$(small)">
+			<div class="6u 12u$(xsmall)">
 				<img class="people" src="assets/images/people/{{ pre.img }}">
 			</div>
-			<div class="6u$ 12u$(small)">
+			<div class="6u$ 12u$(xsmall)">
 				<h4>{{pre.name}}</h4>
 				<h5>{{pre.time}}</h5>
 				<h5>{{pre.college}}</h5>
