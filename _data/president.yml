@@ -1,7 +1,7 @@
-# - name: 王耀来
-#   time: 2013.01 - 2014.09
-#   college: 物理学院
-#   img: 
+- name: 王耀来
+  time: 2013.01 - 2014.09
+  college: 物理学院
+  img: yaolai.jpg
 # - name: 孙继祖
 #   time: 2014.09 - 2015.01
 #   college: 教育研究院
