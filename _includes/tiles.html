@@ -1,6 +1,5 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
+        {% for post in site.posts %} {% if site.tiles-source == 'posts' %}
         <article>
                 <span class="image">
                         <img src="{{ post.image }}" alt="" />
@@ -10,10 +9,7 @@
                         <p>{{ post.description }}</p>
                 </header>
         </article>
-	{% endif %}
-	{% endfor %}
-	{% for page in site.pages limit:site.tiles-count %}
-	{% if site.tiles-source == 'pages' %}
+        {% endif %} {% endfor %} {% for page in site.pages limit:site.tiles-count %} {% if site.tiles-source == 'pages' %}
         <article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />
@@ -23,6 +19,5 @@
                         <p>{{ page.description }}</p>
                 </header>
         </article>
-	{% endif %}
-	{% endfor %}
+        {% endif %} {% endfor %}
 </section>
