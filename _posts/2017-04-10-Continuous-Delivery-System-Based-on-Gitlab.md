@@ -71,7 +71,7 @@ Click the icon, you will see a `stuk` tag on your commit. That means you have to
 
 6. Change the `.gitlab-ci.yml` to the following:
 
-    ```
+    ```yaml
     test:
       script:
       - ./gradlew aR
