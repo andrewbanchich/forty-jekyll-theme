@@ -15,8 +15,8 @@ permalink: /about/
 		</header>
 
 <p><span class="image left"><img src="/assets/images/pic11.jpg" alt="" /></span>
-Undergraduate student studying Nuclear, Plasma, and Radiological Engineering at the University of Illinois. Bachelors of Science May 2017.</p>
+Undergraduate student studying <a href="http://npre.illinois.edu">Nuclear, Plasma, and Radiological Engineering</a> at the <a href="http:illinois.edu">University of Illinois.</a> Bachelors of Science May 2017.</p>
 
-<p>Will be attending the University of Wisconsin to as a PhD student in Nuclear Engineering starting in fall 2017. </p>
+<p> Will be attending the University of Wisconsin as a PhD student in Nuclear Engineering starting in fall 2017. She will be working in the <a href="http://cnerg.github.io">CNERG Group</a> under Professor Paul Wilson. </p>
 
 <p>Katie's interests include: the nuclear fuel cycle, advanced reactors, and computational science and engineering. Also interested in design and implementation of new reactors, including Small Modular Reactors. </p>

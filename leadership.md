@@ -15,7 +15,7 @@ nav-menu: true
 			<h1>Leadership</h1>
 		</header>
 
-<h2>American Nuclear Society</h2>
+<h2><a href="http://ans.org">American Nuclear Society</a></h2>
 <div class="table-wrapper">
 	<table>
   <colgroup>
@@ -39,7 +39,7 @@ nav-menu: true
 	</table>
 </div>
 
-<h4>University of Illinois Student Section</h4>
+<h4><a href="https://ans.npre.illinois.edu">University of Illinois Student Section</a></h4>
 
 <div class="table-wrapper">
 	<table>
@@ -89,7 +89,7 @@ nav-menu: true
 </table>
 </div>
 
-<h2>Engineering Ambassadors</h2>
+<h2><a href="https://ambassadors.engr.illinois.edu">Engineering Ambassadors</a></h2>
 <div class="table-wrapper">
 <table>
 <colgroup>
@@ -109,7 +109,7 @@ nav-menu: true
 </table>
 </div>
 
-<h2>Engineering Council</h2>
+<h2><a href="http://ec.illinois.edu">Engineering Council</a></h2>
 <div class="table-wrapper">
 <table>
 <colgroup>
@@ -129,7 +129,7 @@ nav-menu: true
 </table>
 </div>
 
-<h2>Phi Mu - Delta Beta</h2>
+<h2><a href="http://illinois.phimu.org">Phi Mu - Delta Beta</a></h2>
 <div class="table-wrapper">
 <table>
 <colgroup>

@@ -21,28 +21,28 @@ nav-menu: true
         <h2>Education</h2>
     		<h4>University of Illinois</h4>
         <p><span class="image left"><img src="/assets/images/pic12.jpg" alt="" /></span> <br> Bachelors of Science, May 2017 <br>
-        Nuclear, Plasma, and Radiological Engineering <br>
+        <a href="http://npre.illinois.edu">Nuclear, Plasma, and Radiological Engineering</a> <br>
         <i>Atmospheric Sciences Minor</i></p>
 
         <p> <br> <br> <br> </p>
         <h2>Awards &amp; Honors</h2>
         <h4>Awards</h4>
         <ul class="alt">
-					<li>2016-2017 | Roy G. Post Foundation Scholarship</li>
+					<li>2016-2017 | <a href="http://www.roygpost.org/roygpost//Scholarship">Roy G. Post Foundation Scholarship</a></li>
           <li>2016-2017 | Edith and Harry Darby Leadership Award</li>
-        	<li>2015-2017 | DOE Nuclear Energy University Program Scholarship</li>
+        	<li>2015-2017 | <a href="https://neup.inl.gov/SitePages/Scholarship.aspx">DOE Nuclear Energy University Program Scholarship</a></li>
         	<li>2015-2017 | Nuclear Regulatory Commission Scholarship</li>
-        	<li>2015-2017 | ANS Decommissioning &amp; Environmental Sciences Scholarship</li>
+        	<li>2015-2017 | <a href="http://www.ans.org/honors/scholarships/ANS">Decommissioning &amp; Environmental Sciences Scholarship</a></li>
         	<li>2014-2016 | National Academy for Nuclear Training Scholarship</li>
         </ul>
 
         <h4>Honors</h4>
         <ul class="alt">
-					<li>2017 | Knights of St. Patrick</li>
-          <li>2016 | Alpha Nu Sigma</li>
-          <li>2016 | William R. Schowalter Award.</li>
-          <li>2016 | ANS Commendation for Service &amp; Leadership</li>
-        	<li>2014 | University of Illinois James Scholar</li>
+					<li>2017 | <a href="awards.ec.uiuc.edu">Knights of St. Patrick</a> </li>
+          <li>2016 | <a href="http://www.ans.org/const/ansnhs/">Alpha Nu Sigma</a></li>
+          <li>2016 | <a href="awards.ec.illinois.edu">William R. Schowalter Award</a></li>
+          <li>2016 | <a href="http://students.ans.org/service-and-leadership/ANS">Commendation for Service &amp; Leadership</a></li>
+        	<li>2014 | <a href="http://engineering.illinois.edu/academics/undergraduate/honors.html">University of Illinois James Scholar</a>s</li>
         </ul>
 
     	</div>
@@ -50,7 +50,7 @@ nav-menu: true
 
     	<div class="6u$ 12u$(small)">
         <h2>Experience</h2>
-    		<h4>Idaho National Lab</h4>
+    		<h4><a href="https://inl.gov">Idaho National Lab</a></h4>
     		<p><i>Fuels Modeling &amp; Simulation Intern</i> | Summer 2016 <br>
         <ul>
           <li>Developed and ran fuel simulations using the BISON fuel performance code.</li>

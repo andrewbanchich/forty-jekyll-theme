@@ -16,14 +16,15 @@ nav-menu: true
 			<h1>Research</h1>
 		</header>
 
-    <h2>Advanced Reactors and Fuel Cycles Research Group</h2>
-    <p><span class="image left"><img src="/assets/images/arfc-logo.png" alt="" /></span>
+    <h2><a href="http://arfc.npre.iillinois.edu">Advanced Reactors and Fuel Cycles Research Group</a></h2>
+    <p> <a href="http://arfc.npre.illinois.edu"><span class="image left"><img src="/assets/images/arfc-logo.png" alt="" /></span> </a>
     <i>Undergraduate Research Assistant</i> | Aug. 2016-Present
     <ul>
       <li>Development of fuel cycle transition scenarios using the Cyclus fuel cycle code.</li>
       <li>Literature review of fuel cycle transition scenarios</li>
     </ul>
     <br> <br> <br> </p>
+
 
     <h2>Analysis of Reactor Transients and Stability Research Group</h2>
     <p> <i>Undergraduate Research Assistant</i> | Jan. 2016-Present <br>
@@ -32,8 +33,8 @@ nav-menu: true
       <li>Continued development of BISON cases benchmarking pellet cladding mechanical interactions.</li>
     </ul> <br> </p>
 
-    <h2>Idaho National Lab</h2>
-    <p><span class="image left"><img src="/assets/images/inl-logo.png" alt="" /></span>
+    <h2> <a href="https://inl.gov">Idaho National Lab</a> </h2>
+    <p><a href="https://inl.gov"><span class="image left"><img src="/assets/images/inl-logo.png" alt="" /></span> </a>
     <i>Fuels Modeling &amp; Simulation Intern</i> | Summer 2016 <br>
     <ul class="actions">
       <li><a href="/education.html" class="button">See Education &amp; Experience</a></li>
