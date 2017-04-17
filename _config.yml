@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Forty
-title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
+title-bold: Fatima
+title-normal: Fatima Sanchez
+email: fatima.sanchez.garcia@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
+url: "fatimasanchez.ca" # the base hostname & protocol for your site
 author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: 
+city: 
+state: 
+zip_code: 
+country: Canada
+phone: (613) 407-0452
 
 # Plugins
 gems:
@@ -35,20 +35,20 @@ tiles-count: 6
 500px_url: 
 facebook_url: 
 github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url: https://gitlab.com/u/fasanchez
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/fatimasanchezgarcia
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: andrewbanchich
+  username: 
 # Add one or more of the following
 facebook:
   app_id: 
