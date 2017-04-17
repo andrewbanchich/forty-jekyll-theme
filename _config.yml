@@ -10,7 +10,7 @@ title-bold: Fatima
 title-normal: Fatima Sanchez
 email: fatima.sanchez.garcia@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
 url: "fatimasanchez.ca" # the base hostname & protocol for your site
 author: 
 street_address: 
