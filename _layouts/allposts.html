@@ -24,7 +24,7 @@
 			<h1>{{ post.title }}</h1>
 		</header>
 		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-		<p>{{ post.date }}</p>
+		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
 		<p>{{ post.content }}</p>
                 {% endfor %}
 	</div>
