@@ -28,11 +28,12 @@ nav-menu: true
         <h2>Awards &amp; Honors</h2>
         <h4>Awards</h4>
         <ul class="alt">
+					<li>2017-2018 | <a href="http://www.ans.org/honors/scholarships/recipients/">ANS Fuel Cycle &amp; Waste Management Division John D. Randall Graduate Scholarship</a></li>
 					<li>2016-2017 | <a href="http://www.roygpost.org/roygpost//Scholarship">Roy G. Post Foundation Scholarship</a></li>
           <li>2016-2017 | Edith and Harry Darby Leadership Award</li>
         	<li>2015-2017 | <a href="https://neup.inl.gov/SitePages/Scholarship.aspx">DOE Nuclear Energy University Program Scholarship</a></li>
         	<li>2015-2017 | Nuclear Regulatory Commission Scholarship</li>
-        	<li>2015-2017 | <a href="http://www.ans.org/honors/scholarships/ANS">Decommissioning &amp; Environmental Sciences Scholarship</a></li>
+        	<li>2015-2017 | <a href="http://www.ans.org/honors/scholarships/recipients/index.php?year=2016">ANS Decommissioning, Decontamination &amp; Reutilization Division Undergradaute Scholarship</a></li>
         	<li>2014-2016 | National Academy for Nuclear Training Scholarship</li>
         </ul>
 
