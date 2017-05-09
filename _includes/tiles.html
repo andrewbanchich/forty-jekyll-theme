@@ -1,6 +1,7 @@
 <section id="one" class="tiles">
 	{% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
+	{% if post.featured == 'yes' %}
         <article>
                 <span class="image">
                         <img src="{{ post.image }}" alt="" />
@@ -11,10 +12,12 @@
                 </header>
         </article>
 	{% endif %}
+	{% endif %}
 	{% endfor %}
 	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
-        <article>
+        {% if page.featured == 'yes'}
+	<article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />
                 </span>
@@ -23,6 +26,7 @@
                         <p>{{ page.description }}</p>
                 </header>
         </article>
+	{% endif %}
 	{% endif %}
 	{% endfor %}
 </section>
