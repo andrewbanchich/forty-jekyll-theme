@@ -67,7 +67,7 @@ image: assets/images/recruiment.jpg
 
 <p>扫描下方二维码，或者直接点击<a href="http://nju-itxia.mikecrm.com/wGiosd4">报名链接</a></p>
 
-<img  src="assets/images/hiring_qrcode.jpg">
+<img  src="assets/images/hiring_qrcode.png">
 	
 </div>
 
