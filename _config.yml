@@ -1,4 +1,4 @@
-# Site settings
+# site settings
 title: Forty
 subtitle: by HTML5 UP
 email: youremailaddress@gmail.com
@@ -13,11 +13,11 @@ zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
-# Homepage tiles
+# homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
-# Social settings
+# social settings
 500px_url:
 facebook_url:
 github_url:
@@ -29,7 +29,7 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/andrewbanchich
 
-# Build settings
+# build settings
 markdown: kramdown
 
 sass:
