@@ -51,6 +51,14 @@ nav-menu: true
 
     	<div class="6u$ 12u$(small)">
         <h2>Experience</h2>
+
+				<h4><a href="http://lanl.gov">Los Alamos National Laboroatory</a></h4>
+				<i> Systems Design and Analysis Intern</i> | May 2017-Aug 2017
+				<ul>
+					<li>Analysis of small nuclear reactors using MCNP</li>
+					<li>Project funded through the <a href="https://www.cnec.ncsu.edu/">Consortium for Nonproliferation Enabling Capabilities (CNEC)</a></li>
+				</ul>
+
     		<h4><a href="https://inl.gov">Idaho National Lab</a></h4>
     		<p><i>Fuels Modeling &amp; Simulation Intern</i> | Summer 2016 <br>
         <ul>

@@ -31,3 +31,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Social settings
+500px_url:
+#facebook_url:
+github_url: https://github.com/u/nuclearkatie
+#gitlab_url:
+#googleplus_url:
+#instagram_url:
+linkedin_url: https://www.linkedin.com/in/nuclearkatie
+#pinterest_url:
+#slack_url:
+twitter_url: https://twitter.com/nuclearkatie
