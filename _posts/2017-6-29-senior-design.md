@@ -1,6 +1,6 @@
 ---
-layout: NuWWIS
-title:
+layout: post
+title: NuWWIS
 description: Wet interim storage for spent nuclear fuel wins Hang Award
 image: assets/images/seniordesign.jpg
 ---
