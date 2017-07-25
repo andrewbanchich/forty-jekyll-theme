@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leadership
+title: Selected Leadership
 description:
 image:
 nav-menu: true
@@ -24,7 +24,11 @@ nav-menu: true
   </colgroup>
 		<tbody>
 			<tr>
-				<td>2016-2019</td>
+				<td>2017-2019</td>
+				<td>Student Director</td>
+			</tr>
+			<tr>
+				<td>2016-2017</td>
 				<td>Student Sections Committee Member</td>
 			</tr>
 			<tr>

@@ -25,7 +25,7 @@ nav-menu: true
         <i>Atmospheric Sciences Minor</i></p>
 
         <p> <br> <br> <br> </p>
-        <h2>Awards &amp; Honors</h2>
+        <h2>Selected Awards &amp; Honors</h2>
         <h4>Awards</h4>
         <ul class="alt">
 					<li>2017-2018 | <a href="http://www.ans.org/honors/scholarships/recipients/">ANS Fuel Cycle &amp; Waste Management Division John D. Randall Graduate Scholarship</a></li>
@@ -51,15 +51,14 @@ nav-menu: true
 
     	<div class="6u$ 12u$(small)">
         <h2>Experience</h2>
-
-				<h4><a href="http://lanl.gov">Los Alamos National Laboroatory</a></h4>
-				<i> Systems Design and Analysis Intern</i> | May 2017-Aug 2017
+				<h4><a href="http://lanl.gov">Los Alamos National Lab</a></h4>
+				<p><i>Systems Design &amp; Analysis Intern</i> | Summer 2017 <br>
 				<ul>
-					<li>Analysis of small nuclear reactors using MCNP</li>
-					<li>Project funded through the <a href="https://www.cnec.ncsu.edu/">Consortium for Nonproliferation Enabling Capabilities (CNEC)</a></li>
-				</ul>
-
-    		<h4><a href="https://inl.gov">Idaho National Lab</a></h4>
+					<li>Developed MCNP decks for nuclear thermal rockets</li>
+					<li>Completed the Dr. G. Robert Keepin Nonproliferation Summer School</li>
+        	<li>Created and taught a primer on nuclear engineering for students without a background in nuclear science and engineering</li>
+				</ul> <br> </p>
+				<h4><a href="https://inl.gov">Idaho National Lab</a></h4>
     		<p><i>Fuels Modeling &amp; Simulation Intern</i> | Summer 2016 <br>
         <ul>
           <li>Developed and ran fuel simulations using the BISON fuel performance code.</li>

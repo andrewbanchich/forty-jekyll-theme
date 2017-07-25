@@ -10,20 +10,23 @@
 
 <body>
 
-    {% include header.html %}
-
-
+    {% include header.html %} 
+    
+    
 <!-- Main -->
 <div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
 	<div class="inner">
+                {% for post in site.posts %}
 		<header class="major">
-			<h1>{{ page.title }}</h1>
+			<h1>{{ post.title }}</h1>
 		</header>
-		{% if page.image %}<p><span class="image left"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
+		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
+		<p>{{ post.content }}</p>
+                {% endfor %}
 	</div>
 </section>
 
