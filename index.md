@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: '안녕하세요 제 이름은 박병수입니다.'
 description: null
 image: null
 author: null
