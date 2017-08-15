@@ -5,6 +5,8 @@ description: Wet interim storage for spent nuclear fuel wins Hang Award
 image: assets/images/seniordesign.jpg
 ---
 
+By Susan Mumm
+
 This article originally appeared on the <a href="http://npre.illinois.edu/news/wet-interim-storage-spent-nuclear-fuel-wins-hang-award">University of Illinois NPRE Department Website</a>
 
 
