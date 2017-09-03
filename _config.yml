@@ -3,8 +3,8 @@ title: NJU-ITXIA
 subtitle: 
 email: njuitman@163.com
 description: 南大最大的科技公益服务平台
-baseurl: "/home" # the subpath of your site, e.g. /blog
-url: "https://nju-itxia.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nju-itxia.github.io/home" # the base hostname & protocol for your site
 author: 
 # street_address: 仙林/鼓楼
 # city: 
