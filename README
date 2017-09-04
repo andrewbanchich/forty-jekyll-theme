@@ -1,0 +1,65 @@
+# 南京大学 IT 侠公益服务社团
+
+系统 [Jekyll](jekyllrb.com/docs/quickstart/)
+主题 [forty](https://github.com/andrewbanchich/forty-jekyll-theme)
+
+*建议使用 Git 远程更新，不要直接在网站上更改*
+
+## 本地测试
+
+*要求安装 ruby 与 ruby-gem *
+
+``` sh
+git clone https://github.com/NJU-itxia/nju-itxia.github.io.git
+cd nju-itxia.github.io
+bundle install
+bundle exec jekyll 
+```
+
+## 目录结构
+
+``` sh
+.
+├── assets
+│   ├── css
+│   ├── fonts
+│   ├── images # 图片存放位置
+│   └── js
+├── board_games.md # 桌游目录页面
+├── coroperation.md # 合作页面（未发布）
+├── donation.md # 捐赠页面
+├── index.md
+├── introduction.md
+├── recruiment.md
+├── service.md
+├── _config.yml
+├── _data
+│   ├── budget_list.yml
+│   ├── donation_list.yml
+│   ├── index_url.yml
+│   ├── president.yml
+│   └── president_xianlin.yml
+├── _draft
+├── _includes
+│   ├── footer.html # 底部导航栏文件（联系我们、友情链接等）
+│   ├── head.html
+│   ├── header.html # 
+│   └── tiles.html
+├── _layouts 
+│   ├── home.html
+│   ├── landing.html
+│   ├── page.html
+│   └── post.html
+├── LICENSE.md
+├── README.md
+├── favicon.ico 
+├── forty_jekyll_theme.gemspec
+├── Gemfile
+├── Gemfile.lock
+├── _posts
+│   └── 2016-8-20-etiam.md
+└── _site # 静态文件存放位置
+                                                  
+                                                                    
+```
+
