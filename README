@@ -20,46 +20,40 @@ bundle exec jekyll
 
 ``` sh
 .
+├── _config.yml # 配置文件
 ├── assets
 │   ├── css
 │   ├── fonts
 │   ├── images # 图片存放位置
 │   └── js
-├── board_games.md # 桌游目录页面
-├── coroperation.md # 合作页面（未发布）
+│
+├── index.md # 主页
+├── introduction.md # 介绍页面
 ├── donation.md # 捐赠页面
-├── index.md
-├── introduction.md
-├── recruiment.md
-├── service.md
-├── _config.yml
-├── _data
-│   ├── budget_list.yml
-│   ├── donation_list.yml
-│   ├── index_url.yml
-│   ├── president.yml
-│   └── president_xianlin.yml
-├── _draft
+├── recruiment.md # 招新页面
+├── service.md # 服务页面
+├── coroperation.md # 合作页面（未发布）
+├── board_games.md # 桌游目录页面
+│
+├── _data # 数据存储
+│   ├── budget_list.yml # 资金去向公示
+│   ├── donation_list.yml # 捐赠列表 
+│   ├── index_url.yml # 首页模块
+│   ├── president.yml # 鼓楼主席
+│   └── president_xianlin.yml # 仙林主席
+│
 ├── _includes
 │   ├── footer.html # 底部导航栏文件（联系我们、友情链接等）
 │   ├── head.html
-│   ├── header.html # 
+│   ├── header.html # 导航栏
 │   └── tiles.html
-├── _layouts 
-│   ├── home.html
-│   ├── landing.html
-│   ├── page.html
-│   └── post.html
+│
 ├── LICENSE.md
 ├── README.md
 ├── favicon.ico 
-├── forty_jekyll_theme.gemspec
-├── Gemfile
-├── Gemfile.lock
-├── _posts
-│   └── 2016-8-20-etiam.md
+├── ...
+│
 └── _site # 静态文件存放位置
-                                                  
-                                                                    
+                                                                   
 ```
 
