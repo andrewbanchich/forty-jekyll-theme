@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Aprende Javascript
+subtitle: por Joan Sánchez
+email: joansvich@gmail.com
+description: Blog dedicado a plasmar la formación sobre javascript gracias a mentoringJS
+baseurl: "/miblog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Joan Sánchez
+#street_address: 1234 Somewhere Road
+#city: Nashville
+#state: TN
+#zip_code: 55555
+#country: United States of America
+#phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -20,14 +20,14 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+github_url: https://github.com/joansvich
+#gitlab_url: https://gitlab.com/u/andrewbanchich
+#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com/joan__vich
+linkedin_url: https://www.linkedin.com/in/joan-s%C3%A1nchez-vich-56b529a7/
+#pinterest_url:
+#slack_url:
+twitter_url: https://twitter.com/joansvich
 
 # build settings
 markdown: kramdown
