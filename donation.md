@@ -22,7 +22,7 @@ image:
 
 
 <div class="row">
-	<div class="6u 12u$(medium)">
+	<div>
 		<h3>物资捐助</h3>
 		<p>捐赠可为以下物品（但不限于此）</p>		
 		<ul>
@@ -31,19 +31,7 @@ image:
 			<li>硅胶垫/硬盘盒/镊子/螺丝刀</li>
 			<li>8g/16g/32g大小U盘</li>
 		</ul>
-		<p>在您确认捐赠后，请联系以下同学，我们将及时与您联系。您也可以在我们工作室值班时间内直接带来。</p>
-		<ul>
-			<li>鼓楼 向同学 15850559685</li>
-			<li>仙林 张同学 18351887819</li>
-		</ul>
-	</div>
-	<div class="6u$ 12u$(medium)">
-		<h3>经费募捐</h3>
-		<div>
-		<p>捐助经费请扫描以下二维码 <br> 或者直接支付宝转帐</p>
-		<p>支付宝账户<br> 向腾 15850559685</p>
-		<span class="image"><img style="width:50%;" src="assets/images/alipay-sm.jpg"></span>
-		</div>
+		<p>若您有捐赠意向，可在IT侠微信公众号留言或发邮件至<a href="mailto:njuitxia@outlook.com">njuitxia@outlook.com</a>，我们将及时与您联系。您也可以在我们工作室值班时间内直接带来。</p>
 	</div>
 </div>
 
