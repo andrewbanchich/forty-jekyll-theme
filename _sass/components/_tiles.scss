@@ -34,7 +34,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 30%;
 
 			.image {
 				display: none;
@@ -102,9 +102,28 @@
 				opacity: 0;
 			}
 
-			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
-				width: 60%;
+			// &:nth-child(4n - 1),
+			// &:nth-child(2n) {
+			// 	width: 40%;
+			// }
+
+			&:nth-child(6n - 5) {
+				width: 30%;
+			}
+			&:nth-child(6n - 4) {
+				width: 40%;
+			}
+			&:nth-child(6n - 3) {
+				width: 30%;
+			}
+			&:nth-child(6n - 2) {
+				width: 35%;
+			}
+			&:nth-child(6n - 1) {
+				width: 30%;
+			}
+			&:nth-child(6n) {
+				width: 35%;
 			}
 
 			&:nth-child(6n - 5) {
