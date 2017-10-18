@@ -4,7 +4,7 @@ subtitle:
 email: njuitxia@outlook.com
 description: 南大最大的科技公益服务平台
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://itxia.club" # the base hostname & protocol for your site
+url: "47.93.187.123:8001" # the base hostname & protocol for your site
 author: 
 # street_address: 仙林/鼓楼
 # city: 
