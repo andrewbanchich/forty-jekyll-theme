@@ -1,19 +1,9 @@
 <section id="one" class="tiles">
 	{% for post in site.posts limit:3 %}
 	{% if site.tiles-source == 'posts' %}
-        <article>
-                <span class="image">
-                        <img src="{{ post.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.subtitle }}</a></h3>
-                        <p>{{ post.bullet1 }}</p>
-												<p>{{ post.bullet2 }}</p>
-												<p>{{ post.bullet3 }}</p>
-												<p>{{ post.bullet4 }}</p>
-                </header>
-        </article>
+
+		{% include tile.html %}
+
 	{% endif %}
 	{% endfor %}
 </section>
@@ -31,19 +21,9 @@
 <section id="three" class="tiles">
 	{% for post in site.posts limit:site.tiles-count offset:3 %}
 	{% if site.tiles-source == 'posts' %}
-				<article>
-								<span class="image">
-												<img src="{{ post.image }}" alt="" />
-								</span>
-								<header class="major">
-												<h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-												<h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.subtitle }}</a></h3>
-												<p>{{ post.bullet1 }}</p>
-												<p>{{ post.bullet2 }}</p>
-												<p>{{ post.bullet3 }}</p>
-												<p>{{ post.bullet4 }}</p>
-								</header>
-				</article>
+
+		{% include tile.html %}
+
 	{% endif %}
 	{% endfor %}
 </section>
