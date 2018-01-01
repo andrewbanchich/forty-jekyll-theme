@@ -8,4 +8,4 @@ image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. (Voir Plus)
+Bonne année 2018 à toutes et tous! Que vos aspirations se transforment en réalisations !
