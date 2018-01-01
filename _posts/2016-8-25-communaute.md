@@ -9,8 +9,12 @@ bullet2: Bourses d'artiste
 link2: COMMUNAUTÉ-bourses_artiste.html
 bullet3: Bourses d'étude
 link3: COMMUNAUTÉ-bourses_étude.html
-responsebar: true
-sondage: https://goo.gl/forms/AszVXISNBdjIPQH62
-formulaire: https://goo.gl/forms/AszVXISNBdjIPQH62
+responsebar: false
+sondage1: https://goo.gl/forms/AszVXISNBdjIPQH62
+formulaire1: https://goo.gl/forms/AszVXISNBdjIPQH62
+sondage2: https://goo.gl/forms/AszVXISNBdjIPQH62
+formulaire2: https://goo.gl/forms/AszVXISNBdjIPQH62
+sondage3: https://goo.gl/forms/AszVXISNBdjIPQH62
+formulaire3: https://goo.gl/forms/AszVXISNBdjIPQH62
 image: assets/images/pic01.jpg
 ---
