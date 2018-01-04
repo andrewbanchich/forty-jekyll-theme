@@ -1,7 +1,7 @@
 ---
 layout: post
-title: L'ENTREPRENARIAT en action
-subtitle: NOUVEAU LIEU D'ÉCHANGE
+subtitle: L'ENTREPRENARIAT en action
+title: NOUVEAU LIEU D'ÉCHANGE
 description: Lorem etiam nullam
 onelink: true
 bullet1: pour réfléchir
@@ -14,7 +14,7 @@ sondage2: https://goo.gl/forms/AszVXISNBdjIPQH62
 formulaire2: https://goo.gl/forms/AszVXISNBdjIPQH62
 sondage3: https://goo.gl/forms/AszVXISNBdjIPQH62
 formulaire3: https://goo.gl/forms/AszVXISNBdjIPQH62
-image: assets/images/pic03.jpg
+image: assets/images/Image1618CôtePapineauLeverdujour-compressor.jpg
 ---
 
 ![test image]({{ site.url | absolute_path}}/assets/images/pic03.jpg)

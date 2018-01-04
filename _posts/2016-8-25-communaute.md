@@ -16,5 +16,5 @@ sondage2: https://goo.gl/forms/AszVXISNBdjIPQH62
 formulaire2: https://goo.gl/forms/AszVXISNBdjIPQH62
 sondage3: https://goo.gl/forms/AszVXISNBdjIPQH62
 formulaire3: https://goo.gl/forms/AszVXISNBdjIPQH62
-image: assets/images/pic01.jpg
+image: assets/images/ImageCommunautéPink-compressor.jpg
 ---
