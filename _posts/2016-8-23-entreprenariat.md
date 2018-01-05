@@ -3,10 +3,10 @@ layout: post
 subtitle: L'ENTREPRENARIAT en action
 title: NOUVEAU LIEU D'ÉCHANGE
 description: Lorem etiam nullam
-onelink: true
-bullet1: pour réfléchir
-bullet2: pour créer
-bullet3: pour collaborer
+onelink: false
+bullet1: Nouveau lieu d’échange
+bullet2: Rendez-vous culinaire annuel
+bullet3: Artisanat pour aînés(es)
 responsebar: true
 sondage1: https://goo.gl/forms/AszVXISNBdjIPQH62
 formulaire1: https://goo.gl/forms/AszVXISNBdjIPQH62
