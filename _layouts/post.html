@@ -10,9 +10,9 @@
 
 <body>
 
-    {% include header.html %} 
-    
-    
+    {% include header.html %}
+
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -23,6 +23,9 @@
 			<h1>{{ page.title }}</h1>
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+    {% if page.calendar %}
+      {% include {{ page.calendar }} %}
+    {% endif %}
 		<p>{{ content }}</p>
 	</div>
 </section>

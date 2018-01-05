@@ -1,0 +1,87 @@
+<article>
+        <span class="image">
+                <img src="{{ post.image }}" alt="" />
+        </span>
+        <header class="major">
+                {% if post.onelink %}
+                  <h5><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h5>
+                  <h4><a href="{{ post.url  | relative_url }}" class="link">{{ post.subtitle }}</a></h4>
+                {% else %}
+                  <h5>{{ post.title }}</h5>
+                  <h4>{{ post.subtitle }}</h4>
+                {% endif %}
+                <!-- Bullets -->
+                {% if post.bullet1 %}
+                  <p><a href="{{ post.link1 }}" class="button">{{ post.bullet1 }}</a></p>
+                  <!-- Inner Bar -->
+                  <div>
+                    {% if post.sondage1 %}
+                    <a class='content' href="{{ post.sondage1 }}" class="button">Sondage</a>
+                    {% endif %}
+                    {% if post.formulaire1 %}
+                      {% if post.sondage1 %}
+                       /
+                      {% endif %}
+                    <a class="content" href="{{ post.formulaire1 }}" class="button">Formulaire</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if post.bullet2 %}
+                  <p><a href="{{ post.link2 }}" class="button">{{ post.bullet2 }}</a></p>
+                  <!-- Inner Bar -->
+                  <div>
+                    {% if post.sondage2 %}
+                    <a class='content' href="{{ post.sondage2 }}" class="button">Sondage</a>
+                    {% endif %}
+                    {% if post.formulaire2 %}
+                      {% if post.sondage2 %}
+                       /
+                      {% endif %}
+                    <a class="content" href="{{ post.formulaire2 }}" class="button">Formulaire</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if post.bullet3 %}
+                  <p><a href="{{ post.link3 }}" class="button">{{ post.bullet3 }}</a></p>
+                  <!-- Inner Bar -->
+                  <div>
+                    {% if post.sondage3 %}
+                    <a class='content' href="{{ post.sondage3 }}" class="button">Sondage</a>
+                    {% endif %}
+                    {% if post.formulaire3 %}
+                      {% if post.sondage3 %}
+                       /
+                      {% endif %}
+                    <a class="content" href="{{ post.formulaire3 }}" class="button">Formulaire</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if post.bullet4 %}
+                  <p><a href="{{ post.link4 }}" class="button">{{ post.bullet4 }}</a></p>
+                  <!-- Inner Bar -->
+                  <div>
+                    {% if post.sondage4 %}
+                    <a class='content' href="{{ post.sondage4 }}" class="button">Sondage</a>
+                    {% endif %}
+                    {% if post.formulaire4 %}
+                      {% if post.sondage4 %}
+                       /
+                      {% endif %}
+                    <a class="content" href="{{ post.formulaire4 }}" class="button">Formulaire</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                <!-- Sondage / Formulaire Bar -->
+                {% if post.responsebar %}
+                <br />
+                  <h6>
+                    {% if post.sondage %}
+                      <a href="{{ post.sondage }}" class="button">SONDAGE</a>
+                    {% endif %}
+                    {% if post.formulaire %}
+                      <a href="{{ post.formulaire }}" class="button">FORMULAIRE</a>
+                    {% endif %}
+                  </h6>
+                {% endif %}
+        </header>
+</article>
