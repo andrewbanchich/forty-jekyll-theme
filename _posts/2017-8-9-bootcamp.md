@@ -14,18 +14,13 @@ The three engineers performed well in the camp’s final day presentations, held
 
 As gratifying as it was to impress their judges, the three found the knowledge they brought back home with them to be what they valued most.
 
-Alyssa Hayes
-
-Alyssa Hayes
 “I wasn’t quite sure what I expected; I didn’t really know what we would get lectured on for two weeks,” said Mummah, who will continue graduate studies in nuclear engineering at the University of Wisconsin this fall. “But I found the breadth of the lectures that we had was so incredible – we learned about marketing, the legal and regulatory framework for starting a company, and how to get funding.”
 
 As Hayes continues pursuing her degree in NPRE, she’s grown more aware of the opportunities in innovating nuclear engineering technology.
 
 “It helped me expand my interests and is helping me think about what I actually want to do with my long-term career,” Hayes said. “I’m not going to do my own startup, but I’m thinking more like a business person now. Every time I have a problem, I think, ‘There’s a market for this.’”
 
-Ari Krause
 
-Ari Krause
 Krause, who is now earning a master’s of engineering in Energy Systems at Illinois, already is part of a startup company. He’s the co-founder and Chief Operating Officer of Lumos Industries, dedicated to creating safe, renewable and passive systems to store, cool and generate electricity from spent nuclear fuel. Networking at the bootcamp with professionals who have formed nuclear energy startups confirmed Krause’s own passions.
 
 “It was refreshing and invigorating,” he said. “One of the most important things I got from it was just the sense of relief that people we met and talked with are succeeding in a startup in nuclear.”
