@@ -2,9 +2,11 @@
 layout: post
 title: Students4Nuclear Feature
 description: Want to Become a Nuclear Advocate? Join Pro-Nuclear Organizations, Make Connections, and Speak Up!
-image: assets/images/atomic-analytics.jpg
+image: assets/images/savethenukes.jpg
 ---
 By Katie Mummah
+
+Originally posted on the href="http://www.students4nuclear.org/news/">Students4Nuclear website</a>
 
 I am a nuclear advocate, a graduate student, and the new student director for the American Nuclear Society. I will be representing students on the ANS Board of Directors for the next two years, and I’m here to encourage you to get involved in pro-nuclear organizations and become a better nuclear advocate.
 
