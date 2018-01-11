@@ -2,10 +2,12 @@
 layout: post
 title: Join ANS!
 description: ANS Student Director Says National & Student Section Memberships are both a Must
-image: assets/images/why-nuke.jpg
+image: assets/images/ans-logo.png
 ---
-This article originally appeared on the <a href="http://ansnuclearcafe.org/2017/07/05/ans-student-director-says-national-student-section-memberships-are-both-a-must/#sthash.A5WXOcMM.LgrZ2Alu.dpbs">ANS Nuclear Cafe</a>
 
+By Katie Mummah
+
+This article originally appeared on the <a href="http://ansnuclearcafe.org/2017/07/05/ans-student-director-says-national-student-section-memberships-are-both-a-must/#sthash.A5WXOcMM.LgrZ2Alu.dpbs">ANS Nuclear Cafe</a>
 
 I am the new student director for the <a href="http://www.ans.org">American Nuclear Society</a>. I will be representing students on the <a href="http://http://www.ans.org/about/board/">ANS Board of Directors</a> for the next two years.
 

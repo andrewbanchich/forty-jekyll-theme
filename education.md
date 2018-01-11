@@ -19,10 +19,18 @@ nav-menu: true
     <div class="row">
     	<div class="6u 12u$(small)">
         <h2>Education</h2>
+
+				<h4>University of Wisconsin-Madison</h4>
+<!--				<p><span class="image left"><img src="/assets/images/pic12.jpg" alt="" /></span> --> Graduate student,			  <a href="https://www.engr.wisc.edu/department/engineering-physics/">Nuclear Engineering & Engineering Physics</a> <br>
+				<p> <br> <br> </p>
     		<h4>University of Illinois</h4>
         <p><span class="image left"><img src="/assets/images/pic12.jpg" alt="" /></span> <br> Bachelors of Science, May 2017 <br>
         <a href="http://npre.illinois.edu">Nuclear, Plasma, and Radiological Engineering</a> <br>
         <i>Atmospheric Sciences Minor</i></p>
+
+<!--				<p><span class="image left"><img src="/assets/images/uwcrest_web.png" alt="" /></span> <br> Graduate student, <br>
+				<a href="https://www.engr.wisc.edu/department/engineering-physics/">Nuclear Engineering & Engineering Physics</a> <br> -->
+<!--				<p> <br> <br> <br> <br> </p> -->
 
         <p> <br> <br> <br> </p>
         <h2>Selected Awards &amp; Honors</h2>
