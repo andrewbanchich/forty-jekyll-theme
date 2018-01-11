@@ -1,4 +1,6 @@
-_site
-.sass-cache
+_site/
+.sass-cache/
 .jekyll-metadata
-landing.md
+Gemfile.lock
+*.gem
+.jekyll-metadata

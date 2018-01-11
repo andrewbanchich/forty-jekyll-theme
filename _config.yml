@@ -1,5 +1,6 @@
 # Site settings
 title: Katie Mummah
+subtitle: by HTML5 UP
 email: radioactivekate@gmail.com
 phone: (630) 200-1719
 description: > # this means to ignore newlines until "baseurl:"
@@ -15,11 +16,11 @@ subtitle:
 author:
 
 
-# Homepage tiles
+# homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
-# Social settings
+# social settings
 500px_url:
 facebook_url:
 github_url: https://github.com/u/nuclearkatie
@@ -27,7 +28,7 @@ github_url: https://github.com/u/nuclearkatie
 linkedin_url: https://www.linkedin.com/in/nuclearkatie
 twitter_url: https://twitter.com/nuclearkatie
 
-# Build settings
+# build settings
 markdown: kramdown
 
 sass:
