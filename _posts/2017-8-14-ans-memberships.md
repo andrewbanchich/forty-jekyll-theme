@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join ANS!
-description: ANS Student Director Says National & Student Section Memberships are both a Must
+description: ANS Student Director Says National & Student Section Memberships are both a Must (ANS Nuclear Cafe Post)
 image: assets/images/ans-logo.png
 ---
 

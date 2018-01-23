@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Students4Nuclear Feature
-description: Want to Become a Nuclear Advocate? Join Pro-Nuclear Organizations, Make Connections, and Speak Up!
+description: Want to Become a Nuclear Advocate? Join Pro-Nuclear Organizations, Make Connections, and Speak Up! (Students4Nuclear Post)
 image: assets/images/savethenukes.jpg
 ---
 By Katie Mummah
