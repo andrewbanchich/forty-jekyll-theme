@@ -6,11 +6,11 @@ image: assets/images/savethenukes.jpg
 ---
 By Katie Mummah
 
-Originally posted on the href="http://www.students4nuclear.org/news/">Students4Nuclear website</a>
+Originally posted on the <a href="http://www.students4nuclear.org/news/">Students4Nuclear website</a>
 
-I am a nuclear advocate, a graduate student, and the new student director for the American Nuclear Society. I will be representing students on the ANS Board of Directors for the next two years, and I’m here to encourage you to get involved in pro-nuclear organizations and become a better nuclear advocate.
+I am a nuclear advocate, a graduate student, and the new student director for the <a href="https://ans.org">American Nuclear Society</a>. I will be representing students on the ANS Board of Directors for the next two years, and I’m here to encourage you to get involved in pro-nuclear organizations and become a better nuclear advocate.
 
-Here’s a little bit about me—I’m a first-year graduate student in Nuclear Engineering at the University of Wisconsin-Madison, and I recently received my Bachelors in Nuclear, Plasma, and Radiological Engineering from the University of Illinois.
+Here’s a little bit about me—I’m a first-year graduate student in <a href="https://www.engr.wisc.edu/department/engineering-physics/">Nuclear Engineering & Engineering Physics</a> at the <a href="https://wisc.edu">University of Wisconsin-Madison</a>, and I recently received my Bachelors in <a href="https://npre.illinois.edu">Nuclear, Plasma, and Radiological Engineering</a> from the <a href="https://illinois.edu">University of Illinois</a>.
 
 Beyond the technical work I do for my degree, I also consider myself a nuclear advocate. I want to separate those two things because anyone can be a nuclear advocate, not just nuclear engineers. If care about nuclear power and understand that it’s a vital part of our electricity generation, you can be a nuclear advocate as well!
 
@@ -24,19 +24,19 @@ Now, once you consider yourself a nuclear advocate, what are your next steps? It
 
 <h3>Generation Atomic</h3>
 
-The first is the grassroots organization Generation Atomic. GenA was founded by a nuclear advocate with no engineering background but a love for the environment, nuclear power, and a knack for organizing marches and events. If you’re interested in marching for nuclear, speaking with elected officials, or door-to-door canvassing, this is an amazing organization to join.
+The first is the grassroots organization <a href="http://www.generationatomic.org">Generation Atomic</a>. GenA was founded by a nuclear advocate with no engineering background but a love for the environment, nuclear power, and a knack for organizing marches and events. If you’re interested in marching for nuclear, speaking with elected officials, or door-to-door canvassing, this is an amazing organization to join.
 
 GenA even has an app that helps you find events near you, stay up to date with news in the nuclear industry, and connect with others.
 
 <h3>American Nuclear Society</h3>
 
-Another great option is getting involved with the American Nuclear Society (ANS), both at the student chapter level and at the national level. Again, you don’t have to be a nuclear engineer to get involved with ANS!
+Another great option is getting involved with the <a href="https://ans.org">American Nuclear Society (ANS)</a>, both at the student chapter level and at the national level. Again, you don’t have to be a nuclear engineer to get involved with ANS!
 
-Students–does your university have an ANS chapter? Check HERE. If it does, you should check it out! ANS Student sections often hold outreach and advocacy events in their local communities.
+Students–does your university have an ANS chapter? Check <a href="http://www.ans.org/const/student/">HERE</a>. If it does, you should check it out! ANS Student sections often hold outreach and advocacy events in their local communities.
 
-If your school doesn’t have a chapter, why not consider starting one? It’s a good way to bring together pro-nuclear students who want to protect the environment and advocate for clean power generation. Check out the resources to start an ANS chapter HERE.
+If your school doesn’t have a chapter, why not consider starting one? It’s a good way to bring together pro-nuclear students who want to protect the environment and advocate for clean power generation. Check out the resources to start an ANS chapter <a href="http://students.ans.org/starting-a-student-section/">HERE</a>.
 
-Not a student any more? You can join your Local Section too, which often does similar outreach and advocacy events throughout the year.
+Not a student any more? You can join your <a href="http://www.ans.org/const/local/">Local Section</a> too, which often does similar outreach and advocacy events throughout the year.
 
 Beyond ANS student and local sections, ANS national is also a vibrant community of 11,000 students and professional, and joining is a great way to expand your network.  Note- joining your student section is not the same as joining ANS national, so I encourage you all to become a national member of the Society as well as your student or local section.
 
@@ -48,4 +48,4 @@ Finally, I encourage you to get active in your local community. Join an environm
 
 <h3>Students for Nuclear</h3>
 
-What’s your story of becoming a nuclear advocate? Consider writing for Students for Nuclear! We are a collection of students who all feel strongly about the benefits of nuclear power, and we’d love to have you! Email contact@students4nuclear.org if you’re interested!
+What’s your story of becoming a nuclear advocate? Consider writing for <a href="http://www.students4nuclear.org">Students for Nuclear</a>! We are a collection of students who all feel strongly about the benefits of nuclear power, and we’d love to have you! Email <a href="mailto:contact@students4nuclear.org">contact@students4nuclear.org </a> if you’re interested!
