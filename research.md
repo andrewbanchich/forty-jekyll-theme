@@ -6,6 +6,8 @@ image:
 nav-menu: true
 ---
 
+
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -16,7 +18,16 @@ nav-menu: true
 			<h1>Research</h1>
 		</header>
 
-    <h2><a href="http://arfc.npre.iillinois.edu">Advanced Reactors and Fuel Cycles Research Group</a></h2>
+		<h2><a href="http://cnerg.github.io">Computational Nuclear Engineering Research Group (CNERG)</a></h2>
+    <p> <a href="http://cnerg.github.io"><span class="image right"><img src="/assets/images/cnerg-logo2.png" alt="" /></span> </a>
+    <i>Graduate Research Assistant</i> | Sept. 2017 - Present
+
+    <ul>
+      <li>Constructed enrichment scenarios relevant to the Joint Comprehensive Plan of Action (JCPOA, colloquially known as the Iran Nuclear Deal) within the Cylcus fuel cycle simulator</li>
+    </ul>
+    <br> <br> <br> </p>		
+
+    <h2><a href="http://arfc.npre.illinois.edu">Advanced Reactors and Fuel Cycles Research Group</a></h2>
     <p> <a href="http://arfc.npre.illinois.edu"><span class="image left"><img src="/assets/images/arfc-logo.png" alt="" /></span> </a>
     <i>Undergraduate Research Assistant</i> | Aug. 2016-May 2017
     <ul>

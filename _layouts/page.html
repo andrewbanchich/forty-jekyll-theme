@@ -9,9 +9,51 @@
 {% include head.html %}
 
 <body>
+  <style type="text/css">
+  #content {
+      float:left;
+      width:640px;
+      overflow:hidden;
+      font:12px/20px Helvetica, Arial, sans-serif;
+      background:#ECE8E1;
+  }
+  #content p {
+      margin:1em 10px 1em;
+      color: #716D6D;
+  }
+  #content p.pic-wrap {
+      float:left;
+      margin:1em 24px 1em 0;/*24px rt margin (bullets slide under appx 14px)*/
+  }
+  #content p.pic-wrap img {
+      display:block;
+      border:1px solid #D3C9BA;
+      padding:5px;
+      background:#FFF;
+  }
+  #content p.pic-rt {
+      /*float:left; /* triggers "missing bullet bug" in IE7 (1st bullet disappears)*/
+      display:inline-block;/* the bug fix*/
+      width:316px;
+      margin:1em 0 1em -14px;/*-14px lt margin (slide it under p.pic-wrap's 24px rt margin to make it 10px*/
+  }
+  * html #content p.pic-rt {float:left;}/*float for IE6*/
+  *+html #content p.pic-rt {display:inline;}/*IE7*/
+
+  #content ul {
+      margin:0;
+      padding:0 0 0 24px;/*places bullets appx. 10px from image*/
+  }
+  #content li {
+      margin:5px 0;/*add vertical margins with reduced line-height*/
+      line-height:15px;/*reset from #content*/
+      color:#585555;
+  }
+  </style>
 
     {% include header.html %} {{ content }} {% include footer.html %}
 
 </body>
+
 
 </html>
