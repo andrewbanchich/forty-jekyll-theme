@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: Gary Noh's Website
+subtitle: To Infinity and Beyond / Do what you can't, Do what everyone can't 
+email: sw79899@gmail.com
+description: This is website for all about Gary Noh
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Gary Noh (Sangwoo Noh)
+street_address: 404 Not Found
+city: OS X 
+state: Apple
+zip_code: 33333
+country: 
+phone: +82 1044901211
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -20,14 +20,14 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+github_url: https://github.com/garyGitgit
+gitlab_url: https://gitlab.com/
+googleplus_url: https://plus.google.com/
 instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.linkedin.com/in/garynoh/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/
 
 # build settings
 markdown: kramdown
