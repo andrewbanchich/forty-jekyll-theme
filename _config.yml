@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Blacksmith Project
+subtitle: by Nicolas Gomes de Oliveira
+email: ngdo27@gmail.com
+description: A training project about creating a RPG Helper app.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Nicolas Gomes de Oliveira
+street_address:
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -20,7 +20,7 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url:
+github_url: https://github.com/BlacksmithProject
 gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 instagram_url: https://instagram.com
