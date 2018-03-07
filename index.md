@@ -14,9 +14,9 @@ author: null
 I am building an Role Playing Game helper app, because I love playing RPGs, but I play with friends that live far away.
 So, we play with VOIP software and [Roll20](https://roll20.net/).
 
-But we had one problem that occurs frequently. Two players are playing with one computer, meaning that it is not possible 
-to send a pm to one without the other being able to see it.
-The other thing is that, in fine, we are not using many features from Roll20, only the character's data and the roll dice feature.
+But we have one problem that occurs frequently. Two players are playing with one computer, meaning that it is not possible 
+to send a private message to one without the other being able to see it.
+The other thing is that, _in fine_, we are not using many features from Roll20, only the character's data and the roll dice feature.
 ( You can type `/roll 100` to roll a dice of 100 faces).
 
 That's why I choose to create this app. It will provide characters data, the ability to launch dices, and private messages to players. 
