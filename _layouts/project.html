@@ -24,7 +24,26 @@
 		</header>
 		{% if page.banner %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.banner }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
+		<h4>Posts:</h4>
+		
+		<div class="box alt">
+			<div class="row 50% uniform">
+				{% for post in site.categories[page.category] %}
+				<div class="4u 12u$(small) image-card">
+					<a href="{{ post.url | absolute_url }}">
+						<span class="image fit">
+							<img src="{{ post.image }}" alt="" />
+							<div>
+								<h5>{{ post.title }}</h5>
+							</div>
+						</span>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
+	
 </section>
 
 </div>

@@ -14,16 +14,16 @@ country:
 phone: 
 
 # homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
 
 # social settings
 500px_url:
 facebook_url:
 github_url: https://github.com/BlacksmithProject
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
+gitlab_url:
+googleplus_url:
+instagram_url:
 linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 pinterest_url:
 slack_url:
