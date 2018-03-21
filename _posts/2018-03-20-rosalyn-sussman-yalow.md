@@ -25,18 +25,13 @@ For her role in developing RIA, Dr. Sussman Yalow won the 1977 Nobel Prize in Ph
 
 Yalow often mentored young women in science, including Mildred Dresselhaus and Frieda Stahl at Hunter College. She officially retired in 1992 and became Senior Medical Investigator Emerita at the VA Hospital where she had spent most of her career. She died in 2011 at the age of 89 and is survived by her two children, Benjamin and Elanna.
 
-References
-
-[1] “Radioimmunoassay (RIA).” Medical Discoveries. . Retrieved March 18, 2018 from Encyclopedia.com: http://www.encyclopedia.com/medicine/medical-journals/radioimmunoassay-ria
-
-[2] Taitz, E. (2009). Rosalyn Yalow. In Jewish Women: A Comprehensive Historical Encyclopedia.Almy, G. M. (1973). A Centry of Physics at the University of Illinois 1868-1968 (Working paper). Urbana, IL: Physics Department at the University of Illinois.Goldsmith, S. J. (1975). Radioimmunoassay: Review of basic principles. Seminars in Nuclear Medicine, 5(2), 125-152. doi:10.1016/s0001-2998(75)80028-6
-
-[3] Goldsmith, S. J. (1975). Radioimmunoassay: Review of basic principles. Seminars in Nuclear Medicine, 5(2), 125-152. doi:10.1016/s0001-2998(75)80028-6
-
-[4] Howes, R. H. (2011, October). Rosalyn Sussman Yalow (1921-2011). Forum on Physics and Society.Rosalyn Sussman Yalow (b. 1921). (n.d.). Retrieved March 19, 2018, from https://www.acs.org/content/acs/en/education/whatischemistry/women-scientists/rosalyn-sussman-yalow.html
-
-[5] Yalow, R. S., & Berson, S. A. (1959). Assay of Plasma Insulin in Human Subjects by Immunological Methods. Nature, 184(4699), 1648-1649. doi:10.1038/1841648b0
-
-[6] Yalow, R. (1977). The Nobel Prize in Physiology or Medicine 1977, Rosalyn Yalow – Biographical. Retrieved from https://www.nobelprize.org/nobel_prizes/medicine/laureates/1977/yalow-bio.html
+## References
+1. “Radioimmunoassay (RIA).” Medical Discoveries. Retrieved March 18, 2018 from Encyclopedia.com: <a href="http://www.encyclopedia.com/medicine/medical-journals/radioimmunoassay-ria">http://www.encyclopedia.com/medicine/medical-journals/radioimmunoassay-ria</a>
+2. Taitz, E. (2009). Rosalyn Yalow. In Jewish Women: A Comprehensive Historical Encyclopedia.
+3. Almy, G. M. (1973). A Centry of Physics at the University of Illinois 1868-1968. Urbana, IL: Physics Department at the University of Illinois.
+4. Goldsmith, S. J. (1975). Radioimmunoassay: Review of basic principles. Seminars in Nuclear Medicine, 5(2), 125-152. <a href="http://www.seminarsinnuclearmedicine.com/article/S0001-2998(75)80028-6/abstract">doi:10.1016/s0001-2998(75)80028-6s</a>
+5. Howes, R. H. (2011, October). Rosalyn Sussman Yalow (1921-2011). Forum on Physics and Society.Rosalyn Sussman Yalow (b. 1921). (n.d.). Retrieved March 19, 2018, from <a href="https://www.acs.org/content/acs/en/education/whatischemistry/women-scientists/rosalyn-sussman-yalow.html">https://www.acs.org/content/acs/en/education/whatischemistry/women-scientists/rosalyn-sussman-yalow.html</a>
+6. Yalow, R. S., & Berson, S. A. (1959). Assay of Plasma Insulin in Human Subjects by Immunological Methods. Nature, 184(4699), 1648-1649. <a href="https://www.nature.com/articles/1841648b0">doi:10.1038/1841648b0</a>
+7. Yalow, R. (1977). The Nobel Prize in Physiology or Medicine 1977, Rosalyn Yalow – Biographical. Retrieved from <a href="https://www.nobelprize.org/nobel_prizes/medicine/laureates/1977/yalow-bio.html">https://www.nobelprize.org/nobel_prizes/medicine/laureates/1977/yalow-bio.html</a>
 
 \* It is unclear exactly when this comment was made to Dr. Sussman Yalow, so it could be attributed to either famed physicist F. Wheeler Loomis, namesake of the University of Illinois physics building (Loomis Lab), or Gerald Kruger, who became acting department head during the war while Dr. Loomis was at the MIT Rad Lab

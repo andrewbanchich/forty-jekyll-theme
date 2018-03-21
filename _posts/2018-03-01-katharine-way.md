@@ -31,18 +31,11 @@ Dr. Way returned to North Carolina in 1968 to work at the <a href="http://www.tu
 
 In her obituary in 1995, it was noted that Dr. Way was also passionate about social justice, including the civil rights movement in the 1960s and the health of older adults in North Carolina.
 
-References:
-
-Teaching Katharine Way at the University of North Carolina[Video file]. (2008). Web of Stories. Retrieved from https://www.webofstories.com/playAll/john.wheeler?sId=9414. Story first recorded in December 1996
-
-Jack, J. (2009). Science on the home front: American women scientists in World War II. Urbana (Ill.): University of Illinois Press.
-
-Landivar, L. (2013, September). Disparities in STEM Employment by Sex, Race, and Hispanic Origin(Rep. No. ACS-24). Retrieved February 27, 2018, from American Community Survey Reports, U.S. Census Bureau website: https://www.census.gov/prod/2013pubs/acs-24.pdf
-
-Way, K., & Wigner, E. P. (1948). The Rate of Decay of Fission Products. Physical Review,73(11), 1318-1330. doi:10.1103/physrev.73.1318
-
-Way, K. (1937, April 1). Photoelectric cross section of the deuteron (Doctoral dissertation, University of North Carolina, 1938). Physical Review Journals,51(7). doi:https://doi.org/10.1103/PhysRev.51.552
-
-Way, K. (1939). The Liquid-Drop Model and Nuclear Moments. Physical Review,55(10), 963-965. doi:10.1103/physrev.55.963
-
-Wheeler, J. A., & Ford, K. W. (2000). Geons, black holes, and quantum foam: a life in physics. New York: Norton.
+## References:
+1. Teaching Katharine Way at the University of North Carolina[Video file]. (2008). Web of Stories. Retrieved from <a href="https://www.webofstories.com/playAll/john.wheeler?sId=9414">https://www.webofstories.com/playAll/john.wheeler?sId=9414</a>. Story first recorded in December 1996
+2. Jack, J. (2009). Science on the home front: American women scientists in World War II. Urbana (Ill.): University of Illinois Press.
+3. Landivar, L. (2013, September). Disparities in STEM Employment by Sex, Race, and Hispanic Origin(Rep. No. ACS-24). Retrieved February 27, 2018, from American Community Survey Reports, U.S. Census Bureau website: <a href="https://www.census.gov/prod/2013pubs/acs-24.pdf">https://www.census.gov/prod/2013pubs/acs-24.pdf</a>
+4. Way, K., & Wigner, E. P. (1948). The Rate of Decay of Fission Products. Physical Review,73(11), 1318-1330. <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.73.1318">doi:10.1103/physrev.73.1318</a>
+5. Way, K. (1937, April 1). Photoelectric cross section of the deuteron (Doctoral dissertation, University of North Carolina, 1938). Physical Review Journals,51(7). <a href="https://doi.org/10.1103/PhysRev.51.552">doi:https://doi.org/10.1103/PhysRev.51.552</a>
+6. Way, K. (1939). The Liquid-Drop Model and Nuclear Moments. Physical Review,55(10), 963-965. <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.55.963">doi:10.1103/physrev.55.963</a>
+7. Wheeler, J. A., & Ford, K. W. (2000). Geons, black holes, and quantum foam: a life in physics. New York: Norton.
