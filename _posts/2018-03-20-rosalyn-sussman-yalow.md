@@ -39,4 +39,4 @@ References
 
 [6] Yalow, R. (1977). The Nobel Prize in Physiology or Medicine 1977, Rosalyn Yalow – Biographical. Retrieved from https://www.nobelprize.org/nobel_prizes/medicine/laureates/1977/yalow-bio.html
 
-* It is unclear exactly when this comment was made to Dr. Sussman Yalow, so it could be attributed to either famed physicist F. Wheeler Loomis, namesake of the University of Illinois physics building (Loomis Lab), or Gerald Kruger, who became acting department head during the war while Dr. Loomis was at the MIT Rad Lab
+\* It is unclear exactly when this comment was made to Dr. Sussman Yalow, so it could be attributed to either famed physicist F. Wheeler Loomis, namesake of the University of Illinois physics building (Loomis Lab), or Gerald Kruger, who became acting department head during the war while Dr. Loomis was at the MIT Rad Lab
