@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 *.gem
+
+
+*.swp
