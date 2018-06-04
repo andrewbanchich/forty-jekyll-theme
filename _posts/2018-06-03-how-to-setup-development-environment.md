@@ -1,12 +1,11 @@
 ---
 layout: post
-title: How to setup Flutter development environment
-description: Instructions to setup development environment
+title: Flutter 开发环境配置
+description: Flutter 开发环境配置
 ---
 
-# Flutter 开发环境配置
 ## 系统要求
-操作系统：macOS (64-bit) 本文以 macOS 系统为例介绍安装过程
+操作系统：macOS (64-bit) 本文以 macOS 系统为例介绍安装过程  
 工具： `bash`,`git`,`curl`,`unzip`
 
 ## 获取 Flutter SDK 
