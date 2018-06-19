@@ -134,3 +134,37 @@ class ScanPlugin(private val registrar: Registrar) : MethodCallHandler {
 
 到这里你就可以实现 dart 来调用三方库来实现具体的功能了。
 
+如何获取第三方库的返回值呢？MethodHandler提供了一个 result 类传递返回值，只需要在 success 函数中传递你需要的返回值就可以了。同时如果需要获取  onActivity 的返回值，可以通过 PluginRegistry.ActivityResultListener 来实现。
+
+```kotlin
+    override fun onMethodCall(call: MethodCall, result: Result) {
+        when (call.method) {
+            "getPlatformVersion" -> {
+                result.success("Android ${android.os.Build.VERSION.RELEASE}")
+            }
+            "codeScan" -> {
+                if (listener.result == null) {
+                    registrar.addActivityResultListener(listener)
+                }
+                listener.result = result
+                IntentIntegrator(registrar.activity())
+                        .setDesiredBarcodeFormats(IntentIntegrator.ONE_D_CODE_TYPES)
+                        .initiateScan()
+            }
+            else ->
+                result.notImplemented()
+        }
+
+    }
+
+    private val listener = object : PluginRegistry.ActivityResultListener {
+        var result: Result? = null
+        override fun onActivityResult(requestCode: Int, resultCode: Int, intent: Intent?): Boolean {
+            val intentResult = IntentIntegrator.parseActivityResult(requestCode, intent)
+            result?.success(intentResult.contents)
+            return true
+        }
+
+    }
+```
+
