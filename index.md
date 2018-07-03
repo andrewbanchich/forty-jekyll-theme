@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Computer Science + Social Good at UNC Chapel Hill'
 description: null
 image: null
 author: null
