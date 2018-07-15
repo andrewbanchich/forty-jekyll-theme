@@ -17,6 +17,9 @@ phone: (716) 555-5555
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
+# contact form settings
+form_url: https://formcarry.com/s/XXXXXX # endpoint URL to receive contact form submissions
+
 # social settings
 500px_url:
 facebook_url:
