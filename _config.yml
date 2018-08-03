@@ -15,7 +15,7 @@ phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # contact form settings
 form_url: https://formspree.io/youremailaddress@gmail.com # endpoint URL to receive contact form submissions
