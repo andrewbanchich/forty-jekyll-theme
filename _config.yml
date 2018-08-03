@@ -18,8 +18,8 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # contact form settings
-#form_url: https://formspree.io/youremailaddress@gmail.com # endpoint URL to receive contact form submissions
-#form_email_name: _replyto # value of the "name" attribute in the "email" field
+form_url: https://formspree.io/youremailaddress@gmail.com # endpoint URL to receive contact form submissions
+form_email_name: _replyto # value of the "name" attribute in the "email" field
 
 # social settings
 500px_url:
