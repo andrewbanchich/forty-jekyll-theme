@@ -14,7 +14,7 @@ country: United States of America
 phone: (716) 555-5555
 
 # homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
+tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
