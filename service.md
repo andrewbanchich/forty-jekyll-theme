@@ -71,7 +71,7 @@ image:
             <li>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
             <ul>
                 <ul>
-                    <li>请仔细阅读<a href="#first-aid">服务介绍中的IT侠鼓楼急诊室服务项</a>，判断您是否应该使该服务；</li>
+                    <li><a href="#first-aid">请仔细阅读服务介绍中的IT侠鼓楼急诊室服务项</a>，判断您是否应该使该服务；</li>
                     <li>由于IT侠急诊室人员及其精力有限，请勿在非紧急情况下加入该群。</li>
                 </ul>
             </ul>
@@ -80,6 +80,7 @@ image:
 	</div>
 	<div class="2u$ 24u$(medium)" style="text-align: center;">
 		<h4>IT侠急诊室</h4>
+        点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
 		<img src="assets/images/first-aid.jpg" >
 	</div>
 </div>
