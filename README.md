@@ -1,4 +1,4 @@
-# 南京大学 IT 侠公益服务社团
+# 南京大学 IT 侠
 
 系统 [Jekyll](jekyllrb.com/docs/quickstart/)
 主题 [forty](https://github.com/andrewbanchich/forty-jekyll-theme)
