@@ -3,6 +3,13 @@
 	<footer id="footer">
 		<div class="inner row">
 			<div class="4u 12u$(medium)" style="text-align: center;">
+				<h4>友情链接</h4>
+				<span><a href="http://bbs.nju.edu.cn/bbsdoc?board=NoteBook">小百合NoteBook版</a></span>
+				<br><span><a href="http://nic.nju.edu.cn">南京大学网络中心</a></span>
+				<br><span><a href="http://zijingbt.njuftp.org">南大紫荆站</a></span>
+				<br><span><a href="http://mirrors.ustc.edu.cn/">科大镜像</a></span>
+			</div>
+			<div class="4u 12u$(medium)" style="text-align: center;">
 				<h4>联系我们</h4>
 				<ul class="icons">
 					{% if site.weixin_url %}
@@ -14,22 +21,10 @@
 					{% if site.github_url %}
 					<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 					{% endif %}
-					{% if site.github_url %}
-					<li><a href="{{ site.help_url }}" class="icon alt fa-wrench" target="_blank"><span class="label">Help</span></a></li>
-					{% endif %}
 					{% if site.bbs_url %}
 					{% endif %}
 					<li><a href="mailto:{{site.email}}" class="icon alt fa-envelope" target="_blank"><span class="label">E-mail</span></a></li>
 				</ul>
-				<span><a href="http://nju-itxia.mikecrm.com/A8LfxV">老人信息收集</a></span>
-				<span><a href="{{site.url}}/board_games">桌游目录</a></span>
-			</div>
-			<div class="4u 12u$(medium)" style="text-align: center;">
-				<h4>友情链接</h4>
-				<span><a href="http://bbs.nju.edu.cn/bbsdoc?board=NoteBook">小百合NoteBook版</a></span>
-				<br><span><a href="http://nic.nju.edu.cn">南京大学网络中心</a></span>
-				<br><span><a href="http://zijingbt.njuftp.org">南大紫荆站</a></span>
-				<br><span><a href="http://mirrors.ustc.edu.cn/">科大镜像</a></span>
 			</div>
 			<div class="4u$ 12u$(medium)" style="text-align: center;">
 				<h4>关注我们</h4>
@@ -37,6 +32,12 @@
 			</div>
 			
 		</div>
+		<div style="text-align: center;">
+			<span><a href="http://nju-itxia.mikecrm.com/A8LfxV">老人信息收集</a></span>
+			<span><a href="{{site.url}}/board_games">桌游目录</a></span>
+			<span><a href="{{ site.help_url }}/knightlogin">工作人员入口</a><span>
+		</div>
+    <br>
 		<div style="text-align: center;">
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}2017</li>
