@@ -65,7 +65,7 @@ image:
 
 ## 维修预约
 <div class="inner row">
-    <div class="10u 24u$(medium)">
+    <div class="10u 12u$(medium)">
         <ul> 
             <li>如需要重装系统等服务，请在预约前备份好数据。（Windows仅需备份C盘）</li><br>
             <li>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
@@ -78,15 +78,17 @@ image:
             <li>如果预约超过一周没有得到回复，或者有其他任何问题，请发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
         </ul>
     </div>
-    <div class="2u$ 24u$(medium)" style="text-align: center;">
+    <div class="2u$ 12u$(medium)" style="text-align: center;">
         <h4>IT侠急诊室</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
+		<br />
         <img src="assets/images/first-aid.jpg" >
     </div>
 </div>
 
+<br />
 
- ---
+---
 
 <a href="{{ site.help_url }}" class="button small"><font size="4">我已了解，开始预约</font></a>
 
