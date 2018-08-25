@@ -24,6 +24,8 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/forty-jekyll-theme) and I will be more than happy to help!
 
+Alternatively, you can also open an issue via email just by emailing [incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com).
+
 The GitHub repository is simply a mirror of the GitLab repository.
 
 # Credits
