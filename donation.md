@@ -19,8 +19,6 @@ image:
 <p>所以，如果您手头正好有闲置的维修用品，亦或接受过IT侠帮助，想要捐赠部分金额的，请联系我们。
 <br>我们将定期更新<a href="#donation_list">捐赠者列表</a>并公布<a href="#budget_list">物资去向</a>，如果您对资金去向有疑问，欢迎问询。<br>对于帮助过IT的校友，将会得到IT侠的急诊室服务。</p>
 
-
-
 <div class="row">
 	<div>
 		<h3>物资捐助</h3>
@@ -41,7 +39,7 @@ image:
 		<table>
 			<thead>
 				<tr>
-					<th>捐赠者</th>
+					<th width="25%">捐赠者</th>
 					<th>物资/金额</th>
 					<th>捐赠日期</th>
 				</tr>
@@ -49,7 +47,7 @@ image:
 			<tbody>
 				{% for di in site.data.donation_list %}
 				<tr>
-					<td>{{ di.name }}</td>
+					<td width="25%">{{ di.name }}</td>
 					<td>{{ di.detail }}</td>
 					<td>{{ di.date }}</td>
 				</tr>
