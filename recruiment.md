@@ -17,7 +17,7 @@ image: assets/images/recruiment.jpg
 			</li>
 			<li>
 				<h4>招收对象</h4>
-				<p>精通电脑维修知识并且乐于奉献的技术大神<br>学习动手能力较强且业余时间充沛的的新手<br>台式机业务精通有过拆装经验者优先</p>
+				<p>精通电脑维修知识并且乐于奉献的技术大神<br>学习动手能力较强且业余时间充沛的新手<br>台式机业务精通有过拆装经验者优先</p>
 			</li>
 			<li>
 				<h4>活动方式</h4>
@@ -31,7 +31,7 @@ image: assets/images/recruiment.jpg
 		<ul class="alt">
 			<li>
 				<h4>主要职能</h4>
-				<p>组织如团建、外联、腐败等活动<br>负责公众号与网站宣传页面的运维<br>传播IT侠精神、宣传IT侠文化</p>
+				<p>组织如团建、外联等活动<br>负责公众号与网站宣传页面的运维<br>传播IT侠精神、宣传IT侠文化</p>
 			</li>
 			<li>
 				<h4>招收对象</h4>
@@ -65,7 +65,7 @@ image: assets/images/recruiment.jpg
 <div>
 <h3>报名通道</h3>
 
-<p>扫描下方二维码，或者直接点击<a href="http://nju-itxia.mikecrm.com/5LNz61Y">报名链接</a></p>
+<p>扫描下方二维码，或者直接点击<a href="http://nju-itxia.mikecrm.com/wGiosd4">报名链接</a></p>
 
 <img  src="assets/images/hiring_qrcode.png">
 	
