@@ -8,6 +8,7 @@ image:
 
 ## 公告
 
+- [2018-09-02] 鼓楼值班时间考虑到时间均匀的问题，更改至周二周六，请相互转告！
 - [2018-08-31] 2018年IT侠秋季招新已经开始，请关注IT侠公众号获取最新招新信息!
 - [2018-08-26] 新学期!
 
@@ -28,7 +29,7 @@ image:
 
 3. 值班时间：IT侠志愿者均为在校学生，时间精力有限，只能在晚上安排值班。两个校区由于条件差异，值班日期略有不同。
     - 仙林：每周工作日晚上 19:00 – 22：00
-    - 鼓楼：每周一二晚上 19:00 – 22：00
+    - 鼓楼：每周周二、周六晚上 19:00 – 22：00
 
 4. 值班地点
     - 仙林：基础实验楼丙526
@@ -38,6 +39,8 @@ image:
     - 电脑进水；
     - 电脑无法正常使用并且三天内必须使用电脑；
     - 其他您认为非常紧急的情形。（若工作人员判定您的请求为非紧急情况，将有可能拒绝提供急诊室服务。）
+	
+---
 
 
 ### 二、服务条款
@@ -63,30 +66,43 @@ image:
 
 8. 服务提供最终解释权归IT侠所有。
 
+---
+
 
 ## 维修预约
 <div class="inner row">
-    <div class="10u 12u$(medium)">
+    <div class="12u 12u$(medium)">
         <ul> 
             <li>如需要重装系统等服务，请在预约前备份好数据。（Windows仅需备份C盘）</li><br>
-            <li>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
+            <li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限鼓楼校区)</text>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
             <ul>
                 <ul>
                     <li><a href="#first-aid">请仔细阅读服务介绍中的IT侠鼓楼急诊室服务项</a>，判断您是否应该使该服务；</li>
                     <li>由于IT侠急诊室人员及其精力有限，请勿在非紧急情况下加入该群。</li>
                 </ul>
             </ul>
+			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限仙林校区)</text>若需紧急联系仙林地区的IT侠，请<b>先正常预约</b>，然后加入QQ群(302228512)说明您的情况。</li><br />
             <li>如果预约超过一周没有得到回复，或者有其他任何问题，请发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
         </ul>
     </div>
-    <div class="2u$ 12u$(medium)" style="text-align: center;">
-        <h4>IT侠急诊室</h4>
+</div>
+
+---
+
+<div class="inner row">
+	<div class="6u 12u$(medium)" style="text-align: center;">
+        <h4>鼓楼IT侠急诊室</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
 		<br />
         <img src="assets/images/first-aid.jpg" >
     </div>
+	<div class="6u$ 12u$(medium)" style="text-align: center;">
+        <h4>仙林IT侠在线互助群</h4>
+        点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>或扫二维码加入群聊
+		<br />
+        <img src="assets/images/xianlin-help.jpg" height='141' width='142'>
+    </div>
 </div>
-
 <br />
 
 ---
