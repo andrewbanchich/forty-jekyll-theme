@@ -33,6 +33,8 @@ image:
 	</div>
 </div>
 
+> 注：由于一些失误，2018年上半年有些捐赠电脑的用户信息我们未及时收集，因此下面没有列出，如果您曾经捐赠帮助过我们，请微信联系我们来认领您的捐赠
+
 <div class="row">
 	<div class="table-wrapper 6u 12u$(medium)">
 		<h3 id="donation_list">捐赠者列表</h3>
@@ -77,4 +79,3 @@ image:
 		</table>
 	</div>
 </div>
-
