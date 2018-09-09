@@ -104,7 +104,7 @@
 
 			&:nth-child(4n - 1),
 			&:nth-child(4n - 2) {
-				width: 60%;
+				flex: 1 auto;
 			}
 
 			&:nth-child(6n - 5) {
