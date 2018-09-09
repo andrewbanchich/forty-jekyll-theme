@@ -13,7 +13,7 @@
   {% endif %}
   {% endfor %}
   {% for page in site.pages limit:site.tiles-count %}
-  {% if site.tiles-source == 'pages' and page.title != 404 %}
+  {% if site.tiles-source == 'pages' and page.show_tile != false %}
   <article>
     <span class="image">
       <img src="{{ page.image }}" alt="" />
