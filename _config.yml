@@ -1,5 +1,5 @@
 # site settings
-
+remote_theme: andrewbanchich/forty-jekyll-theme
 title: Forty
 subtitle: by HTML5 UP
 email: kimcheaeun@icloud.com
