@@ -1,14 +1,14 @@
 - detail: 鼓楼招新横幅、绳子
-  date: 2017.9.18
+  date: 2017.09.18
   fee: 52.00
 - detail: 鼓楼招新海报
-  date: 2017.9.18
+  date: 2017.09.18
   fee: 120.00
 - detail: 意外状况给用户换键盘
-  date: 2017.9.18
+  date: 2017.09.18
   fee: 208.00
 - detail: 仙林招新海报
-  date: 2017.9.19
+  date: 2017.09.19
   fee: 30.00
 - detail: 鼓楼工作室购置维修工具
   date: 2017.11.19
@@ -17,26 +17,44 @@
   date: 2017.11.27
   fee: 163.00
 - detail: 网站域名续费
-  date: 2018.3.18
+  date: 2018.03.18
   fee: 59.00
 - detail: 拆机转轴断裂购买CD壳
-  date: 2018.4.2
+  date: 2018.04.02
   fee: 271.00
 - detail: 拆机压坏屏幕换屏
-  date: 2018.4.9
+  date: 2018.04.09
   fee: 300.00
 - detail: 买气鼓2个
-  date: 2018.4.30
+  date: 2018.04.30
   fee: 7.00
 - detail: 买硅脂
-  date: 2018.5.1
+  date: 2018.05.01
   fee: 23.60
 - detail: 打印IT侠活动周传单
-  date: 2018.5.20
+  date: 2018.05.20
   fee: 20.00
 - detail: 打印IT侠活动周海报
-  date: 2018.5.21
+  date: 2018.05.21
   fee: 60.00
 - detail: 买胶水胶带
-  date: 2018.6.30
+  date: 2018.06.30
   fee: 22.23
+- detail: 仙林垃圾桶和纸抽
+  date: 2018.08.29
+  fee: 23.90
+- detail: 仙林招新海报
+  date: 2018.09.01
+  fee: 48.00
+- detail: 仙林百团礼品、监控摄像头
+  date: 2018.09.02
+  fee: 270.50
+- detail: 鼓楼招新海报
+  date: 2018.09.02
+  fee: 36.40
+- detail: 钥匙扣、螺丝盒、洗耳球等
+  date: 2018.09.17
+  fee: 261.30
+- detail: 传单
+  date: 2018.09.24
+  fee: 40.00
