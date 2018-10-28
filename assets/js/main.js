@@ -144,21 +144,16 @@
         $tiles.each(function () {
 
             var $this = $(this),
-                $image = $this.find('.image'), $img = $image.find('img'),
-                $link = $this.find('.link'),
-                x;
+                $link = $this.find('.link');
 
             // Image.
 
             // Set image.
-            $this.css('background-image', 'url(' + $img.attr('src') + ')');
+            if ($this[0].dataset.image != null) {
+                var $imageUri = $this[0].style.backgroundImage;
 
-            // Set position.
-            if (x = $img.data('position'))
-                $image.css('background-position', x);
-
-            // Hide original.
-            $image.hide();
+                $this.css('background-image', $imageUri);
+            }
 
             // Link.
             if ($link.length > 0) {

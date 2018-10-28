@@ -14,10 +14,7 @@
   {% endfor %}
   {% for page in site.pages limit:site.tiles-count %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
-  <article>
-    <span class="image">
-      <img src="{{ page.image }}" alt="" />
-    </span>
+  <article style="background-image: url('{{ page.image }}');">
     <header class="major">
       <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
       <p>{{ page.description }}</p>
