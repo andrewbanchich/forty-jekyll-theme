@@ -8,7 +8,8 @@ image:
 
 ## 公告
 
-- [2018-11-11] 从一个人的狂欢到商家与消费者的狂欢。
+- [2018-12] Merry, Merry Christmas 
+- [2018-12] Bye，2018
 
 ---
 请阅读『**预约须知**』后，点击页面下方的『**我已了解，开始预约**』预约维修。
@@ -68,10 +69,15 @@ image:
 
 
 ## 维修预约
+
+<a href="{{ site.help_url }}" class="button small"><font size="4">我已了解，开始预约</font></a>
+
+---
+<h3>附加说明</h3>
 <div class="inner row">
     <div class="12u 12u$(medium)">
-        <ul> 
-            <li>如需要重装系统等服务，请在预约前备份好数据。（Windows仅需备份C盘）</li><br>
+        <ul>
+            <li>一般情况，请直接预约</li><br>
             <li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限鼓楼校区)</text>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
             <ul>
                 <ul>
@@ -79,7 +85,8 @@ image:
                     <li>由于IT侠急诊室人员及其精力有限，请勿在非紧急情况下加入该群。</li>
                 </ul>
             </ul>
-			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限仙林校区)</text>若需紧急联系仙林地区的IT侠，请<b>先正常预约</b>，然后加入QQ群(302228512)说明您的情况。</li><br />
+			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限仙林校区)</text>若需紧急联系仙林校区的IT侠，请<b>先正常预约</b>，然后加入QQ群(302228512)说明您的情况。</li><br />
+            <li>如需要重装系统等服务，请在预约前备份好数据。（Windows仅需备份C盘）</li><br>
             <li>如果预约超过一周没有得到回复，或者有其他任何问题，请发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
         </ul>
     </div>
@@ -103,8 +110,5 @@ image:
 </div>
 <br />
 
----
-
-<a href="{{ site.help_url }}" class="button small"><font size="4">我已了解，开始预约</font></a>
 
 
