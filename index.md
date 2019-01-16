@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Qaid Jacobs, UX Designer and Mentor'
 description: null
 image: null
 author: null
