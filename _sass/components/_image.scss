@@ -64,3 +64,13 @@ img {
 			}
 		}
 	}
+
+a.image span.caption {
+	position: absolute;
+	height: 15px;
+	bottom: 0px;
+	left: 0px;
+	font-size: 0.75em;
+	text-shadow: black 1px 1px 1px;
+	margin: 1em;
+}

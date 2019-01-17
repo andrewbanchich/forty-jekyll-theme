@@ -3,7 +3,7 @@ title: Qa'id Jacobs UX Designer and Mentor
 subtitle: User Experience Designer and Mentor
 email: working.qaid@gmail.com
 description: The portfolio website of Qa'id Jacobs
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Qa'id Jacobs
 street_address: 
