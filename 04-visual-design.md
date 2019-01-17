@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Elements
+title: Visual Design for Music
+description: From mix-tapes to parties and concerts, my first impulse to design commercially came from the needs of music projects I've worked on.
+image: assets/images/fnd-snd-wide.png
 nav-menu: true
 ---
 
