@@ -2,6 +2,7 @@
 layout: post
 title: The journey into world wide web
 description: How it all began...
+link: https://nuhman.github.io/forty/2018-05-08-building-a-recommendation-system.html
 image: assets/images/pic06.jpg
 ---
 
