@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: portfolio
 title: Portfolio
 description: Works, Experiments
 image: assets/images/pic11.jpg
