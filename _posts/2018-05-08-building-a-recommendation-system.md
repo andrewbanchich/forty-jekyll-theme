@@ -2,6 +2,7 @@
 layout: post
 title: Build your own Recommendation System
 description: People who read this also read...
+link: https://nuhman.github.io/forty/2018-05-08-building-a-recommendation-system.html
 image: assets/images/pic01.jpg
 ---
 
