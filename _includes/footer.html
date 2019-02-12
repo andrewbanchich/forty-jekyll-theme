@@ -21,45 +21,7 @@
 				</ul>
 			</form>
 		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section>
+		
 	</div>
 </section>
 
@@ -96,6 +58,18 @@
 				{% endif %}
 				{% if site.linkedin_url %}
 				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+				{% if site.kaggle_url %}
+				<li><a href="{{ site.kaggle_url }}" class="icon alt fa-pie-chart" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+				{% if site.freecodecamp_url %}
+				<li><a href="{{ site.freecodecamp_url }}" class="icon alt fa-terminal" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+				{% if site.codepen_url %}
+				<li><a href="{{ site.codepen_url }}" class="icon alt fa-codepen" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+				{% if site.hackerrank_url %}
+				<li><a href="{{ site.hackerrank_url }}" class="icon alt fa-code" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
 			</ul>
 			<ul class="copyright">
