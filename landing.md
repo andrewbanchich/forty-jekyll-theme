@@ -9,15 +9,15 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<!--<section id="one">
+<!--One -->
+<section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Papel</h2>
+			<h2>Portfolio</h2>
 		</header>
-		<p></p>
+		<p>Works, Experiments – whatever I've done, working on or thinking about.</p>
 	</div>
-</section>-->
+</section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
@@ -68,7 +68,58 @@ nav-menu: true
 				</ul>
 			</div>
 		</div>
+	</section> <!-- 2nd batch -->	
+	<section>
+		<a href="https://github.com/nuhman/tic-tac-toe" class="image">
+			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Tic Tac Toe</h3>
+				</header>
+				<p>An unbeateable version of the classic game powered by probablistic algorithm and built using VueJS. You can see it on live action <a href="https://codepen.io/Nuhman/full/zwMPQd">here</a></p>
+				<ul class="actions">
+					<li><a href="https://github.com/nuhman/tic-tac-toe" class="button">See more</a></li>
+				</ul>
+			</div>
+		</div>
 	</section>
+	<section>
+		<a href="https://github.com/nuhman/quote-machine" class="image">
+			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Inspirational Design Quotes</h3>
+				</header>
+				<p>A ReactJS application for the inspiring quotes for the designer in you. See it in action <a href="https://codepen.io/Nuhman/full/jaBLbM">here</a></p>
+				<ul class="actions">
+					<li><a href="https://github.com/nuhman/quote-machine" class="button">See more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="https://github.com/nuhman/pomodoro-timer" class="image">
+			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Pomodoro Clock</h3>
+				</header>
+				<p>A productivity hack <a href="http://codepen.io/Nuhman/full/aWYvjO">application</a> built using VueJS as a part of <a href="https://www.freecodecamp.org/nuhman">FCC</a> certification challenge.</p>
+				<ul class="actions">
+					<li><a href="https://github.com/nuhman/pomodoro-timer" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	
+	
 </section>
 
 <!-- Three -->
