@@ -71,7 +71,7 @@ nav-menu: true
 	</section> <!-- 2nd batch -->	
 	<section>
 		<a href="https://github.com/nuhman/tic-tac-toe" class="image">
-			<img src="assets/images/tictactoe.png" alt="" data-position="center center" />
+			<img src="assets/images/rsz_tictactoe.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
