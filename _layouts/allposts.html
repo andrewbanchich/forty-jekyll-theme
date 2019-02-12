@@ -18,7 +18,7 @@
           {% for post in site.posts %}
 	  {% if post.title != 404 %}
 	  <header class="major">
-	    <h1>{{ post.title }}</h1>
+		  <h1><a href="{{post.link}}">{{ post.title }}</a></h1>
 	  </header>
 	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
 	  {% if post.date %}<p>{{ post.date.toString().replace("00:00:00 +0000", "") }}</p>{% endif %}
