@@ -39,7 +39,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://github.com/nuhman/react-youtube" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+			<img src="assets/images/react_youtube.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -55,7 +55,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://github.com/nuhman/iqra-cms" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+			<img src="assets/images/iqra1.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -71,7 +71,7 @@ nav-menu: true
 	</section> <!-- 2nd batch -->	
 	<section>
 		<a href="https://github.com/nuhman/tic-tac-toe" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+			<img src="assets/images/tictactoe.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -87,7 +87,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://github.com/nuhman/quote-machine" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+			<img src="assets/images/quote_new.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -103,7 +103,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://github.com/nuhman/pomodoro-timer" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+			<img src="assets/images/pomodoro.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
