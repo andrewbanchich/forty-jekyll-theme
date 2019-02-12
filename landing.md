@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="https://github.com/nuhman/papel" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+			<img src="assets/images/papel.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
