@@ -1,10 +1,11 @@
 ---
-title: Portfolio
 layout: landing
+title: Portfolio
 description: 'Works, Experiments – whatever I've completed, working on or thinking about.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
+
 
 <!-- Main -->
 <div id="main">
