@@ -1,8 +1,8 @@
 ---
 layout: landing
 title: Portfolio
-description: 'Works, Experiments – whatever I've completed, working on or thinking about.'
-image: assets/images/pic07.jpg
+description: Works, Experiments
+image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
