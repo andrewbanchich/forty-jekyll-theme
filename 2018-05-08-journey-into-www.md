@@ -1,9 +1,10 @@
 ---
 layout: post
-title: The journey into world wide web
+title: Journey into world wide web
 description: How it all began...
-link: https://nuhman.github.io/forty/2018-05-08-journey-into-www.html
 image: assets/images/pic05.jpg
+nav-menu: false
+show_tile: false
 ---
 
 > "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something – your gut, destiny, life, karma, whatever"
@@ -34,3 +35,5 @@ single day. There are a ton of libraries and frameworks out there that you may h
 The realisation came later - to not know something is completely fine. The more quicker you accept it, the better.  
   
 The power resides in your ability to understand what a problem is, and to know what to *search* for.
+
+

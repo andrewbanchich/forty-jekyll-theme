@@ -3,8 +3,8 @@ title: Maktub - Portfolio & Blog
 subtitle: by Nuhman
 email: nuhman7@outlook.com
 description: A personal space for<br /> all my works and thoughts.
-baseurl: "/forty" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://nuhman.github.io" # the base hostname & protocol for your site
 author: nuhman
 street_address: Hinjewadi
 city: Pune
