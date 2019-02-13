@@ -67,7 +67,7 @@ nav-menu: true
 				</header>
 				<p>Content Management System with all CRUD Operations built using PHP & MySQL. Taught myself authentication and took security measures such as guarding against cookie vulnerablities and session hijacking.</p>
 				<ul class="actions">
-					<li><a href="https://github.com/nuhman/iqra-cms" class="button">Learn more</a></li>
+					<li><a href="https://github.com/nuhman/iqra-cms" class="button">See more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -115,7 +115,7 @@ nav-menu: true
 				</header>
 				<p>A completely customizable productivity hack <a href="http://codepen.io/Nuhman/full/aWYvjO">application</a> built using VueJS and TimeJS as a part of <a href="https://www.freecodecamp.org/nuhman">FCC</a> certification challenge.</p>
 				<ul class="actions">
-					<li><a href="https://github.com/nuhman/pomodoro-timer" class="button">Learn more</a></li>
+					<li><a href="https://github.com/nuhman/pomodoro-timer" class="button">See more</a></li>
 				</ul>
 			</div>
 		</div>
