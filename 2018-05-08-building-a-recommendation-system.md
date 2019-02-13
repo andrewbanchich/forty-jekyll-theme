@@ -2,7 +2,7 @@
 layout: post
 title: Build your own Recommendation System
 description: People who read this also read...
-image: assets/images/pic11.jpg
+image: assets/images/pic02.jpg
 nav-menu: false
 show_tile: false
 ---
