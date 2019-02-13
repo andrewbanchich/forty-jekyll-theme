@@ -1,11 +1,11 @@
 ---
 title: Portfolio
-layout: landing
+layout: gallery
 description: Works, Experiments
 landing-title: 'Portfolio'
 image: assets/images/portfolio.jpg
-nav-menu: true
 show_tile: true
+nav-menu: true
 ---
 
 
@@ -16,7 +16,7 @@ show_tile: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Portfolio</h2>
+			<h2>Gallery</h2>
 		</header>
 		<p>Works, Experiments – whatever I've done, working on or thinking about.</p>
 	</div>
