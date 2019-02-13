@@ -1,6 +1,6 @@
 ---
-layout: portfolio
 title: Portfolio
+layout: portfolio
 description: Works, Experiments
 image: assets/images/pic11.jpg
 nav-menu: true
