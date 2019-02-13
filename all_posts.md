@@ -3,7 +3,7 @@ layout: allposts
 title: All posts
 landing-title: 'All posts'
 nav-menu: true
-description: Thoughts. 
+description: Thoughts. Journals.
 image: assets/images/pic11.jpg
 author: null
 show_tile: true
