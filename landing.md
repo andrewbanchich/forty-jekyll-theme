@@ -33,7 +33,7 @@ show_tile: true
 				<header class="major">
 					<h3>Papel</h3>
 				</header>
-				<p>Expense log/manager application written in VueJS and Google Firebase with focus on data sync in parallel usage. Using VueJS makes the application re-render lightening fast.</p>
+				<p>Expense manager application written in VueJS and powered by Google Firebase built with focus on data sync in parallel usage. Using VueJS makes the application re-render lightening fast. Learnt about Vuex state management and routing in VueJS.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/papel" class="button">See more</a></li>
 				</ul>
@@ -49,7 +49,7 @@ show_tile: true
 				<header class="major">
 					<h3>React-Youtube</h3>
 				</header>
-				<p>Youtube mockoff with functionality to search and watch videos , built using react and youtube api.</p>
+				<p>Youtube mockoff with functionality to search and watch videos , built using react and youtube api. Helped in understanding how react components works.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/react-youtube" class="button">See more</a></li>
 				</ul>
@@ -65,7 +65,7 @@ show_tile: true
 				<header class="major">
 					<h3>Iqra</h3>
 				</header>
-				<p>Content Management System with all CRUD Operations built using PHP & MySQL</p>
+				<p>Content Management System with all CRUD Operations built using PHP & MySQL. Taught myself authentication and took security measures such as guarding against cookie vulnerablities and session hijacking.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/iqra-cms" class="button">Learn more</a></li>
 				</ul>
@@ -81,7 +81,7 @@ show_tile: true
 				<header class="major">
 					<h3>Tic Tac Toe</h3>
 				</header>
-				<p>An unbeateable version of the classic game powered by probablistic algorithm and built using VueJS. You can see it on live action <a href="https://codepen.io/Nuhman/full/zwMPQd">here</a></p>
+				<p>An unbeateable version of the classic game powered by probablistic algorithm and built using VueJS.  You can see it on live action <a href="https://codepen.io/Nuhman/full/zwMPQd">here</a></p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/tic-tac-toe" class="button">See more</a></li>
 				</ul>
@@ -97,7 +97,7 @@ show_tile: true
 				<header class="major">
 					<h3>Inspirational Design Quotes</h3>
 				</header>
-				<p>A ReactJS application for the inspiring quotes for the designer in you. See it in action <a href="https://codepen.io/Nuhman/full/jaBLbM">here</a></p>
+				<p>A ReactJS application that shows random inspiring quotes for the designer in you. Learnt about asynchronous programming using Axios and also how to interact with APIs. See it in action <a href="https://codepen.io/Nuhman/full/jaBLbM">here</a></p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/quote-machine" class="button">See more</a></li>
 				</ul>
@@ -113,7 +113,7 @@ show_tile: true
 				<header class="major">
 					<h3>Pomodoro Clock</h3>
 				</header>
-				<p>A productivity hack <a href="http://codepen.io/Nuhman/full/aWYvjO">application</a> built using VueJS as a part of <a href="https://www.freecodecamp.org/nuhman">FCC</a> certification challenge.</p>
+				<p>A completely customizable productivity hack <a href="http://codepen.io/Nuhman/full/aWYvjO">application</a> built using VueJS and TimeJS as a part of <a href="https://www.freecodecamp.org/nuhman">FCC</a> certification challenge.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/nuhman/pomodoro-timer" class="button">Learn more</a></li>
 				</ul>
