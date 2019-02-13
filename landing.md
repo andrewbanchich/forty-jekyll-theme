@@ -4,8 +4,8 @@ layout: landing
 description: Works, Experiments
 landing-title: 'Portfolio'
 image: assets/images/portfolio.jpg
-nav-menu: true
 show_tile: true
+nav-menu: true
 ---
 
 
