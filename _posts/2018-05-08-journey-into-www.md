@@ -2,8 +2,8 @@
 layout: post
 title: The journey into world wide web
 description: How it all began...
-link: https://nuhman.github.io/forty/2018-05-08-building-a-recommendation-system.html
-image: assets/images/pic06.jpg
+link: https://nuhman.github.io/forty/2018-05-08-journey-into-www.html
+image: assets/images/pic05.jpg
 ---
 
 > "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something – your gut, destiny, life, karma, whatever"
