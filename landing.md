@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-layout: portfolio
+layout: landing
 description: Works, Experiments
 landing-title: 'Portfolio'
 image: assets/images/pic11.jpg
