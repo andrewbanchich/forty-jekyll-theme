@@ -6,3 +6,7 @@ Gemfile.lock
 
 
 *.swp
+
+# node
+node_modules/
+package-lock.json
