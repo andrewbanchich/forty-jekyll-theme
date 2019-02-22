@@ -13,7 +13,7 @@ alert("Hello");
 ### 数学公式示例
 
 $$
-\oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{X}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
+\oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
 $$
 
 ### 表格示例
