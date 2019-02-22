@@ -6,6 +6,8 @@
   <meta name="description" content="一款简单易用的微信公众号格式化工具，主要针对代码做格式化处理。">
   <title>Online Markdown Converter</title>
   <script src="./js/index.js"></script>
+  <link href="https://cdn.bootcss.com/KaTeX/0.10.0-rc.1/katex.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/KaTeX/0.10.0-rc.1/katex.min.js"></script>
   <link rel="stylesheet" href="./themes/github-v2.css" id="codeThemeId" />
   <link rel="stylesheet" id="pageThemeId" />
 </head>
@@ -20,7 +22,7 @@
 <textarea id="input" spellcheck="false"></textarea>
 
 <button class="btn copy-button" style="display:none;" data-clipboard-action="cut" data-clipboard-target="#outputCtt">复制</button>
-<button class="btn convert-button">预览</button>
+<button class="btn convert-button" onclick='findAndRender()'>预览</button>
 
 <div id="output">
   <div class="themes-config">
@@ -52,6 +54,18 @@
 </style>
 
 <script>
+function findAndRender() {
+	const element = document.getElementById('outputCtt');
+	let str = element.innerHTML;
+	str = str.replace(/\$\$\n(.*)\n\$\$/g, "<span class='needRender'>$1</span>")
+	element.innerHTML = str;
+	const nrs = document.getElementsByClassName('needRender');
+	for (let i = 0; i < nrs.length; i++) {
+		let content = nrs[i].innerHTML;
+		katex.render(content, nrs[i]);
+		nrs[i].className='rendered';
+	}
+}
 </script>
 
 </body>
