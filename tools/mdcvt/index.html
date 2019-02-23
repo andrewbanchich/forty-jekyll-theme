@@ -57,14 +57,14 @@
 function findAndRender() {
 	const element = document.getElementById('outputCtt');
 	let str = element.innerHTML;
-	str = str.replace(/\$\$\n(.*)\n\$\$/g, "<span class='needRender'>$1</span>", {
-		displayMode: true
-	})
+	str = str.replace(/\$\$\n(.*)\n\$\$/g, "<span class='needRender'>$1</span>")
 	element.innerHTML = str;
 	const nrs = document.getElementsByClassName('needRender');
 	for (let i = 0; i < nrs.length; i++) {
 		let content = nrs[i].innerHTML;
-		katex.render(content, nrs[i]);
+		katex.render(content, nrs[i], {
+			displayMode:true
+		});
 		nrs[i].className='rendered';
 	}
 }
