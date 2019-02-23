@@ -16,6 +16,8 @@ $$
 \oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
 $$
 
+也可以用行内模式$\sum_{i=0}^N(i^2)$
+
 ### 表格示例
 
 | 品类 | 桶数 | 备注 |

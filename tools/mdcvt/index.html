@@ -22,7 +22,7 @@
 <textarea id="input" spellcheck="false"></textarea>
 
 <button class="btn copy-button" style="display:none;" data-clipboard-action="cut" data-clipboard-target="#outputCtt">复制</button>
-<button class="btn convert-button" onclick='findAndRender()'>预览</button>
+<button class="btn convert-button" onclick='fck()'>预览</button>
 
 <div id="output">
   <div class="themes-config">
@@ -54,17 +54,29 @@
 </style>
 
 <script>
+function fck() {
+	findAndRender()
+}
 function findAndRender() {
 	const element = document.getElementById('outputCtt');
 	let str = element.innerHTML;
-	str = str.replace(/\$\$\n(.*)\n\$\$/g, "<span class='needRender'>$1</span>")
+	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")
 	element.innerHTML = str;
-	const nrs = document.getElementsByClassName('needRender');
-	for (let i = 0; i < nrs.length; i++) {
+	let nrs = document.getElementsByClassName('needRender');
+	for (let i = 0; i < nrs.length;) {
 		let content = nrs[i].innerHTML;
 		katex.render(content, nrs[i], {
 			displayMode:true
 		});
+		nrs[i].className='rendered';
+	}
+	str = element.innerHTML;
+	str = str.replace(/\$(.*)\$/gm, "<span class='needRender'>$1</span>")
+	element.innerHTML = str;
+	nrs = document.getElementsByClassName('needRender');
+	for (let i = 0; i < nrs.length;) {
+		let content = nrs[i].innerHTML;
+		katex.render(content, nrs[i]);
 		nrs[i].className='rendered';
 	}
 }
