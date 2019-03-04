@@ -61,6 +61,7 @@ function findAndRender() {
 	const element = document.getElementById('outputCtt');
 	let str = element.innerHTML;
 	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")
+	str = str.replace(/~~(.*)~~/g, "<del>$1</del>")
 	element.innerHTML = str;
 	let nrs = document.getElementsByClassName('needRender');
 	for (let i = 0; i < nrs.length;) {
