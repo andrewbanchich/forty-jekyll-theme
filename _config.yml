@@ -3,7 +3,7 @@ title: http://code-nomade.github.io/
 subtitle: by Adolfo Andrés Hincapié Garcia  
 email: bandreshin@gmail.com
 description: A responsive site template designed by me<br /> and released under the Creative Commons.
-baseurl: "http://code-nomade.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/code-nomade.github.io" # the subpath of your site, e.g. /blog
 url: code-nomade.github.io
 author: Adolfo Andrés Hincapie
 street_address: 1234 Somewhere Road
