@@ -45,6 +45,8 @@ image: assets/images/startup-photos.jpg
 <h2 id="content">Game Development</h2>
 <p>Besides being and mobile developer, I always wanted to build games. I am a hobbiest since 2012 and will always be.</p>
 <p><span class="image left"><img src="assets/images/unity-3d-vector-icon-logo.png" alt="" /></span>I'd started to work with Unity as a hobby in 2012 even before I worked as a professional developer. During my studies I built a Zelda clone and since 2012 several prototypes. I've also finished a few courses online and attended the Unite 2018 in Berlin. I know what you need to build a game and how you structure components.
+
+<!--TODO: ADD MORE-->
 </p>
 <br/>
 <br/>
