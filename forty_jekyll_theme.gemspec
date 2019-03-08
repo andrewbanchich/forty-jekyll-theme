@@ -14,4 +14,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "jekyll", "~> 3.8.5"
   spec.add_development_dependency "bundler", "~> 2.0.1"
+  spec.add_development_dependency "wdm", "~> 0.1.1"
 end

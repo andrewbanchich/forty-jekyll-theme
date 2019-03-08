@@ -2,8 +2,8 @@
 title: Matthias Bruns
 subtitle: Android & Flutter Freelancer
 email: info@matthiasbruns.com
-description: Matthias Bruns is a Android & Fluttter Freelancer based in Cologne.
-baseurl: "/" # the subpath of your site, e.g. /blog
+description: Android & Fluttter Freelancer based in Cologne
+baseurl: "/page" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Matthias Bruns
 street_address: Irisweg 81
@@ -15,19 +15,19 @@ phone: +49 171 8310017
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 2
 
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/matthiasbruns
+gitlab_url: https://gitlab.com/u/matthiasbruns
+googleplus_url: 
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/matthiasbruns/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/MTrax
 
 # build settings
 markdown: kramdown

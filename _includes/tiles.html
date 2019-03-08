@@ -1,6 +1,10 @@
+{% assign tiles = 0 %}
+
 <section id="one" class="tiles">
-  {% for post in site.posts limit:site.tiles-count %}
+  {% for post in site.posts %}
+  {% if site.tiles-count > tiles %}
   {% if site.tiles-source == 'posts' %}
+  {% assign tiles = tiles | plus: 1 %}
   <article>
     <span class="image">
       <img src="{{ post.image }}" alt="" />
@@ -11,9 +15,13 @@
     </header>
   </article>
   {% endif %}
+  {% endif %}
   {% endfor %}
-  {% for page in site.pages limit:site.tiles-count %}
+
+  {% for page in site.html_pages %}
+  {% if site.tiles-count > tiles %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
+  {% assign tiles = tiles | plus: 1 %}
   <article>
     <span class="image">
       <img src="{{ page.image }}" alt="" />
@@ -23,6 +31,7 @@
       <p>{{ page.description }}</p>
     </header>
   </article>
+  {% endif %}
   {% endif %}
   {% endfor %}
 </section>
