@@ -4,7 +4,7 @@ subtitle: Android & Flutter Freelancer
 email: info@matthiasbruns.com
 description: Android & Fluttter Freelancer based in Cologne
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: '//matthiasbruns.com' # the base hostname & protocol for your site
 author: Matthias Bruns
 street_address: Irisweg 81
 city: Cologne
