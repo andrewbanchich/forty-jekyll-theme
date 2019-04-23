@@ -1,0 +1,115 @@
+# https://github.com/CircleCI-Public/circleci-demo-workflows/blob/fan-in-fan-out/.circleci/config.yml
+
+version: 2
+jobs:
+  checkout_code:
+    docker:
+      - image: circleci/ruby:2.5.3
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - save_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/repo
+
+  bundle_dependencies:
+    docker:
+      - image: circleci/ruby:2.5.3
+
+    working_directory: ~/repo
+
+    steps:
+      - restore_cache:
+          keys:
+            - v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: install builder
+          command : |
+            gem install bundler
+      - run: bundle install --path vendor/bundle
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - ~/repo/vendor/bundle
+
+  precompile:
+    docker:
+      - image: circleci/ruby:2.5.3
+
+    working_directory: ~/repo
+
+    steps:
+      - restore_cache:
+          keys:
+            - v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install Builder
+          command : |
+            gem install bundler            
+      - run: 
+          name: Link Bundle Path
+          command : |
+            bundle --path vendor/bundle
+      - run:
+          name: Precompile Assets
+          command: bundle exec jekyll build
+      - save_cache:
+          key: v1-assets-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/repo
+
+  deploy:
+    machine: true
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
+      - run: echo ${CIRCLE_BRANCH}
+      - run:
+          name: Deploy build to GitHub Pages
+          command: |
+              git config credential.helper 'cache --timeout=120'
+              git config user.email "circleci@matthiasbruns.com"
+              git config user.name "CircleCI"
+              git commit --allow-empty -m "Page release ${CIRCLE_BUILD_NUM} from ${CIRCLE_BRANCH}"
+              # Push quietly to prevent showing the token in log
+              git push -q https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git ${CIRCLE_BRANCH}:gh-pages
+              git tag -a "release_${CIRCLE_BRANCH}_${CIRCLE_BUILD_NUM}" -m "Release based on build ${CIRCLE_BUILD_NUM}"
+              git push -q --tags https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git
+
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - checkout_code:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - bundle_dependencies:
+          requires:
+            - checkout_code
+      - precompile:
+          requires:
+            - bundle_dependencies
+      - deploy:
+          requires:
+            - precompile
+          filters:
+            branches:
+              only:
+                - master
