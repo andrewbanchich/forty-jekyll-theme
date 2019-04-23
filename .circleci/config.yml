@@ -78,11 +78,6 @@ jobs:
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
-      - run: pwd
-      - run: ls -la
-      - run: cd ~/repo
-      - run: pwd
-      - run: ls -la
       - run:
           name: Deploy build to GitHub Pages
           command: |
