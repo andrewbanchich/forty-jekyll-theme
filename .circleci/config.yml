@@ -91,9 +91,9 @@ workflows:
       - bundle_dependencies:
           requires:
             - checkout_code
-#      - precompile:
-#          requires:
-#            - bundle_dependencies
+      - precompile:
+          requires:
+            - bundle_dependencies
 #      - deploy:
 #        filters:
 #          branches:
