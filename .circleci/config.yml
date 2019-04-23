@@ -77,7 +77,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
-      - run: echo {{ .Environment.CIRCLE_BRANCH }}
+      - run: echo ${CIRCLE_BRANCH}
       - run:
           name: Deploy build to GitHub Pages
           command: |
@@ -86,8 +86,8 @@ jobs:
               git config user.name "CircleCI"
               git commit --allow-empty -m "Release page"
               # Push quietly to prevent showing the token in log
-              git push -q https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git {{ .Environment.CIRCLE_BRANCH }}:gh-pages
-              git tag -a "release_{{ .Environment.CIRCLE_SHA1 }}" -m "Release based on {{ .Environment.CIRCLE_SHA1 }}"
+              git push -q https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git ${CIRCLE_BRANCH}:gh-pages
+              git tag -a "release_${CIRCLE_SHA1}" -m "Release based on ${CIRCLE_SHA1}"
               git push -q --tags https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git
 
 
