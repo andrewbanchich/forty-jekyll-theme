@@ -32,9 +32,11 @@ xing_url: https://www.xing.com/profile/Matthias_Bruns13
 
 # build settings
 markdown: kramdown
+permalink: pretty
 
 sass:
   style: compressed
 
 plugins:
 - jekyll-seo-tag
+- jekyll-sitemap

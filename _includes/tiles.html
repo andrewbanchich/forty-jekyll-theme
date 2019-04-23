@@ -1,27 +1,6 @@
 {% assign tiles = 0 %}
 
 <section id="one" class="tiles">
-  {% for post in site.posts %}
-  {% if site.tiles-count > tiles %}
-  {% if site.tiles-source == 'posts' %}
-  {% assign tiles = tiles | plus: 1 %}
-  <article>
-    <span class="image">
-      <img src="{{ post.image }}" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="{{ post.url  | relative_url }}" class="link" onclick="ga('send', 'event', {
-        'eventCategory': 'Posts',
-        'eventAction': 'view_{{ post.title }}',
-        'eventLabel': '{{ post.title }}'
-      });">{{ post.title }}</a></h3>
-      <p>{{ post.description }}</p>
-    </header>
-  </article>
-  {% endif %}
-  {% endif %}
-  {% endfor %}
-
   {% for page in site.html_pages %}
   {% if site.tiles-count > tiles %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
@@ -40,6 +19,24 @@
     </header>
   </article>
   {% endif %}
+  {% endif %}
+  {% endfor %}
+
+  {% for post in site.posts %}
+  {% if site.tiles-source == 'posts' %}
+  <article>
+    <span class="image">
+      <img src="{{ post.image }}" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ post.url  | relative_url }}" class="link" onclick="ga('send', 'event', {
+        'eventCategory': 'Posts',
+        'eventAction': 'view_{{ post.title }}',
+        'eventLabel': '{{ post.title }}'
+      });">{{ post.title }}</a></h3>
+      <p>{{ post.description }}</p>
+    </header>
+  </article>
   {% endif %}
   {% endfor %}
 </section>

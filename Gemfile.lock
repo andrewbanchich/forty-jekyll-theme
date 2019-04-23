@@ -32,10 +32,14 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-compose (0.11.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
+    jekyll-sitemap (1.3.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -67,7 +71,9 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0.1)
   jekyll (~> 3.8.5)
+  jekyll-compose
   jekyll-seo-tag
+  jekyll-sitemap
   matthiasbruns_freelancer_page!
   wdm (~> 0.1.1)
 
