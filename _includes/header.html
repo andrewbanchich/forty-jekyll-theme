@@ -3,9 +3,11 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{{ "" | absolute_url }}/" class="logo"
+	onclick="ga('send', 'event', 'Navigation', 'click', 'Logo');"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
-		<a href="#menu">Menu</a>
+		<a href="#menu"
+		onclick="ga('send', 'event', 'Navigation', 'toggle', 'Menu');">Menu</a>
 	</nav>
 </header>
 
@@ -14,16 +16,19 @@
 	<ul class="links">
         {% for page in site.pages %}
 		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+				<li><a href="{{ "" | absolute_url }}/"
+					onclick="ga('send', 'event', 'Navigation', 'click', '{{ page.title }}');">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.pages %}
 		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+				<li><a href="{{ page.url | absolute_url }}"
+					onclick="ga('send', 'event', 'Navigation', 'click', '{{ page.title }}');">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="{{ "assets/pdf/Matthias_Bruns.pdf" }}" target="_blank" class="button special fit">Download Resume</a></li>
+		<li><a href="{{ "assets/pdf/Matthias_Bruns.pdf" }}" target="_blank" class="button special fit"
+			onclick="ga('send', 'event', 'Download', 'download', 'Download Resume');">Download Resume</a></li>
 	</ul>
 </nav>
