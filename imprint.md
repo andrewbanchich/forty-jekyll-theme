@@ -18,10 +18,10 @@ image: assets/images/startup-photos.jpg
 
 <!-- Content -->
 Information in accordance with Section 5 TMG
-<br><br>Matthias Bruns<br>Irisweg 81<br>51143 Köln<br>
+<br><br>{{site.author}}<br>{{site.street_address}}<br>{{site.zip_code}} {{site.city}}<br>
 <br>
 <h2>Contact Information</h2>
-Telephone: +49 171 8310017<br>E-Mail: <a href="mailto:info@matthiasbruns.com">info@matthiasbruns.com</a><br>Internet address: <a href="https://www.matthiasbruns.com" target="_blank">https://www.matthiasbruns.com</a><br>
+Telephone: {{site.phone}}<br>E-Mail: <a href="mailto:{{site.email}}">{{site.email}}</a><br>Internet address: <a href="https://www.matthiasbruns.com" target="_blank">https://www.matthiasbruns.com</a><br>
 <br>
 <h2>VAT number</h2>
 
