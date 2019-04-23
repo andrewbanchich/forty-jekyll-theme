@@ -98,7 +98,7 @@ workflows:
       - checkout_code:
           filters:
             branches:
-              not:
+              ignore:
                 - gh-pages
       - bundle_dependencies:
           requires:
