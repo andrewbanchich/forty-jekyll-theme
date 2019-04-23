@@ -86,7 +86,7 @@ jobs:
               git config user.name "CircleCI"
               git commit --allow-empty -m "Release page"
               # Push quietly to prevent showing the token in log
-              git push -q https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git gh-pages
+              git push -q https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git {{ .Environment.CIRCLE_BRANCH }}:gh-pages
 
 
 workflows:
