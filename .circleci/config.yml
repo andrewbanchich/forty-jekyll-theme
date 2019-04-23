@@ -65,7 +65,7 @@ jobs:
       - save_cache:
           key: v1-assets-{{ .Environment.CIRCLE_SHA1 }}
           paths:
-            - ~/repo/public/assets
+            - ~/repo
 
   deploy:
     machine:
@@ -79,7 +79,7 @@ jobs:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
       - run: pwd
       - run: ls -la
-      - run: cd ~/repo/public/assets
+      - run: cd ~/repo
       - run: pwd
       - run: ls -la
       - run:
