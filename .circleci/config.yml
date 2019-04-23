@@ -78,6 +78,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
+      - run: git branch -l
       - run:
           name: Deploy build to GitHub Pages
           command: |
