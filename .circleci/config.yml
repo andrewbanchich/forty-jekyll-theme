@@ -28,6 +28,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: install builder
+          command : |
+            gem install bundler
       - run: bundle install --path vendor/bundle
       - save_cache:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
@@ -48,10 +52,6 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
-      - run:
-          name: install builder
-          command : |
-            gem install bundler
       - run:
           name: Precompile assets
           command: bundle exec jekyll build
