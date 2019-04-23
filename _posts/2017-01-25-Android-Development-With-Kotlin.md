@@ -3,6 +3,7 @@ layout: post
 title: Dancing with Kotlin
 description: Develop Android application with kotlin
 image: assets/images/pic12.jpg
+typora-root-url: ../
 ---
 
 

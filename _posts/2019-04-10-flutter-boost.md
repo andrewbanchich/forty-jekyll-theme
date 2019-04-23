@@ -1,4 +1,3 @@
-# flutter_boost 集成体验之Android
 ---
 layout: post
 title: flutter_boost 集成体验之Android
@@ -28,7 +27,7 @@ description: flutter_boost 集成体验之Android
 	A problem occurred evaluating project ':flutter_boost'.
 	> Plugin with id 'kotlin-android-extensions' not found.
 
-	``` 
+	```
 	不难发现是因为没有 `kotlin` 依赖导致, 下面我们就来修复这个问题
 
 4. 在项目根目录下执行，`flutter make-host-app-editable` 
@@ -58,7 +57,7 @@ description: flutter_boost 集成体验之Android
 ## Android 端
 
 1. 使用Android Studio新建一个工程
-   
+  
    如果你有现成的项目，可以跳过这一步
 
 2. 在 App module 中添加kotlin支持，并在 `settings.gradle` 中添加如下代码

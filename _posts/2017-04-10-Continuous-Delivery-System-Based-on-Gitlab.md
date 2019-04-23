@@ -3,6 +3,7 @@ layout: post
 title: Continuous Delivery System Based on Gitlab
 description: How to setup a Continuous delivery system
 image: assets/images/pic-ci.png
+typora-root-url: ../
 ---
 ## [Setup Gitlab](https://docs.gitlab.com/omnibus/docker/README.html)
 **Run the following command to install gitlab on your machine.**
@@ -51,7 +52,7 @@ Click the icon, you will see a `stuk` tag on your commit. That means you have to
 ![Gitlab project runner setup](/assets/images/pic-gitlab-project-ruuner-setup.png)
 
 1. Install setup runner on your local machine
-    
+  
     ``` shell
     brew install gitlab-ci-multi-runner
     ```

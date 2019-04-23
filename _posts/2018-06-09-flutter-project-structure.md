@@ -2,6 +2,7 @@
 layout: post
 title: Flutter 项目结构介绍
 description: 说明项目的目录结构以及主要文件内容
+typora-root-url: ../
 ---
 # Flutter 项目结构介绍
 ## 主要目录以及文件

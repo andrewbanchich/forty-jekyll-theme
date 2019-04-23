@@ -2,6 +2,7 @@
 layout: post
 title: Flutter widgets framework 介绍
 description: 简单介绍Flutter widgets framework，了解 Flutter 如何通过组装widgets 来实现复杂 UI 的
+typora-root-url: ../
 ---
 
 ## 介绍

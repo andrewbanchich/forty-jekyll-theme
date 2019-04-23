@@ -2,6 +2,7 @@
 layout: post
 title: Flutter 插件开发 -- Android篇
 description: 以二维码扫描为例介绍插件开发
+Typora-root-url: ../
 ---
 目前 flutter 的功能还么有很完善，很多常用的三方库在 flutter 中没有类似的实现。如何在 flutter 中使用已经存在的 native 库呢？本文以二维码扫描为例，介绍 flutter 插件开发。
 ## 新建 Plugin 工程
