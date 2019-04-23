@@ -52,12 +52,15 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run:
-          name: install builder
+          name: Install Builder
           command : |
             gem install bundler            
-      - run: bundle --path vendor/bundle
+      - run: 
+          name: Link Bundle Path
+          command : |
+            bundle --path vendor/bundle
       - run:
-          name: Precompile assets
+          name: Precompile Assets
           command: bundle exec jekyll build
       - save_cache:
           key: v1-assets-{{ .Environment.CIRCLE_SHA1 }}
@@ -74,6 +77,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
+      - run: ls -la
       - run:
           name: Deploy build to GitHub Pages
           command: |
