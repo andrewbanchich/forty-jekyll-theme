@@ -84,7 +84,7 @@ jobs:
       - run:
           name: Deploy build to GitHub Pages
           command: |
-            git push git@github.com:matthiasbruns/website.git gh-pages
+            git push origin master:gh-pages
 
 
 workflows:
