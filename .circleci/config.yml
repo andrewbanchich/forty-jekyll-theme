@@ -96,10 +96,10 @@ workflows:
   build-and-deploy:
     jobs:
       - checkout_code:
-        filters:
-          branches:
-            not:
-              - gh-pages
+          filters:
+            branches:
+              not:
+                - gh-pages
       - bundle_dependencies:
           requires:
             - checkout_code
