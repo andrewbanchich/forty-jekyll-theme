@@ -2,7 +2,6 @@
 
 version: 2
 jobs:
-
   checkout_code:
     docker:
       - image: circleci/ruby:2.5.3
@@ -89,15 +88,15 @@ workflows:
   build-and-deploy:
     jobs:
       - checkout_code
-      - bundle_dependencies:
-          requires:
-            - checkout_code
-      - precompile:
-          requires:
-            - bundle_dependencies
-      - deploy:
-        filters:
-          branches:
-            only: master
-        requires:
-          - precompile
+#      - bundle_dependencies:
+#          requires:
+#            - checkout_code
+#      - precompile:
+#          requires:
+#            - bundle_dependencies
+#      - deploy:
+#        filters:
+#          branches:
+#            only: master
+#        requires:
+#          - precompile
