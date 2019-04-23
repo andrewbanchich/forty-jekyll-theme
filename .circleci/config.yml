@@ -88,9 +88,9 @@ workflows:
   build-and-deploy:
     jobs:
       - checkout_code
-#      - bundle_dependencies:
-#          requires:
-#            - checkout_code
+      - bundle_dependencies:
+          requires:
+            - checkout_code
 #      - precompile:
 #          requires:
 #            - bundle_dependencies
