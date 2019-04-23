@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Imprint
-nav-menu: true
+nav-menu: false
 show_tile: false
 image: assets/images/startup-photos.jpg
 ---

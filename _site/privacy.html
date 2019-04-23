@@ -15,92 +15,91 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
 
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49987497-1"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-	gtag('config', 'UA-49987497-1');
+		ga('create', 'UA-49987497-1', 'auto');
+		ga('send', 'pageview');
 	</script>
+	<!-- End Google Analytics -->
 </head>
-
 
 <body>
 
     <!-- Wrapper -->
 <div id="wrapper">
 
-<!-- Header -->
-<header id="header">
-	<a href="//matthiasbruns.com/" class="logo"
-	onclick="ga('send', 'event', 'Navigation', 'click', 'Logo');"><strong>Matthias Bruns</strong> <span>Android & Flutter Freelancer</span></a>
-	<nav>
-		<a href="#menu"
-		onclick="ga('send', 'event', 'Navigation', 'toggle', 'Menu');">Menu</a>
-	</nav>
-</header>
+	<!-- Header -->
+	<header id="header" >
+		<a href="//matthiasbruns.com/" class="logo"
+			onclick="ga('send', 'event', 'Navigation', 'click_logo', 'Logo');"><strong>Matthias Bruns</strong>
+			<span>Android & Flutter Freelancer</span></a>
+		<nav>
+			<a href="#menu" onclick="ga('send', 'event', 'Navigation', 'toggle', 'Menu');">Menu</a>
+		</nav>
+	</header>
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        
-		    
-		
-		    
-		
-		    
-		
-		    
-				<li><a href="//matthiasbruns.com/"
-					onclick="ga('send', 'event', 'Navigation', 'click', 'Home');">Home</a></li>
-	    	
-		
-		    
-		
-		    
-		
-		    
-		
-		    
-		
-		
-		    
-		
-		    
-		
-		    
-				<li><a href="//matthiasbruns.com/imprint.html"
-					onclick="ga('send', 'event', 'Navigation', 'click', 'Imprint');">Imprint</a></li>
-		    
-		
-		    
-		
-		    
-		
-		    
-				<li><a href="//matthiasbruns.com/privacy.html"
-					onclick="ga('send', 'event', 'Navigation', 'click', 'Imprint');">Imprint</a></li>
-		    
-		
-		    
-				<li><a href="//matthiasbruns.com/projects.html"
-					onclick="ga('send', 'event', 'Navigation', 'click', 'Projects');">Projects</a></li>
-		    
-		
-		    
-				<li><a href="//matthiasbruns.com/services.html"
-					onclick="ga('send', 'event', 'Navigation', 'click', 'Services');">Services</a></li>
-		    
-		
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="assets/pdf/Matthias_Bruns.pdf" target="_blank" class="button special fit"
-			onclick="ga('send', 'event', 'Download', 'download', 'Download Resume');">Download Resume</a></li>
-	</ul>
-</nav>
- <!-- Main -->
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			
+			
+			
+			
+			
+			
+			
+			
+			<li><a href="//matthiasbruns.com/"
+					onclick="ga('send', 'event', 'Navigation', 'view_Home', 'Home');">Home</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<li><a href="//matthiasbruns.com/projects.html"
+					onclick="ga('send', 'event', 'Navigation', 'view_Projects', 'Projects');">Projects</a>
+			</li>
+			
+			
+			
+			<li><a href="//matthiasbruns.com/services.html"
+					onclick="ga('send', 'event', 'Navigation', 'view_Services', 'Services');">Services</a>
+			</li>
+			
+			
+		</ul>
+		<ul class="actions vertical">
+			<li><a href="assets/pdf/Matthias_Bruns.pdf" target="_blank" class="button special fit"
+					onclick="ga('send', 'event', 'Download', 'download_Resume', 'Download Resume');">Download Resume</a></li>
+		</ul>
+	</nav> <!-- Main -->
 <div id="main" class="alt">
 
 <!-- Mobile -->
@@ -181,8 +180,10 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" onclick="ga('send', 'event', 'Contact', 'submit', 'Send Message');"/></li>
-					<li><input type="reset" value="Clear" onclick="ga('send', 'event', 'Contact', 'reset', 'Clear');"/></li>
+					<li><input type="submit" value="Send Message" class="special"
+							onclick="ga('send', 'event', 'Contact', 'submit', 'Send Message');" /></li>
+					<li><input type="reset" value="Clear" onclick="ga('send', 'event', 'Contact', 'reset', 'Clear');" />
+					</li>
 				</ul>
 			</form>
 		</section>
@@ -191,7 +192,8 @@
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="mailto://info@matthiasbruns.com" onclick="ga('send', 'event', 'Email', 'click', 'info@matthiasbruns.com');">info@matthiasbruns.com</a>
+					<a href="mailto://info@matthiasbruns.com"
+						onclick="ga('send', 'event', 'Email', 'click', 'info@matthiasbruns.com');">info@matthiasbruns.com</a>
 				</div>
 			</section>
 			<section>
@@ -206,21 +208,21 @@
 					<span class="icon alt fa-home"></span>
 					<h3>Address</h3>
 					<span>
-					
-					    Irisweg 81<br />
-					
-					
-					    Cologne,
-					
-					
-					    NRW 
-					
-					
-					    51143<br />
-					
-					
-					    Germany
-					
+						
+						Irisweg 81<br />
+						
+						
+						Cologne,
+						
+						
+						NRW
+						
+						
+						51143<br />
+						
+						
+						Germany
+						
 					</span>
 				</div>
 			</section>
@@ -229,57 +231,76 @@
 </section>
 
 <!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				
-				<li><a href="https://twitter.com/MTrax" class="icon alt fa-twitter" target="_blank"><span class="label"
-					onclick="ga('send', 'event', 'Social Icons', 'click', 'Twitter');">Twitter</span></a></li>
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://gitlab.com/u/matthiasbruns" class="icon alt fa-gitlab" target="_blank"
-					onclick="ga('send', 'event', 'Social Icons', 'click', 'GitLab');"><span class="label">GitLab</span></a></li>
-				
-				
-				<li><a href="https://github.com/matthiasbruns" class="icon alt fa-github" target="_blank"
-					onclick="ga('send', 'event', 'Social Icons', 'click', 'GitHub');"><span class="label">GitHub</span></a></li>
-				
-				
-				
-				<li><a href="https://www.linkedin.com/in/matthiasbruns/" class="icon alt fa-linkedin" target="_blank"
-					onclick="ga('send', 'event', 'Social Icons', 'click', 'LinkedIn');"><span class="label">LinkedIn</span></a></li>
-				
-				
-				<li><a href="https://www.xing.com/profile/Matthias_Bruns13" class="icon alt fa-xing" target="_blank"
-					onclick="ga('send', 'event', 'Social Icons', 'click', 'Xing');"><span class="label">Xing</span></a></li>
-				
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Matthias Bruns Android & Flutter Freelancer</li>
-				<!--<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>-->
-				<!--<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>-->
-				<li><a href="imprint.html">Imprint</a></li>
-				<li><a href="privacy.html">Privacy</a></li>
-			</ul>
-		</div>
-	</footer>
+<footer id="footer">
+	<div class="inner">
+		<ul class="icons">
+			
+			<li><a href="https://twitter.com/MTrax" class="icon alt fa-twitter" target="_blank"><span class="label"
+						onclick="ga('send', 'event', 'Social Icons', 'open_twitter', 'Twitter');">Twitter</span></a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			<li><a href="https://gitlab.com/u/matthiasbruns" class="icon alt fa-gitlab" target="_blank" onclick="ga('send', 'event', {
+						'eventCategory': 'Social Icons',
+  						'eventAction': 'open_gitlab',
+						'eventLabel': 'GitLab'
+					});"><span class="label">GitLab</span></a></li>
+			
+			
+			<li><a href="https://github.com/matthiasbruns" class="icon alt fa-github" target="_blank" onclick="ga('send', 'event', {
+						'eventCategory': 'Social Icons',
+  						'eventAction': 'open_github',
+						'eventLabel': 'GitHub'
+					});"><span class="label">GitHub</span></a></li>
+			
+			
+			
+			<li><a href="https://www.linkedin.com/in/matthiasbruns/" class="icon alt fa-linkedin" target="_blank" onclick="ga('send', 'event', {
+						'eventCategory': 'Social Icons',
+  						'eventAction': 'open_linkedin',
+						'eventLabel': 'LinkedIn'
+					});"><span class="label">LinkedIn</span></a></li>
+			
+			
+			<li><a href="https://www.xing.com/profile/Matthias_Bruns13" class="icon alt fa-xing" target="_blank"
+					onclick="ga('send', 'event', 'Social Icons', 'open_xing', 'Xing');"><span
+						class="label">Xing</span></a>
+			</li>
+			
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Matthias Bruns Android & Flutter Freelancer</li>
+			<!--<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>-->
+			<!--<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>-->
+			<li><a href="imprint.html" onclick="ga('send', 'event', {
+				'eventCategory': 'Footer',
+				'eventAction': 'view_Imprint',
+				'eventLabel': 'Imprint'
+			});">Imprint</a></li>
+			<li><a href="privacy.html" onclick="ga('send', 'event', {
+				'eventCategory': 'Footer',
+				'eventAction': 'view_Privacy',
+				'eventLabel': 'Privacy'
+			});">Privacy</a></li>
+		</ul>
+	</div>
+</footer>
 
 </div>
 
 <!-- Scripts -->
-	<script src="//matthiasbruns.com/assets/js/jquery.min.js"></script>
-	<script src="//matthiasbruns.com/assets/js/jquery.scrolly.min.js"></script>
-	<script src="//matthiasbruns.com/assets/js/jquery.scrollex.min.js"></script>
-	<script src="//matthiasbruns.com/assets/js/skel.min.js"></script>
-	<script src="//matthiasbruns.com/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="//matthiasbruns.com/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="//matthiasbruns.com/assets/js/main.js"></script>
-
+<script src="//matthiasbruns.com/assets/js/jquery.min.js"></script>
+<script src="//matthiasbruns.com/assets/js/jquery.scrolly.min.js"></script>
+<script src="//matthiasbruns.com/assets/js/jquery.scrollex.min.js"></script>
+<script src="//matthiasbruns.com/assets/js/skel.min.js"></script>
+<script src="//matthiasbruns.com/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="//matthiasbruns.com/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="//matthiasbruns.com/assets/js/main.js"></script>
 
 </body>
 

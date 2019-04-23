@@ -1,34 +1,38 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-<!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"
-	onclick="ga('send', 'event', 'Navigation', 'click', 'Logo');"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu"
-		onclick="ga('send', 'event', 'Navigation', 'toggle', 'Menu');">Menu</a>
-	</nav>
-</header>
+	<!-- Header -->
+	<header id="header" {% if page.layout == "landing" %} class="alt style2" {% endif %}{% if page.layout == "home" %}
+		class="alt" {% endif %}>
+		<a href="{{ "" | absolute_url }}/" class="logo"
+			onclick="ga('send', 'event', 'Navigation', 'click_logo', 'Logo');"><strong>{{ site.title }}</strong>
+			<span>{{ site.subtitle }}</span></a>
+		<nav>
+			<a href="#menu" onclick="ga('send', 'event', 'Navigation', 'toggle', 'Menu');">Menu</a>
+		</nav>
+	</header>
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-				<li><a href="{{ "" | absolute_url }}/"
-					onclick="ga('send', 'event', 'Navigation', 'click', '{{ page.title }}');">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-				<li><a href="{{ page.url | absolute_url }}"
-					onclick="ga('send', 'event', 'Navigation', 'click', '{{ page.title }}');">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="{{ "assets/pdf/Matthias_Bruns.pdf" }}" target="_blank" class="button special fit"
-			onclick="ga('send', 'event', 'Download', 'download', 'Download Resume');">Download Resume</a></li>
-	</ul>
-</nav>
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			{% for page in site.pages %}
+			{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/"
+					onclick="ga('send', 'event', 'Navigation', 'view_{{ page.title }}', '{{ page.title }}');">{{ page.title }}</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+
+			{% for page in site.pages %}
+			{% if page.layout != "home" and page.nav-menu == true %}
+			<li><a href="{{ page.url | absolute_url }}"
+					onclick="ga('send', 'event', 'Navigation', 'view_{{ page.title }}', '{{ page.title }}');">{{ page.title }}</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		<ul class="actions vertical">
+			<li><a href="{{ "assets/pdf/Matthias_Bruns.pdf" }}" target="_blank" class="button special fit"
+					onclick="ga('send', 'event', 'Download', 'download_Resume', 'Download Resume');">Download Resume</a></li>
+		</ul>
+	</nav>
