@@ -73,18 +73,11 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
-      - restore_cache:
-          keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
-      - checkout
       - run:
           name: Deploy build to GitHub Pages
           command: |
-            git push origin master:gh-pages
+            git push origin gh-pages
 
 
 workflows:
