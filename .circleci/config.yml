@@ -95,7 +95,11 @@ workflows:
   version: 2
   build-and-deploy:
     jobs:
-      - checkout_code
+      - checkout_code:
+        filters:
+          branches:
+            not:
+              - gh-pages
       - bundle_dependencies:
           requires:
             - checkout_code
