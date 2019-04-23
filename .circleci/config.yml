@@ -98,9 +98,6 @@ workflows:
       - precompile:
           requires:
             - bundle_dependencies
-#      - deploy:
-#        filters:
-#          branches:
-#            only: master
-#        requires:
-#          - precompile
+      - deploy:
+          requires:
+            - precompile
