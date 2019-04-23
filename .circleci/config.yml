@@ -74,6 +74,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - checkout
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
