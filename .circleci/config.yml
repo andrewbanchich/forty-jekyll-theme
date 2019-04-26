@@ -82,8 +82,8 @@ jobs:
           name: Deploy build to GitHub Pages
           command: |
               git config credential.helper 'cache --timeout=120'
-              git config user.email "circleci@matthiasbruns.com"
-              git config user.name "CircleCI"
+              git config user.email "${GITHUB_EMAIL}"
+              git config user.name "${GITHUB_USERNAME}"
               git commit --allow-empty -m "Page release ${CIRCLE_BUILD_NUM} from ${CIRCLE_BRANCH}"
               # Push quietly to prevent showing the token in log
               git push -q --force https://${GITHUB_TOKEN}@github.com/matthiasbruns/website.git ${CIRCLE_BRANCH}:gh-pages
