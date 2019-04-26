@@ -73,11 +73,9 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - checkout
       - restore_cache:
           keys:
             - v1-assets-{{ .Environment.CIRCLE_SHA1 }}
-      - run: echo ${CIRCLE_BRANCH}
       - run:
           name: Deploy build to GitHub Pages
           command: |
