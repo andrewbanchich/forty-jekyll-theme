@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>
+
+        IT侠突然复制了一份Markdown手册
+
+    </title>
+    <link rel="icon" type="image/x-icon" href="https://guides.github.com/favicon.ico">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="manual_files/gridism.css">
+    <link rel="stylesheet" href="manual_files/markdown.css">
+    <link rel="stylesheet" href="manual_files/octicons.css">
+    <link href="manual_files/main.css" rel="stylesheet">
+    <link href="manual_files/pygments.css" rel="stylesheet">
+
+    <script type="text/javascript" async="" src="manual_files/ga.js"></script>
+    <script src="manual_files/jquery.js" type="text/javascript"></script>
+    <script src="manual_files/snap.js" type="text/javascript"></script>
+    <script src="manual_files/application.js" type="text/javascript"></script>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.common.dev.js"></script>
+    <script src="https://cdn.bootcss.com/marked/0.6.1/marked.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="wrap">
+        某年高考日，IT侠突发奇想从Github复制了一份Markdown手册，用作IT侠Markdown格式规范。<br/>
+        原文请到<a target="_blank" href="https://guides.github.com/features/mastering-markdown/">这里</a>，
+        广告链接请到<a target="_blank" href="https://itxia.club/">这里</a>。<br/>所有的文字介绍归功于<a target="_blank"
+                                                                                     href="https://translate.google.cn/">谷歌翻译</a>，如果有误请不要联系小编。
+        <ul class="links">
+        </ul>
+    </div>
+</header>
+
+<article class="full">
+    <div class="article-heading js-article-heading js-geopattern"
+         style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDMiIGhlaWdodD0iMjAzIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJyZ2IoNDMsIDEzNywgNTYpIiAgLz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjE0MTMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwtMzMuOTQ4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjE0MTMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTY5LjczOTk5OTk5OTk5OTk4LC0zMy45NDgpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMTQxMzMzMzMzMzMzMzMzMzQ7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzMuOTQ4LDE2OS43NCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4xNDEzMzMzMzMzMzMzMzMzNDsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2OS43Mzk5OTk5OTk5OTk5OCwxNjkuNzQpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDg5MzMzMzMzMzMzMzMzMzM7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAsLTE2Ljk3NCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wODkzMzMzMzMzMzMzMzMzMzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMCwxODYuNzE0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjEzMjY2NjY2NjY2NjY2NjY1OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMuOTQ4LC0zMy45NDgpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMTMyNjY2NjY2NjY2NjY2NjU7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMy45NDgsMTY5Ljc0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjE1OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjcuODk1OTk5OTk5OTk5OTksLTE2Ljk3NCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4xNTsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY3Ljg5NTk5OTk5OTk5OTk5LDE4Ni43MTQpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMDk4OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAxLjg0NCwtMzMuOTQ4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA5ODsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMS44NDQsMTY5Ljc0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA3MjAwMDAwMDAwMDAwMDAxOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM1Ljc5MiwtMTYuOTc0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA3MjAwMDAwMDAwMDAwMDAxOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM1Ljc5MiwxODYuNzE0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA3MjAwMDAwMDAwMDAwMDAxOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwwLjApIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDcyMDAwMDAwMDAwMDAwMDE7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjkuNzM5OTk5OTk5OTk5OTgsMC4wKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA4MDY2NjY2NjY2NjY2NjY2OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wLDE2Ljk3Mzk5OTk5OTk5OTk5Nykgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wNzIwMDAwMDAwMDAwMDAwMTsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzLjk0OCwwLjApIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMDgwNjY2NjY2NjY2NjY2NjY7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2Ny44OTU5OTk5OTk5OTk5OSwxNi45NzM5OTk5OTk5OTk5OTcpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMTU7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDEuODQ0LDAuMCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4xMTUzMzMzMzMzMzMzMzMzNDsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzNS43OTIsMTYuOTczOTk5OTk5OTk5OTk3KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjEzMjY2NjY2NjY2NjY2NjY1OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwzMy45NDc5OTk5OTk5OTk5OSkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4xMzI2NjY2NjY2NjY2NjY2NTsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2OS43Mzk5OTk5OTk5OTk5OCwzMy45NDc5OTk5OTk5OTk5OSkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4wNDY7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAsNTAuOTIyKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjEwNjY2NjY2NjY2NjY2NjY3OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMuOTQ4LDMzLjk0Nzk5OTk5OTk5OTk5KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA0NjsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY3Ljg5NTk5OTk5OTk5OTk5LDUwLjkyMikgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wODkzMzMzMzMzMzMzMzMzMzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMS44NDQsMzMuOTQ3OTk5OTk5OTk5OTkpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMDQ2OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM1Ljc5Miw1MC45MjIpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMTI0MDAwMDAwMDAwMDAwMDE7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzMuOTQ4LDY3Ljg5NTk5OTk5OTk5OTk5KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjEyNDAwMDAwMDAwMDAwMDAxOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTY5LjczOTk5OTk5OTk5OTk4LDY3Ljg5NTk5OTk5OTk5OTk5KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA2MzMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wLDg0Ljg2OTk5OTk5OTk5OTk4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA0NjsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzLjk0OCw2Ny44OTU5OTk5OTk5OTk5OSkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wMzczMzMzMzMzMzMzMzMzMzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY3Ljg5NTk5OTk5OTk5OTk5LDg0Ljg2OTk5OTk5OTk5OTk4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjAyODY2NjY2NjY2NjY2NjY2NzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMS44NDQsNjcuODk1OTk5OTk5OTk5OTkpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDcyMDAwMDAwMDAwMDAwMDE7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzUuNzkyLDg0Ljg2OTk5OTk5OTk5OTk4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA4MDY2NjY2NjY2NjY2NjY2OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwxMDEuODQ0KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA4MDY2NjY2NjY2NjY2NjY2OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTY5LjczOTk5OTk5OTk5OTk4LDEwMS44NDQpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMDk4OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wLDExOC44MTc5OTk5OTk5OTk5OCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4wOTg7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMy45NDgsMTAxLjg0NCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4xMTUzMzMzMzMzMzMzMzMzNDsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY3Ljg5NTk5OTk5OTk5OTk5LDExOC44MTc5OTk5OTk5OTk5OCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4xNDEzMzMzMzMzMzMzMzMzNDsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMS44NDQsMTAxLjg0NCkgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iIzIyMiIgc3R5bGU9Im9wYWNpdHk6MC4xMTUzMzMzMzMzMzMzMzMzNDsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzNS43OTIsMTE4LjgxNzk5OTk5OTk5OTk4KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA1NDY2NjY2NjY2NjY2NjY3OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwxMzUuNzkyMDAwMDAwMDAwMDMpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDU0NjY2NjY2NjY2NjY2Njc7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjkuNzM5OTk5OTk5OTk5OTgsMTM1Ljc5MjAwMDAwMDAwMDAzKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA1NDY2NjY2NjY2NjY2NjY3OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzLjk0OCwtNjcuODk1OTk5OTk5OTk5OTYpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiMyMjIiIHN0eWxlPSJvcGFjaXR5OjAuMTE1MzMzMzMzMzMzMzMzMzQ7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAsMTUyLjc2NjAwMDAwMDAwMDAyKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjExNTMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wLC01MC45MjE5OTk5OTk5OTk5Nykgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wNTQ2NjY2NjY2NjY2NjY2NzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzLjk0OCwxMzUuNzkyMDAwMDAwMDAwMDMpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDU0NjY2NjY2NjY2NjY2Njc7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMy45NDgsLTY3Ljg5NTk5OTk5OTk5OTk2KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA2MzMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjcuODk1OTk5OTk5OTk5OTksMTUyLjc2NjAwMDAwMDAwMDAyKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjMjIyIiBzdHlsZT0ib3BhY2l0eTowLjA2MzMzMzMzMzMzMzMzMzM0OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjcuODk1OTk5OTk5OTk5OTksLTUwLjkyMTk5OTk5OTk5OTk3KSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA3MjAwMDAwMDAwMDAwMDAxOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAxLjg0NCwxMzUuNzkyMDAwMDAwMDAwMDMpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjxnIGZpbGw9IiNkZGQiIHN0eWxlPSJvcGFjaXR5OjAuMDcyMDAwMDAwMDAwMDAwMDE7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDEuODQ0LC02Ny44OTU5OTk5OTk5OTk5Nikgcm90YXRlKDQ1LCAzMy45NDgsIDMzLjk0OCkiID48cmVjdCB4PSIyNC4wIiB5PSIwIiB3aWR0aD0iMjQuMCIgaGVpZ2h0PSI3Mi4wIiAgLz48cmVjdCB4PSIwIiB5PSIyNC4wIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyNC4wIiAgLz48L2c+PGcgZmlsbD0iI2RkZCIgc3R5bGU9Im9wYWNpdHk6MC4wNTQ2NjY2NjY2NjY2NjY2NzsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzNS43OTIsMTUyLjc2NjAwMDAwMDAwMDAyKSByb3RhdGUoNDUsIDMzLjk0OCwgMzMuOTQ4KSIgPjxyZWN0IHg9IjI0LjAiIHk9IjAiIHdpZHRoPSIyNC4wIiBoZWlnaHQ9IjcyLjAiICAvPjxyZWN0IHg9IjAiIHk9IjI0LjAiIHdpZHRoPSI3Mi4wIiBoZWlnaHQ9IjI0LjAiICAvPjwvZz48ZyBmaWxsPSIjZGRkIiBzdHlsZT0ib3BhY2l0eTowLjA1NDY2NjY2NjY2NjY2NjY3OyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM1Ljc5MiwtNTAuOTIxOTk5OTk5OTk5OTcpIHJvdGF0ZSg0NSwgMzMuOTQ4LCAzMy45NDgpIiA+PHJlY3QgeD0iMjQuMCIgeT0iMCIgd2lkdGg9IjI0LjAiIGhlaWdodD0iNzIuMCIgIC8+PHJlY3QgeD0iMCIgeT0iMjQuMCIgd2lkdGg9IjcyLjAiIGhlaWdodD0iMjQuMCIgIC8+PC9nPjwvc3ZnPg==);">
+        <div class="wrap">
+            <h1>掌握 Markdown</h1>
+            <span class="article-read-time article-meta">
+                挤需阅读三番钟
+            </span>
+            <span id="timer" class="article-read-time article-meta">
+                {{ remain }}
+            </span>
+        </div>
+    </div>
+
+
+    <div class="wrap">
+
+        <div class="toc-wrapper">
+            <ol class="toc js-toc" id="sideToc">
+                <li><a href="#intro" class="active">介绍</a></li>
+                <li><a href="#what" class="">例行概念解析</a></li>
+                <li><a href="#examples" class="">举个栗子</a></li>
+                <li><a href="#syntax" class="">基本语法</a></li>
+                <li><a href="#GitHub-flavored-markdown" class="">Github特色</a></li>
+                <li><a href="#play" class="">在线工具</a></li>
+            </ol>
+        </div>
+
+
+        <div class="markdown-body content-body ">
+            <p><a id="intro" title="Intro" class="toc-item"></a>
+                Markdown是一个轻量易用的语法，用于给Github平台上各种形式的写作提供样式。</p>
+
+            <p><strong>你可以从这里获得如下的东西：</strong></p>
+
+            <ul>
+                <li>Markdown格式如何使样式化协作编辑变得容易</li>
+                <li>Markdown与传统格式化方法的区别</li>
+                <li>如何使用Markdown格式化文本</li>
+                <li>IT侠推荐的工具和使用规范</li>
+                <li>如何利用GitHub的自动Markdown渲染</li>
+                <li>如何运用GitHub独特的Markdown扩展</li>
+            </ul>
+
+            <p><a id="what" title="What is Markdown?" class="toc-item"></a></p>
+
+            <h2>什么是 Markdown?</h2>
+
+            <p><a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+                是一种在网页上样式化文本的方式。你可以控制文本的显示样式，常见的功能如对字词进行加粗或者变斜，添加图片或者列表。
+                绝大部分情况下，Markdown除了少部分控制字符之外都是常规的文本。特殊字符举例如<code class="highlighter-rouge">#</code>或者<code
+                        class="highlighter-rouge">*</code>等，各有各的功能。</p>
+
+            <p>你可以在Github的很多地方使用Markdown:</p>
+
+            <ul>
+                <li><a href="https://gist.github.com/">Gists</a>（雨我们无瓜）</li>
+                <li>Comments in Issues 以及 Pull Requests（同样无瓜）</li>
+                <li>以 <code class="highlighter-rouge">.md</code> 或 <code class="highlighter-rouge">.markdown</code>
+                    结尾的文件
+                </li>
+            </ul>
+
+            <p>更多信息见<em>GitHub Help</em> 中的 “<a href="https://help.github.com/categories/writing-on-github/">Writing on
+                GitHub</a>”。</p>
+
+            <p><a id="examples" title="Examples" class="toc-item"></a></p>
+
+            <h2>语法举例</h2>
+
+            <ul class="example-nav js-examples-nav">
+                <li><a href="#" class="selected" data-container-id="example-text" data-proofer-ignore="">文本</a></li>
+                <li><a href="#" data-container-id="example-lists" data-proofer-ignore="">列表</a></li>
+                <li><a href="#" data-container-id="example-images" data-proofer-ignore="">图片</a></li>
+                <li><a href="#" data-container-id="example-headers" data-proofer-ignore="">标题 &amp; 引言</a></li>
+                <li><a href="#" data-container-id="example-code" data-proofer-ignore="">代码</a></li>
+                <li><a href="#" data-container-id="example-extras" data-proofer-ignore="">额外功能</a></li>
+            </ul>
+
+            <div class="markdown-example" id="example-text">
+<pre class="source">这个是 **加粗** 然后这个是 *斜体* 。 你想弄一个 <span
+        style="white-space:nowrap">[到Google的链接](http://google.com)</span> 也可以，虽然你进不去。
+</pre>
+                <div class="rendered">
+                    这个是 <strong>加粗</strong> 然后这个是 <em>斜体</em> 。 你想弄一个
+                    <a href="http://google.com/">到Google的链接</a> 也可以，虽然你进不去。
+                </div>
+            </div>
+
+            <div class="markdown-example" id="example-lists" style="display:none">
+<pre class="source">有序列表:
+
+1. 打上数字
+2. 加个.
+3. 再加一个空格
+
+无序列表:
+
+* 可以敲一个*
+* 再来一行
+
+除了*之外,
+
+- 短横杠也是可以的
+- 通过缩进增加列表的层级
+  - 带上你的游标卡尺
+  - 可以用Tab键或者空格
+</pre>
+                <div class="rendered">
+                    <p>有序列表:</p>
+                    <ol>
+                        <li>打上数字</li>
+                        <li>加个.</li>
+                        <li>再加一个空格</li>
+                    </ol>
+                    <p>无序列表:</p>
+                    <ul>
+                        <li>可以敲一个*</li>
+                        <li>再来一行</li>
+                    </ul>
+                    <p>除了*之外,</p>
+                    <ul>
+                        <li>短横杠也是可以的</li>
+                        <li>通过缩进增加列表的层级
+                            <ul>
+                                <li>带上你的游标卡尺</li>
+                                <li>可以用Tab键或者空格</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="markdown-example" id="example-images" style="display:none">
+<pre class="source">如果你想添加图片可以这么干：英文!号+方括号+小括号
+
+![方框里面取个名字](https://itxia.site/static/images/logo.jpg)
+</pre>
+                <div class="rendered">
+                    <p>如果你想添加图片可以这么干：英文!号+方括号+小括号</p>
+                    <p><img src="https://itxia.site/static/images/logo.jpg" alt="方框里面取个名字"></p>
+                </div>
+            </div>
+
+            <div class="markdown-example" id="example-headers" style="display:none">
+<pre class="source"># 一级标题
+
+为了让文章的结构更加清晰，标题是很有帮助的。 用 `#` 开始一行来创建标题。 更多的 `##` 会产生更小的标题。
+
+### 三级标题
+
+最多最多，可以用六个#号。
+
+如果你想引用一些名人名言, 可以在行的开头使用 `>` 号:
+
+&gt; 我柠檬了。今天你柠檬了吗？
+&gt; - 柠檬侠
+</pre>
+                <div class="rendered">
+                    <h1>一级标题</h1>
+
+                    <p>为了让文章的结构更加清晰，标题是很有帮助的。 用 <code>#</code> 开始一行来创建标题。 多个 <code>##</code> 会产生更小的标题。</p>
+
+                    <h3>三级标题</h3>
+
+                    <p>最多最多，可以用六个 <code>#</code> 号。</p>
+
+                    <p>如果你想引用一些名人名言, 可以在行的开头使用 <code>></code> 号:</p>
+
+                    <blockquote><p>我柠檬了。今天你柠檬了吗？
+                        - 柠檬侠</p></blockquote>
+                </div>
+            </div>
+
+            <div class="markdown-example" id="example-code" style="display:none">
+<pre class="source">在Github上有几种插入代码块的写法。行内的使用反点: `var example = true`.  如果你需要一大块代码，可以用四个空格缩进:
+
+    if (isAwesome){
+      return true
+    }
+
+不使用缩进的方式也是支持的，小编认为这种方式会更加合适：
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+如果你需要语法高亮只要把对应的语言写上就可以了：
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+</pre>
+                <div class="rendered">
+                    <p>在Github上有几种插入代码块的写法。行内的使用反点:
+                        <code>var example = true</code>. 如果你需要一大块代码，可以用四个空格缩进:</p>
+
+                    <pre><code>if (isAwesome){
+  return true
+}
+</code></pre>
+
+                    <p>G不使用缩进的方式也是支持的，小编认为这种方式会更加合适：</p>
+
+                    <pre><code>if (isAwesome){
+  return true
+}
+</code></pre>
+
+                    <p>如果你需要语法高亮只要把对应的语言写上就可以了：</p>
+
+                    <div class="highlight highlight-javascript"><pre><span class="k">if</span> <span
+                            class="p">(</span><span class="nx">isAwesome</span><span class="p">){</span>
+  <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+</pre>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="markdown-example" id="example-extras" style="display:none">
+<pre class="source">Github上支持的Markdown版本为我们提供了一些额外的功能用来引用Github上的用户。但这些可能跟我们没有什么关系~
+
+如果你想艾特IT侠你就 @itxia 就好了
+
+任务列表是个好功能，任务前面可以用这种方式打勾:
+
+- [x] 我好了
+- [ ] 搞快点
+
+如果你在某个Issue的评论中使用任务聊表，甚至还可以生成进度条。在Pull Requests里面也可以用。
+
+emoji也是可以用滴!
+</pre>
+                <div class="rendered">
+                    <p>GGithub上支持的Markdown版本为我们提供了一些额外的功能用来引用Github上的用户。但这些可能跟我们没有什么关系~</p>
+
+                    <p>如果你想艾特IT侠你就 <a href="https://github.com/itxia"
+                                                                       class="user-mention">@itxia</a>就好了。</p>
+
+                    <p>任务列表是个好功能，任务前面可以用这种方式打勾:</p>
+
+                    <ul class="task-list">
+                        <li class="task-list-item">
+                            <input type="checkbox" class="task-list-item-checkbox" checked="checked"
+                                   disabled="disabled"> 我好了
+                        </li>
+                        <li class="task-list-item">
+                            <input type="checkbox" class="task-list-item-checkbox" disabled="disabled"> 搞快点
+                        </li>
+                    </ul>
+                    <p>如果你在某个Issue的评论中使用任务聊表，甚至还可以生成进度条。在Pull Requests里面也可以用。</p>
+                    <p>emoji也是可以用滴!</p>
+
+                </div>
+            </div>
+
+            <p><a id="syntax" title="Basic syntax" class="toc-item"></a></p>
+
+            <h2>基本语法</h2>
+
+            <p>这里是Github支持的Markdown的语法列表，IT侠文档中推荐的规范也会在下面指出。</p>
+
+            <h3>标题</h3>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code><span class="gh"># 一级标题对应HTML中的 &lt;h1&gt; 标签</span>
+<span class="gu">## 文章推荐从大到小依次使用标题</span>
+<span class="gu">###### 最小的是 &lt;h6&gt; 标签 </span>
+</code></pre>
+                </div>
+            </div>
+
+            <h3>着重</h3>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code><span class="ge">*星号可以有斜体效果*</span>
+<span class="ge">_一个短下划线也可以_</span>
+
+<span class="gs">**两个的话就是粗体了**</span>
+<span class="gs">__两个符号换着用，但小编推荐斜体和加粗使用星号__</span>
+
+<span class="ge">_你也 **可以** 把它们嵌套起来_</span>
+</code></pre>
+                </div>
+            </div>
+
+            <h3>列表</h3>
+
+            <h4>无序列表</h4>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code><span class="p">*</span> Item 1
+<span class="p">*</span> Item 2
+<span class="p">  *</span> Item 2a
+<span class="p">  *</span> Item 2b
+</code></pre>
+                </div>
+            </div>
+
+            <h4>有序列表</h4>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code><span class="p">1.</span> Item 1
+<span class="p">2.</span> Item 2
+<span class="p">3.</span> Item 3
+<span class="p">   1.</span> Item 3a
+<span class="p">   2.</span> Item 3b
+</code></pre>
+                </div>
+            </div>
+
+            <h3>图片</h3>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">IT侠 Logo</span><span
+                        class="p">](</span><span class="sx">https://itxia.site/static/images/logo.jpg</span><span class="p">)</span>
+格式: !<span class="p">[</span><span class="nv">显示不出图片时的文本</span><span class="p">](</span><span
+                            class="sx">图片url</span><span class="p">)</span>
+</code></pre>
+                </div>
+            </div>
+
+            <h3>链接</h3>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>http://github.com - 敲一个链接也是可以的
+<span class="p">[</span><span class="nv">GitHub</span><span class="p">](</span><span class="sx">http://github.com</span><span
+                            class="p">)</span>
+<span class="p">[</span><span class="nv">链接名称</span><span class="p">](</span><span class="sx">url</span><span
+        class="p">)</span>
+</code></pre>
+                </div>
+            </div>
+
+            <h3>引用</h3>
+
+            <div class="language-markdown highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>正如邪恶的IT侠所说：
+<span class="gt">
+&gt; 我不是，我没有</span>
+<span class="gt">&gt; 我啥也没说！</span>
+</code></pre>
+                </div>
+            </div>
+
+            <h3>行内代码块</h3>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>行内的代码块用反点：`hello`
+</code></pre>
+                </div>
+            </div>
+
+            <h3>多行代码块</h3>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>多行的代码块用三个反点：
+```
+hello
+```
+</code></pre>
+                </div>
+            </div>
+
+            <p><a id="GitHub-flavored-markdown" title="GFM" class="toc-item"></a></p>
+
+            <h2>GitHub特有的Markdown扩展</h2>
+
+            <p>GitHub.com 使用了自己的Markdown语法版本，提供了一系列额外的功能。我们在Github上使用Markdown就有机会用到它们。</p>
+
+            <p>这里只是指Github上有的扩展语法的集合，并不代表别的Markdown工具平台没有，但它们都是对基本的Markdown语法的扩展。</p>
+
+            <p>当然，与项目中的代码提交，Issue和Pull Request相关的功能可能在文本编辑这个用途上应该是用不到的。</p>
+
+            <h3>语法高亮</h3>
+
+            <p>这是一个可以使用语法高亮的例子。同时提供一个链接 <a
+                    href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">GitHub Flavored
+                Markdown</a></p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+</code></pre>
+                </div>
+            </div>
+
+            <p>代码块也可以通过代码缩进来实现:</p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+</code></pre>
+                </div>
+            </div>
+
+            <p>这是一个高亮的Python代码，虽然我看不出来:</p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>def foo():
+    if not bar:
+        return True
+</code></pre>
+                </div>
+            </div>
+
+            <h3>任务列表</h3>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>- [x] 记住这个语法
+- [x] 就可以用了
+- [x] 嗯
+- [ ] 啊
+</code></pre>
+                </div>
+            </div>
+
+            <p>If you include a task list in the first comment of an Issue, you will
+                get a handy progress indicator in your issue list. It also works in
+                Pull Requests!</p>
+
+            <h3>表格</h3>
+
+            <p>可以用竖线和短杠等等符号组成一个表格。 <code
+                    class="highlighter-rouge">-</code> 用在标题下面,
+                <code class="highlighter-rouge">|</code>用来分割不同的列:</p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>标题一 | 标题二
+------------ | -------------
+内容在这里 | 在这里
+还有这里 | 还有这里
+</code></pre>
+                </div>
+            </div>
+
+            <p>效果如下:</p>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>标题一</th>
+                    <th>标题二</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>内容在这里</td>
+                    <td>在这里</td>
+                </tr>
+                <tr>
+                    <td>还有这里</td>
+                    <td>还有这里</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <h3>SHA 引用</h3>
+
+            <p>如果你引用某次代码提交的 <a href="http://en.wikipedia.org/wiki/SHA-1">SHA-1 hash</a> 会自动创建指向这次提交的链接。</p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+</code></pre>
+                </div>
+            </div>
+
+            <h3>在一个repository中引用Issue</h3>
+
+            <p>使用Issue或者PR的标号可以产生一个链接。如果只是文档编写可以无视这个功能。</p>
+
+            <div class="highlighter-rouge">
+                <div class="highlight"><pre class="highlight"><code>#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+</code></pre>
+                </div>
+            </div>
+
+            <h3>@用户名</h3>
+
+            <p>输入一个 <code class="highlighter-rouge">@</code> 符号, 跟上一个用户名,
+                和QQ上是差不多的效果。
+                这个功能叫 “@mention”, 因为你提到了这个特定的用户。当然，除了个人账号，组织账号也是可以的。</p>
+
+            <h3>URL的自动链接</h3>
+
+            <p>如果你直接放一个URL： <code class="highlighter-rouge">http://www.github.com/</code> 它会变成一个可以点击的链接。</p>
+
+            <h3>删除线</h3>
+
+            <p>如果你想撤回你说的话，可以这么干： <code class="highlighter-rouge">~~啊我被删了~~</code> 。</p>
+
+            <h3>Emoji</h3>
+
+            <p>Github也支持 <a
+                    href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji">emoji</a>!
+            </p>
+
+            <p>不介绍，有兴趣去 <a
+                    href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji Cheat Sheet</a>看一看。
+            </p>
+
+            <p><a id="play" title="Basic syntax" class="toc-item"></a></p>
+
+            <h2>在线工具</h2>
+
+            <p>最后提供一个在线的工具给大家玩，上面是输入框，下面是生成的效果，可以试一试啦。</p>
+
+            <div id="md">
+                <textarea v-model="msg" style="width: 100%; height: 400px;">
+
+                </textarea>
+                <div v-html="mdOut" style="height: auto">
+
+                </div>
+            </div>
+
+            <p class="last-updated">最近编辑于2019年6月7日</p>
+        </div>
+
+    </div>
+</article>
+
+
+<footer>
+    <div class="wrap">
+        <p>
+            <a href="https://github.com/">GitHub</a> 是构建和发布软件的最佳方式！<br>
+            你可以点击或不点击，但footer就在这里。
+        </p>
+    </div>
+</footer>
+
+<script>
+    const clock = new Vue({
+        el: "#timer",
+        data() {
+            return {
+                seconds: 180
+            }
+        },
+        mounted() {
+            let that = this;
+            const interval = setInterval(() => {
+                if(that.seconds > 0) {
+                    that.seconds--;
+                }else {
+                    clearInterval(interval);
+                }
+            }, 1000);
+        },
+        computed: {
+            remain: function () {
+                let min = Math.floor(this.seconds / 60);
+                let sec = this.seconds % 60;
+                if(min === 0 && sec === 0) {
+                    return '时间到'
+                }
+                return '令人不适的计时： ' + min + '分' + sec + '秒'
+            }
+        },
+    });
+
+    const md = new Vue({
+        el: "#md",
+        data() {
+            return {
+                msg: '# Hellow, IT侠'
+            }
+        },
+        computed: {
+            mdOut: function () {
+                return marked(this.msg);
+            }
+        }
+    });
+
+    window.onload = function () {
+        const toc = document.getElementById("sideToc");
+        for (let i = 0; i < 6; i++) {
+            toc.removeChild(toc.lastChild);
+        }
+    }
+</script>
+
+</body>
+</html>
