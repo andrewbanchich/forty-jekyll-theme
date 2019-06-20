@@ -33,7 +33,6 @@ disqus:
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: none
 gems:
   - jekyll-feed
 exclude:
