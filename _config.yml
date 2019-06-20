@@ -16,11 +16,10 @@
 # Site settings
 title: Trevor's Blog
 subtitle: Notes from my learning and daily work!
-email: oumei.vip@gmail.com
+email: trevor.wang@qq.com
 description: >
   A Fullstack engineer </br> 
-  A Mobile Application Developer </br> 
-  8+ years for mobile application development including Android & iOS platforms </br>  
+  10 years for mobile application development including Android & iOS platforms </br>  
   Having knowledges with Ruby, Nodejs, Java, Kotin, Swift etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trevorwang.github.io" # the base hostname & protocol for your site
@@ -34,6 +33,7 @@ disqus:
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: none
 gems:
   - jekyll-feed
 exclude:
