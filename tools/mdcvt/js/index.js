@@ -14985,7 +14985,8 @@ var $ = __webpack_require__(1);
 var themes = [
   '默认样式-适合代码',
   '字号偏大-间距偏大-窄屏模式',
-  '字号偏大-间距偏大-宽屏模式'
+  '字号偏大-间距偏大-宽屏模式',
+  '测试主题'
 ];
 var currentTheme = '字号偏大-间距偏大-宽屏模式';
 
@@ -15009,8 +15010,10 @@ PageTheme.prototype.bindEvt = function() {
 		val='default'
 	}else if(val == '字号偏大-间距偏大-窄屏模式') {
 		val='large'
-	}else {
+	}else if(val == '字号偏大-间距偏大-宽屏模式'){
 		val='narrow'
+	}else if(val == '测试主题'){
+		val='test_theme'
 	}
     $("#pageThemeId").attr('href', './pageThemes/' + val + '.css');
   }).trigger('change');
