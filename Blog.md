@@ -1,12 +1,9 @@
 ---
 layout: home
 title: Blog
-landing-title: 'Blog'
 navi-menu: true
 description: All my blogs
-image: assets/images/Blogs.jpg
-author: null
-show_tile: true
+image: assets/images/Blog.jpg
 ---
 
-<h1>All posts</h1>
+[TO DO]Create all you blogs in this!!
