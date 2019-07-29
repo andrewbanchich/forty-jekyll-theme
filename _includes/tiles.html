@@ -3,7 +3,7 @@
   {% if site.tiles-source == 'posts' %}
   <article>
     <span class="image">
-      <img src="{{ root_url }}/{{ post.image }}" alt="" />
+      <img src="{{ post.image }}" alt="" />
     </span>
     <header class="major">
       <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
@@ -16,7 +16,7 @@
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
   <article>
     <span class="image">
-      <img src="{{ root_url }}/{{ page.image }}" alt="" />
+      <img src="{{site.baseurl}}/{{ page.image }}" alt="" />
     </span>
     <header class="major">
       <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
