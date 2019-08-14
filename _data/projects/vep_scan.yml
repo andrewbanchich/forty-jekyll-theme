@@ -1,0 +1,8 @@
+title: vepSCAN
+description: vepScan by Vaillant makes it easier for installers to register their points in the Vaillant loyalty program.The app uses the Google Vision Api to detect Barcodes and sends the scanned information to the Vaillaint backend.
+image: assets/images/vepscan.png
+outbound:
+  title: Google Play Store
+  url: https://play.google.com/store/apps/details?id=com.vaillant.vep
+tracking:
+  event: vep_scan

@@ -1,5 +1,5 @@
 title: Kijiji Autos
-description: TODO
+description: “Kijiji Autos” is a seller platform in Canada. The development of the private seller flow is part of my tasks. The Android app is built modularly and heavily relies on dependency injection, dependency inversion and clean architecture.
 image: assets/images/kijiji_autos.png
 outbound:
   title: Google Play Store

@@ -1,5 +1,5 @@
 title: Fundamental Capital GmbH
-description: Fundamental Capital is a FinTech startup located in Cologne. I built the initial app and released it.
+description: Fundamental Capital is a FinTech startup located in Cologne. I built the initial app and released it. The app reads investment data from a REST service and displays them to the user.
 image: assets/images/fundamental_capital.png
 outbound:
   title: Google Play Store
