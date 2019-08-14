@@ -10,103 +10,48 @@ nav-menu: true
 <div id="main">
 
 <!-- One -->
-<section id="one">
+<!-- <section id="one">
 	<div class="inner">
 		<header class="major">
 			<h2>Sed amet aliquam</h2>
 		</header>
 		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>
-</section>
+</section> -->
 
 <!-- Two -->
 <section id="two" class="spotlights">
+	{% for project_id in site.data.projects["_index"] %}
+	{% assign project = site.data.projects[project_id] %} 
+
 	<section>
 		<a href="https://play.google.com/store/apps/details?id=de.penny.app" class="image" 
 			onclick="ga('send', 'event', {
 				'eventCategory': 'Project Links',
-				'eventAction': 'open_penny_image',
+				'eventAction': 'open_{{ project.tracking.event }}_image',
 				'eventLabel': 'Image'
 			});">
-			<img src="assets/images/penny_app.png" alt="" data-position="center center" />
+			<img src="{{ project.image }}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>PENNY Coupons & Angebote</h3>
+					<h3>{{ project.title }}</h3>
 				</header>
-				<p>PENNY was built completely from scratch within six months. We aimed to build a showcase for what is possible in Android with the newest features like „Instant Apps“ or modular app design. The app was developed test driven and we also released our own dependency injection framework created within the development of this app.</p>
+				<p>{{ project.description }}</p>
 				<ul class="actions">
 					<li>
-					<a href="https://play.google.com/store/apps/details?id=de.penny.app" class="button" onclick="ga('send', 'event', {
+					<a href="{{ project.outbound.url }}" target="_blank" class="button" onclick="ga('send', 'event', {
 						'eventCategory': 'Project Links',
-  						'eventAction': 'open_penny_link',
-						'eventLabel': 'Google Play Store'
-					});">Google Play Store</a>
+  						'eventAction': 'open_{{ project.tracking.event }}_link',
+						'eventLabel': '{{ project.outbound.title }}'
+					});">{{ project.outbound.title }}</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<a href="https://play.google.com/store/apps/details?id=com.rewedigital.shop" class="image" 
-			onclick="ga('send', 'event', {
-				'eventCategory': 'Project Links',
-				'eventAction': 'open_rewe_image',
-				'eventLabel': 'Image'
-			});">
-			<img src="assets/images/rewe_lieferservice.png" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>REWE Angebote & Lieferservice</h3>
-				</header>
-				<p>While working for REWE digital, I added the marketplace feature to the existing app. External vendors were allowed to sell their product through the REWE platform. My team and I introduced clean architecture and the MVP-Pattern within the development time.</p>
-				<ul class="actions">
-					<li>
-					<a href="https://play.google.com/store/apps/details?id=com.rewedigital.shop" class="button" onclick="ga('send', 'event', {
-						'eventCategory': 'Project Links',
-  						'eventAction': 'open_rewe_link',
-						'eventLabel': 'Google Play Store'
-					});">Google Play Store</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+	{% endfor %}
 </section>
 
 <!-- Three -->

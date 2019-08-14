@@ -1,0 +1,9 @@
+<div markdown="span" class="alert alert-info" role="alert">
+    <i class="fa fa-info-circle"></i> <b>{{image.name}}</b>
+
+    {% for image in include.images %}
+
+    <img src="{{image.url}}"/>
+
+    {% endfor %}
+</div>

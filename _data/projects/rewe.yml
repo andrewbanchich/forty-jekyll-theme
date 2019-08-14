@@ -1,0 +1,8 @@
+title: REWE Angebote & Lieferservice
+description: While working for REWE digital, I added the marketplace feature to the existing app. External vendors were allowed to sell their product through the REWE platform. My team and I introduced clean architecture and the MVP-Pattern within the development time.
+image: assets/images/rewe_lieferservice.png
+outbound:
+  title: Google Play Store
+  url: https://play.google.com/store/apps/details?id=com.rewedigital.shop
+tracking:
+  event: rewe
