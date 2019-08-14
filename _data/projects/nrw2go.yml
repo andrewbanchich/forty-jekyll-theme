@@ -1,0 +1,8 @@
+title: NRW2Go
+description: NRW2go ist an app I built for the WDR, which contains of a video mediathek. The videos are short documentaries about regions in Germany. The app was built within three months and contains video streaming and poi clustering. It was also optimised for accessibility.
+image: assets/images/nrw2go.png
+outbound:
+  title: Google Play Store
+  url: https://play.google.com/store/apps/details?id=de.WDR.NRW2go
+tracking:
+  event: nrw2go

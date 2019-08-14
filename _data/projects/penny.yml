@@ -1,0 +1,8 @@
+title: PENNY Coupons and Angebote
+description: PENNY was built completely from scratch within six months. We aimed to build a showcase for what is possible in Android with the newest features like „Instant Apps“ or modular app design. The app was developed test driven and we also released our own dependency injection framework created within the development of this app.
+image: assets/images/penny_app.png
+outbound:
+  title: Google Play Store
+  url: https://play.google.com/store/apps/details?id=de.penny.app
+tracking:
+  event: penny

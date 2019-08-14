@@ -1,0 +1,8 @@
+title: BVG Bike
+description: BVG Bike shows bike riders in Berlin, where interesting hotspots are. BVG prepared beautiful riding routes through and around Berlin. My job was to implement the initial app design and its architecture.
+image: assets/images/bvgbike.png
+outbound:
+  title: Google Play Store
+  url: https://play.google.com/store/apps/details?id=de.bvgbike.de
+tracking:
+  event: bvg_bike
