@@ -1,7 +1,7 @@
 # site settings
 title: John Morrison
 subtitle: Data Science Student
-email: youremailaddress@gmail.com
+email: jjosephmorrison@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
