@@ -1,17 +1,12 @@
 ---
 ---
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
-
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i,700&display=swap');
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',

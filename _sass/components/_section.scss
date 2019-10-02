@@ -1,8 +1,3 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
 
 /* Section/Article */
 
@@ -24,15 +19,6 @@
 			> :first-child {
 				  margin-bottom: 0;
 				  width: calc(100% + 0.5em);
-
-				  &:after {
-					    content: '';
-					    background-color: _palette(fg-bold);
-					    display: block;
-					    height: 2px;
-					    margin: 0.325em 0 0.5em 0;
-					    width: 100%;
-				  }
 			}
 
 			> p {

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 767px){
+  .videobg video{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .tiles article:nth-child(3), .tiles article:nth-child(4), .tiles article:nth-child(5){
+    width: 33% !important;
+  }
+}
+
+/*
+@media only screen and (min-width: 768px){
+  #banner{
+    display:none;
+  }
+}
+*/
+.videobg {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videobg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.videobg .container {
+  position: relative;
+  z-index: 2;
+}
+
+.vsc-controller{
+  display: none;
+}
+
+#banner{
+  min-height:100vh!important;
+}
+
+#banner::after{
+  background-image: linear-gradient(to right, rgba(40,50,75,1), rgba(246,81,88,1));
+  opacity:0.85!important;
+}
+
+.tiles article:last-child {
+    flex: 1 auto;
+}
+
+.lity.lity-opened{
+  z-index:10000!important;
+}

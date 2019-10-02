@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 {% include head.html %}
@@ -13,7 +9,7 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+<!--     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
@@ -25,6 +21,23 @@
                 </ul>
             </div>
         </div>
+    </section> -->
+
+    <section id="banner" class="videobg">
+        <div class="inner" style="text-align: center;">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content" style="display: block;">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+            </div>
+            <div class="content" style="display: block; padding-top: 1em;">
+                <a href="//vimeo.com/143318775" data-lity class="icon fa-play"></a>
+            </div>
+        </div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4%2FRolling-horse.mp4" type="video/mp4">
+        </video>
     </section>
 
     <!-- Main -->
@@ -41,7 +54,7 @@
                 </header>
                 <p>{{ content }}</p>
                 <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                    <li><a href="atest.html" class="button next">Go to a place</a></li>
                 </ul>
             </div>
         </section>
