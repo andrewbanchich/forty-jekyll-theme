@@ -26,8 +26,8 @@ image:
 
 ## 捐赠方式
 
-<div class="row">
-	<div>
+<div class="inner row">
+	<div class="6u 12u$(medium)">
 		<h3>物资捐助</h3>
 		<p>捐赠可为以下物品（但不限于此）</p>		
 		<ul>
@@ -36,13 +36,15 @@ image:
 			<li>硅胶垫/硬盘盒/螺丝盒/镊子/螺丝刀/螺丝</li>
 			<li>8g/16g/32g大小U盘</li>
 		</ul>
-		<p>注：更换下的污损电脑外壳、鼓包电池等废物我们无法处理，请另寻恰当方式处理。</p>
+		<p><b>注：更换下的污损电脑外壳、鼓包电池等废物我们无法处理，请另寻恰当方式处理。</b></p>
 		<p>若您有捐赠意向，可在IT侠微信公众号留言或发邮件至<a href="mailto:njuitxia@outlook.com">njuitxia@outlook.com</a>，我们将及时与您联系。您也可以在我们工作室值班时间内直接带来。</p>
 	</div>
-	<div>
-		<h3>金额捐助</h3>
-		<p> IT侠接受任何金额的捐赠（下方支付宝扫码），请在捐赠时备注说明【IT侠捐款】+您的信息（若无则默认使用支付宝的记录）以便我们管理记录，我们将公示您的捐赠信息和去向。</p>		
-		<img src="assets/images/alipay_donation.jpg" height='141' width='141'>
+	<div class="6u 12u$(medium)">
+		<h3>资金捐助</h3>
+		<p> IT侠接受任何金额的捐赠（下方支付宝扫码），请在捐赠时备注说明<b>【IT侠捐款】+您的信息</b>（若无则默认使用支付宝的记录）以便我们管理记录，我们将公示您的捐赠信息和去向。</p>		
+		<div align="center">
+			<img src="assets/images/alipay_donation.jpg" height='141' width='141'>
+		</div>
 	</div>
 </div>
 
