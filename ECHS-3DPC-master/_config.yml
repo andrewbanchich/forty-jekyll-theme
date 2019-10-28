@@ -1,0 +1,38 @@
+# site settings
+title: ECHS 3DPC
+subtitle: East Coweta High School 3D Printing Club
+email: yhjc2692@gmail.com
+description: Student-run manufacturing education / activities
+baseurl: "/ECHS-3DPC" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Jason Cho
+street_address: 400 Mccollum-Sharpsburg Rd
+city: Sharpsburg
+state: GA
+zip_code: 30263
+country: United States of America
+phone: (678) 467-9291
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+theme: jekyll-theme-minimal
