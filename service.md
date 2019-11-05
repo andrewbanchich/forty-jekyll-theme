@@ -87,16 +87,16 @@ image:
     <div class="12u 12u$(medium)">
         <ul>
             <li>一般情况，请直接预约</li><br>
-            <li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限鼓楼校区)</text>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入QQ群(861863787)说明您的情况。</li>
+            <li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限鼓楼校区)</text>若需IT侠急诊室服务，请<b>先正常预约</b>，然后加入<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">QQ群(861863787)</a>说明您的情况。</li>
             <ul>
                 <ul>
                     <li><a href="#first-aid">请仔细阅读服务介绍中的IT侠鼓楼急诊室服务项</a>，判断您是否应该使该服务；</li>
                     <li>由于IT侠急诊室人员及其精力有限，请勿在非紧急情况下加入该群。</li>
                 </ul>
             </ul>
-			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限仙林校区)</text>若需紧急联系仙林校区的IT侠，请<b>先正常预约</b>，然后加入QQ群(302228512)说明您的情况。</li><br />
+			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">(仅限仙林校区)</text>若需紧急联系仙林校区的IT侠，请<b>先正常预约</b>，然后加入<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">QQ群(302228512)</a>说明您的情况。</li><br />
             <li>如需要重装系统等服务，请在预约前备份好数据。（Windows仅需备份C盘）</li><br>
-            <li>如果预约超过一周没有得到回复，或者有其他任何问题，请发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
+            <li>如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5FvfSUT">鼓楼：887021867</a>，<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">仙林：302228512</a>）、发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
         </ul>
     </div>
 </div>
@@ -104,12 +104,14 @@ image:
 ---
 
 <div class="inner row">
-	<div class="6u 12u$(medium)" style="text-align: center;">
+    <!--暂时去掉，防止不看文字乱扫码误入
+ 	<div class="6u 12u$(medium)" style="text-align: center;">
         <h4>鼓楼IT侠急诊室</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
 		<br />
         <img src="assets/images/first-aid.jpg" >
     </div>
+    -->
 	<div class="6u$ 12u$(medium)" style="text-align: center;">
         <h4>仙林IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>或扫二维码加入群聊
