@@ -1,15 +1,7 @@
-- title: 关于
-  image: intro.jpg
-  description: 
-  url: introduction
 - title: 预约 
   image: service.jpg
   description:
   url: service
-- title: 捐赠
-  image: donation.jpg
-  description:
-  url: donation
 - title: 招新
   image: recruiment.jpg
   description:
@@ -18,8 +10,16 @@
   image: document.jpg
   description:
   url: document
-- title: 
-  image:
+- title: 维权指引 
+  image: warranty.jpg
   description:
-  url: 
+  url: warranty
+- title: 捐赠
+  image: donation.jpg
+  description:
+  url: donation
+- title: 关于
+  image: intro.jpg
+  description: 
+  url: introduction
   
