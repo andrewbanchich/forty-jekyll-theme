@@ -32,6 +32,7 @@ bundle exec jekyll
 ├── donation.md # 捐赠页面
 ├── recruiment.md # 招新页面
 ├── service.md # 服务页面
+├── document.md # 共享文档
 ├── coroperation.md # 合作页面（未发布）
 ├── board_games.md # 桌游目录页面
 │
