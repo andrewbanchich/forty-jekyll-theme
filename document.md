@@ -3,7 +3,6 @@ title: 教程
 layout: post
 description: 
 image:
-index: true
 ---
 
 ## 我们的想法

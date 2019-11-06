@@ -15,7 +15,7 @@ author:
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 4
+tiles-count: 5
 
 # Social settings
 help_url: http://118.89.144.139:8080
