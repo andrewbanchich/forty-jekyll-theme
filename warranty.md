@@ -28,7 +28,9 @@ image:
 | Acer宏基 | [消费类客户服务支持](https://www.acer.com.cn/support.html?type=1) | 400-700-1000 |
 | Apple苹果 | [官方Apple支持](https://support.apple.com/zh-cn) | 400-666-8800 |
 | Asus华硕 | [官方支持 ASUS中国](https://www.asus.com.cn/support/CallUs) | 400-600-6655 |
-| Dell戴尔 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 400-886-8610 Inspiron灵越<br />800-858-0540 XPS&外星人<br />400-886-8611 Vosreo成就 |
+| Dell戴尔-Inspiron灵越 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 400-886-8610  |
+| Dell戴尔-XPS&外星人 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 800-858-0540 |
+| Dell戴尔-Vostro成就 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 400-886-8611 |
 | Huawei华为&Honor荣耀 | [服务与支持-华为售后服务](https://consumer.huawei.com/cn/support/) | 400-830-8300 |
 | Hp惠普 | [联系惠普客户支持](https://support.hp.com/cn-zh/contact/laptops) | 请在左侧网页中输入序列号获取 |
 | Lenovo联想&ThinkPad | [Lenovo联想售后客户服务中心](https://newsupport.lenovo.com.cn/) | 400-990-8800 |
