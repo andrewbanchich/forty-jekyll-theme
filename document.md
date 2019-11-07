@@ -23,9 +23,13 @@ image:
 
 ## 我们的分享
 
+### 快捷搜索
+
+为了方便大家对内容进行检索，可以直接下方进行搜索噢~
+
 <form>
-<input id="yqsearch" placeholder="点击搜索IT侠知识库" style="color:#272727">
-<button type="button" onclick="search()">搜索</button>
+<input id="yqsearch" value="无法连接" style="color:#272727">
+<button type="button" onclick="search()" style="height:30.4px">搜索</button>
 </form>
 
 <script>
