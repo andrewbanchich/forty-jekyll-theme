@@ -25,11 +25,13 @@ image:
 
 ### 快捷搜索
 
-为了方便大家对内容进行检索，可以直接下方进行搜索噢~
+为了方便大家对内容进行检索，可以直接下方进行搜索噢（空格隔开搜索更佳，如“无法联网”可以搜“无法 联网”）~
+
+*常用关键词：无法上网、Windows激活*
 
 <form>
-<input id="yqsearch" value="无法连接" style="color:#272727">
-<button type="button" onclick="search()" style="height:30.4px">搜索</button>
+<input id="yqsearch" style="color:#272727">
+<button type="button" onclick="search()" style="height:30.4px;vertical-align:middle" >搜索</button>
 </form>
 
 <script>
