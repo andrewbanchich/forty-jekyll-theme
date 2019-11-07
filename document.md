@@ -30,7 +30,7 @@ image:
     document.getElementById("sButton").onclick = search;
 </script>
 
->空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。<br/>常用关键词：无法上网、Windows激活。
+>空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。<br/>常用关键词：（无法）上网、激活、蓝屏、卸载
 
 ## IT侠知识库
 
