@@ -23,6 +23,27 @@ image:
 
 ## 我们的分享
 
+<input id="yqsearch" placeholder="搜索IT侠知识库">
+
+<button type="button" onclick="search()">搜索</button>
+
+<p id="demo"></p>
+	
+<script>
+    //一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
+    function search() {
+        var x, encodedx, url;
+        url = "https://www.yuque.com/itxia/help/s?q="
+        // 获取 id="yqsearch" 的值
+        x = document.getElementById("yqsearch").value;
+        if (x!=""){
+            //转换url
+            encodedx = encodeURI(x)
+            window.location.href = url + encodedx;
+        }
+    }
+</script>
+
 ### IT侠知识库 
 
 - [IT侠在线互助常见问题集（杂烩版）](https://www.yuque.com/itxia/timdoc/help_original)
