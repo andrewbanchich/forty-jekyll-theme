@@ -38,7 +38,7 @@ image:
         if (x!=""){
             //转换url
             encodedx = encodeURI(x)
-            window.location.href = url + encodedx;
+            window.open(url + encodedx);
         }
     }
 </script>
