@@ -23,12 +23,11 @@ image:
 
 ## 我们的分享
 
-<input id="yqsearch" placeholder="搜索IT侠知识库">
-
+<form>
+<input id="yqsearch" placeholder="点击搜索IT侠知识库" style="color:#272727">
 <button type="button" onclick="search()">搜索</button>
+</form>
 
-<p id="demo"></p>
-	
 <script>
     //一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
     function search() {
