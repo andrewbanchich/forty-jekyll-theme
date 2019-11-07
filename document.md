@@ -18,7 +18,7 @@ image:
     //一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
     function search() {
         var x, encodedx, url;
-        url = "https://www.yuque.com/itxia/help/s?q="
+        url = "https://www.yuque.com/itxia/s?q="
         // 获取 id="yqsearch" 的值
         x = document.getElementById("yqsearch").value;
         if (x!=""){
