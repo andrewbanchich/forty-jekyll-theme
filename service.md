@@ -26,8 +26,6 @@ image:
 
 - 电脑进水尽可能保存当前工作，断开电源、拔掉能拔掉的电池，之后<text style="color: rgb(255, 255, 97); font-weight: bold;">绝对不要</text>尝试开机！
 
-- 
-
 ---
 
 ## <span id="TOS">预约须知</span>
