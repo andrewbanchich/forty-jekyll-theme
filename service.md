@@ -5,36 +5,9 @@ description:
 image: 
 ---
 
-<script>
-
-var box = document.getElementById('scrollbox')
-var parent = document.getElementsByTagName('ul')[0]
-var parent2 = document.getElementsByTagName('ul')[1]
-parent2.innerHTML = parent.innerHTML
-
-    var timer = setInterval(autoScrollLine,30)
-
-    function autoScrollLine() {
-
-    if(box.scrollTop>=parent.offsetHeight){
-    box.scrollTop=0;
-    }else{
-      box.scrollTop++;
-    }
-      if(box.scrollTop%box.offsetHeight==0){
-    clearInterval(timer)
-    setTimeout(()=>{
-        timer = setInterval(autoScrollLine,30)
-    },1000)
-    }
-
-}
-
-</script>
-
 ## 公告
 
-<div id=scrollbox>
+<!-- <div id=scrollbox>
     <ul>
         <li>[2019-09] 招新季又到啦，快来加入我们吧！我们24小时全天候日常招新~ </li>
         <li>[2019-11] 11月到了，祝大家能安全度过剁手的季节╮(╯▽╰)╭</li>
@@ -43,7 +16,7 @@ parent2.innerHTML = parent.innerHTML
         <li>为节省时间，需要重装系统前请尽量自行备份好文件，包括桌面。</li>
         <li>电脑进水尽可能保存当前工作，断开电源、拔掉能拔掉的电池，之后<text style="color: rgb(255, 255, 97); font-weight: bold;">绝对不要</text>尝试开机！</li>
     </ul>
-</div>
+</div> -->
 
 - [2019-09] 招新季又到啦，快来加入我们吧！我们24小时全天候日常招新~ 
 - [2019-11] 11月到了，祝大家能安全度过剁手的季节╮(╯▽╰)╭
