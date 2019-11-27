@@ -30,17 +30,22 @@ image:
     document.getElementById("sButton").onclick = search;
 </script>
 
->空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。<br/>常用关键词：（无法）上网、激活、蓝屏、卸载
+>空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。常用关键词：（无法）上网、激活、蓝屏、卸载
 
 ## IT侠文档
 
 ### 推荐阅读
 
+无论你是社团新人还是感兴趣的路人或者尝试自救的勇者，都非常推荐你了解下面的文档：
+
+- [无法上网类问题自我排查指南](https://www.yuque.com/itxia/help/network_problem)
 - [PE制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
 - [面向小白的Windows10重装/安装教程](https://www.yuque.com/itxia/article/install_win10_from_scratch)
 - [关于南大正版Adobe全家桶，你还需要知道……](https://www.yuque.com/itxia/article/nju_adobe_tips)
 
 ### IT侠知识库 
+
+更多的教程文档可以直接进入我们的文档库浏览。
 
 - [IT侠在线互助常见问题集（杂烩版）](https://www.yuque.com/itxia/timdoc/help_original)
 - [IT侠在线互助常见问题集（优化版）](https://www.yuque.com/itxia/help)
