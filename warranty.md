@@ -31,7 +31,8 @@ IT侠在维修过程中，经常发现搜索引擎“作恶”导致求助者前
 | Dell戴尔-Inspiron灵越 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 400-886-8610  |
 | Dell戴尔-XPS&外星人 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 800-858-0540 |
 | Dell戴尔-Vostro成就 | [联系我们 Dell中国](https://www.dell.com/support/incidents-online/cn/zh/cnbsd1/contactus/Dynamic?lwp=rt) | 400-886-8611 |
-| Huawei华为&Honor荣耀 | [服务与支持-华为售后服务](https://consumer.huawei.com/cn/support/) | 400-830-8300 |
+| Huawei华为 | [服务与支持-华为售后服务](https://consumer.huawei.com/cn/support/) | 400-830-8300 |
+| Honor荣耀 | [荣耀售后支持](https://www.honor.cn/support/) | 400-830-8300 |
 | Hp惠普 | [联系惠普客户支持](https://support.hp.com/cn-zh/contact/laptops) | 请在左侧网页中输入序列号获取 |
 | Lenovo联想&ThinkPad | [Lenovo联想售后客户服务中心](https://newsupport.lenovo.com.cn/) | 400-990-8800 |
 | Microsoft微软 | [Contact Us - Microsoft Support](https://support.microsoft.com/zh-cn/contactus/) | 请使用左侧网页中的在线客服 |
