@@ -5,7 +5,7 @@ description:
 image:
 ---
 
-## 知识库快捷搜索
+## 快速检索
 
 为了方便大家对知识库（<a href="#docintro">介绍见下方</a>）的教程内容进行检索，可以直接下方输入进行搜索噢~
 
@@ -32,18 +32,19 @@ image:
 
 >空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。<br/>常用关键词：（无法）上网、激活、蓝屏、卸载
 
-## IT侠知识库
+## IT侠文档
+
+### 推荐阅读
+
+- [PE制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
+- [面向小白的Windows10重装/安装教程](https://www.yuque.com/itxia/article/install_win10_from_scratch)
+- [关于南大正版Adobe全家桶，你还需要知道……](https://www.yuque.com/itxia/article/nju_adobe_tips)
 
 ### IT侠知识库 
 
 - [IT侠在线互助常见问题集（杂烩版）](https://www.yuque.com/itxia/timdoc/help_original)
 - [IT侠在线互助常见问题集（优化版）](https://www.yuque.com/itxia/help)
 - [IT侠教程&记录系列](https://www.yuque.com/itxia/article)
-
-### 推荐阅读
-
-- [PE制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
-
 
 ## <span id="docintro">介绍</span>
 
