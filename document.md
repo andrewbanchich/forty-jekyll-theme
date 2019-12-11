@@ -40,6 +40,7 @@ image:
 
 - [无法上网类问题自我排查指南](https://www.yuque.com/itxia/help/network_problem)
 - [PE制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
+- [IT侠软件工具箱下载](https://pan.baidu.com/s/1D_YV4T-Lv43jF8bWD72SoA)（提取码：yosh）
 - [面向小白的Windows10重装/安装教程](https://www.yuque.com/itxia/article/install_win10_from_scratch)
 - [关于南大正版Adobe全家桶，你还需要知道……](https://www.yuque.com/itxia/article/nju_adobe_tips)
 
