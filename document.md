@@ -28,6 +28,13 @@ image:
         }
     }
     document.getElementById("sButton").onclick = search;
+    document.getElementById("yqsearch").onkeydown = function(event){
+        var e = event || window.event || arguments.callee.caller.arguments[0];
+            if(e && e.keyCode==13){ // enter 键
+            search()
+        }
+        }
+    };
 </script>
 
 >空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。常用关键词：（无法）上网、激活、蓝屏、卸载
