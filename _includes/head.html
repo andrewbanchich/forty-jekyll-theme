@@ -16,24 +16,33 @@
 				window.location.href = "https://itxia.club/bonus"
 			}
 		};
-		var style = document.createElement("style");
-		style.type = "text/css";
-		memorial = "html { \
-			filter: grayscale(100%); \
-			-webkit-filter: grayscale(100%); \
-    		-moz-filter: grayscale(100%); \
-    		-ms-filter: grayscale(100%); \
-    		-o-filter: grayscale(100%); \
-    		filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
-    		-webkit-filter: grayscale(1) \
-			}"
-		try{
-　　		style.appendChild(document.createTextNode(memorial));
-		}catch(ex){
-			style.styleSheet.cssText = "body{background-color:red}";//针对IE
+
+
+		var today = new Date();
+		month = today.getMonth;
+		date = today.getDate;
+		if (month==11 && date==13){
+			var style = document.createElement("style");
+			style.type = "text/css";
+			memorial = "html { \
+				filter: grayscale(100%); \
+				-webkit-filter: grayscale(100%); \
+				-moz-filter: grayscale(100%); \
+				-ms-filter: grayscale(100%); \
+				-o-filter: grayscale(100%); \
+				filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
+				-webkit-filter: grayscale(1) \
+				}"
+			try{
+	　　		style.appendChild(document.createTextNode(memorial));
+			}catch(ex){
+				style.styleSheet.cssText = memorial;//针对IE
+			}
+			var head = document.getElementsByTagName("head")[0];
+			head.appendChild(style);
+			var footer = document.getElementsByTagName("footer")[0];
+			footer.appendChild(style);
 		}
-		var head = document.getElementsByTagName("head")[0];
-		head.appendChild(style);
 	</script>
 
 </head>
