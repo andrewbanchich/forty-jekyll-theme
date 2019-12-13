@@ -16,16 +16,24 @@
 				window.location.href = "https://itxia.club/bonus"
 			}
 		};
-	</script>
-<!-- 以下代码用于特殊日子悼念
-	<script src="{{ "assets/js/grayscale.js" | absolute_url }}">
-		var today = new Date();
-		month = today.getMonth();
-		date = today.getDate();
-		if (month==11 && date==13){
-			grayscale(document.getElementById("body"));
+		var style = document.createElement("style");
+		style.type = "text/css";
+		memorial = "html { \
+			filter: grayscale(100%); \
+			-webkit-filter: grayscale(100%); \
+    		-moz-filter: grayscale(100%); \
+    		-ms-filter: grayscale(100%); \
+    		-o-filter: grayscale(100%); \
+    		filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
+    		-webkit-filter: grayscale(1) \
+			}"
+		try{
+　　		style.appendChild(document.createTextNode(memorial));
+		}catch(ex){
+			style.styleSheet.cssText = "body{background-color:red}";//针对IE
 		}
+		var head = document.getElementsByTagName("head")[0];
+		head.appendChild(style);
 	</script>
- -->
 
 </head>
