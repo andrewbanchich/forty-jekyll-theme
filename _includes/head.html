@@ -25,21 +25,21 @@
 			var style = document.createElement("style");
 			style.type = "text/css";
 			var memorial = "html { \
-				filter: grayscale(100%)!important; \
-				-webkit-filter: grayscale(100%)!important; \
-				-moz-filter: grayscale(100%)!important; \
-				-ms-filter: grayscale(100%)!important; \
-				-o-filter: grayscale(100%)!important; \
-				filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)!important; \
-				-webkit-filter: grayscale(1)!important; \
+				filter: grayscale(100%); \
+				-webkit-filter: grayscale(100%); \
+				-moz-filter: grayscale(100%); \
+				-ms-filter: grayscale(100%); \
+				-o-filter: grayscale(100%); \
+				filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
+				-webkit-filter: grayscale(1); \
 				}"
 			try{
 	　　		style.appendChild(document.createTextNode(memorial));
 			}catch(ex){
 				style.styleSheet.cssText = memorial;//针对IE
 			}
-			var head = document.getElementsByTagName("head")[0];
-			head.appendChild(style);
+			var body = document.getElementsByTagName("body")[0];
+			body.appendChild(style);
 		}
 	</script>
 
