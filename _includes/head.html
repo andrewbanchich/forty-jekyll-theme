@@ -1,9 +1,6 @@
 <head>
 	<title>{{ site.title }}</title>
 	<!-- 以下代码用于特殊日子悼念 -->
-	<style>
-		html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);}
-	</style> 
 	<meta charset="utf-8" />
 	<meta name="keywords" content="IT侠, 南京大学, NJU, ITXia, 预约, 维修, 志愿者">
 	<meta name="description" content="南京大学IT侠">
@@ -13,11 +10,20 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
 	<script>
-			document.onkeydown = function(event){
-				var e = event || window.event || arguments.callee.caller.arguments[0];
-				  if(e && e.keyCode==13){ // enter 键
-					window.location.href = "https://itxia.club/bonus"
-				}
-			}; 
+		document.onkeydown = function(event){
+			var e = event || window.event || arguments.callee.caller.arguments[0];
+				if(e && e.keyCode==13){ // enter 键
+				window.location.href = "https://itxia.club/bonus"
+			}
+		};
 	</script>
+	<script src="http://james.padolsey.com/demos/grayscale/grayscale.js">
+		var today = new Date();
+		month = d.getMonth();
+		date = d.getDate();
+		if (month==11 && date==13){
+			grayscale(document.getElementById("body"));
+		}
+	</script>
+
 </head>
