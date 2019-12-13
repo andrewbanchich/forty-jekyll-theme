@@ -19,12 +19,12 @@
 
 		/*特殊纪念日黑白页面*/
 		var today = new Date();
-		var month = today.getMonth;
-		var date = today.getDate;
+		var month = today.getMonth();
+		var date = today.getDate();
 		if (month==11 && date==13){
 			var style = document.createElement("style");
 			style.type = "text/css";
-			memorial = "html { \
+			var memorial = "html { \
 				filter: grayscale(100%); \
 				-webkit-filter: grayscale(100%); \
 				-moz-filter: grayscale(100%); \
