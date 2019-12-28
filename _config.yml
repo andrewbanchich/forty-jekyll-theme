@@ -18,7 +18,7 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # Social settings
-help_url: http://118.89.144.139:8080
+help_url: https://itxia.site
 weixin_url: assets/images/weixin.jpg
 bbs_url: http://bbs.nju.edu.cn/bbsdoc?board=NoteBook
 facebook_url:
