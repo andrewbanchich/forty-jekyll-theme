@@ -72,15 +72,10 @@
 alert("Hello");
 ```
 
-```C
-void tellStory(){
-    printf("从前有座山 "); printf("山上有座庙 "); 
-    printf("庙里有个老和尚和一个小和尚 ");
-    printf("有一天 "); printf("小和尚对老和尚说 ");
-    printf(""给我讲个故事吧" ");
-    printf("于是, 老和尚说: ");
-    tellStory();
-}；
+```python
+def raw_read(file):
+    with open(file,'r',encoding='UTF-8') as content:
+        return content.read()
 ```
 
 ### 数学公式示例
@@ -89,7 +84,7 @@ $$
 \oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
 $$
 
-也可以用行内模式$\i\frac{\partial \psi}{\partial t}=hat{H}\psi$
+也可以用行内模式 $\i\frac{\partial \psi}{\partial t}=\hat{H}\psi$
 
 如果格式有问题的话，也可以用图片（md版插图片需要转义括号，也可以直接写`img src=`）：
 
@@ -111,3 +106,15 @@ $$
 | 皮蛋粥 | 2   | job |
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
