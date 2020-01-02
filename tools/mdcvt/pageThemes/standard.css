@@ -13,7 +13,7 @@
   letter-spacing: 0.4px;
   font-size: 15px;
   white-space: normal;
-  color: #545454;
+  color: #414141;
 }
 .wrapper blockquote {
   line-height: 22px;
@@ -66,8 +66,9 @@
 .wrapper ul li span, .wrapper ol li span {
   line-height: 1.8;
   font-size: 13px !important;
+  color: #414141;
 }
 
-.wrapper ol {
+.wrapper ol,ul {
   color: #750920;
 }
