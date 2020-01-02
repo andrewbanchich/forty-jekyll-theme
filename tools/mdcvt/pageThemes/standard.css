@@ -41,6 +41,11 @@
 }
 .wrapper h4 {
   font-size: 16px;
+  color: #202020;
+  font-weight: bold;
+}
+.wrapper h5 {
+  font-size: 15px;
   color: #4a4a4a;
   font-weight: bold;
 }
