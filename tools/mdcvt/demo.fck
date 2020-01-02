@@ -62,7 +62,7 @@
 
 ## 小尝试
 
-你可以在电脑端打开我们的[语雀文档库](https://www.yuque.com/itxia)，打开一篇文章，然后点最右上角的“···”，选择“查看Markdown”，之后将所有内容复制粘贴到[IT侠微信公众号格式化工具](https://itxia.club/tools/mdcvt/)，预览一下~
+你可以在电脑端打开我们的[语雀文档库](https://www.yuque.com/itxia)，打开一篇文章，然后点最右上角的“···”，选择“查看Markdown”（其实“查看HTML”也可以），之后将所有内容复制粘贴到[IT侠微信公众号格式化工具](https://itxia.club/tools/mdcvt/)，预览一下~**注意由于语雀对Markdown的转换可能不是非常干净，也许会引入奇怪的东西**，所以还是需要微调。因此更加推荐我们把在本地编辑的“纯净”`.md`文件直接复制丢上来！
 
 ## 比较完整的demo
 
@@ -85,26 +85,6 @@ def raw_read(file):
     with open(file,'r',encoding='UTF-8') as content:
         return content.read()
 ```
-
-### 数学公式示例
-
-$$
-\oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
-$$
-
-也可以用行内模式 $i\hbar\frac{\partial \psi}{\partial t}=\hat{H}\psi$
-
-如果格式有问题的话，也可以用图片（md版插图片需要转义括号，也可以直接写`img src=`）：
-
-![一张图片](https://latex.codecogs.com/gif.latex?\oint{P}\mathtt{d}x+Q\mathtt{d}y=\iint_D\(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\)\mathtt{d}x\mathtt{d}y)
-
-![一张图片](https://latex.codecogs.com/png.latex?\oint{P}\mathtt{d}x+Q\mathtt{d}y=\iint_D\(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\)\mathtt{d}x\mathtt{d}y)
-
-![一张图片](https://latex.codecogs.com/svg.latex?\oint{P}\mathtt{d}x+Q\mathtt{d}y=\iint_D\(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\)\mathtt{d}x\mathtt{d}y)
-
-**不要问为什么这个demo这么紫（**
-
-所以按照IT侠LOGO主题色修改了下感觉还不错？
 
 ### 表格示例
 
