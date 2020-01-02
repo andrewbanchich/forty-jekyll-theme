@@ -52,13 +52,14 @@
 }
 
 .wrapper table {
+  text-align: center;
   width: -webkit-fill-available;
 }
 
 .wrapper table > * {
   font-size: 13px;
   text-align: center;
-  
+
 }
 
 .wrapper strong {
