@@ -86,7 +86,7 @@ $$
 \oint P\mathtt{d}x+Q\mathtt{d}y=\iint_D(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})\mathtt{d}x\mathtt{d}y
 $$
 
-也可以用行内模式 $i\frac{\partial \psi}{\partial t}=\hat{H}\psi$
+也可以用行内模式 $i\hbar\frac{\partial \psi}{\partial t}=\hat{H}\psi$
 
 如果格式有问题的话，也可以用图片（md版插图片需要转义括号，也可以直接写`img src=`）：
 
