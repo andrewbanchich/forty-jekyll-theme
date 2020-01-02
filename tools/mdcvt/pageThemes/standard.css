@@ -56,7 +56,13 @@
   width: -webkit-fill-available;
 }
 
-.wrapper table > * {
+.wrapper th {
+  font-size: 13px;
+  text-align: center;
+
+}
+
+.wrapper td {
   font-size: 13px;
   text-align: center;
 
