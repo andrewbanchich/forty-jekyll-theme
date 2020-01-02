@@ -15012,8 +15012,8 @@ PageTheme.prototype.bindEvt = function() {
 		val='large'
 	}else if(val == '字号偏大-间距偏大-宽屏模式'){
 		val='narrow'
-	}else if(val == '测试主题'){
-		val='test_theme'
+	}else if(val == '标准主题'){
+		val='standard'
 	}
     $("#pageThemeId").attr('href', './pageThemes/' + val + '.css');
   }).trigger('change');
