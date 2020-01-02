@@ -24,24 +24,27 @@
 }
 .wrapper blockquote p {
   font-size: 13px;
-  background-color: #545454;
+  color: #545454;
   letter-spacing: 0.5px;
 }
 .wrapper h1 {
-  font-size: 26px;
+  font-size: 28px;
   color: #5b0d53
 }
 .wrapper h2 {
   font-size: 22px;
   color: #5b0d53;
+  font-weight: bold;
 }
 .wrapper h3 {
   font-size: 19px;
   color: #202020;
+  font-weight: bold;
 }
 .wrapper h4 {
   font-size: 16px;
   color: #4a4a4a;
+  font-weight: bold;
 }
 
 .wrapper strong {
