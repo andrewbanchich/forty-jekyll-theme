@@ -14986,9 +14986,9 @@ var themes = [
   '默认样式-适合代码',
   '字号偏大-间距偏大-窄屏模式',
   '字号偏大-间距偏大-宽屏模式',
-  '测试主题'
+  '标准主题'
 ];
-var currentTheme = '字号偏大-间距偏大-宽屏模式';
+var currentTheme = '标准主题';
 
 let PageTheme = function () {
   this.init();
