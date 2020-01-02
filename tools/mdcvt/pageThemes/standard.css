@@ -66,3 +66,7 @@
   line-height: 1.8;
   font-size: 13px !important;
 }
+
+.wrapper ul ol {
+  color: #750920;
+}
