@@ -1,6 +1,6 @@
 .wrapper {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif, -apple-system-font, 黑体;
+  font-family: Arial, Helvetica, sans-serif, -apple-system-font, 黑体 !important;
 }
 
 .wrapper > * {
@@ -8,16 +8,16 @@
   margin-left: 25px;
 }
 .wrapper p {
-  font-size: 14px;
-  white-space: pre-line;
-  line-height: 25px;
+  font-size: 15px;
+  white-space: normal;
+  line-height: 1.75em;
   color: #4a4a4a;
 }
 .wrapper blockquote {
   line-height: 22px;
 }
 .wrapper blockquote p {
-  font-size: 12px;
+  font-size: 13px;
 }
 .wrapper h1 {
   font-size: 28px;
@@ -33,9 +33,9 @@
 }
 
 .wrapper b {
-  color: #ee0b3c;
+  color: #ee0b3c !important;
 }
 .wrapper ul li span, .wrapper ol li span {
   line-height: 22px;
-  font-size: 12px !important;
+  font-size: 13px !important;
 }
