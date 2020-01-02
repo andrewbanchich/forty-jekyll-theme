@@ -62,11 +62,12 @@
 .wrapper strong {
   color: #750920;
 }
+
 .wrapper ul li span, .wrapper ol li span {
   line-height: 1.8;
   font-size: 13px !important;
 }
 
-.wrapper ul ol {
+.wrapper ol {
   color: #750920;
 }
