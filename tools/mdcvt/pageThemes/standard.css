@@ -18,7 +18,7 @@
 .wrapper blockquote {
   line-height: 22px;
   background-color: #fdfae8;
-  border-left: #ccb3c9;
+  border-left: #a88ea5;
 }
 .wrapper blockquote p {
   font-size: 13px;
@@ -67,6 +67,10 @@
   line-height: 1.8;
   font-size: 13px !important;
   color: #414141;
+}
+
+.wrapper ol.linenums{
+  color: inherit;
 }
 
 .wrapper ol, .wrapper ul {
