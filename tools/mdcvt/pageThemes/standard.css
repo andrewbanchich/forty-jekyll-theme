@@ -53,6 +53,7 @@
 
 .wrapper table {
   text-align: center;
+  width: -webkit-fill-available;
 }
 
 .wrapper th {
