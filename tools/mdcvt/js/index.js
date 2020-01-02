@@ -14950,7 +14950,7 @@ var themes = [
   'tranquil-heart',
   'vibrant-ink'
 ];
-var currentTheme = 'atelier-forest-light';
+var currentTheme = 'atelier-dune-light';
 
 let CodeTheme = function () {
   this.init();
