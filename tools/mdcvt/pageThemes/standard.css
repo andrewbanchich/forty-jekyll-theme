@@ -15,25 +15,30 @@
 }
 .wrapper blockquote {
   line-height: 22px;
+  background-color: lightslategray;
 }
 .wrapper blockquote p {
   font-size: 13px;
 }
 .wrapper h1 {
-  font-size: 28px;
+  font-size: 25px;
+  color: #202020;
 }
 .wrapper h2 {
-  font-size: 24px;
+  font-size: 22px;
+  color: #202020;
 }
 .wrapper h3 {
-  font-size: 20px;
+  font-size: 19px;
+  color: #202020;
 }
 .wrapper h4 {
-  font-size: 18px;
+  font-size: 16px;
+  color: #4a4a4a;
 }
 
-.wrapper b {
-  color: #ee0b3c !important;
+.wrapper strong {
+  color: #880a25;
 }
 .wrapper ul li span, .wrapper ol li span {
   line-height: 22px;
