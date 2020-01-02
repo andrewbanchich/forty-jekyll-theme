@@ -69,10 +69,6 @@
   color: #414141;
 }
 
-.wrapper ol.linenums{
-  color: inherit;
-}
-
-.wrapper ol, .wrapper ul {
+.wrapper > ol, .wrapper > ul {
   color: #750920;
 }
