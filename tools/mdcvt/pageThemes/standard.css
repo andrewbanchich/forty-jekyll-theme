@@ -54,6 +54,11 @@
 .wrapper table {
   text-align: center;
 }
+
+.wrapper th {
+  text-align: center;
+}
+
 .wrapper strong {
   color: #750920;
 }
