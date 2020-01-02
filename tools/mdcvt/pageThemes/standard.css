@@ -52,12 +52,12 @@
 }
 
 .wrapper table {
-  font-size: 13px;
-  text-align: center;
   width: -webkit-fill-available;
 }
 
-.wrapper th {
+.wrapper table > * {
+  font-size: 13px;
+  text-align: center;
   text-align: center;
 }
 
