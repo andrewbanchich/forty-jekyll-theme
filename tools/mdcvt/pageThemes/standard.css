@@ -8,25 +8,32 @@
   margin-left: 25px;
 }
 .wrapper p {
+  
+  line-height: 1.8;
+  letter-spacing: 0.4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
   font-size: 15px;
   white-space: normal;
-  line-height: 1.75em;
-  color: #4a4a4a;
+  color: #545454;
 }
 .wrapper blockquote {
   line-height: 22px;
-  background-color: lightslategray;
+  background-color: lightgrey
 }
 .wrapper blockquote p {
   font-size: 13px;
+  background-color: #545454;
+  letter-spacing: 0.5px;
 }
 .wrapper h1 {
-  font-size: 25px;
-  color: #202020;
+  font-size: 26px;
+  color: #5b0d53
 }
 .wrapper h2 {
   font-size: 22px;
-  color: #202020;
+  color: #5b0d53;
 }
 .wrapper h3 {
   font-size: 19px;
@@ -38,9 +45,10 @@
 }
 
 .wrapper strong {
-  color: #880a25;
+  color: #750920;
 }
 .wrapper ul li span, .wrapper ol li span {
   line-height: 22px;
+  letter-spacing: 0.5px;
   font-size: 13px !important;
 }
