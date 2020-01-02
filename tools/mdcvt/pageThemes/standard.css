@@ -52,6 +52,7 @@
 }
 
 .wrapper table {
+  -webkit-text-size-adjust: auto;
   text-align: center;
   width: -webkit-fill-available;
 }
