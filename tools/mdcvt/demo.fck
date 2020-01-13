@@ -4,13 +4,19 @@
 
 ## 一、MD是什么、怎么用
 
-我们的网站已经存档了一份Markdown（MD）教程，详情请参看这里：[Markdown教程（IT侠存档）](https://itxia.club/guide/markdown/manual.htm)
+---
+
+我们的网站已经存档了一份Markdown（MD）教程以供学习，详情请参看这里：[Markdown教程（IT侠存档）](https://itxia.club/guide/markdown/manual.htm)
 
 ## 二、注意MD的规范
+
+---
 
 由于我们想要尽可能地统一社团内的Markdown规范，以便后续各类功能的接入，因此基本采用上述教程的规范。事实上，Markdown有很多扩展规范，所以请注意不要混用哦
 
 ## 三、我们用MD可以做什么
+
+---
 
 通过Markdown，我们最好的好处是
 
@@ -55,12 +61,16 @@
 
 ## 四、推荐入门可用的软件
 
+---
+
 这里推荐的都可以Windows、Mac OS、Linux上使用。
 
 1. 👍[Typora](https://www.typora.io/)：专用的Markdown编辑器，可以严格限制使用Github规范的Markdown，并且插入本地图片管理很方便。
 2. [VSCode](https://code.visualstudio.com/) + Markdown Preview Enhanced插件：比较贴合程序员的使用习惯。
 
 ## 五、小尝试
+
+---
 
 你可以在电脑端打开我们的[语雀文档库](https://www.yuque.com/itxia)，打开一篇文章，然后点最右上角的“···”，选择“查看Markdown”（其实“查看HTML”也可以），之后将所有内容复制粘贴到[IT侠微信公众号格式化工具](https://itxia.club/tools/mdcvt/)，预览一下~**注意由于语雀对Markdown的转换可能不是非常干净，也许会引入奇怪的东西**，所以还是需要微调。因此更加推荐我们把在本地编辑的“纯净”`.md`文件直接复制丢上来！
 
@@ -114,7 +124,11 @@ def raw_read(file):
 2. 删除线：我觉得我的论文就是学术~~垃圾~~
 3. 倾斜：*Hello, world!*
 
+## 分割线示例
+
 ---
+
+二级标题+分割线，这样搭配比较好看
 
 
 
