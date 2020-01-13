@@ -1,6 +1,6 @@
 .wrapper {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif, -apple-system-font, 黑体 !important;
+  font-family: Arial, Helvetica, sans-serif, "Microsoft Yahei", STXihei, -apple-system-font !important;
 }
 
 .wrapper > * {
@@ -18,40 +18,49 @@
 .wrapper blockquote {
   line-height: 22px;
   background-color: #fdfae8;
-  border-left: #a88ea5;
+  border-color: #693a62
 }
 .wrapper blockquote p {
   font-size: 13px;
-  color: #ccbac9;
+  color: #573151;
   letter-spacing: 0.5px;
 }
 .wrapper h1 {
   font-size: 28px;
-  color: #5b0d53
+  color: #5b0d53;
+  font-family: STXihei !important
 }
 .wrapper h2 {
   font-size: 22px;
   color: #5b0d53;
+  font-family: STXihei !important
 }
 .wrapper h3 {
   font-size: 19px;
   color: #202020;
+  font-family: STXihei !important
 }
 .wrapper h4 {
   font-size: 16px;
   color: #202020;
   font-weight: bold;
+  font-family: STXihei !important
 }
 .wrapper h5 {
   font-size: 15px;
   color: #5e5e5e;
   font-weight: bold;
+  font-family: STXihei !important
 }
 
 .wrapper a {
-  font-size: 14px;
   color: #b81e82;
-  font-style: italic;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #b81e82;
+  border-width: 1px;
 }
 
 .wrapper table {
@@ -84,3 +93,15 @@
 .wrapper > ol, .wrapper > ul {
   color: #750920;
 }
+
+.wrapper code.prettyprint.code-in-text.prettyprinted {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.wrapper span.kwd {
+  font-weight: bold;
+}
+

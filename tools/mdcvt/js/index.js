@@ -14986,9 +14986,9 @@ var themes = [
   '默认样式-适合代码',
   '字号偏大-间距偏大-窄屏模式',
   '字号偏大-间距偏大-宽屏模式',
-  '标准主题'
+  'IT侠特制标准主题'
 ];
-var currentTheme = '标准主题';
+var currentTheme = 'IT侠特制标准主题';
 
 let PageTheme = function () {
   this.init();
@@ -15012,7 +15012,7 @@ PageTheme.prototype.bindEvt = function() {
 		val='large'
 	}else if(val == '字号偏大-间距偏大-宽屏模式'){
 		val='narrow'
-	}else if(val == '标准主题'){
+	}else if(val == 'IT侠特制标准主题'){
 		val='standard'
 	}
     $("#pageThemeId").attr('href', './pageThemes/' + val + '.css');
