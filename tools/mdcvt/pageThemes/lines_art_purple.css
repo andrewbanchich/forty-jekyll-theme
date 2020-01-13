@@ -4,8 +4,8 @@
 }
 
 .wrapper > * {
-  margin-right: 25px;
-  margin-left: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .wrapper p {
   
@@ -44,8 +44,9 @@
   text-align: center;
 }
 .wrapper h3 {
+  margin-top: 30px;
   font-size: 19px;
-  color: #202020;
+  color: #5b0d53;
   font-family: STXihei !important
 }
 .wrapper h4 {
@@ -79,22 +80,20 @@
   border-bottom-style: dotted;
   border-bottom-color: #b81e82;
   border-width: 1px;
+  white-space: pre-line !important;
 }
 
 .wrapper table {
-  text-align: center;
   width: -webkit-fill-available;
 }
 
 .wrapper th {
   font-size: 13px;
-  text-align: center;
 
 }
 
 .wrapper td {
   font-size: 13px;
-  text-align: center;
 
 }
 
@@ -131,7 +130,13 @@
 .wrapper em {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Microsoft Yahei" !important;
     font-style: italic;
-    color: #750920;
+    color: #b81e82;
+    padding-bottom: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #b81e82;
+    border-width: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
 .wrapper del {
@@ -143,4 +148,8 @@
   margin-left: 45%;
   margin-right: 45%;
   border-top:3px solid #5b0d53 !important;
+}
+
+.wrapper pre.prettyprint.linenums{
+  padding: 6px 10px 6px 10px !important;
 }

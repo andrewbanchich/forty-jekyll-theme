@@ -70,6 +70,7 @@
   margin-left: 3px;
   margin-right: 3px;
   font-style: oblique;
+  white-space: pre-wrap !important;
 }
 
 .wrapper table {

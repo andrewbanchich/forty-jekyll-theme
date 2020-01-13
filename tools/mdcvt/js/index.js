@@ -14984,9 +14984,10 @@ var $ = __webpack_require__(1);
 
 var themes = [
   'IT侠-标准主题',
-  'IT侠-线条艺术'
+  'IT侠-线条艺术（正经）',
+  'IT侠-线条艺术（直男）'
 ];
-var currentTheme = 'IT侠-线条艺术';
+var currentTheme = 'IT侠-线条艺术（紫）';
 
 let PageTheme = function () {
   this.init();
@@ -15012,8 +15013,10 @@ PageTheme.prototype.bindEvt = function() {
 		val='narrow'
 	}else if(val == 'IT侠-标准主题'){
 		val='standard'
-	}else if(val == 'IT侠-线条艺术'){
-		val='lines_art'
+	}else if(val == 'IT侠-线条艺术（正经）'){
+		val='lines_art_purple'
+	}else if(val == 'IT侠-线条艺术（直男）'){
+		val='lines_art_pink'
 	}
     $("#pageThemeId").attr('href', './pageThemes/' + val + '.css');
   }).trigger('change');

@@ -1,0 +1,154 @@
+.wrapper {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif, "Microsoft Yahei", STXihei, -apple-system-font !important;
+}
+
+.wrapper > * {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.wrapper p {
+  
+  line-height: 1.8;
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  white-space: normal;
+  color: #414141;
+  text-align: justify;
+}
+.wrapper blockquote {
+  line-height: 22px;
+  background-color: #fdf0ef;
+  border-color: #b2dac7
+}
+.wrapper blockquote p {
+  font-size: 13px;
+  color: #f07484;
+  letter-spacing: 0.5px;
+}
+.wrapper h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a7e99;
+  font-family: STXihei !important;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.wrapper h2 {
+  font-size: 22px;
+  margin-top: 50px;
+  color: #5a7e99;
+  font-family: STXihei !important;
+  text-align: center;
+}
+.wrapper h3 {
+  margin-top: 30px;
+  font-size: 19px;
+  color: #5a7e99;
+  font-family: STXihei !important
+}
+.wrapper h4 {
+  font-size: 16px;
+  color: #4A3041;
+  font-weight: bold;
+  font-family: STXihei !important
+}
+.wrapper h5 {
+  font-size: 15px;
+  color: #4A3041;
+  font-weight: bold;
+  font-family: STXihei !important;
+
+}
+
+.wrapper h6 {
+    font-size: 14px;
+    color: #caaca7;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: STXihei !important;
+  
+  }
+
+.wrapper a {
+  color: #f07484;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #f07484;
+  border-width: 1px;
+  white-space: pre-line !important;
+}
+
+.wrapper table {
+  width: -webkit-fill-available;
+}
+
+.wrapper th {
+  font-size: 13px;
+
+}
+
+.wrapper td {
+  font-size: 13px;
+
+}
+
+.wrapper strong {
+  /* color: #ffb26e; */
+  font-weight: normal !important;
+  background-color: #f5c194;
+  padding: 2px 2px 2px 2px;
+
+}
+
+.wrapper > ul li span, .wrapper > ol li span {
+  line-height: 1.8;
+  font-size: 13px !important;
+  color: #414141;
+}
+
+.wrapper > ol, .wrapper > ul {
+  color: #e54970;
+}
+
+.wrapper code.prettyprint.code-in-text.prettyprinted {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.wrapper span.kwd {
+  font-weight: bold;
+}
+
+.wrapper em {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Microsoft Yahei" !important;
+    font-style: italic;
+    color: #f07484;
+    padding-bottom: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #f07484;
+    border-width: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+.wrapper del {
+    text-decoration:none !important;
+    background-color: black;
+}
+
+.wrapper hr {
+  margin-left: 45%;
+  margin-right: 45%;
+  border-top:3px solid #4A3041 !important;
+}
+
+.wrapper pre.prettyprint.linenums{
+  padding: 6px 10px 6px 10px !important;
+}
