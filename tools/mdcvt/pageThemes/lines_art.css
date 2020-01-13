@@ -28,13 +28,27 @@
 }
 .wrapper h1 {
   font-size: 28px;
+  font-weight: bold;
   color: #5b0d53;
-  font-family: STXihei !important
+  font-family: STXihei !important;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 .wrapper h2 {
   font-size: 22px;
   color: #5b0d53;
-  font-family: STXihei !important
+  font-family: STXihei !important;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  padding-right: 0% ;
+  padding-left: 0%;
+  border-bottom-style: dashed;
+  border-bottom-color: #5b0d53;
+  border-width: 3px; 
+  text-align: center;
 }
 .wrapper h3 {
   font-size: 19px;
@@ -56,19 +70,22 @@
 }
 
 .wrapper h6 {
-  font-size: 14px;
-  color: #5e5e5e;
-  font-weight: bold;
-  text-decoration: underline;
-  font-family: STXihei !important;
-
-}
+    font-size: 14px;
+    color: #5e5e5e;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: STXihei !important;
+  
+  }
 
 .wrapper a {
   color: #b81e82;
   margin-left: 3px;
   margin-right: 3px;
-  font-style: oblique;
+  padding-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #b81e82;
+  border-width: 1px;
 }
 
 .wrapper table {
@@ -90,7 +107,11 @@
 
 .wrapper strong {
   color: #750920;
-
+  font-weight: normal !important;
+  padding-bottom: 1px;
+  border-bottom-style: double;
+  border-bottom-color: #750920;;
+  border-width: 4px;
 }
 
 .wrapper > ul li span, .wrapper > ol li span {
@@ -115,7 +136,12 @@
 }
 
 .wrapper em {
-  font-family: 'Times New Roman', Times, serif, "Microsoft Yahei" !important;
-  font-style: italic;
-  color: #750920;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Microsoft Yahei" !important;
+    font-style: italic;
+    color: #750920;
+  }
+
+.wrapper del {
+    text-decoration:none !important;
+    background-color: black;
 }

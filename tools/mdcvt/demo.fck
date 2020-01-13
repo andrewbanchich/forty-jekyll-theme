@@ -2,15 +2,15 @@
 
 # Markdown推广计划
 
-## 一、Markdown是什么、怎么用
+## 一、MD是什么、怎么用
 
-我们的网站已经存档了一份Markdown教程，详情请参看这里：[Markdown教程（IT侠存档）](https://itxia.club/guide/markdown/manual.htm)
+我们的网站已经存档了一份Markdown（MD）教程，详情请参看这里：[Markdown教程（IT侠存档）](https://itxia.club/guide/markdown/manual.htm)
 
-## 二、注意Markdown的规范
+## 二、注意MD的规范
 
 由于我们想要尽可能地统一社团内的Markdown规范，以便后续各类功能的接入，因此基本采用上述教程的规范。事实上，Markdown有很多扩展规范，所以请注意不要混用哦
 
-## 三、我们用Markdown可以做什么
+## 三、我们用MD可以做什么
 
 通过Markdown，我们最好的好处是
 
@@ -60,19 +60,24 @@
 1. 👍[Typora](https://www.typora.io/)：专用的Markdown编辑器，可以严格限制使用Github规范的Markdown，并且插入本地图片管理很方便。
 2. [VSCode](https://code.visualstudio.com/) + Markdown Preview Enhanced插件：比较贴合程序员的使用习惯。
 
-## 小尝试
+## 五、小尝试
 
 你可以在电脑端打开我们的[语雀文档库](https://www.yuque.com/itxia)，打开一篇文章，然后点最右上角的“···”，选择“查看Markdown”（其实“查看HTML”也可以），之后将所有内容复制粘贴到[IT侠微信公众号格式化工具](https://itxia.club/tools/mdcvt/)，预览一下~**注意由于语雀对Markdown的转换可能不是非常干净，也许会引入奇怪的东西**，所以还是需要微调。因此更加推荐我们把在本地编辑的“纯净”`.md`文件直接复制丢上来！
 
-## 比较完整的demo
+# 比较完整的demo
 
 下面穿插一段原先的demo，以进一步展示效果。
 
+## 链接示例
+
 本工具来自：[https://github.com/barretlee/online-markdown](https://github.com/barretlee/online-markdown)
+
+
+## 引用示例
 
 > 懒惰使我们进步。——web组
 
-### 代码示例
+## 代码示例
 
 javascript：
 ```javascript
@@ -86,12 +91,28 @@ def raw_read(file):
         return content.read()
 ```
 
-### 表格示例
+## 表格示例
 
 | 品类 | 桶数 | 备注 |
 |-----|-----|------|
 | 白粥 | 1   | nice |
 | 皮蛋粥 | 2   | job |
+
+## 标题示例（二级）
+
+### 三级标题
+
+#### 四级标题
+
+##### 五级标题
+
+###### 六级标题（真有人可以用到这个？）
+
+## 强调示例
+
+1. 加粗：哈哈哈我**写完论文**辣！！！
+2. 删除线：我觉得我的论文就是学术~~垃圾~~
+3. 倾斜：*Hello, world!*
 
 ---
 
