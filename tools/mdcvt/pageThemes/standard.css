@@ -117,7 +117,6 @@
 }
 
 .wrapper em {
-  font-family: 'Times New Roman', Times, serif, "Microsoft Yahei" !important;
-  font-style: italic;
-  color: #750920;
+  font-family: 'Times New Roman', Times, KaiTi, serif, "Microsoft Yahei" !important;
+  color: #adadad;
 }

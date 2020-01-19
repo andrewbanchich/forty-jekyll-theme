@@ -127,7 +127,7 @@
 }
 
 .wrapper em {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Microsoft Yahei" !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',KaiTi, serif, "Microsoft Yahei" !important;
     font-style: italic;
     color: #f07484;
     padding-bottom: 1px;
@@ -146,7 +146,7 @@
 .wrapper hr {
   margin-left: 45%;
   margin-right: 45%;
-  border-top:3px solid #4A3041 !important;
+  border-top:3px solid #5a7e99 !important;
 }
 
 .wrapper pre.prettyprint.linenums{
