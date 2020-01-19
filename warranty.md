@@ -52,7 +52,7 @@ IT侠在维修过程中，经常发现搜索引擎“作恶”导致求助者前
 | Huawei华为 | [服务与支持-华为售后服务](https://consumer.huawei.com/cn/support/) | 400-830-8300 |
 | Honor荣耀 | [荣耀售后支持](https://www.honor.cn/support/) | 400-830-8300 |
 | Hp惠普 | [联系惠普客户支持](https://support.hp.com/cn-zh/contact/laptops) | 请在左侧网页中输入序列号获取 |
-| Lenovo联想&ThinkPad | [Lenovo联想售后客户服务中心](https://newsupport.lenovo.com.cn/) | 400-990-8800 |
+| Lenovo联想&ThinkPad | [Lenovo联想售后客户服务中心](https://newsupport.lenovo.com.cn/) | 400-990-8888 |
 | Microsoft微软 | [Contact Us - Microsoft Support](https://support.microsoft.com/zh-cn/contactus/) | 请使用左侧网页中的在线客服 |
 | Samsung三星 | [产品帮助与支持 三星电子](https://www.samsung.com/cn/support/) | 400-810-5858 |
 | Xiaomi小米 | [小米帮助中心](https://www.mi.com/service) | 400-100-5678 |
