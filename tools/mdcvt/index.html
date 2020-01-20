@@ -57,11 +57,35 @@
 function fck() {
 	findAndRender()
 }
-function findAndRender() {
+function findAndRender() {//在原先的mdcvt基础上增加，核心代码改起来太容易崩，采用二次替换再渲染
 	const element = document.getElementById('outputCtt');
+	var links, refblock, link_dict = new Array();
+	var linkpattern = /<a\b[^>]+\bhref="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
 	let str = element.innerHTML;
-	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")
-	str = str.replace(/~~(.*)~~/g, "<del>$1</del>")
+
+	str = str.replace(/~~(.*)~~/g, "<del>$1</del>")//绝了，YZH真TM是个天才……删除线
+
+	str = str.replace(/<(p|br)><img(.*)><(br|\/p)>/g,'<div align="center"><br><img $2></div><p>')//图片块
+
+	links = str.match(linkpattern)
+	
+	if (links != null){
+		refblock = '<br><h2>参考文献</h2><hr><br><div class="ref">'
+		for (let link_idx = 0; link_idx < links.length; link_idx++) {
+			console.log(link_idx)
+			link_dict[link_idx] = [links[link_idx].replace(linkpattern, "$2"),links[link_idx].replace(linkpattern, "$1")];
+			str = str.replace(links[link_idx], "<a>" + link_dict[link_idx][0] + "[" + (link_idx + 1).toString() + "]</a>");
+			refblock += "<p>[" + (link_idx+1).toString() + "]" + link_dict[link_idx][0] + ".<br>&nbsp; &nbsp; " + link_dict[link_idx][1] + "</p>"
+		}
+		refblock += "</div>";
+		str += refblock;
+	}
+
+
+	//console.log(link_dict)
+
+
+	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")//段落公式
 	element.innerHTML = str;
 	let nrs = document.getElementsByClassName('needRender');
 	for (let i = 0; i < nrs.length;) {
@@ -72,7 +96,7 @@ function findAndRender() {
 		nrs[i].className='rendered';
 	}
 	str = element.innerHTML;
-	str = str.replace(/\$(.*)\$/gm, "<span class='needRender'>$1</span>")
+	str = str.replace(/\$(.*)\$/gm, "<span class='needRender'>$1</span>")//行内公式
 	element.innerHTML = str;
 	nrs = document.getElementsByClassName('needRender');
 	for (let i = 0; i < nrs.length;) {

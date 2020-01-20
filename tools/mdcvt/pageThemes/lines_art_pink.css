@@ -152,3 +152,11 @@
 .wrapper pre.prettyprint.linenums{
   padding: 6px 10px 6px 10px !important;
 }
+
+.wrapper div.ref > p{
+  font-size: 13px;
+  line-height: 1.4 !important;
+  color: #adadad !important;
+  text-align: left !important;
+  margin: 5px 0 5px 0 ;
+}

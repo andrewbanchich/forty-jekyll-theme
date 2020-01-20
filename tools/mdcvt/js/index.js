@@ -1368,6 +1368,7 @@ showdown.subParser('blockQuotes', function (text, options, globals) {
       return pre;
     });
 
+	bq = bq.replace(/\n/g,"<br>")
     return showdown.subParser('hashBlock')('<blockquote>\n' + bq + '\n</blockquote>', options, globals);
   });
 
@@ -1950,7 +1951,7 @@ showdown.subParser('images', function (text, options, globals) {
     altText = altText.replace(/"/g, '&quot;');
     altText = showdown.helper.escapeCharacters(altText, '*_', false);
     url = showdown.helper.escapeCharacters(url, '*_', false);
-    var result = '<img src="' + url + '" alt="' + altText + '"';
+    var result = '<img align="absmiddle" src="' + url + '" alt="' + altText + '"';
 
     if (title) {
       title = title.replace(/"/g, '&quot;');
