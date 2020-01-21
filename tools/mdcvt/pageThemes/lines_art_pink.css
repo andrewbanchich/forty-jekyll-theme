@@ -72,7 +72,7 @@
   
   }
 
-.wrapper a {
+/* .wrapper a.reflink {
   color: #f07484;
   margin-left: 3px;
   margin-right: 3px;
@@ -81,18 +81,21 @@
   border-bottom-color: #f07484;
   border-width: 1px;
   white-space: pre-line !important;
-}
+} */
 
 .wrapper table {
+  text-align: center;
   width: -webkit-fill-available;
 }
 
-.wrapper th {
+.wrapper table  th {
+  text-align: center;
   font-size: 13px;
 
 }
 
-.wrapper td {
+.wrapper table td {
+  text-align: center;
   font-size: 13px;
 
 }
@@ -126,14 +129,14 @@
   font-weight: bold;
 }
 
-.wrapper em {
+.wrapper em.comment {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',KaiTi, serif, "Microsoft Yahei" !important;
-    font-style: italic;
+    /* font-style: italic; */
     color: #f07484;
-    padding-bottom: 1px;
+    /* padding-bottom: 1px;
     border-bottom-style: dotted;
     border-bottom-color: #f07484;
-    border-width: 1px;
+    border-width: 1px; */
     margin-left: 3px;
     margin-right: 3px;
   }
@@ -144,8 +147,8 @@
 }
 
 .wrapper hr {
-  margin-left: 45%;
-  margin-right: 45%;
+  margin-left: 150px;
+  margin-right: 150px;
   border-top:3px solid #5a7e99 !important;
 }
 
@@ -156,7 +159,23 @@
 .wrapper div.ref > p{
   font-size: 13px;
   line-height: 1.4 !important;
-  color: #adadad !important;
+  color: #6e6e6e !important;
   text-align: left !important;
-  margin: 5px 0 5px 0 ;
+  margin: 5px 25px 5px 25px !important;
+  word-break: break-all;
+}
+
+.wrapper div > img{
+  max-width: 80%;
+}
+
+.wrapper em.link {
+  color: #f07484;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #f07484;
+  border-width: 1px;
+  word-break: break-all !important;
 }

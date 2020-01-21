@@ -65,26 +65,25 @@
 
 }
 
-.wrapper a {
+/* .wrapper a.reflink {
   color: #b81e82;
   margin-left: 3px;
   margin-right: 3px;
-  font-style: oblique;
   white-space: pre-wrap !important;
-}
+} */
 
 .wrapper table {
   text-align: center;
   width: -webkit-fill-available;
 }
 
-.wrapper th {
+.wrapper table th {
   font-size: 13px;
   text-align: center;
 
 }
 
-.wrapper td {
+.wrapper table td {
   font-size: 13px;
   text-align: center;
 
@@ -116,7 +115,7 @@
   font-weight: bold;
 }
 
-.wrapper em {
+.wrapper em.comment {
   font-family: 'Times New Roman', Times, KaiTi, serif, "Microsoft Yahei" !important;
   color: #adadad;
 }
@@ -124,7 +123,19 @@
 .wrapper div.ref > p{
   font-size: 13px;
   line-height: 1.4 !important;
-  color: #adadad !important;
+  color: #6e6e6e !important;
   text-align: left !important;
-  margin: 5px 0 5px 0 ;
+  margin: 5px 25px 5px 25px !important;
+  word-break: break-all;
+}
+
+.wrapper div > img{
+  max-width: 80%;
+}
+
+.wrapper em.link {
+  color: #b81e82;
+  margin-left: 3px;
+  margin-right: 3px;
+  word-break: break-all !important;
 }

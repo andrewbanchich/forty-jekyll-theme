@@ -65,17 +65,17 @@ function findAndRender() {//在原先的mdcvt基础上增加，核心代码改�
 
 	str = str.replace(/~~(.*)~~/g, "<del>$1</del>")//绝了，YZH真TM是个天才……删除线
 
-	str = str.replace(/<(p|br)><img(.*)><(br|\/p)>/g,'<div align="center"><br><img $2></div><p>')//图片块
+	str = str.replace(/<(p|br)><img(.*)><(br|\/p)>/g,'<p style="text-align:center"><br><img style="max-width:80%" $2></p><p>')//图片块
 
 	links = str.match(linkpattern)
 	
 	if (links != null){
-		refblock = '<br><h2>参考文献</h2><hr><br><div class="ref">'
+		refblock = '<br><h2>参考内容</h2><hr><div class="ref">'
 		for (let link_idx = 0; link_idx < links.length; link_idx++) {
 			console.log(link_idx)
 			link_dict[link_idx] = [links[link_idx].replace(linkpattern, "$2"),links[link_idx].replace(linkpattern, "$1")];
-			str = str.replace(links[link_idx], "<a>" + link_dict[link_idx][0] + "[" + (link_idx + 1).toString() + "]</a>");
-			refblock += "<p>[" + (link_idx+1).toString() + "]" + link_dict[link_idx][0] + ".<br>&nbsp; &nbsp; " + link_dict[link_idx][1] + "</p>"
+			str = str.replace(links[link_idx], '<em class="link">' + link_dict[link_idx][0] + "[" + (link_idx + 1).toString() + "]</em>");
+			refblock += "<p>[" + (link_idx+1).toString() + "] " + link_dict[link_idx][0] + "：</p><p style='color:#0070c0 !important;font-family:Times;font-style:italic'>" + link_dict[link_idx][1] + "</p>"
 		}
 		refblock += "</div>";
 		str += refblock;
