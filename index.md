@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Computer Graphics and Robotics Lab.'
 description: null
 image: null
 author: null
