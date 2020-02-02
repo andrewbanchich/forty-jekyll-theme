@@ -8,4 +8,12 @@ author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realizing them in from virtual environment to real world.
+
+Our research interests include:
+
+* Controlling virtual characters to create physically realistic movements
+* Understanding human body / movement mechanisms
+* Controlling humanoid robots
+* Computational design
+* Other cutting-edge computer graphics technologies
