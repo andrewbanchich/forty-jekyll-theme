@@ -8,7 +8,7 @@ author: null
 show_tile: false
 ---
 
-Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realizing them in from virtual environment to real world.
+Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realize them in from virtual environment to real world.
 
 Our research interests include:
 

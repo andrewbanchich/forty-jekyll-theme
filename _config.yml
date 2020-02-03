@@ -2,7 +2,7 @@
 title: CGR LAB
 subtitle: "@ Hanyang University"
 email: youremailaddress@gmail.com
-description: Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realizing them in from virtual environment to real world.
+description: Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realize them in from virtual environment to real world.
 baseurl: / # the subpath of your site, e.g. /blog
 url: https://cgrhyu.github.io/ # the base hostname & protocol for your site
 author:
