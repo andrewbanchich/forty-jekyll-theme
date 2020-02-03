@@ -6,12 +6,12 @@ description: Our research group aims to understand various aspects (movements, s
 baseurl: # the subpath of your site, e.g. /blog
 url: https://cgrhyu.github.io/ # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: # hard-coded to footer.htm
+city: # hard-coded to footer.htm
+state: # hard-coded to footer.htm
+zip_code: # hard-coded to footer.htm
+country: # hard-coded to footer.htm
+phone: # hard-coded to footer.htm
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
