@@ -15,7 +15,7 @@ phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 60
 
 # social settings
 500px_url:
