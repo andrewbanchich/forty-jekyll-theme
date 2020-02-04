@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Publications
-image: assets/images/publications.jpg
+image: assets/home/publications.jpg
 nav-menu: true
 ---
 

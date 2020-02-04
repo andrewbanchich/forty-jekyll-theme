@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Senior Projects
-image: assets/images/seniorprojs.jpg
+image: assets/home/seniorprojs.jpg
 nav-menu: true
 ---
 

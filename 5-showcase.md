@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Showcase
-image: assets/images/showcase.jpg
+image: assets/home/showcase.jpg
 nav-menu: true
 ---
 

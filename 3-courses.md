@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Courses
-image: assets/images/courses.webp
+image: assets/home/courses.webp
 nav-menu: true
 ---
 
