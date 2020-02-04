@@ -1,7 +1,7 @@
 # site settings
 title: CGR LAB
 subtitle: "@ Hanyang University"
-email: youremailaddress@gmail.com
+email: 
 description: Our research group aims to understand various aspects (movements, structure designs, underlying mechanisms, etc.) of natural or artificial creatures (humans, animals,  robots, etc.) and realize them in from virtual environment to real world.
 baseurl: # the subpath of your site, e.g. /blog
 url: https://cgrhyu.github.io/ # the base hostname & protocol for your site
@@ -21,13 +21,13 @@ tiles-count: 60
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url:
 
 # build settings
 markdown: kramdown
