@@ -1,0 +1,7 @@
+
+iframe {
+	max-width: 50em;
+	max-height: 50em*(9/16);
+    width: 90vw; 
+    height: 90vw*(9/16); /* 100/56.25 = 560/315 = 1.778 */
+}
