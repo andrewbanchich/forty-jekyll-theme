@@ -5,5 +5,30 @@ image: assets/home/courses.webp
 nav-menu: true
 ---
 
-test
+<section id="one">
+<div class="inner">
 
+<h3>2019 Fall</h3>
+<ul>
+<li>ITE1015 Creative Software Design</li>
+</ul>
+
+<h3>2019 Spring</h3>
+<ul>
+<li>CSE4020 Computer Graphics</li>
+<li>ITE1014 Introduction to Software Design</li>
+</ul>
+
+<h3>2018 Fall</h3>
+<ul>
+<li>CSW6026 Advanced Computer Graphics</li>
+<li>ITE1015 Creative Software Design</li>
+</ul>
+
+<h3>2018 Spring</h3>
+<ul>
+<li>CSE4020 Computer Graphics</li>
+</ul>
+
+</div>
+</section>
