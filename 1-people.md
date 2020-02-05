@@ -11,13 +11,13 @@ nav-menu: true
 
 <!-- Content -->
 
-<h3>Professor</h3>
+<h2>Professor</h2>
 <div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/yoonsang-lee.png" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/yoonsang-lee.html">Yoonsang Lee</a></b>
-		<font size="3">이윤상</font>
+		<font size="3">이윤상</font><br/>
 		yoonsanglee@hanyang.ac.kr 
 	</p>
 	</div>
@@ -25,13 +25,13 @@ nav-menu: true
 
 <p/>
 
-<h3>MS Students</h3>
+<h2>MS Students</h2>
 <div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/unknown-male.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b>Guntae Park</b>
-		<font size="3">박근태</font>
+		<font size="3">박근태</font><br/>
 		xxx@xxx.com
 	</p>
 	</div>
@@ -39,7 +39,7 @@ nav-menu: true
 	<p>
 		<span class="image left"><img src="assets/people/unknown-male.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b>Chajun Son</b>
-		<font size="3">손채준</font>
+		<font size="3">손채준</font><br/>
 		xxx@xxx.com
 	</p>
 	</div>
@@ -47,7 +47,7 @@ nav-menu: true
 	<p>
 		<span class="image left"><img src="assets/people/unknown-female.png" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b>Jungmin Lee</b>
-		<font size="3">이정민</font>
+		<font size="3">이정민</font><br/>
 		xxx@xxx.com
 	</p>
 	</div>
