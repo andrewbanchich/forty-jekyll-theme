@@ -8,14 +8,19 @@ nav-menu: true
 <section id="one">
 <div class="inner">
 
-<div class="2u 12u$(small)">
+<div class="row">
+
+<div class="3u 12u$(small)">
 Conference / Journal:
-<select id="conference_journal" onChange="onSelect()">
+<select id="conference_select" onChange="onSelect()">
   <option value='all'>ALL</option>
   <option value='siggraph'>SIGGRAPH family </option>
 </select>
-<p/>
 </div>
+
+</div>
+
+<p/>
 
 <div id="contents" class="row">
 
@@ -44,22 +49,22 @@ function dynamicallyLoadScript(url) {
 dynamicallyLoadScript('publications.js');
 
 function onSelect() {
-	var conf_target = document.getElementById("conference_journal");
-	var conf_value = conf_target.options[conf_target.selectedIndex].value;
+	var conf_select = document.getElementById("conference_select");
+	var conf = conf_select.options[conf_select.selectedIndex].value;
 
 	var contents_code = '';
 	for(var i = 0; i < publications.length; i++) 
 	{
 		var pub = publications[i];
 		var show = false;
-		if(conf_value=='siggraph'
+		if(conf=='siggraph'
 			&& (pub.conference_journal=='SIGGRAPH' || pub.conference_journal=='SIGGRAPH Asia'
 				|| pub.conference_journal=='TOG'))
 		{
 			show = true;
-			console.log(conf_value);
+			console.log(conf);
 		}
-		else if(conf_value=='all')
+		else if(conf=='all')
 		{
 			show = true;
 		}
@@ -81,10 +86,10 @@ function onSelect() {
 
 // set default value and trigger onchange event when window is loaded
 window.onload = function () {
-	var conf_target = document.getElementById("conference_journal");
-	conf_target.value = 'all';
-	//conf_target.value = 'siggraph';
-	conf_target.onchange();
+	var conf_select = document.getElementById("conference_select");
+	conf_select.value = 'all';
+	//conf_select.value = 'siggraph';
+	conf_select.onchange();
 
 }
 
