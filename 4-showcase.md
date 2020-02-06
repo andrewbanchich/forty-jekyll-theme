@@ -21,9 +21,9 @@ Type:
 
 <div class="3u 12u$(small)">
 Conference / Journal:
-<select id="conference_select" onChange="onSelect()">
+<select id="conf_select" onChange="onSelect()">
   <option value='all'>ALL</option>
-  <option value='siggraph'>SIGGRAPH family </option>
+  <option value='siggraph'>SIGGRAPH (Asia) / TOG</option>
 </select>
 </div>
 
@@ -58,7 +58,7 @@ function dynamicallyLoadScript(url) {
 dynamicallyLoadScript('publications.js');
 
 function onSelect() {
-	var conf_select = document.getElementById("conference_select");
+	var conf_select = document.getElementById("conf_select");
 	var conf_value = conf_select.options[conf_select.selectedIndex].value;
 
 	var contents_code = '';
@@ -85,7 +85,7 @@ function onSelect() {
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
 			contents_code += '{0}'.format(pub.video_iframe);;
 			contents_code += '</div></div>';
-			contents_code += '</div>';
+			contents_code += '<br/></div>';
 		}
 	}
 
@@ -95,7 +95,7 @@ function onSelect() {
 
 // set default value and trigger onchange event when window is loaded
 window.onload = function () {
-	var conf_select = document.getElementById("conference_select");
+	var conf_select = document.getElementById("conf_select");
 	conf_select.value = 'all';
 	//conf_select.value = 'siggraph';
 	conf_select.onchange();
