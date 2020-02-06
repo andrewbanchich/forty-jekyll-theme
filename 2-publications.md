@@ -7,7 +7,17 @@ nav-menu: true
 
 <section id="one">
 <div class="inner">
-<div class="row">
+
+<div class="2u 12u$(small)">
+Conference / Journal:
+<select id="conference_journal" onChange="onSelect()">
+  <option value='all'>ALL</option>
+  <option value='siggraph'>SIGGRAPH family </option>
+</select>
+<p/>
+</div>
+
+<div id="contents" class="row">
 
 <script>
 // https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
@@ -72,15 +82,49 @@ var publications = [
 	},
 ]
 
-for(var i = 0; i < publications.length; i++) 
-{
-    var pub = publications[i];
-	document.write('<div class="12u 12u$(small)">');
-	document.write('<span class="image left"><img src={0} style="max-width: 220px; height: auto; " alt="" /></span>'.format(pub.representative_img));
-	document.write('<a href={0}><b>{1}</b></a><br/>'.format(pub.project_page, pub.title));
-	document.write('{0}<br/>'.format(pub.authors));
-	document.write('{0}<br/>'.format(pub.conference_journal_full));
-	document.write('</div>');
+function onSelect() {
+	var conf_target = document.getElementById("conference_journal");
+	var conf_value = conf_target.options[conf_target.selectedIndex].value;
+
+	var contents_code = '';
+	for(var i = 0; i < publications.length; i++) 
+	{
+		var pub = publications[i];
+		var show = false;
+		if(conf_value=='siggraph'
+			&& (pub.conference_journal=='SIGGRAPH' || pub.conference_journal=='SIGGRAPH Asia'
+				|| pub.conference_journal=='TOG'))
+		{
+			show = true;
+			console.log(conf_value);
+		}
+		else if(conf_value=='all')
+		{
+			show = true;
+		}
+
+		if(show)
+		{
+			contents_code += '<div class="12u 12u$(small)">';
+			contents_code += '<span class="image left"><img src={0} style="max-width: 220px; height: auto; " alt="" /></span>'.format(pub.representative_img);
+			contents_code += '<a href={0}><b>{1}</b></a><br/>'.format(pub.project_page, pub.title);
+			contents_code += '{0}<br/>'.format(pub.authors);
+			contents_code += '{0}<br/>'.format(pub.conference_journal_full);
+			contents_code += '</div>';
+		}
+	}
+
+	var contents = document.getElementById("contents");
+	contents.innerHTML = contents_code;
+}
+
+// set default value and trigger onchange event when window is loaded
+window.onload = function () {
+	var conf_target = document.getElementById("conference_journal");
+	conf_target.value = 'all';
+	//conf_target.value = 'siggraph';
+	conf_target.onchange();
+
 }
 
 </script>
@@ -88,6 +132,7 @@ for(var i = 0; i < publications.length; i++)
 </div>
 </div>
 </section>
+
 
 <!--<section id="one">-->
 <!--<div class="inner">-->
