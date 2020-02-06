@@ -12,9 +12,20 @@ nav-menu: true
 
 <div class="3u 12u$(small)">
 Conference / Journal:
-<select id="conference_select" onChange="onSelect()">
+<select id="conf_select" onChange="onSelect()">
   <option value='all'>ALL</option>
-  <option value='siggraph'>SIGGRAPH family </option>
+  <option value='siggraph'>SIGGRAPH (Asia) / TOG</option>
+</select>
+</div>
+
+<div class="7u 12u$(small)" style="height:1px">
+</div>
+
+<div class="2u 12u$(small)">
+Language:
+<select id="lang_select" onChange="onSelect()">
+  <option value='eng'>In English</option>
+  <option value='kor'>In Korean</option>
 </select>
 </div>
 
@@ -46,11 +57,20 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('publications.js');
+dynamicallyLoadScript('publications_eng.js');
+dynamicallyLoadScript('publications_kor.js');
 
 function onSelect() {
-	var conf_select = document.getElementById("conference_select");
+	var conf_select = document.getElementById("conf_select");
 	var conf = conf_select.options[conf_select.selectedIndex].value;
+
+	var lang_select = document.getElementById("lang_select");
+	var lang = lang_select.options[lang_select.selectedIndex].value;
+
+	if(lang=='eng')
+		var publications = publications_eng;
+	else
+		var publications = publications_kor;
 
 	var contents_code = '';
 	for(var i = 0; i < publications.length; i++) 
@@ -60,14 +80,9 @@ function onSelect() {
 		if(conf=='siggraph'
 			&& (pub.conference_journal=='SIGGRAPH' || pub.conference_journal=='SIGGRAPH Asia'
 				|| pub.conference_journal=='TOG'))
-		{
 			show = true;
-			console.log(conf);
-		}
 		else if(conf=='all')
-		{
 			show = true;
-		}
 
 		if(show)
 		{
@@ -86,10 +101,13 @@ function onSelect() {
 
 // set default value and trigger onchange event when window is loaded
 window.onload = function () {
-	var conf_select = document.getElementById("conference_select");
+	var conf_select = document.getElementById("conf_select");
 	conf_select.value = 'all';
-	//conf_select.value = 'siggraph';
 	conf_select.onchange();
+
+	var lang_select = document.getElementById("lang_select");
+	lang_select.value = 'eng';
+	lang_select.onchange();
 
 }
 

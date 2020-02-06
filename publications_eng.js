@@ -1,4 +1,4 @@
-var publications = [
+var publications_eng = [
 	{
 		'title': 'Control of an Iguana Character Using Soft-Body Simulation',
 		'representative_img': 'assets/publications/2018-iguana-ctrl.jpg',
