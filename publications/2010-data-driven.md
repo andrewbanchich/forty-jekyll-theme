@@ -18,7 +18,9 @@ We present a dynamic controller to physically simulate under-actuated three-dime
 Download: [pdf](https://gitcgr.hanyang.ac.kr/publications/2010-data-driven/DataDrivenBipedControl_2010.pdf) (1.4MB)
 
 ## Video 
+<div id="iframe_container"> <div id="iframe">
 <iframe width="1017" height="765" src="https://www.youtube.com/embed/hpeqxc_1vwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>  
 Full video: [mov](https://gitcgr.hanyang.ac.kr/publications/2010-data-driven/DataDrivenBipedControl_2010.mov) (60.2MB)
 
 Spinning example: 

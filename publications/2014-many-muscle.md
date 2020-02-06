@@ -17,7 +17,9 @@ We present a biped locomotion controller for humanoid models actuated by more th
 Download: [pdf](https://gitcgr.hanyang.ac.kr/publications/2014-many-muscle/many-muscle.pdf) (11.4MB)
 
 ## Video 
+<div id="iframe_container"> <div id="iframe">
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/O0zxRbZ_kNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>  
 Download: [mp4](https://gitcgr.hanyang.ac.kr/publications/2014-many-muscle/many-muscle.mp4) (52.7MB)
 
 ## Supplemental Material 

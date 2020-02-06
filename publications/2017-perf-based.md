@@ -18,7 +18,9 @@ We present a technique for controlling physically simulated characters using use
 Download: [pdf](https://gitcgr.hanyang.ac.kr/publications/2017-perf-based/perf-biped-final.pdf) (6.8MB)
 
 ## Video 
+<div id="iframe_container"> <div id="iframe">
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/WVDPXdlnhBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>  
 Download: [mp4](https://gitcgr.hanyang.ac.kr/publications/2017-perf-based/perf-biped-final.mp4) (67.3MB)
 
 ## Slides

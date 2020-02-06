@@ -18,7 +18,9 @@ Biped controller design pursues two fundamental goals; simulated walking should 
 Download: [pdf](https://gitcgr.hanyang.ac.kr/publications/2015-push-recovery/push-recovery.pdf) (5.0MB)
 
 ## Video 
+<div id="iframe_container"> <div id="iframe">
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/KrTDh5Zhlac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>  
 Download: [mp4](https://gitcgr.hanyang.ac.kr/publications/2015-push-recovery/push-recovery.mp4) (69.3MB)
 
 ## Slides

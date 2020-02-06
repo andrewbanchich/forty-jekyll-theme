@@ -16,5 +16,7 @@ Download: [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8555550
 [IEEE Xplore page](https://ieeexplore.ieee.org/document/8555550)
 
 ## Video 
+<div id="iframe_container"> <div id="iframe">
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/c37VEexDZaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+</div></div>  
 Download: [mp4](https://gitcgr.hanyang.ac.kr/publications/2018-iguana-ctrl/FINAL video.mp4) (49.1MB)
