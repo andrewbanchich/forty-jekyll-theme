@@ -34,53 +34,14 @@ if (!String.prototype.format) {
   };
 }
 
-var publications = [
-	{
-		'title': 'Control of an Iguana Character Using Soft-Body Simulation',
-		'representative_img': 'assets/publications/2018-iguana-ctrl.jpg',
-		'project_page': 'publications/2018-iguana-ctrl.html',
-		'conference_journal': 'Access',
-		'year': '2018',
-		'authors': 'Taesoo Kwon, Hoimin Kim, Yoonsang Lee',
-		'conference_journal_full': 'IEEE Access, Volume 6 Issue 1, Dec 2018'
-	},
-	{
-		'title': 'Performance-Based Biped Control using a Consumer Depth Camera',
-		'representative_img': 'assets/publications/2017-perf-based.png',
-		'project_page': 'publications/2017-perf-based.html',
-		'conference_journal': 'Eurographics',
-		'year': '2017',
-		'authors': 'Yoonsang Lee, Taesoo Kwon',
-		'conference_journal_full': 'Computer Graphics Forum (Eurographics 2017), Volume 36 Issue 2, 387-395, May 2017'
-	},
-	{
-		'title': 'Push-Recovery Stability of Biped Locomotion',
-		'representative_img': 'assets/publications/2015-push-recovery.png',
-		'project_page': 'publications/2015-push-recovery.html',
-		'conference_journal': 'SIGGRAPH Asia',
-		'year': '2015',
-		'authors': 'Yoonsang Lee, Kyungho Lee, Soon-Sun Kwon, Jiwon Jeong, Carol O\'Sullivan, Moon Seok Park, Jehee Lee',
-		'conference_journal_full': 'ACM Transactions on Graphics (SIGGRAPH Asia 2015), Volume 34 Issue 6, Article No. 180, November 2015'
-	},
-	{
-		'title': 'Locomotion Control for Many-Muscle Humanoids',
-		'representative_img': 'assets/publications/2014-many-muscle.png',
-		'project_page': 'publications/2014-many-muscle.html',
-		'conference_journal': 'SIGGRAPH Asia',
-		'year': '2014',
-		'authors': 'Yoonsang Lee, Moon Seok Park, Taesoo Kwon, Jehee Lee',
-		'conference_journal_full': 'ACM Transactions on Graphics (SIGGRAPH Asia 2014), Volume 33 Issue 6, Article No. 218, November 2014'
-	},
-	{
-		'title': 'Data-Driven Biped Control',
-		'representative_img': 'assets/publications/2010-data-driven.jpg',
-		'project_page': 'publications/2010-data-driven.html',
-		'conference_journal': 'SIGGRAPH',
-		'year': '2010',
-		'authors': 'Yoonsang Lee, Sungeun Kim, Jehee Lee',
-		'conference_journal_full': 'ACM Transactions on Graphics (SIGGRAPH 2010), Volume 29 Issue 4, Article No. 129, July 2010'
-	},
-]
+function dynamicallyLoadScript(url) {
+    var script = document.createElement("script");  // create a script DOM node
+    script.src = url;  // set its src to the provided URL
+
+    document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+}
+
+dynamicallyLoadScript('publications.js');
 
 function onSelect() {
 	var conf_target = document.getElementById("conference_journal");
