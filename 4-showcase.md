@@ -55,12 +55,12 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('publications_eng.js');
-dynamicallyLoadScript('outstanding_senior.js');
+dynamicallyLoadScript('publications-eng.js');
+dynamicallyLoadScript('seniorprojs.js');
 
 function onSelect() {
 	var publications = publications_eng;
-	var projs = outstanding_senior;
+	var projs = seniorprojs;
 	var items = publications.concat(projs);
 
 	var type_select = document.getElementById("type_select");

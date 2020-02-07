@@ -66,8 +66,8 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('publications_eng.js');
-dynamicallyLoadScript('publications_kor.js');
+dynamicallyLoadScript('publications-eng.js');
+dynamicallyLoadScript('publications-kor.js');
 
 function onSelect() {
 	var conf_select = document.getElementById("conf_select");
@@ -123,8 +123,7 @@ function onSelect() {
 
 			contents_code += '{0}<br/>'.format(pub.authors);
 			contents_code += '{0}<br/>'.format(pub.conference_journal_full);
-			if('additional' in pub)
-				contents_code += '{0}<br/>'.format(pub.additional);
+			contents_code += '{0}<br/>'.format(pub.additional);
 			contents_code += '</div>';
 		}
 	}

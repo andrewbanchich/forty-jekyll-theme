@@ -31,17 +31,17 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('../outstanding_senior.js');
+dynamicallyLoadScript('../seniorprojs.js');
 
 window.onload = function () {
-	var projs = outstanding_senior;
+	var projs = seniorprojs;
 	var contents_code = '';
 	for(var i = 0; i < projs.length; i++) 
 	{
 		var proj = projs[i];
 		var show = false;
 
-		if(proj.year==2019 && proj.season==2)
+		if(proj.year==2019 && proj.season=='fall')
 			show = true;
 
 		if(show)
