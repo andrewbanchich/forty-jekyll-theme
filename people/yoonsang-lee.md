@@ -7,7 +7,7 @@ show_tile: false
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<span class="image left"><img src="../assets/people/yoonsang-lee.png" alt="" /></span>
+		<span class="image left"><img src="../assets/people/yoonsang-lee/yoonsang-lee.png" alt="" /></span>
 
 <p/>
 <h2>Yoonsang Lee</h2>

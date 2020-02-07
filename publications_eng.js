@@ -1,7 +1,7 @@
 var publications_eng = [
 	{
 		'title': 'Control of an Iguana Character Using Soft-Body Simulation',
-		'representative_img': 'assets/publications/2018-iguana-ctrl.jpg',
+		'representative_img': 'assets/publications/2018-iguana-ctrl/2018-iguana-ctrl.jpg',
 		'project_page': 'publications/2018-iguana-ctrl.html',
 		'conference_journal': 'Access',
 		'year': 2018,
@@ -12,7 +12,7 @@ var publications_eng = [
 	},
 	{
 		'title': 'Performance-Based Biped Control using a Consumer Depth Camera',
-		'representative_img': 'assets/publications/2017-perf-based.png',
+		'representative_img': 'assets/publications/2017-perf-based/2017-perf-based.png',
 		'project_page': 'publications/2017-perf-based.html',
 		'conference_journal': 'Eurographics',
 		'year': 2017,
@@ -24,7 +24,7 @@ var publications_eng = [
 	},
 	{
 		'title': 'Push-Recovery Stability of Biped Locomotion',
-		'representative_img': 'assets/publications/2015-push-recovery.png',
+		'representative_img': 'assets/publications/2015-push-recovery/2015-push-recovery.png',
 		'project_page': 'publications/2015-push-recovery.html',
 		'conference_journal': 'SIGGRAPH Asia',
 		'year': 2015,
@@ -36,7 +36,7 @@ var publications_eng = [
 	},
 	{
 		'title': 'Locomotion Control for Many-Muscle Humanoids',
-		'representative_img': 'assets/publications/2014-many-muscle.png',
+		'representative_img': 'assets/publications/2014-many-muscle/2014-many-muscle.png',
 		'project_page': 'publications/2014-many-muscle.html',
 		'conference_journal': 'SIGGRAPH Asia',
 		'year': 2014,
@@ -48,7 +48,7 @@ var publications_eng = [
 	},
 	{
 		'title': 'Data-Driven Biped Control',
-		'representative_img': 'assets/publications/2010-data-driven.jpg',
+		'representative_img': 'assets/publications/2010-data-driven/2010-data-driven.jpg',
 		'project_page': 'publications/2010-data-driven.html',
 		'conference_journal': 'SIGGRAPH',
 		'year': 2010,

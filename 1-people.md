@@ -15,7 +15,7 @@ nav-menu: true
 <div class="row">
 	<div class="4u 12u$(small)">
 	<p>
-		<span class="image left"><img src="assets/people/yoonsang-lee.png" style="max-width: 200px; height: auto; " alt="" /></span>
+		<span class="image left"><img src="assets/people/yoonsang-lee/yoonsang-lee.png" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/yoonsang-lee.html">Yoonsang Lee</a></b>
 		<font size="3">이윤상</font><br/>
 		yoonsanglee@hanyang.ac.kr 
