@@ -103,7 +103,11 @@ function onSelect() {
 			else if(item.type=='senior')
 				typestr = 'Senior Project';
 			contents_code += '<div class="6u 12u$(small)">';
-			contents_code += '<a href={0}><b>{1} ({2} {3})</b></a><br/>'.format(item.project_page, item.title, item.year, typestr);
+			if('id' in item)
+				project_page = item.project_page + '#' + item.id;
+			else
+				project_page = item.project_page
+			contents_code += '<a href={0}><b>{1} ({2} {3})</b></a><br/>'.format(project_page, item.title, item.year, typestr);
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
 			contents_code += '{0}'.format(item.video_iframe);;
 			contents_code += '</div></div>';

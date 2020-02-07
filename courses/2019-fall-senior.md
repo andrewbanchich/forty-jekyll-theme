@@ -46,7 +46,7 @@ window.onload = function () {
 
 		if(show)
 		{
-			contents_code += '<br id="{0}"/><br/>'.format(proj.title);
+			contents_code += '<br id="{0}"/><br/>'.format(proj.id);
 			contents_code += '<div class="row">'.format(proj.title);
 			contents_code += '<div class="6u 12u$(small)">';
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
