@@ -87,7 +87,7 @@ function onSelect() {
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
 			contents_code += '{0}'.format(pub.video_iframe);;
 			contents_code += '</div></div>';
-			contents_code += '<br/></div>';
+			contents_code += '</div><br/>';
 		}
 	}
 

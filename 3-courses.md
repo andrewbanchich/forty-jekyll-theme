@@ -11,6 +11,7 @@ nav-menu: true
 <h3>2019 Fall</h3>
 <ul>
 <li>ITE1015 Creative Software Design</li>
+<a href="courses/2019-2-senior.html"><li>(Senior Projects)</li></a>
 </ul>
 
 <h3>2019 Spring</h3>
