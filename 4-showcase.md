@@ -55,9 +55,11 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('publications.js');
+dynamicallyLoadScript('publications_eng.js');
 
 function onSelect() {
+	var publications = publications_eng;
+
 	var conf_select = document.getElementById("conf_select");
 	var conf_value = conf_select.options[conf_select.selectedIndex].value;
 
