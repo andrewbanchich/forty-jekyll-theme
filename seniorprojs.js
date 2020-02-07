@@ -1,7 +1,7 @@
 var seniorprojs = [
 	{
-		'title': 'Team3',
-		'topic': 'Unreal Engine 4 환경에서 Phase Functioned Neural Network 기술을 이용한 게임 제작',
+		'title': 'Phase-Functioned Neural Network in Unreal Engine 4',
+		'title_kor': 'Unreal Engine 4 환경에서 Phase Functioned Neural Network 기술을 이용한 게임 제작',
 		'authors': '이상옥, 구교민, 유지원',
 		'project_page': 'courses/2019-fall-senior.html',
 		'id': 'team3',
@@ -11,8 +11,8 @@ var seniorprojs = [
 		'type': 'senior',
 	},
 	{
-		'title': 'Team7',
-		'topic': 'ROS 기반 이동 로봇을 이용한 실내 지도 작성',
+		'title': 'Autonomous Indoor Mapping using ROS Mobile Robot',
+		'title_kor': 'ROS 기반 이동 로봇을 이용한 실내 지도 작성',
 		'authors': '오동원',
 		'project_page': 'courses/2019-fall-senior.html',
 		'id': 'team7',
@@ -22,8 +22,8 @@ var seniorprojs = [
 		'type': 'senior',
 	},
 	{
-		'title': 'Team8',
-		'topic': 'Folding House',
+		'title': 'Folding House',
+		'title_kor': 'Folding House',
 		'authors': '조태희',
 		'project_page': 'courses/2019-fall-senior.html',
 		'id': 'team8',
@@ -33,8 +33,8 @@ var seniorprojs = [
 		'type': 'senior',
 	},
 	{
-		'title': 'Team9',
-		'topic': 'Blender를 이용한 Goldberg machine 애니메이션 제작',
+		'title': 'Goldberg Machine Animation in Blender',
+		'title_kor': 'Blender를 이용한 Goldberg machine 애니메이션 제작',
 		'authors': '임교리, 문정현',
 		'project_page': 'courses/2019-fall-senior.html',
 		'id': 'team9',
