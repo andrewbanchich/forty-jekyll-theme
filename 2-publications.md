@@ -123,7 +123,8 @@ function onSelect() {
 
 			contents_code += '{0}<br/>'.format(pub.authors);
 			contents_code += '{0}<br/>'.format(pub.conference_journal_full);
-			contents_code += '{0}<br/>'.format(pub.additional);
+			if('additional' in pub)
+				contents_code += '{0}<br/>'.format(pub.additional);
 			contents_code += '</div>';
 		}
 	}
