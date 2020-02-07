@@ -14,8 +14,8 @@ nav-menu: true
 Type:
 <select id="type_select" onChange="onSelect()">
   <option value='all'>ALL</option>
-  <option value='publications'>Publications</option>
-  <option value='seniorprojs'>Senior Projects</option>
+  <option value='paper'>Paper</option>
+  <option value='senior'>Senior Project</option>
 </select>
 </div>
 
@@ -56,38 +56,54 @@ function dynamicallyLoadScript(url) {
 }
 
 dynamicallyLoadScript('publications_eng.js');
+dynamicallyLoadScript('outstanding_senior.js');
 
 function onSelect() {
 	var publications = publications_eng;
+	var projs = outstanding_senior;
+	var items = publications.concat(projs);
+
+	var type_select = document.getElementById("type_select");
+	var type = type_select.options[type_select.selectedIndex].value;
 
 	var conf_select = document.getElementById("conf_select");
-	var conf_value = conf_select.options[conf_select.selectedIndex].value;
+	var conf = conf_select.options[conf_select.selectedIndex].value;
 
 	var contents_code = '';
-	for(var i = 0; i < publications.length; i++) 
+	for(var i = 0; i < items.length; i++) 
 	{
-		var pub = publications[i];
+		var item = items[i];
 		var show = false;
-		if(conf_value=='siggraph'
-			&& (pub.conference_journal=='SIGGRAPH' || pub.conference_journal=='SIGGRAPH Asia'
-				|| pub.conference_journal=='TOG'))
-		{
+
+		if(type=='paper' && item.type=='paper')
 			show = true;
-			console.log(conf_value);
-		}
-		else if(conf_value=='all')
-		{
+		else if(type=='senior' && item.type=='senior')
 			show = true;
+		else if(type=='all')
+			show = true;
+		else
+			show = false;
+
+		if(show)
+		{
+			if(conf=='siggraph'
+				&& (item.conference_journal=='SIGGRAPH' || item.conference_journal=='SIGGRAPH Asia'
+					|| item.conference_journal=='TOG'))
+				show = true;
+			else if(conf=='all')
+				show = true;
+			else
+				show = false;
 		}
 
 		if(show)
 		{
 			contents_code += '<div class="6u 12u$(small)">';
-			contents_code += '<a href={0}><b>{1}</b></a><br/>'.format(pub.project_page, pub.title);
+			contents_code += '<a href={0}><b>{1}</b></a><br/>'.format(item.project_page, item.title);
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
-			contents_code += '{0}'.format(pub.video_iframe);;
+			contents_code += '{0}'.format(item.video_iframe);;
 			contents_code += '</div></div>';
-			contents_code += '</div><br/>';
+			contents_code += '<br/></div>';
 		}
 	}
 
