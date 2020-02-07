@@ -46,18 +46,19 @@ window.onload = function () {
 
 		if(show)
 		{
-			contents_code += '<div class="row">';
+			contents_code += '<br id="{0}"/><br/>'.format(proj.title);
+			contents_code += '<div class="row">'.format(proj.title);
 			contents_code += '<div class="6u 12u$(small)">';
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
 			contents_code += '{0}'.format(proj.video_iframe);;
 			contents_code += '</div></div>';
 			contents_code += '</div>';
 			contents_code += '<div class="6u 12u$(small)">';
-			contents_code += '<a href="../{0}"><b>{1}</b></a><br/>'.format(proj.project_page, proj.title);
+			contents_code += '<b>{0}</b><br/>'.format(proj.title);
 			contents_code += '주제: {0}<br/>'.format(proj.topic);
 			contents_code += '팀원: {0}<br/>'.format(proj.authors);
 			contents_code += '</div>';
-			contents_code += '</div><br/>';
+			contents_code += '</div>';
 		}
 	}
 
