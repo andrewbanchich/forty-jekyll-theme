@@ -117,7 +117,7 @@ function onSelect() {
 			contents_code += '<span class="image left"><img src={0} style="max-width: 220px; height: auto; " alt="" /></span>'.format(pub.representative_img);
 
 			if('project_page' in pub)
-				contents_code += '<a href={0}><b>{1}</b></a><br/>'.format(pub.project_page, pub.title);
+				contents_code += '<b><a href={0}>{1}</a></b><br/>'.format(pub.project_page, pub.title);
 			else
 				contents_code += '<b>{0}</b><br/>'.format(pub.title);
 
@@ -162,7 +162,7 @@ window.onload = function () {
 
 <!--<div class="12u 12u$(small)">-->
 <!--<span class="image left"><img src="assets/publications/2018-iguana-ctrl.jpg" style="max-width: 220px; height: auto; " alt="" /></span>-->
-<!--<a href="publications/2018-iguana-ctrl.html"><b>Control of an Iguana Character Using Soft-Body Simulation</b></a><br/>-->
+<!--<b><a href="publications/2018-iguana-ctrl.html">Control of an Iguana Character Using Soft-Body Simulation</a></b><br/>-->
 <!--Taesoo Kwon, Hoimin Kim, Yoonsang Lee<br/>-->
 <!--IEEE Access, Volume 6 Issue 1, Dec 2018<br/>-->
 <!--</div>-->

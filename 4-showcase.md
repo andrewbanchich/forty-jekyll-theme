@@ -107,7 +107,7 @@ function onSelect() {
 				project_page = item.project_page + '#' + item.id;
 			else
 				project_page = item.project_page
-			contents_code += '<a href={0}><b>{1} ({2} {3})</b></a><br/>'.format(project_page, item.title, item.year, typestr);
+			contents_code += '<b><a href={0}>{1} ({2} {3})</a></b><br/>'.format(project_page, item.title, item.year, typestr);
 			contents_code += '<div id="iframe_container"> <div id="iframe">';
 			contents_code += '{0}'.format(item.video_iframe);;
 			contents_code += '</div></div>';
@@ -139,7 +139,7 @@ window.onload = function () {
 <!--<div class="row">-->
 
 <!--<div class="6u 12u$(small)">-->
-<!--<a href="publications/2018-iguana-ctrl.html"><b>Control of an Iguana Character Using Soft-Body Simulation</b></a><br/>-->
+<!--<b><a href="publications/2018-iguana-ctrl.html">Control of an Iguana Character Using Soft-Body Simulation</a></b><br/>-->
 <!--<div id="iframe_container"> <div id="iframe">-->
 <!--<iframe width="1280" height="720" src="https://www.youtube.com/embed/c37VEexDZaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
 <!--</div></div>  -->
