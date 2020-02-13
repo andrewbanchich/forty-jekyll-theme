@@ -45,10 +45,10 @@ nav-menu: true
 	</div>
 	<div class="4u 12u$(small)">
 	<p>
-		<span class="image left"><img src="assets/people/unknown-female.png" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b>Jungmin Lee</b>
+		<span class="image left"><img src="assets/people/jeongmin-lee/jeongmin-lee.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/jeongmin-lee.html">Jeongmin Lee</a></b>
 		<font size="3">이정민</font><br/>
-		xxx@xxx.com
+	    j0064423@hanyang.ac.kr	
 	</p>
 	</div>
 </div>
