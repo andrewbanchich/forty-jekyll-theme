@@ -10,11 +10,18 @@
 *要求安装 ruby 与 ruby-gem *
 
 ``` sh
-git clone https://github.com/NJU-itxia/nju-itxia.github.io.git
-cd nju-itxia.github.io
+git clone https://github.com/NJU-itxia/home.git
+cd home
+gem install bundler #太慢记得换源
 bundle install
-bundle exec jekyll 
+bundle exec jekyll server #本地运行
+bundle exec jekyll #查看其他命令
 ```
+如果要在docker运行，需按照以上配置镜像，为减少麻烦可以用：
+```
+docker run [各种参数] [镜像名] bundle exec jekyll server -H 0.0.0.0
+```
+做好端口映射后便可外部访问
 
 ## 目录结构
 
