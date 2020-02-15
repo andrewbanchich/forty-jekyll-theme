@@ -65,7 +65,7 @@ function findAndRender() {//在原先的mdcvt基础上增加，核心代码改�
 
 	str = str.replace(/~~(.*)~~/g, "<del>$1</del>")//绝了，YZH真TM是个天才……删除线
 
-	str = str.replace(/<(p|br)><img(.*)><(br|\/p)>/g,'<p style="text-align:center"><br><img style="max-width:80%" $2></p><p>')//图片块
+	str = str.replace(/<br\s*\/?><img.*?src=[\"|\']?(.*?)[\"|\']?\s.*?><br\s*\/?>/g,'<p class="pic_alone" style="text-align:center"><img style="max-width:80%" src="$1"></p><p>')//图片块
 
 	links = str.match(linkpattern)
 	
@@ -80,12 +80,12 @@ function findAndRender() {//在原先的mdcvt基础上增加，核心代码改�
 		refblock += "</div>";
 		str += refblock;
 	}
-
+	element.innerHTML = str;
 
 	//console.log(link_dict)
 
 
-	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")//段落公式
+/* 	str = str.replace(/\$\$\n(.*)\n\$\$/gm, "<span class='needRender'>$1</span>")//段落公式
 	element.innerHTML = str;
 	let nrs = document.getElementsByClassName('needRender');
 	for (let i = 0; i < nrs.length;) {
@@ -103,7 +103,7 @@ function findAndRender() {//在原先的mdcvt基础上增加，核心代码改�
 		let content = nrs[i].innerHTML;
 		katex.render(content, nrs[i]);
 		nrs[i].className='rendered';
-	}
+	} */
 }
 </script>
 

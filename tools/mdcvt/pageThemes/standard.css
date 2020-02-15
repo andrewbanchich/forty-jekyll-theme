@@ -32,7 +32,7 @@
   font-family: STXihei !important
 }
 .wrapper h2 {
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 22px;
   color: #5b0d53;
   font-family: STXihei !important
@@ -138,4 +138,9 @@
   margin-left: 3px;
   margin-right: 3px;
   word-break: break-all !important;
+}
+
+.wrapper p.pic_alone {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

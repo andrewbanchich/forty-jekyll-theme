@@ -38,13 +38,13 @@
 }
 .wrapper h2 {
   font-size: 22px;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #5b0d53;
   font-family: STXihei !important;
   text-align: center;
 }
 .wrapper h3 {
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 19px;
   color: #5b0d53;
   font-family: STXihei !important
@@ -143,7 +143,7 @@
 
 .wrapper del {
     text-decoration:none !important;
-    background-color: black;
+    background-color: #414141;
 }
 
 .wrapper hr {
@@ -179,4 +179,9 @@
   border-bottom-color: #b81e82;
   border-width: 1px;
   word-break: break-all !important;
+}
+
+.wrapper p.pic_alone {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
