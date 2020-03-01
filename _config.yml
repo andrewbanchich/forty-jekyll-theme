@@ -1,8 +1,8 @@
 # site settings
-title: Forty1
-subtitle: by HTML5 UP
+title: Learning
+subtitle: by Doing
 email: sofia@ntoulou.com
-description: Learning by Doing. We are here because we want to learn to COLLABORATE,to do great WORKSHOPS together, that solve interesting problems with insightful ideas that resonate with PEOPLE' needs & dreams. And in doing so, we want to fullfill our CREATIVE potential. Everything we DESIGN affects people, in one way or another. Now, you may THINK we are dreamers but we are very practical ones. 
+description: We are here because we want to learn to COLLABORATE,to do great WORKSHOPS together, that solve interesting problems with insightful ideas that resonate with PEOPLE' needs & dreams. And in doing so, we want to fullfill our CREATIVE potential. Everything we DESIGN affects people, in one way or another. Now, you may THINK we are dreamers but we are very practical ones. 
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
