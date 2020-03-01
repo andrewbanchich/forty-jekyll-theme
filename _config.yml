@@ -29,7 +29,7 @@ instagram_url: https://instagram.com/sofiantoulou
 linkedin_url: https://www.linkedin.com/in/sofiantoulou
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/sofiantoulou
+# twitter_url: https://twitter.com/sofiantoulou
 
 # build settings
 markdown: kramdown
