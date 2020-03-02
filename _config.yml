@@ -11,7 +11,7 @@ city: AGHIA PARASKEVI
 state: ATTICA
 zip_code: 15342
 country: GREECE
-phone: 
+#phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
