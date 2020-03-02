@@ -15,8 +15,9 @@ nav-menu: true
 		</header>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Interdum sapien gravida</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Σχεδιάζουμε με επίκεντρο τον χρήστη (user-centered design)</h3>
+		<p>Για να δημιουργηθούν οι λύσεις που θα υποστηρίζουν πραγματικά τις ανάγκες και τις συμπεριφορές που έχουν οι χρήστες, εργαζόμαστε συστηματικά για την κατανόησή τους με ενσυναίσθηση. Ο τρόπος εργασίας μας δημιουργεί μια βαθιά γνώση των επιθυμιών των χρηστών και έναν ενθουσιασμό στους πελάτες σας.</p>
+		<p>Ετσι, μεγάλο μέρος της δουλειά μας είναι να βοηθάμε τους πελάτες μας να κατανοήσουν καλύτερα τους δικούς τους πελάτες και να ενεργήσουν σε αυτή τη βάση. Μελετώντας τους χρήστες βρίσκουμε χρήσιμη πληροφορία αλλά και έμπνευση. Γι’ αυτό η έρευνα χρηστών (user research) είναι βασικό κομμάτι του τρόπου εργασίας μας και διαφοροποιητικό στοιχείο της προφοράς μας.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Faucibus consequat lorem</h3>
