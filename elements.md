@@ -28,20 +28,3 @@ nav-menu: true
 		<p>Στις φάσεις σχεδίασης του έργου συνεργαζόμαστε στενά με την ομάδα εργασίας από πλευράς επιχείρησης όσο και με τους τελικούς χρήστες. Έτσι αξιοποιείται πλήρως η δημιουργικότητα, η εμπειρία και οι γνώσεις τους. Μοιραζόμαστε το αίσθημα ιδιοκτησίας του έργου και ενισχύουμε τη διάθεση και τις προϋποθέσεις για μία αλλαγή.</p>
 		<p>Η μέθοδος εργασίας μας βασίζεται στη στενή συνεργασία με τους πελάτες μας και άλλους συνεργάτες. Ο στόχος μας δεν είναι μόνο να βοηθήσουμε τους πελάτες μας να δημιουργήσουν τις καλύτερες λύσεις (ψηφιακές ή μη), αλλά και να εμπνεύσουμε μια οργάνωση εργασίας που θα τους βοηθήσει να προωθήσουν και να λειτουργήσουν τα σχέδια στο εσωτερικό της επιχείρησης.</p>
 	</div>
-</div>
-
-<h4>Definition</h4>
-<dl>
-	<dt>Item1</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Item2</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Item3</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-</dl>
