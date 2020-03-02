@@ -20,12 +20,13 @@ nav-menu: true
 		<p>Ετσι, μεγάλο μέρος της δουλειά μας είναι να βοηθάμε τους πελάτες μας να κατανοήσουν καλύτερα τους δικούς τους πελάτες και να ενεργήσουν σε αυτή τη βάση. Μελετώντας τους χρήστες βρίσκουμε χρήσιμη πληροφορία αλλά και έμπνευση. Γι’ αυτό η έρευνα χρηστών (user research) είναι βασικό κομμάτι του τρόπου εργασίας μας και διαφοροποιητικό στοιχείο της προφοράς μας.</p>
 	</div>
 	<div class="4u 12u$(medium)">
-		<h3>Faucibus consequat lorem</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Εξελικτικός σχεδιασμός</h3>
+		<p>Είναι πεποίθησή μας ότι ένα concept αναπτύσσεται καλύτερα όταν ακολουθούμε μια εξελικτική -παρά μια γραμμική- διαδικασία. Συνεπώς, δουλεύουμε με υποθέσεις εργασίας, πρώιμες απεικονίσεις και εξελικτικά πρωτότυπα σε όλο το έργο.</p>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Συν-δημιουργία</h3>
+		<p>Στις φάσεις σχεδίασης του έργου συνεργαζόμαστε στενά με την ομάδα εργασίας από πλευράς επιχείρησης όσο και με τους τελικούς χρήστες. Έτσι αξιοποιείται πλήρως η δημιουργικότητα, η εμπειρία και οι γνώσεις τους. Μοιραζόμαστε το αίσθημα ιδιοκτησίας του έργου και ενισχύουμε τη διάθεση και τις προϋποθέσεις για μία αλλαγή.</p>
+		<p>Η μέθοδος εργασίας μας βασίζεται στη στενή συνεργασία με τους πελάτες μας και άλλους συνεργάτες. Ο στόχος μας δεν είναι μόνο να βοηθήσουμε τους πελάτες μας να δημιουργήσουν τις καλύτερες λύσεις (ψηφιακές ή μη), αλλά και να εμπνεύσουμε μια οργάνωση εργασίας που θα τους βοηθήσει να προωθήσουν και να λειτουργήσουν τα σχέδια στο εσωτερικό της επιχείρησης.</p>
 	</div>
 </div>
 
