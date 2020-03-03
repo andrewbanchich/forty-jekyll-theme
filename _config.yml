@@ -3,7 +3,7 @@ title: TCSG Limited
 subtitle: Software Consulting
 email: tom@tcsg.uk
 description: Providing professional software solutions for your business
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: http://tcsg.uk # the base hostname & protocol for your site
 author: Tom Garbutt
 street_address: TCSG Limited, 13b The Vale
