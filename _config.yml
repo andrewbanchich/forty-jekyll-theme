@@ -1,33 +1,33 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: 41-14's Venture into Data Science
+subtitle: by Tyler Dominguez
+email: tyler.dominguez@yahoo.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: /Blog # the subpath of your site, e.g. /blog
 url: https://41-14.github.io # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 3611 SW 34th Street, Apt 123
+city: Gainesville
+state: FL
+zip_code: 32608
 country: United States of America
-phone: (716) 555-5555
+phone: (772) 577-0581
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 2
 
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/41-14
+gitlab_url: 
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/tyler-dominguez/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/fortyoneforteen
 
 # build settings
 markdown: kramdown
