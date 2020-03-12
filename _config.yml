@@ -1,12 +1,12 @@
 # site settings
-title: 41-14's Venture into Data Science
+title: Venture into Data Science
 subtitle: by Tyler Dominguez
 email: tyler.dominguez@yahoo.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: /Blog # the subpath of your site, e.g. /blog
 url: https://41-14.github.io # the base hostname & protocol for your site
 author:
-street_address: 3611 SW 34th Street, Apt 123
+street_address: 
 city: Gainesville
 state: FL
 zip_code: 32608
