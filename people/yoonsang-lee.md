@@ -20,6 +20,9 @@ Assistant Professor
 <br/>
 <a target="_blank" rel="noopener noreferrer" href="https://www.hanyang.ac.kr/">Hanyang University</a>
 
+<p/>
+yoonsanglee@hanyang.ac.kr 
+
 	</div>
 </section>
 
