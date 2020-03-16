@@ -16,7 +16,7 @@ nav-menu: true
 
 <h3>2019 Spring</h3>
 <ul>
-<li>CSE4020 Computer Graphics</li>
+<li><a href="courses/2019-spring-cg.html">CSE4020 Computer Graphics</a></li>
 <li>ITE1014 Introduction to Software Design</li>
 </ul>
 
