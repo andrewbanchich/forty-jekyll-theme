@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seinor Projects 2019 Fall
+title: Seinor Projects - 2019 Fall
 nav-menu: false
 show_tile: false
 ---
