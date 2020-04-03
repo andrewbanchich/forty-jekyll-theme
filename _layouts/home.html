@@ -15,7 +15,7 @@
         var today = new Date();
         var month = today.getMonth();
         var date = today.getDate();
-        if (month==11 && date==13){
+        if ((month==11 && date==13) || (month==3 && date==4)) {
             var style = document.createElement("style");
             style.type = "text/css";
             var memorial = 'html { \
