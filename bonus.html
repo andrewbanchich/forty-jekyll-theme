@@ -1,69 +1,280 @@
 <!DOCTYPE html>
+
+<!--forked from https://github.com/OXOYO/fakeupdate.net-->
+
+<!--
+   ///// COPY CAT AWARDS 2016 \\\\\
+   
+   These people literally copy pasted this site and are claiming they made it:
+   
+   #1. www.fakewindowsupdate.com by diskordier
+   #2  www.fakeupdate.co.uk by HARVEY BOLTON who is an Absolute Legend apparently (totally legit)
+  
+   
+   
+		   _    _____         _
+		   \`,""   ,'7"r-..__/ \
+		  ,'\ `, ,',','    _/   \
+		 /   \  7 / /     (   \ |
+		J     \/ j  L______\  / |
+		L   __JF"""/""\"\_,    /
+		L,-"| O|  f O |  L_  _/
+		F   \_ /  \__/   `-  j|
+			.-'    `"""    ,' |          _..====.._
+			\__/         r"_  A        ,' _..---.._`,
+			 `-.______,,-L// / \  ___,' ,'_..:::.. `,`,
+					  j   / / / 7"    `-<""=:'  '':. \ \
+					 /   <,' /  F  . i , \   `,    :T W I
+					 |    \,'  /    >X<  |     \   :| | L
+					 |     `._/    ' ! ` |      I  :| |  G
+					  \           \     /       |  :H T  |
+					 __>-.__   __,-\   |        |  S P   |
+					/     /|   | \  \  \_       | 'A R   |
+				   /   __/ |   |  L  L   \      K./ /    L
+				  /   |    |   4  I  I    |    E./ /   ,'
+				 J    \    I    L F  I    |    // / _,'
+		_________|     |   F    |J   F    |   //_/-'
+		\   __   |    /   J     |/  J     |  /="
+		\\  \_\  \__,' \  F     |   F     |
+		\\\_____________\/      F__/      F
+		 \\|  HTML for  |_____/  (______/
+		  \/__Dummies___/
+		  
+  The original, actually working and constantly updated version will always be at fakeupdate.net
+  If you have any suggestions or complaints, contact me: 
+  
+  fakeupdate@outlook.com
+  @fediafedia
+ 
+  
+  -->
+
+
 <html>
-<head>
-    <title>哦豁，我们被你黑了（一脸正经）</title>
+
+<head><title>（按F11体验更佳）</title>
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+ 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<script>
+
+$(function() {
+  $(document).keyup(function(e) {
+    switch(e.keyCode) {
+    case 13 : open('bsod.html','_self'); break;
+    case 8 : open('bsod.html','_self'); break;
+    }
+  });
+});
+
+setTimeout(function() {
+    open('bsod.html','_self')
+} , 10000)
+</script>
+
+<style>
+* { cursor:none;font-family:"Segoe UI Light", "Segoe UI", Arial; font-weight: lighter;}
+body {
+
+	background:#006dae; 
+user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+vertical-align:middle; 
+text-align:center;
+z-index: -1;
+margin:0;
+padding:0;
+
+}
+
+.CT {
+
+vertical-align:middle;
+position: absolute;
+top: 50%;
+height: 70px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+width:500px;
+margin-top: -5%;
+font-family:Segoe UI Light, Segoe UI, Arial;
+font-size:23px;
+color:#fff;
+font-weight:normal;
+text-align:center;
+user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+}
+
+.image_block {
+
+
+position: absolute;
+bottom: 17px;
+left: 50%;
+width: 50%;
+margin: -5% 0 0 -25%;
+		
+
+}
+p {
+
+display:block;
+float:middle;
+text-align:center;
+width:100%;
+
+
+}
+
+.centeragain {
+
+width:500px;
+margin:0px auto;
+text-align:left;
+
+
+}
+.messageBox {  
+display:block;
+color:#67A2E6;
+font-family:Segoe UI Light, Segoe UI, Arial;
+font-size:20px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+z-index:999;  }  
+
+
+.loader {
+  position: relative;
+  padding-top: 100px;
+  width: 50px;
+  margin: auto;
+}
+.loader .circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  transform: rotate(225deg);
+  animation-iteration-count: infinite;
+  animation-name: orbit;
+  animation-duration: 5.5s;
+}
+.loader .circle:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 5px;
+  background: #fff;
+  /* Pick a color */
+}
+.loader .circle:nth-child(2) {
+  animation-delay: 240ms;
+}
+.loader .circle:nth-child(3) {
+  animation-delay: 480ms;
+}
+.loader .circle:nth-child(4) {
+  animation-delay: 720ms;
+}
+.loader .circle:nth-child(5) {
+  animation-delay: 960ms;
+}
+@keyframes orbit {
+  0% {
+    transform: rotate(225deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  7% {
+    transform: rotate(345deg);
+    animation-timing-function: linear;
+  }
+  30% {
+    transform: rotate(455deg);
+    animation-timing-function: ease-in-out;
+  }
+  39% {
+    transform: rotate(690deg);
+    animation-timing-function: linear;
+  }
+  70% {
+    transform: rotate(815deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: rotate(945deg);
+    animation-timing-function: ease-out;
+  }
+  76% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+}
+
+
+#bottom {
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+	left:0;
+	text-align:center;
+}
+</style>
+
 </head>
 <body>
-    <script type="text/javascript">
 
-        window.onload = function(){
-            //获取画布对象
-            var canvas = document.getElementById("canvas");
-            //获取画布的上下文
-            var context =canvas.getContext("2d");
-            //获取浏览器屏幕的宽度和高度
-            var W = window.innerWidth;
-            var H = window.innerHeight;
-            //设置canvas的宽度和高度
-            canvas.width = W;
-            canvas.height = H;
-            //每个文字的字体大小
-            var fontSize = 16;
-            //计算列
-            var colunms = Math.floor(W /fontSize);  
-            //记录每列文字的y轴坐标
-            var drops = [];
-            //给每一个文字初始化一个起始点的位置
-            for(var i=0;i<colunms;i++){
-                drops.push(0);
-            }
-    
-            //运动的文字
-            var str ="10";
-            //4:fillText(str,x,y);原理就是去更改y的坐标位置
-            //绘画的函数
-            function draw(){
-                context.fillStyle = "rgba(0,0,0,0.05)";
-                context.fillRect(0,0,W,H);
-                //给字体设置样式
-                context.font = "700 "+ fontSize +"px  微软雅黑";
-                //给字体添加颜色
-                context.fillStyle = "#00cc33";//可以rgb,hsl, 标准色，十六进制颜色
-                //写入画布中
-                for(var i=0;i<colunms;i++){
-                    var index = Math.floor(Math.random() * str.length);
-                    var x = i*fontSize;
-                    var y = drops[i]*fontSize;
-                    context.fillText(str[index],x,y);
-                    if(y >= canvas.height && Math.random() > 0.99){
-                        drops[i] = 0;
-                    }
-                    drops[i]++;
-                }
-            }
-            draw();
-            setInterval(draw,30);
-        };
-    </script>
-    <script>
-            document.onkeydown=function(event){
-                var e = event || window.event || arguments.callee.caller.arguments[0];
-                  if(e && e.keyCode==13){ // enter 键
-                    window.location.href = "https://itxia.club"
-                }
-            }; 
-    </script>
-    <canvas id="canvas" style="background:#000"></canvas>
+
+
+
+
+<div style="display:block;position:absolute;min-width:100%; min-height:100%;margin:0;padding:0;">
+
+<div class="centeragain">
+<div class="CT">
+<div class="FONT">
+
+<div class='loader' style="vertical-align:middle;padding-top:2px;">
+  <div class='circle'></div>
+  <div class='circle'></div>
+  <div class='circle'></div>
+  <div class='circle'></div>
+  <div class='circle'></div>
+</div>
+<br><br><br>
+<a id="ref" data-translate="_win10workingonupdates">正在准备 Windows</a> <br /><span data-translate="_win10donotturnoff">请不要关闭你的计算机</span>
+
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+</div>
+
 </body>
-</html>
 
+<!-- Mirrored from fakeupdate.net/win10u/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Apr 2017 04:40:46 GMT -->
+</html>
