@@ -5,9 +5,9 @@
 
 <style>
 * { cursor:none;font-family:"Segoe UI Light", "Segoe UI", Arial; font-weight: lighter;}
-.content {width:700px; margin:10% auto;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none; }
+.content {width:700px; margin:1s0% auto;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none; }
 </style>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
 <script>
     $(function() {
       $(document).keyup(function(e) {
@@ -18,27 +18,7 @@
       });
     });
 </script>
-<script>
-    /* Get the element you want displayed in fullscreen mode (a video in this example): */
-    var elem = document.getElementById("#main");
-    
-    /* When the openFullscreen() function is executed, open the video in fullscreen.
-    Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
-    function openFullscreen() {
-        console.log("aaa")
-      if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-      } else if (elem.mozRequestFullScreen) { /* Firefox */
-        elem.mozRequestFullScreen();
-      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-        elem.webkitRequestFullscreen();
-      } else if (elem.msRequestFullscreen) { /* IE/Edge */
-        elem.msRequestFullscreen();
-      }
-    }
 
-    openFullscreen()
-</script>
 <script>
     var timer = 0
     function wait4Complete() {
