@@ -96,6 +96,9 @@ function onSelect() {
 				show = false;
 		}
 
+		if(!('video_iframe' in item))
+			show = false;
+
 		if(show)
 		{
 			if(item.type=='paper')
