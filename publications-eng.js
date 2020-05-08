@@ -5,7 +5,7 @@ var publications_eng = [
 		'conference_journal': 'SIGGRAPH',
 		'year': 2020,
 		'authors': 'Taesoo Kwon, Yoonsang Lee, Michiel van de Panne',
-		'conference_journal_full': 'Conditionally accepted to SIGGRAPH 2020',
+		'conference_journal_full': 'ACM Transactions on Graphics (SIGGRAPH 2020)',
 		'type': 'paper',
 	},
 	{
