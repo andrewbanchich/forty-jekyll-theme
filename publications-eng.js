@@ -6,6 +6,8 @@ var publications_eng = [
 		'year': 2020,
 		'authors': 'Taesoo Kwon, Yoonsang Lee, Michiel van de Panne',
 		'conference_journal_full': 'ACM Transactions on Graphics (SIGGRAPH 2020)',
+		'video_iframe': '<iframe width="1280" height="749" src="https://www.youtube.com/embed/fGwMrRoC5bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+		'project_page': 'http://calab.hanyang.ac.kr/papers/flexLoco.html',
 		'type': 'paper',
 	},
 	{
