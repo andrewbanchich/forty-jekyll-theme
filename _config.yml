@@ -4,7 +4,7 @@ title: Yuto Noji Portfolio
 subtitle: by FORTY
 email: yuuto1228u@gmail.com
 description: このサイトはYuto Nojiのポートフォリオサイトです。<br>経歴やスキル、開発物などの情報を掲載しています。お気軽にご連絡ください！
-baseurl: "/forty-jekyll-theme" 
+baseurl: "/portfolio/" 
 qiita: https://qiita.com/H_Ny
 street_address: private
 phone: Private
