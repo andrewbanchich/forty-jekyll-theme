@@ -1,5 +1,14 @@
 var publications_kor = [
 	{
+		'title': '무게중심을 활용한 모션 생성 기술',
+		'representative_img': 'assets/publications/domestic/2020-kcgs-motion-com.png',
+		'year': 2020,
+		'authors': '박근태, 손채준, 이윤상',
+		'conference_journal_full': '한국컴퓨터그래픽스학회 논문지, 2020.06.',
+		'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/2020-motion-com/2020-kcgs-motion-com.pdf">[article]</a>',
+		'type': 'paper',
+	},
+	{
 		'title': '심층강화학습을 이용한 유한 상태 기반 보행 제어기의 학습',
 		'representative_img': 'assets/publications/domestic/2019-kcgs-learning-fsm.png',
 		'year': 2019,
