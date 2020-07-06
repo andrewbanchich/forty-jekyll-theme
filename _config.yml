@@ -1,17 +1,17 @@
 # site settings
 title: SNWu
 subtitle: Shun-Nan Wu
-email: youremailaddress@gmail.com
+email: snwu@rsmas.miami.edu
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+city: Miami
+state: FL
+zip_code: 33149
 country: United States of America
-phone: (716) 555-5555
+phone: # (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
