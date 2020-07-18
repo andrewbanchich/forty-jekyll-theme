@@ -34,7 +34,6 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic02.jpg %}" alt="" data-position="top center" />
@@ -48,7 +47,6 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic03.jpg %}" alt="" data-position="25% 25%" />
