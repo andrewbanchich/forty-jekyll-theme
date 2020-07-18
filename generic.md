@@ -1,13 +1,30 @@
 ---
-layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Publications
+layout: page
+description: 
+image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+<!-- Main -->
+<div id="main" class="alt">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Publications</h1>
+		</header>
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<!-- Content -->
+<ul>
+  <li> Wu, S.-N., B.J. Soden, G. J. Alaka Jr.: <h4>Ice Water Content as a Precursor to Tropical Cyclone Rapid Intensification. GRL (Submitted)</h4></li>
+
+  <li> Wu, S.-N., B.J. Soden, David N.S., Y. Miyamoto, and S.A. Buehler 2019: <h4>Using Satellite Observations to Evaluate the Relationships between Ice Condensate, Latent Heat Release, and Tropical Cyclone Intensification in Mesoscale Model. Mon. Wea. Rev. (In review)</h4></li>
+
+	<li> Nolan, D., Y. Miyamoto, S.-N. Wu, and B.J. Soden, 2019: <h4>On the Correlation Between Total Condensate and Moist Heating in Tropical Cyclones and Applications for Diagnosing Intensity. Mon. Wea. Rev., 147, 3759-3784.</h4></li>
+
+	<li> Wu, S.-N. and B.J. Soden, 2017: <h4>Signatures of Tropical Cyclone Intensification in Satellite Measurements of Ice and Liquid Water Content. Mon. Wea. Rev., 145, 4081-4091</h4></li>
+
+	<li> Wu, C.-C., S.-N. Wu, H. Wei, and S.F. Abarca, 2016: <h4>The Role of Convective Heating in Tropical Cyclone Eyewall Ring Evolution. J. Atmos. Sci., 73, 319–330</h4></li>
+</ul>
