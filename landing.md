@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic01.jpg %}" alt="" data-position="center center" />
+			<img src="./assets/images/pic01.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -34,10 +34,9 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic02.jpg %}" alt="" data-position="top center" />
+			<img src="./assets/images/pic02.jpg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -48,10 +47,9 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic03.jpg %}" alt="" data-position="25% 25%" />
+			<img src="./assets/images/pic03.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -59,9 +57,6 @@ nav-menu: true
 					<h3>Summer School in Italy</h3>
 				</header>
 				<p>I was fortunate to be selected to participate in the "2nd ICTP summer school on theory, mechanisms and hierarchical modeling of climate dynamics: convective organization and climate sensitivity" at the International Center for Theoretical Physics in Trieste, Italy. During the stay there, I  not only learned from several outstanding senior scientists but also met bright early-career scientists.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
