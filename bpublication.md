@@ -2,7 +2,7 @@
 title: Publications
 layout: page
 description:
-image: assets/images/pic07.jpg
+image: assets/images/publication.jpg
 nav-menu: true
 ---
 

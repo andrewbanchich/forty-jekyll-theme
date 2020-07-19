@@ -2,7 +2,7 @@
 title: My Life
 layout: landing
 description: ''
-image: assets/images/pic07.jpg
+image: assets/images/mylife.jpg
 nav-menu: true
 ---
 
