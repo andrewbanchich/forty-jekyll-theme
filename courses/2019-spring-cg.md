@@ -9,8 +9,8 @@ show_tile: false
 * Teaching Assistant: Jaeseok Moon
 * Undergraduate Mentor: Solbi Choi 
 * Time / Location: 
-  * MON 10:00-12:00 / 813 IT.BT Building (Lecture)
-  * WED 13:00-15:00 / 509 IT.BT Building (Lab)
+  * Mon 10:00-12:00 / 813 IT.BT Building - Lecture
+  * Wed 13:00-15:00 / 509 IT.BT Building - Lab
 
 ## Schedule
 

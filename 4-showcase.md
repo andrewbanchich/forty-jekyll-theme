@@ -16,6 +16,7 @@ Type:
   <option value='all'>ALL</option>
   <option value='paper'>Paper</option>
   <option value='senior'>Senior Project</option>
+  <option value='pbl'>PBL Project</option>
 </select>
 </div>
 
@@ -56,11 +57,12 @@ function dynamicallyLoadScript(url) {
 }
 
 dynamicallyLoadScript('publications-eng.js');
-dynamicallyLoadScript('seniorprojs.js');
+dynamicallyLoadScript('senior-projs.js');
+dynamicallyLoadScript('pbl-projs.js');
 
 function onSelect() {
 	var publications = publications_eng;
-	var projs = seniorprojs;
+	var projs = senior_projs.concat(pbl_projs);
 	var items = publications.concat(projs);
 
 	var type_select = document.getElementById("type_select");
@@ -78,6 +80,8 @@ function onSelect() {
 		if(type=='paper' && item.type=='paper')
 			show = true;
 		else if(type=='senior' && item.type=='senior')
+			show = true;
+		else if(type=='pbl' && item.type=='pbl')
 			show = true;
 		else if(type=='all')
 			show = true;
@@ -105,6 +109,8 @@ function onSelect() {
 				typestr = 'Paper';
 			else if(item.type=='senior')
 				typestr = 'Senior Project';
+			else if(item.type=='pbl')
+				typestr = 'PBL Project';
 			contents_code += '<div class="6u 12u$(small)">';
 			if('id' in item)
 				project_page = item.project_page + '#' + item.id;

@@ -1,9 +1,31 @@
 ---
 layout: post
-title: Seinor Projects - 2019 Fall
+title: COMPUTER SCIENCE Capstone PBL(Physically-Based Character Simulation) - 2020 Spring
 nav-menu: false
 show_tile: false
 ---
+
+* Instructor: [Yoonsang Lee](../people/yoonsang-lee.html)
+* Teaching Assistant: [Jeongmin Lee](../people/jeongmin-lee.html)
+* Time / Location: 
+  * Live online lectures and labs due to the COVID-19 pandemic.
+  * Mon 13:00-15:00 / Online (originally 503 IT.BT Building)
+  * Wed 15:00-17:00 / Online (originally 510 IT.BT Building)
+
+## Course Outline
+
+This course introduces techniques for in-depth understanding of character animation / physically based animation / character control in computer graphics, and provides an opportunity to implement them yourself.
+
+* Basic understanding of character animation / physically based animation / character control in computer graphics
+* Introduction to research history and current state-of-the-art studies in the field
+* Acquire enough knowledge and implementation skills to perform state-of-the-art research right after entering graduate school
+
+## Schedule
+
+* Data-Driven Animation, Project 1
+* Mass-Spring System (Particle Dynamics), Project 2
+* Character Simulation & Control, Project 3
+* Reinforcement Learning
 
 ## Outstanding Results
 
@@ -31,10 +53,10 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('../senior-projs.js');
+dynamicallyLoadScript('../pbl-projs.js');
 
 window.onload = function () {
-	var projs = senior_projs;
+	var projs = pbl_projs;
 	var contents_code = '';
 	contents_code += '<div class="row">';
 	for(var i = 0; i < projs.length; i++) 
@@ -42,7 +64,7 @@ window.onload = function () {
 		var proj = projs[i];
 		var show = false;
 
-		if(proj.year==2019 && proj.season=='fall')
+		if(proj.year==2020 && proj.season=='spring')
 			show = true;
 
 		if(show)
@@ -67,14 +89,3 @@ window.onload = function () {
 </script>
 
 </div>
-
-<!--#### Team3 - Seinor Projects 2019 Fall-->
-<!--Topic: Unreal Engine 4 환경에서 Phase Functioned Neural Network 기술을 이용한 게임 제작  -->
-<!--Members: 이상옥 구교민 유지원-->
-
-<!--<div class="6u 12u$(small)">-->
-<!--<div id="iframe_container"> <div id="iframe">-->
-<!--<iframe width="791" height="445" src="https://www.youtube.com/embed/3tzndxUZ1RI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-<!--</div></div>  -->
-<!--</div>-->
-

@@ -12,7 +12,7 @@ show_tile: false
 <h2>Jeongmin Lee</h2>
 
 B.S in Computer Science, Hanyang University, Seoul, Korea, Feb.2020<br>
-Room 109-1, R&D Building<br>
+Room 111, R&D Building<br>
 e-mail: j0064423@hanyang.ac.kr
 <p/>
 

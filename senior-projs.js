@@ -1,4 +1,4 @@
-var seniorprojs = [
+var senior_projs = [
 	{
 		'title': 'Phase-Functioned Neural Network in Unreal Engine 4',
 		'title_kor': 'Unreal Engine 4 환경에서 Phase Functioned Neural Network 기술을 이용한 게임 제작',
