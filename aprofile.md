@@ -2,6 +2,7 @@
 layout: page
 title: Profile
 nav-menu: true
+image: assets/images/profile.jpg
 ---
 
 <!-- Main -->
