@@ -32,7 +32,7 @@ Conference / Journal:
 
 <p/>
 
-<div id="contents" class="row">
+<div id="contents">
 
 <script>
 // https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
@@ -72,6 +72,8 @@ function onSelect() {
 	var conf = conf_select.options[conf_select.selectedIndex].value;
 
 	var contents_code = '';
+	var showCount = 0;
+
 	for(var i = 0; i < items.length; i++) 
 	{
 		var item = items[i];
@@ -105,6 +107,9 @@ function onSelect() {
 
 		if(show)
 		{
+			if(showCount % 2 == 0)
+				contents_code += '<div class="row">';
+
 			if(item.type=='paper')
 				typestr = 'Paper';
 			else if(item.type=='senior')
@@ -121,6 +126,11 @@ function onSelect() {
 			contents_code += '{0}'.format(item.video_iframe);;
 			contents_code += '</div></div>';
 			contents_code += '<br/></div>';
+
+			if(showCount % 2 == 1 || i == items.length-1)
+				contents_code += '</div>';
+
+			showCount += 1;
 		}
 	}
 

@@ -1,7 +1,6 @@
 var pbl_projs = [
 	{
 		'title': '',
-		'title_kor': '',
 		'authors': '백종원',
 		'project_page': 'courses/2020-spring-pbl.html',
 		'id': '백종원',
@@ -12,7 +11,6 @@ var pbl_projs = [
 	},
 	{
 		'title': '',
-		'title_kor': '',
 		'authors': '심민호',
 		'project_page': 'courses/2020-spring-pbl.html',
 		'id': '심민호',
@@ -23,7 +21,6 @@ var pbl_projs = [
 	},
 	{
 		'title': '',
-		'title_kor': '',
 		'authors': '정영주',
 		'project_page': 'courses/2020-spring-pbl.html',
 		'id': '정영주',

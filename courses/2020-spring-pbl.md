@@ -27,7 +27,7 @@ This course introduces techniques for in-depth understanding of character animat
 * Character Simulation & Control, Project 3
 * Reinforcement Learning
 
-## Outstanding Results
+## Selected Results
 
 <div id="contents">
 
@@ -58,7 +58,7 @@ dynamicallyLoadScript('../pbl-projs.js');
 window.onload = function () {
 	var projs = pbl_projs;
 	var contents_code = '';
-	contents_code += '<div class="row">';
+	var showCount = 0;
 	for(var i = 0; i < projs.length; i++) 
 	{
 		var proj = projs[i];
@@ -69,6 +69,9 @@ window.onload = function () {
 
 		if(show)
 		{
+			if(showCount % 2 == 0)
+				contents_code += '<div class="row">';
+
 			contents_code += '<div class="6u 12u$(small)">';
 			contents_code += '<br id="{0}"/><br/>'.format(proj.id);
 			contents_code += '<b>{0}</b><br/>'.format(proj.title);
@@ -77,9 +80,13 @@ window.onload = function () {
 			contents_code += '{0}'.format(proj.video_iframe);;
 			contents_code += '</div></div>';
 			contents_code += '</div>';
+
+			if(showCount % 2 == 1 || i == projs.length-1)
+				contents_code += '</div>';
+
+			showCount += 1;
 		}
 	}
-	contents_code += '</div>';
 
 	var contents = document.getElementById("contents");
 	contents.innerHTML = contents_code;
