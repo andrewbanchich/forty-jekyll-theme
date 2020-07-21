@@ -17,7 +17,7 @@ nav-menu: true
 
 <h3>2019 Fall</h3>
 <ul>
-<li>ITE1015 Creative Software Design</li>
+<li><a href="courses/2019-fall-csd.html">ITE1015 Creative Software Design</a></li>
 <li><a href="courses/2019-fall-senior.html">Senior Projects</a></li>
 </ul>
 
