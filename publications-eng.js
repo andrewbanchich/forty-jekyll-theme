@@ -1,7 +1,7 @@
 var publications_eng = [
 	{
 		'title': 'Fast and Flexible Multilegged Locomotion Using Learned Centroidal Dynamics',
-		'representative_img': 'assets/publications/2020-fast-flexible/papers_342s2-file2.jpg',
+		'representative_img': 'assets/publications/2020-fast-flexible/2020-fast-flexible.jpg',
 		'conference_journal': 'SIGGRAPH',
 		'year': 2020,
 		'authors': 'Taesoo Kwon, Yoonsang Lee, Michiel van de Panne',
