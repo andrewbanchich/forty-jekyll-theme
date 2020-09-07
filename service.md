@@ -104,16 +104,16 @@ image:
             <li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限鼓楼校区）</text></li>
             <ul>
                 <ul>
-                    <li>鼓楼在线互助QQ群：如果预约超过一周没有得到回复，或者有其他非紧急的任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5FvfSUT">鼓楼：887021867</a>）询问。</li>
+                    <li>鼓楼在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5FvfSUT">鼓楼：887021867</a>）询问与求助。</li>
                     <!--
                     <li>急诊室QQ群（限紧急）：请仔细阅读服务介绍中的<a href="#first-aid">IT侠鼓楼急诊室服务项</a>，判断您是否适用IT侠急诊室服务。如若适用，请<b>先正常预约</b>，然后加入<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">QQ群（861863787）</a>说明您的情况。</li>
                     -->
                 </ul>
             </ul>
-			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限仙林校区）</text></li><br />
+			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限仙林校区）</text></li>
             <ul>
                 <ul>
-                    <li>仙林在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">仙林：302228512</a>）询问。</li>
+                    <li>仙林在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">仙林：302228512</a>）询问与求助。</li>
                 </ul>
             </ul>
             <li>除了QQ群，任何校区均可发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
@@ -124,14 +124,12 @@ image:
 ---
 
 <div class="inner row">
-    <!--暂时去掉，防止不看文字乱扫码误入
  	<div class="6u 12u$(medium)" style="text-align: center;">
-        <h4>鼓楼IT侠急诊室</h4>
-        点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
+        <h4>鼓楼IT侠在线互助群</h4>
+        点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>或扫二维码加入群聊
 		<br />
         <img src="assets/images/first-aid.jpg" >
     </div>
-    -->
 	<div class="6u$ 12u$(medium)" style="text-align: center;">
         <h4>仙林IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>或扫二维码加入群聊
