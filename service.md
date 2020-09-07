@@ -128,7 +128,7 @@ image:
         <h4>鼓楼IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>或扫二维码加入群聊
 		<br />
-        <img src="assets/images/first-aid.jpg" >
+        <img src="assets/images/gulou-help.png" >
     </div>
 	<div class="6u$ 12u$(medium)" style="text-align: center;">
         <h4>仙林IT侠在线互助群</h4>
