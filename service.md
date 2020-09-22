@@ -93,7 +93,7 @@ image:
 
 ## 维修预约
 
-<a href="{{ site.help_url }}" class="button small"><font size="4">我已了解，开始预约</font></a>
+<a href="https://nju.itxia.cn/" class="button small"><font size="4">我已了解，开始预约</font></a>
 
 ---
 <h3 id="groups">IT侠群组</h3>
