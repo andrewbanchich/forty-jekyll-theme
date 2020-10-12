@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
+title: Charles Vanchieri
+subtitle: Data Science Portfolio
 email: CVanchieri@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+description: Taking my 13+ years of experience in the health & fitness industry into a new data science career.
+baseurl: "/DSPortfolio" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+author: Charles Vanchieri
+street_address: 2503 Mardell Way
+city: Mountain View 
+state: CA
+zip_code: 94043
 country: United States of America
-phone: (716) 555-5555
+phone: (650) 5237-9474
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -19,15 +19,15 @@ tiles-count: 6
 
 # social settings
 500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+#facebook_url:
+github_url: https://github.com/CVanchieri
+#gitlab_url:
+#googleplus_url:
+instagram_url: https://www.instagram.com/cvanchieri6/
+linkedin_url: https://www.linkedin.com/in/cvanchieri6/
+#pinterest_url:
+#slack_url:
+twitter_url: https://twitter.com/CVanchieri6
 
 # build settings
 markdown: kramdown
