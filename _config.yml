@@ -1,12 +1,12 @@
 # site settings
 title: Charles Vanchieri
-subtitle: Data Science Portfolio
+subtitle: DS Portfolio
 email: CVanchieri@gmail.com
-description: Taking my 13+ years of experience in the health & fitness industry into a new data science career.
+description: Taking 13+ years of experience from the health & fitness industry into a new data science career.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Charles Vanchieri
-street_address: 2503 Mardell Way
+#street_address: 2503 Mardell Way
 city: Mountain View 
 state: CA
 zip_code: 94043
