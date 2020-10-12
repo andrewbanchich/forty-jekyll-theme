@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Machine Learning
 nav-menu: true
 ---
 
