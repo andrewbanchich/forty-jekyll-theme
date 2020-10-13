@@ -2,7 +2,7 @@
 layout: page
 title: Analytics
 description: Data analytics
-image: assets/images/pic11.jpg
+image: assets/images/analytics.jpg
 nav-menu: true
 ---
 
