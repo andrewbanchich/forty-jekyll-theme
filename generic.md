@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Deep Learning
-description: Lorem ipsum dolor est
+description: DL projects & interests
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
