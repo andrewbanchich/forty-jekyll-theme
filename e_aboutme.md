@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aboutme
 title: About Me
 description: Some self history
 image: assets/images/pic11.jpg
