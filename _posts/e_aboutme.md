@@ -1,5 +1,5 @@
 ---
-layout: aboutme
+layout: post
 title: About Me
 description: Some self history
 image: assets/images/aboutme.jpg
