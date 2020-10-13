@@ -2,8 +2,8 @@
 title: Charles Vanchieri
 subtitle: DS Portfolio
 email: CVanchieri@gmail.com
-description: Taking 13+ years of experience from the health & fitness industry into a new data science career.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+description: 13+ years of experience in the health & fitness industry, now an data scientist.
+baseurl: "/DSPortfolio" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Charles Vanchieri
 #street_address: 2503 Mardell Way
