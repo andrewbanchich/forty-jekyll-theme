@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep Learning
-description: DL projects & interests
+description: DL projects
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
