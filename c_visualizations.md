@@ -2,7 +2,7 @@
 layout: page
 title: Visualizations
 description: Visualization displays
-image: assets/images/pic11.jpg
+image: assets/images/visualizations.jpg
 nav-menu: true
 ---
 
