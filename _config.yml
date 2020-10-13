@@ -2,7 +2,7 @@
 title: Charles Vanchieri
 subtitle: DS Portfolio
 email: CVanchieri@gmail.com
-description: 13+ years of experience in the health & fitness industry, now an data scientist.
+description: 13+ years of experience in the health & fitness industry, now a Data Scientist.
 baseurl: "/DSPortfolio" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Charles Vanchieri
@@ -11,7 +11,7 @@ city: Mountain View
 state: CA
 zip_code: 94043
 country: United States of America
-phone: (650) 5237-9474
+phone: (650) 237-9474
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
