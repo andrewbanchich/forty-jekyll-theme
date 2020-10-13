@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visualizations
-description: Visualization display projects & interests
+description: Visualization displays
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
