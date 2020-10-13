@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Machine Learning
+description: ML projects & interests
 nav-menu: true
 ---
 
