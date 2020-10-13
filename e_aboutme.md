@@ -2,7 +2,7 @@
 layout: aboutme
 title: About Me
 description: Some self history
-image: assets/images/pic11.jpg
+image: assets/images/aboutme.jpg
 nav-menu: true
 ---
 
