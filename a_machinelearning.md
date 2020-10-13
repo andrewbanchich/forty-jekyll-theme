@@ -2,7 +2,7 @@
 layout: page
 title: Machine Learning
 description: ML projects & interests
-image: assets/images/pic11.jpg
+image: assets/images/machinelearning.jpg
 nav-menu: true
 ---
 
