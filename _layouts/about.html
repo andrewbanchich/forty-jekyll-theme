@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
     Forty by HTML5 UP
@@ -20,18 +19,21 @@
       <!-- One -->
       <section id="one">
 	<div class="inner">
+          {% for post in site.posts %}
+	  {% if post.title != 404 %}
 	  <header class="major">
-	    <h1>{{ page.title }}</h1>
+	    <h1>{{ post.title }}</h1>
 	  </header>
-	  {% if page.image %} class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" width="25" 
-	  <p>{{ content }}</p>
-
+	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" width="300" height="300" alt="" /></span>{% endif %}
+	  <p>{{ post.content }}</p>
+	  {% endif %}
+          {% endfor %}
 	</div>
       </section>
 
     </div>
 
-   <!-- {% include footer.html %} -->
+    {% include footer.html %}
 
   </body>
 
