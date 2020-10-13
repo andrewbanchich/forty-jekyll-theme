@@ -20,10 +20,10 @@
       <section id="one">
 	<div class="inner">
 	  <header class="major">
-	    <h1>{{ post.title }}</h1>
+	    <h1>{{ page.title }}</h1>
 	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" width="300" height="300" alt="" /></span>{% endif %}
-	  <p>{{ post.content }}</p>
+	  {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" width="300" height="300" alt="" /></span>{% endif %}
+	  <p>{{ content }}</p>
 	  {% endif %}
           {% endfor %}
 	</div>
