@@ -2,7 +2,7 @@
 layout: page
 title: Deep Learning
 description: DL projects
-image: assets/images/pic11.jpg
+image: assets/images/deeplearning.jpg
 nav-menu: true
 ---
 
