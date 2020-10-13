@@ -15,7 +15,7 @@ phone: (650) 237-9474
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 5
+tiles-count: 8
 
 # social settings
 500px_url:
