@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Deep Learning
-description: DL projects & notes
-image: assets/images/deeplearning.jpg
+title: Computer Vision
+description: CV projects & notes
+image: assets/images/computervision.jpg
 nav-menu: true
 ---
 
