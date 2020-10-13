@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analytics
-description: Data analytics projects & interests
+description: Data analytics
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
