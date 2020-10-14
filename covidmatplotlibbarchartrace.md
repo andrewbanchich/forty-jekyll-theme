@@ -2,7 +2,7 @@
 layout: page
 title: COVID-19 matplotlib barchart race
 image: 
-nav-menu: true
+nav-menu: false
 description: null
 show_tile: false
 ---
