@@ -7,9 +7,8 @@ description: null
 show_tile: false
 ---
 
-### Data scraping a website using beautiful soup.
+### Scrapping a website for data with Beautiful Soup.
 
 """ coming soon """
-^^^^^^^^^^^^^^^^^^^
 
 [Back](https://cvanchieri.github.io/DSPortfolio/e_datamining.html){: .btn .btn-green }
