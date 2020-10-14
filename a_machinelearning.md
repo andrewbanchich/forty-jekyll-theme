@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Machine Learning
-description: ML projects & notes
+description: ML projects
 image: assets/images/machinelearning.jpg
 nav-menu: true
 ---
@@ -13,4 +13,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum fac
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
 
 
-[View](https://cvanchieri.github.io/DSPortfolio/neuralnetwork.html){: .btn .btn-green }
+### Querying simlar Yelp reviews using Natural Language Processing on reviews text
+[View](https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html){: .btn .btn-green }
