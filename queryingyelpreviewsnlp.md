@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Querying simlar Yelp reviews using Natural Language Processing on reviews text
+title: Querying simlar Yelp reviews with Natural Language Processing
 image: 
 nav-menu: false
 description: null
 show_tile: false
 ---
 
-### Using Natural language Processing to query similar Yelp reviews
+### Using Natural language Processing to query similar Yelp reviews by reviews text.
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
 
