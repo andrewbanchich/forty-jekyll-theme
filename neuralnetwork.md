@@ -7,4 +7,4 @@ description: null
 show_tile: true
 ---
 
-<h1>All posts</h1>
+<h1>Neural Networks</h1>
