@@ -12,5 +12,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum fac
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
 
-## World 'death' counts for the COVID-19 virus represented in a matplotlib bar chart race.
+## World 'death' counts for the COVID-19 virus in a matplotlib bar chart race.
 [View](https://cvanchieri.github.io/DSPortfolio/covidmatplotlibbarchartrace.html){: .btn .btn-green }
+
+## The 2019 Australia bush fires in a mapbox heatmap.
+[View](https://cvanchieri.github.io/DSPortfolio/bushfiresmapboxheatmap.html){: .btn .btn-green }
