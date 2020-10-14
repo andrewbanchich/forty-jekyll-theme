@@ -7,6 +7,6 @@ nav-menu: true
 ---
 
 """ coming soon """
-^^^^^^^^^^^^^^^^^^^
 
-[View](https://cvanchieri.github.io/DSPortfolio/datascrapingbeautifulsoup.html){: .btn .btn-green }
+### Data scraping with beautiful soup
+[![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/datascrapingbeautifulsoup.html)
