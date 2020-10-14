@@ -5,8 +5,9 @@ image: assets/images/aboutme.jpg
 nav-menu: true
 show_tile: false
 ---
+
+![ProfilePic](/assets/images/aboutme.jpg?style=centerme)
 ### Aspiring Data Scientist actively trying to make a positive impact on others health & wellness and the environment.
-![ProfilePic](/assets/images/aboutme.jpg){: .center-block :}
 
  My name is Charles Vanchieri and for the past 12 years I have been working privately as a Health Consultant for some really great families and individuals in the Bay Area, CA.  Though I did receive a BA in Environment Studies in 2007, the health & wellness field was always a natural fit for me, and so with a few great opportunities that is where I began my professional career.  I have always had a big interest in technology and a desire to get involved with coding but I had never come across an opportunity that I could make work financially or with a pretty hectic schedule.
  
