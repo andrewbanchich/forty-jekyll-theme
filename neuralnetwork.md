@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Teaching a computer to learn numbers 
-landing-title: Neural Netrworks
-image: assets/images/datamining.jpg
+title: Neural Network
+image: assets/images/neuralnetworks.jpg
 nav-menu: true
 description: null
 show_tile: false
