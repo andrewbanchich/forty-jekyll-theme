@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Teaching a computer to learn shapes 
 description: Neural Networks
 nav-menu: true
