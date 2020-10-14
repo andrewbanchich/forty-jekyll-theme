@@ -1,6 +1,6 @@
 ---
 layout: page
-title: COVID-19 Matplotlib bar chart race
+title: COVID-19 matplotlib bar chart race
 image: 
 nav-menu: true
 description: null
