@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computer Vision
-description: CV projects & notes
+description: CV projects 
 image: assets/images/computervision.jpg
 nav-menu: true
 ---
@@ -12,4 +12,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum fac
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
 
+###
 [View](https://cvanchieri.github.io/DSPortfolio/neuralnetwork.html){: .btn .btn-green }
