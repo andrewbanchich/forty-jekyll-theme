@@ -10,6 +10,5 @@ show_tile: false
 ### Using Natural language Processing to query similar Yelp reviews by reviews text.
 
 """ coming soon """
-^^^^^^^^^^^^^^^^^^^
 
-[Back](https://cvanchieri.github.io/DSPortfolio/a_machinelearning.html){: .btn .btn-green }
+[![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/back.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/a_machinelearning.html)
