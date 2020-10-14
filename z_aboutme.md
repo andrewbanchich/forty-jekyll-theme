@@ -1,13 +1,19 @@
 ---
 layout: about
 title: About Me
+subtitle: Aspiring Data Scientist actively trying to make a positive impact on others health & wellness and the environment.
 image: assets/images/aboutme.jpg
 nav-menu: true
 show_tile: false
 ---
+ My name is Charles Vanchieri and for the past 12 years I have been working privately as a Health Consultant for some really great families and individuals in the Bay Area, CA.  Though I did receive a BA in Environment Studies in 2007, the health & wellness field was always a natural fit for me, and so with a few great opportunities that is where I began my professional career.  I have always had a big interest in technology and a desire to get involved with coding but I had never come across an opportunity that I could make work financially or with a pretty hectic schedule.
+ 
+ This was until a few months ago. That is when I discovered Lambda School’s Part Time Data Science Program.  I have been waiting. . . hoping. . . for an opportunity, and here it is.  So here I am, excited, nervous, but eager and ready to take full advantage of the opportunity in front of me.
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+---
+#### Favorite Quotes 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+"The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively." - Bob Marley
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+"May your choices reflect your hopes, not your fears." - Nelson Mandela
+
