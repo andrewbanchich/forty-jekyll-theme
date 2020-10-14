@@ -11,4 +11,4 @@ show_tile: false
 
 """ coming soon """
 
-[Back](https://cvanchieri.github.io/DSPortfolio/e_datamining.html){: .btn .btn-green }
+[![back button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/back.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/e_datamining.html)
