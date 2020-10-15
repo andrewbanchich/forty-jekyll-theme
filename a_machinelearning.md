@@ -15,7 +15,9 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 
 ![Yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp.png?raw=true?style=centerme) [![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html)
 
-
+<ul class="actions">
+    <li><a href="https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html" class="button next">View Details</a></li>
+</ul>
 
 
 ---
