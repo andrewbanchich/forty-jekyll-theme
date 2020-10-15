@@ -3,7 +3,8 @@ layout: page
 title: Computer Vision
 description: CV projects 
 image: assets/images/computervision.jpg
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 
 """ coming soon """
