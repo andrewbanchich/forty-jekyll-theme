@@ -6,7 +6,8 @@ nav-menu: true
 show_tile: false
 ---
 <h3> 
-<img style='horizontal-align:right;' style='vertical-align:top;' src="https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/aboutme.jpg?raw=true" alt="arrow" >  Charles Vanchieri <br> Aspiring Data Scientist
+<img style='horizontal-align:right;' style='vertical-align:top;' src="https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/aboutme.jpg?raw=true" alt="arrow" >  Charles Vanchieri 
+               Aspiring Data Scientist
 </h3>
  
 ![ProfilePic](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/aboutme.jpg?raw=true?style=centerme)
