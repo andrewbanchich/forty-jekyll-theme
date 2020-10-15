@@ -15,3 +15,9 @@ Data visualization gives us a clear idea of what the information means by giving
 
 ### The 2019 Australia bush fires in a mapbox heatmap.
 [![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/bushfiresmapboxheatmap.html)
+
+
+
+
+---
+[[<< Back]](https://cvanchieri.github.io/DSPortfolio)
