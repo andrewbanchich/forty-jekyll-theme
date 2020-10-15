@@ -11,4 +11,4 @@ show_tile: false
 
 """ coming soon """
 
-[![back button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/c_visualizations.html)
+[![back button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/back.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/c_visualizations.html)
