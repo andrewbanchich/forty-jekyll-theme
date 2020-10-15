@@ -11,7 +11,7 @@ nav-menu: true
 ### Computer vision recognition 
 
 <ul class="actions">
-   <li><a href="https://github.com/CVanchieri/DSPortfolio/computervisionrecognition.html" class="button next">View Details</a></li>
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/computervisionrecognition.html" class="button next">View Details</a></li>
 </ul>
 
 
