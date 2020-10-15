@@ -9,7 +9,10 @@ nav-menu: true
 """ coming soon """
 
 ### Data scraping with beautiful soup
-[![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/datascrapingbeautifulsoup.html)
+
+<ul class="actions">
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/datascrapingbeautifulsoup.html" class="button next">View Details</a></li>
+</ul>
 
 
 
