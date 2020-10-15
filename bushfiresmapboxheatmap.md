@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: 2019 Australia bush fires in a mapbox heatmap
 image: 
 nav-menu: false
 description: null
