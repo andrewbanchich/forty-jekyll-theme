@@ -7,7 +7,6 @@ nav-menu: true
 ---
 
 """ coming soon """
-^^^^^^^^^^^^^^^^^^^
 
-###
+### title here
 [![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/neuralnetwork.html)
