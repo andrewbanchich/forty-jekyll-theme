@@ -4,6 +4,7 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
+  <div align: center;>
   {% for tile in tiles limit:site.tiles-count %}
   <article>
     <span class="image">
@@ -15,4 +16,5 @@
     </header>
   </article>
   {% endfor %}
+  </div>
 </section>
