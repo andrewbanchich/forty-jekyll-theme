@@ -9,7 +9,10 @@ nav-menu: true
 """ coming soon """
 
 ### Computer vision recognition 
-[![button](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/viewdetails.png?raw=true)](https://cvanchieri.github.io/DSPortfolio/computervisionrecognition.html)
+
+<ul class="actions">
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/computervisionrecognition.htm" class="button next">View Details</a></li>
+</ul>
 
 
 
