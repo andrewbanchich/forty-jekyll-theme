@@ -5,11 +5,7 @@ image: assets/images/aboutme.jpg
 nav-menu: true
 show_tile: false
 ---
-<h3> 
-<img style='horizontal-align:right;' style='vertical-align:top;' src="https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/aboutme.jpg?raw=true" alt="arrow" >  Charles Vanchieri 
-               Aspiring Data Scientist
-</h3>
- 
+
 ![ProfilePic](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/aboutme.jpg?raw=true?style=centerme)
 
 ### Aspiring Data Scientist actively trying to make a positive impact on others health & wellness and the environment.
