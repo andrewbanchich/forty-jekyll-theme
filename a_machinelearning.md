@@ -12,7 +12,7 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 
 
 ### Querying simlar Yelp reviews with Natural Language Processing
-<section id="banner" class="major">
+<section>
    <div class="inner">
       <div class="content">
          <img style='vertical-align:middle;' src="https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp.png?raw=true" alt="yelp" > 
