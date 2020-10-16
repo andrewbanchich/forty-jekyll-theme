@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Computer Vision
-description: CV Projects
-image: assets/images/computervision.jpg
-nav-menu: false
-show_tile: false
+title: Data Analytics
+description: DA Projects
+image: assets/images/Analytics.jpg
+nav-menu: true
+show_tile: true
 ---
 
 """ coming soon """
 
-### Computer vision recognition 
+### Analyzing data 
 
 <ul class="actions">
-   <li><a href="https://cvanchieri.github.io/DSPortfolio/computervisionrecognition.html" class="button next">View Details</a></li>
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/dataanlytics.html" class="button next">View Details</a></li>
 </ul>
 
 
