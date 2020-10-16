@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Analytics
-description: DA Projects
+description:
 image: assets/images/analytics.jpg
 nav-menu: true
 show_tile: true
