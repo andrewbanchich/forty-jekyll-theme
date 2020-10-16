@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Sourcing
-description: DS Projects
+description:
 image: assets/images/datamining.jpg
 nav-menu: true
 ---
