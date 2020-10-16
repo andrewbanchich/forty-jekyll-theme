@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Computer Vision
-description: CV projects 
-image: assets/images/computervision.jpg
-nav-menu: false
-show_tile: false
+title: Helpful Notes
+description: Notes
+image: assets/images/notebook.jpg
+nav-menu: true
+show_tile: true
 ---
 
 """ coming soon """
@@ -12,7 +12,7 @@ show_tile: false
 ### Computer vision recognition 
 
 <ul class="actions">
-   <li><a href="https://cvanchieri.github.io/DSPortfolio/computervisionrecognition.html" class="button next">View Details</a></li>
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/importantnotes.html" class="button next">View Details</a></li>
 </ul>
 
 
