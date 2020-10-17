@@ -15,7 +15,7 @@ show_tile: true
 """ coming soon """
 
 <ul class="actions">
-   <li><a href="https://cvanchieri.github.io/DSPortfolio/dataanlytics.html" class="button next">View Details</a></li>
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/dataanalytics.html" class="button next">View Details</a></li>
 </ul>
 
 
