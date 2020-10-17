@@ -14,6 +14,7 @@ nav-menu: true
 """ coming soon """
 
 ### Data scraping with beautiful soup
+
 ---
 
 <ul class="actions">
