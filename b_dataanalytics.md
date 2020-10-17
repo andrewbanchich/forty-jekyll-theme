@@ -7,11 +7,11 @@ nav-menu: true
 show_tile: true
 ---
 
-### Analyzing data 
+# Data Analytics
 
 ---
 
-
+## Analyzing data with...
 """ coming soon """
 
 ---
