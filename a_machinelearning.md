@@ -7,7 +7,7 @@ nav-menu: true
 
 ---
 
-# Machine Learning Projects 
+# Machine Learning
 
 ---
 
