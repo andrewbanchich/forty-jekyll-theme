@@ -14,8 +14,6 @@ show_tile: true
 ## Analyzing data with...
 """ coming soon """
 
----
-
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/dataanlytics.html" class="button next">View Details</a></li>
 </ul>
