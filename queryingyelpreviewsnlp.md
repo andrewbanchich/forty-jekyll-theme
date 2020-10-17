@@ -9,7 +9,7 @@ description: null
 
 ![NLP](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/nlp.jpg?raw=true?style=centerme){: .center-block :}
 
-### Using Natural language Processing to query similar Yelp reviews by reviews text.
+## Using Natural language Processing to query similar Yelp reviews by reviews text.
 
 ---
 
