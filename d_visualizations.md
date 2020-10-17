@@ -7,7 +7,7 @@ nav-menu: true
 
 ---
 
-### Data Visualizations Projects
+# Visualizations
 
 ---
 
@@ -29,7 +29,7 @@ Data visualization gives us a clear idea of what the information means by giving
    <li><a href="https://cvanchieri.github.io/DSPortfolio/bushfiresmapboxheatmap.html" class="button next">View Details</a></li>
 </ul>
 
----
+
 
 
 
