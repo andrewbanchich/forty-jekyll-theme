@@ -7,7 +7,9 @@ description: null
 show_tile: false
 ---
 
-### Using Mapbox to display the 2019 Australia bush fires in a time series heatmap.
+## Using Mapbox to display the 2019 Australia bush fires in a time series heatmap.
+
+---
 
 """ coming soon """
 
