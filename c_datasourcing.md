@@ -7,13 +7,12 @@ nav-menu: true
 
 ---
 
-### Data Sourcing Projects
+# Data Sourcing
 
 ---
 
+## Data scraping with beautiful soup.
 """ coming soon """
-
-### Data scraping with beautiful soup
 
 ---
 
