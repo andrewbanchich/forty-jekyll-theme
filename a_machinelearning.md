@@ -15,7 +15,7 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 
 ---
 
-### Querying simlar Yelp reviews with Natural Language Processing.
+### Querying simlar Yelp reviews with Natural Language Processing
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html" class="button next">View Details</a></li>
