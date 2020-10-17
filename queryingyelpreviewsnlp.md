@@ -7,7 +7,7 @@ description: null
 
 ---
 
-![NLP](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/nlp.jpg){: .center-block :}
+![NLP](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/nlp.jpg?raw=true?style=centerme){: .center-block :}
 
 ### Using Natural language Processing to query similar Yelp reviews by reviews text.
 
@@ -47,7 +47,7 @@ yelp = yelp[['business_id', 'review_id', 'text', 'cool', 'funny', 'useful', 'sta
 print(yelp.shape)
 yelp.head()
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp1.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp1.png?raw=true?style=centerme){: .center-block :}
 
 #### Step 2: Clean the text of the reviews with Regex.
 ```
@@ -84,7 +84,7 @@ for doc in tokenizer.pipe(df['text'], batch_size=500):
 df['tokens'] = tokens
 df['tokens'].head()
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp2.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp2.png?raw=true?style=centerme){: .center-block :}
 
 
 #### Step 4: Filter the top words in the tokens with Counter and Squarify.
@@ -116,14 +116,14 @@ def count(docs):
 wordcount = count(df['tokens'])
 wordcount.head(10)
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp3.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp3.png?raw=true?style=centerme){: .center-block :}
 ``` 
 wordcount_top20 = wordcount[wordcount['rank'] <= 40]
 squarify.plot(sizes=wordcount_top20['pct_total'], label=wordcount_top20['word'], alpha=.8 )
 plt.axis('off')
 plt.show()
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp4.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp4.png?raw=true?style=centerme){: .center-block :}
 
 #### Step 5: Create a fake review and used NearestKneighbors to find the 10 most similar reviews.
 ```
@@ -143,7 +143,7 @@ most_similiar = nn.kneighbors([created_review_vect])
 ```
 yelp.iloc[most_similiar[1][0]]['text']
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp5.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp5.png?raw=true?style=centerme){: .center-block :}
 
 #### Step 6: Predict the star rating of the fake review with TfidfVectorizer, RandomForest, and GridSearchCV for the classification model.
 ```
@@ -167,7 +167,7 @@ grid_search.fit(df['text'], df['stars'])
 ```
 grid_search.best_score_
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp6.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp6.png?raw=true?style=centerme){: .center-block :}
 (The goal was 51% and above.)
 
 #### Step 7: Implement topic modeling with LdaMulticore, Dictionary, and Corpora.
@@ -191,7 +191,7 @@ topics = [' '.join(t[0:5]).strip().replace('\n', '') for t in words]
 ```
 print(topics)
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp8.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp8.png?raw=true?style=centerme){: .center-block :}
 ```
 distro = [lda[d] for d in corpus]
 def update(doc):
@@ -209,14 +209,14 @@ new_df['stars'] = yelp['stars']
 ```
 new_df.head()
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp9.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp9.png?raw=true?style=centerme){: .center-block :}
 
 #### Step 8: Visualize the topics created and the most relevant terms with pyLDAvis.
 ```
 pyLDAvis.enable_notebook()
 pyLDAvis.gensim.prepare(lda, corpus, id2word)
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp10.png){: .center-block :}
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp10.png?raw=true?style=centerme){: .center-block :}
 (pyLDAvis visualization is great and interactive.)
 
 #### Summary
