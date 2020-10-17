@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Querying simlar Yelp reviews with Natural Language Processing
+title:
 image: 
 nav-menu: false
 description: null
-show_tile: false
+
 ---
 
 ![NLP](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/nlp.jpg?raw=true?){: .center-block :}
