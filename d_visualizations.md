@@ -4,6 +4,11 @@ title: Visualizations
 description:
 image: assets/images/visualizations.jpg
 nav-menu: true
+
+---
+
+### Data Visualizations Projects
+
 ---
 
 Data visualization gives us a clear idea of what the information means by giving it visual context through maps or graphs. This makes the data more natural for the human mind to comprehend and therefore makes it easier to identify trends, patterns, and outliers within large data sets. these displays use visual data to communicate information in a manner that is universal, fast, and effective.
