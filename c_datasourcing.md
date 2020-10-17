@@ -12,9 +12,8 @@ nav-menu: true
 ---
 
 ## Data scraping with beautiful soup.
-""" coming soon """
 
----
+""" coming soon """
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/datascrapingbeautifulsoup.html" class="button next">View Details</a></li>
