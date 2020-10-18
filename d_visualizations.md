@@ -23,7 +23,7 @@ Data visualization gives us a clear idea of what the information means by giving
 
 ---
 
-### The 2019 Australia bush fires in a mapbox heatmap.
+### The 2019 Australia bush fires displayed in a mapbox heatmap.
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/bushfiresmapboxheatmap.html" class="button next">View Details</a></li>
