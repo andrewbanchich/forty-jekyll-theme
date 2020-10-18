@@ -13,7 +13,7 @@ description: null
 
 If your involved with Data Science then you most likely have worked with or have come across a Decision Trees.  Decision Trees are regularly used algorithms that take on a 'tree' like form to assist in making predictions for both regression and classification, the models are decently simple, easy to visualize, and in more advanced models they can show great performance on complex data.  SKlearn has one of the more commonly used Decision Trees and makes it pretty simple to set up and run with the correct data.  
 
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTDecisionTreeStructure.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTDecisionTreeStructure.png?raw=true){: .center-block :} <br>
 (Decision Trees example.)
 
 Decision Trees split data sets into smaller subsets while simultaneously making calculations and predictions on the data. The final product 
@@ -69,7 +69,7 @@ class DecisionTree(object):
 
 #### Gini Impurity Method.
 ##### Gini Impurity tells us what is the probability of misclassifying an observation and is used in calculation of the split, the lower the gini score the better the split is.  Gini impurity is just one the many methods that can be used for calculations in a Decision Tree.
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTGiniScoreCalc.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTGiniScoreCalc.png?raw=true){: .center-block :} <br>
 (Gini index formula.)
 ```
   def gini(self, groups, class_labels):
@@ -206,7 +206,7 @@ class DecisionTree(object):
 
 #### Accuracy Score Method.
 ##### Accuracy score shows how well the model is working, its calculated by, the number of correct predictions divided by the total number predictions made.
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScore.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScore.png?raw=true){: .center-block :} <br>
 (Accuracy score function.)
 ```
 def acc_score(pred, act):
@@ -252,11 +252,11 @@ if  __name__ == "__main__":
 ```
 
 #### Scratch Model Accuracy vs SKlearn Model Accuracy.
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScores.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScores.png?raw=true){: .center-block :} <br>
 (Prediction accuracy.)
 
 #### Visualize the Scratch Decision Tree Model.
-##### Dtreeplt library uses matplotlib to display the nodes and structure of the Decision Tree.
+##### dtreeplt
 
 ```
 dtree = dtreeplt()
@@ -280,12 +280,11 @@ dtree = dtreeplt(
 
 fig = dtree.view()
 ```
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTCreatedModelTreeView.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTCreatedModelTreeView.png?raw=true){: .center-block :} <br>
 (Scratch model tree view.)
 
-#### Visualize the SKlearn Decision Tree Model:
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTSKlearnDTmodel.png?raw=true){: .center-block :}
-
+#### Visualize the SKlearn Decision Tree Model.
+##### dtreeplt
 ```
 dtree = dtreeplt()
 dtree.view()
