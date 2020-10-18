@@ -23,7 +23,8 @@ import plotly.graph_objects as go
 
 #### Step 1: Read in the data on the 2019 bushfires in Australia.
 ```
-fires = pd.read_csv('https://raw.githubusercontent.com/CVanchieri/DataSets/master/Labs/AustraliaBushFires/australiabushfires.csv')
+fires = pd.read_csv('https://raw.githubusercontent.com/CVanchieri/DataSets/master/Labs/AustraliaBushFires
+                    /australiabushfires.csv')
 ```
 ```
 print(fires.shape)
@@ -40,9 +41,11 @@ frames_data = [fires.loc[fires['acq_date'] == t] for t in times]
 frames = [go.Frame(data=[go.Densitymapbox(lat=f['latitude'], lon=f['longitude'], 
          z=f['brightness'], radius=10)], name=str(f.iloc[0]['acq_date'])) for f in frames_data]
 buttons=[
-         dict(label='Play',method='animate',args=[None, {'fromcurrent':True, 'transition':                           {'duration': 20, 'easing': 'quadratic-in-out'}}]),
-         dict(label='Pause',method='animate',args=[[None], {'frame': {'duration': 0, 'redraw':                       False},'mode': 'immediate', 'transition': {'duration': 0}}])
-         ]
+         dict(label='Play',method='animate',args=[None, {'fromcurrent':True, 'transition': 
+                                                        {'duration': 20, 'easing': 'quadratic-in-out'}}]),
+         dict(label='Pause',method='animate',args=[[None], {'frame': {'duration': 0, 'redraw':False},
+                                                            'mode': 'immediate', 'transition': {'duration': 0}}])
+        ]
 ```
 ```
 sliders_dict = {
