@@ -49,7 +49,7 @@ print(yelp.shape)
 yelp.head()
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp1.png?raw=true?style=centerme){: .center-block :}
-data frame 
+##### Yelp data frame 
 
 #### Step 2: Clean up the text from the data frame reviews.
 #### Regex
@@ -89,7 +89,7 @@ df['tokens'] = tokens
 df['tokens'].head()
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp2.png?raw=true?style=centerme){: .center-block :}
-Review tokens 
+##### Review tokens 
 
 
 #### Step 4: Find the top words in the tokens.
@@ -122,8 +122,8 @@ def count(docs):
 wordcount = count(df['tokens'])
 wordcount.head(10)
 ```
-![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp3.png?raw=true?style=centerme){: .center-block :}
-Top 10 used words
+![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp3.png?raw=true){: .center-block :}
+##### Top 10 used words
 ``` 
 wordcount_top40 = wordcount[wordcount['rank'] <= 40]
 squarify.plot(sizes=wordcount_top40['pct_total'], label=wordcount_top40['word'], alpha=.8 )
@@ -153,7 +153,7 @@ most_similiar = nn.kneighbors([created_review_vect])
 yelp.iloc[most_similiar[1][0]]['text']
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp5.png?raw=true?style=centerme){: .center-block :}
-10 similar reviews 
+#### 10 similar reviews 
 
 #### Step 6: Create a star rating with the accuracy of a prediction model on the reviews text.
 #### TfidVectorizer | RandomForestClassifier | GridSearchCV
@@ -179,7 +179,7 @@ grid_search.fit(df['text'], df['stars'])
 grid_search.best_score_
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp6.png?raw=true?style=centerme){: .center-block :}
-The goal was 51% and above
+##### The goal was 51% and above
 
 #### Step 7: Create a data frame of topics genereated the review tokens.
 #### Corpora | ldaaMulticore 
@@ -204,7 +204,7 @@ topics = [' '.join(t[0:5]).strip().replace('\n', '') for t in words]
 print(topics)
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp8.png?raw=true?style=centerme){: .center-block :}
-Created topics
+#### Created topics
 ```
 distro = [lda[d] for d in corpus]
 def update(doc):
@@ -223,7 +223,7 @@ new_df['stars'] = yelp['stars']
 new_df.head()
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp9.png?raw=true?style=centerme){: .center-block :}
-Topics data frame
+##### Topics data frame
 
 #### Step 8: Visualize the most relevent terms in each topic.
 #### pyLDAvis
@@ -232,7 +232,7 @@ pyLDAvis.enable_notebook()
 pyLDAvis.gensim.prepare(lda, corpus, id2word)
 ```
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp10.png?raw=true?style=centerme){: .center-block :}
-(pyLDAvis visualization is great and interactive.)
+##### pyLDAvis visualization is great and interactive.
 
 #### Summary
 The goal was to tokenize the yelp review data, query the most similar yelp reviews to the fake review created, create a classification model to give the fake review a star rating, and implement topic modeling.
