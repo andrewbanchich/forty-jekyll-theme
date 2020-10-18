@@ -20,6 +20,13 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html" class="button next">View Details</a></li>
 </ul>
+---
+
+### Creating a decision tree model from scratch.
+
+<ul class="actions">
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/decisiontreefromscratch.html" class="button next">View Details</a></li>
+</ul>
 
 
 
