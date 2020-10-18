@@ -91,7 +91,7 @@ class DecisionTree(object):
       return gini_score
 ```
 
-#### Terminal Node Method:
+#### Terminal Node Method.
 ##### Terminal nodes (leaf nodes) are the final nodes that do not split further.
 ```
   def term_node(self, group):
@@ -99,7 +99,7 @@ class DecisionTree(object):
           return class_labels[np.argmax(count)]
 ```
 
-#### Split Method:
+#### Split Method.
 ##### Splitting a node into two sub-nodes is called splitting. It happens at all nodes except leaf nodes (terminal nodes).
 ```
   def split(self, index, val, data):
@@ -114,7 +114,7 @@ class DecisionTree(object):
           return data_l, data_r
 ```
 
-#### Best Split Method:
+#### Best Split Method.
 ##### Best split uses the gini score and initial split to check all the values of each attribute and calculates the cost of the split to find the best possible split.
 ```
   def best_split(self, data):
@@ -141,7 +141,7 @@ class DecisionTree(object):
           return result
 ```
 
-#### Recursive Split Method:
+#### Recursive Split Method.
 ##### Recursive split recursively uses best split and terminal node on all groups creating either a new node or a a terminal node.
 ```
   def rec_split(self, node, depth):
@@ -171,7 +171,7 @@ class DecisionTree(object):
               self.rec_split(node['right'],depth + 1)
 ```
 
-#### Build the Tree Method:
+#### Build the Tree Method.
 ##### Build the tree starts at the root node, then uses the best split on itself recursively to construct the entire tree.
 ```
   def build_tree(self):
@@ -180,7 +180,7 @@ class DecisionTree(object):
           return self.root
 ```
 
-### Node Prediction Method:
+### Node Prediction Method.
 #### Node prediction checks if the node is either a terminal value to be returned as the prediction, or if it is a dictionary node containing another level to be checked.
 ```
   def pred_(self, node, row):
