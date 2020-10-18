@@ -154,7 +154,7 @@ yelp.iloc[most_similiar[1][0]]['text']
 ![yelp](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/yelp5.png?raw=true?style=centerme){: .center-block :} <br>
 (10 similar reviews.)
 
-#### Step 6: Create a star rating with the accuracy of a prediction model on the reviews text.
+#### Step 6: Create a star with a prediction model on the reviews text.
 ##### TfidVectorizer | RandomForestClassifier | GridSearchCV
 ```
 vect = TfidfVectorizer(stop_words=STOP_WORDS)
