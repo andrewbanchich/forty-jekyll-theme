@@ -49,7 +49,7 @@ from dtreeplt import dtreeplt
 ##### - node predictor
 ##### - accuracy score
 
-#### Decision Tree Class:
+#### Decision Tree Class.
 ```
 class DecisionTree(object):
     def __init__(self, max_depth, min_splits):
@@ -57,7 +57,7 @@ class DecisionTree(object):
         self.min_splits = min_splits
 ```
 
-#### Fit Method:
+#### Fit Method.
 ##### Fitting is a measure of how well a model generalizes to similar data to that on which it was trained. A model that is well-fitted produces more accurate outcomes. A model that is overfitted matches the data too closely. A model that is underfitted doesn't match closely enough.
 ```
   def fit(self, feature, label):
@@ -67,9 +67,10 @@ class DecisionTree(object):
       self.build_tree()
 ```
 
-#### Gini Impurity Method:
+#### Gini Impurity Method.
 ##### Gini Impurity tells us what is the probability of misclassifying an observation and is used in calculation of the split, the lower the gini score the better the split is.  Gini impurity is just one the many methods that can be used for calculations in a Decision Tree.
 ![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTGiniScoreCalc.png?raw=true){: .center-block :}
+(Gini index formula.)
 ```
   def gini(self, groups, class_labels):
       number_sample = sum([len(group) for group in groups])
@@ -203,9 +204,10 @@ class DecisionTree(object):
           return self.pred_label
 ```
 
-#### Accuracy Score Method:
+#### Accuracy Score Method.
 ##### Accuracy score shows how well the model is working, its calculated by, the number of correct predictions divided by the total number predictions made.
-![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScoreCalc.png?raw=true){: .center-block :}
+![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScore.png?raw=true){: .center-block :}
+(Accuracy score function.)
 ```
 def acc_score(pred, act):
     correct = 0
@@ -216,7 +218,7 @@ def acc_score(pred, act):
     return correct/pred_len
 ```
 
-#### Decision Tree Models:
+#### Decision Tree Models.
 ##### Models function loads the wanted data, and executes both the Scratch and SKlearn Decision Trees.
 ```
 def models():
@@ -249,10 +251,11 @@ if  __name__ == "__main__":
     models()
 ```
 
-#### Scratch Model Accuracy vs SKlearn Model Accuracy:
+#### Scratch Model Accuracy vs SKlearn Model Accuracy.
 ![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTAccuracyScores.png?raw=true){: .center-block :}
+(Prediction accuracy.)
 
-#### Visualize the Scratch Decision Tree Model:
+#### Visualize the Scratch Decision Tree Model.
 ##### Dtreeplt library uses matplotlib to display the nodes and structure of the Decision Tree.
 
 ```
@@ -278,6 +281,7 @@ dtree = dtreeplt(
 fig = dtree.view()
 ```
 ![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTCreatedModelTreeView.png?raw=true){: .center-block :}
+(Scratch model tree view.)
 
 #### Visualize the SKlearn Decision Tree Model:
 ![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTSKlearnDTmodel.png?raw=true){: .center-block :}
@@ -304,6 +308,7 @@ dtree = dtreeplt(
 fig = dtree.view()
 ```
 ![DecisionTree](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/DTSKLearnModelTreeView.png?raw=true){: .center-block :}
+(SKlearn model tree view.)
 
 #### Summary
 Going into this project I did not truly understand what it meant to build from 'scratch' and was pretty optimistic that I would be able 
@@ -320,3 +325,14 @@ Any suggestions or feedback is greatly appreciated, I am still learning and am a
 
 GitHub link
 [Link]({{'https://github.com/CVanchieri/CS-DataScience-BuildWeek1}})
+
+
+
+
+
+
+---
+[[<< Back]](https://cvanchieri.github.io/DSPortfolio/a_machinelearning.html)
+
+
+
