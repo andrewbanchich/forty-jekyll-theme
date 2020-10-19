@@ -8,7 +8,7 @@ show_tile: false
 
 ---
 
-![AustraliaBushFiresHeader1](/assets/images/ABFHeader.jpg)
+![AustraliaBushFiresHeader1](/assets/images/ABFHeader.jpg){: .center-block :}
 
 ## Using mapbox to display the 2019 Australia bush fires in a time series heatmap.
 
