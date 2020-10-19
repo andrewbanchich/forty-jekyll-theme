@@ -130,7 +130,7 @@ draw_barchart(yesterday)
 (Barchart 2020-04-30 example.)
 
 #### Step 6: create the animation.
-#### FuncAnimation
+##### FuncAnimation
 ```
 %%capture
 plt.rcParams['animation.html'] = 'jshtml'
