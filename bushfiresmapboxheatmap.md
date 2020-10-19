@@ -8,7 +8,7 @@ show_tile: false
 
 ---
 
-![AustraliaBushFiresHeader1](/assets/images/ABFHeader.jpg){: .center-image }
+![AustraliaBushFiresHeader1](/assets/images/ABFHeader.jpg)
 ## Using mapbox to display the 2019 Australia bush fires in a time series heatmap.
 
 The massive fires that have been devastating Australia are of a big concern to everyone right now.  I saw an example of a heatmap the other day and I decided that I would give it a try to produce a heatmap using Mapbox to represents the bush fires in Australia.
@@ -29,7 +29,7 @@ fires = pd.read_csv('https://raw.githubusercontent.com/CVanchieri/DataSets/maste
 print(fires.shape)
 fires.head()
 ```
-![AustraliaBushFires](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/ABF1.png?raw=true){: .center-block :}
+![AustraliaBushFires](/assets/images/ABF1.png)
 (Bushfire data frame.)
 
 #### Step 2: Set up the data for the heatmap.
@@ -94,7 +94,7 @@ fig.update_layout(height=1000)
 ```
 fig.show()
 ```
-![AustraliaBushFires](https://github.com/CVanchieri/DSPortfolio/blob/gh-pages/assets/images/ABF2.png?raw=true){: .center-block :}
+![AustraliaBushFires](/assets/images/ABF2.png)
 ((Sample image of the time-series video.)
 
 #### Summary
