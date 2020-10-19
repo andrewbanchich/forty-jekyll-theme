@@ -8,7 +8,7 @@ show_tile: false
 
 ---
 
-![Covid19Header1](/assets/images/CVbarCovidHeader1.jpg)
+![Covid19Header1](/assets/images/CVbarCovidHeader1.jpg) <br>
 
 ## Visualizing the COVID-19 virus in a matplotlib barchart race.
 
@@ -43,7 +43,7 @@ covid_countriessummary = pd.json_normalize(covid_cs)
 print(covid_countriessummary.shape)
 covid_countriessummary.head()
 ```
-![Covid19BarRace](/assets/images/CVbar1.png)
+![Covid19BarRace](/assets/images/CVbar1.png) <br>
 (COVID-19 API data frame.)
 
 #### Step 2: Clean and rework the data.
@@ -62,7 +62,7 @@ df = df.groupby(['Date', 'Country', 'Code']).agg({'Confirmed':'sum', 'Deaths': '
 print(df.shape)
 df.head()
 ```
-![Covid19BarRace](/assets/images/CVbar2.png)
+![Covid19BarRace](/assets/images/CVbar2.png) <br>
 (Reworked data frame.)
 
 #### Step 3: Filter to keep the top 20 countries with the highest death counts.
@@ -77,7 +77,7 @@ df = df[df['Country'].isin(countries)]
 print(df.shape)
 df.head(20)
 ```
-![Covid19BarRace](/assets/images/CVbar3.png)
+![Covid19BarRace](/assets/images/CVbar3.png) <br>
 (Top 20 countries.)
 
 #### Step 4: Set colors for the top countries.
@@ -126,7 +126,7 @@ def draw_barchart(datetime):
 fig, ax = plt.subplots(figsize=(15, 8))   
 draw_barchart(yesterday)
 ```
-![Covid19BarRace](/assets/images/CVbar4.png)
+![Covid19BarRace](/assets/images/CVbar4.png) <br>
 (Barchart 2020-04-30 example.)
 
 #### Step 6: create the animation.
@@ -141,7 +141,7 @@ animator = animation.FuncAnimation(fig, draw_barchart, frames=(time), interval=2
 ```
 HTML(animator.to_html5_video())
 ```
-![Covid19BarRace](/assets/images/CVbar5.png)
+![Covid19BarRace](/assets/images/CVbar5.png) <br>
 (Simplest way I found to create a downloadable video)
 
 
