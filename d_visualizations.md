@@ -23,7 +23,7 @@ Data visualization gives us a clear idea of what the information means by giving
 
 ---
 
-### USA COVID-19 imapact shown in a plotly line graph.
+### USA COVID-19 impact shown in a plotly line graph.
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/COVIDplotlylinegraph.html" class="button next">View Details</a></li>
