@@ -23,6 +23,14 @@ Data visualization gives us a clear idea of what the information means by giving
 
 ---
 
+### USA COVID-19 imapact shown in a plotly line graph.
+
+<ul class="actions">
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/COVIDplotlylinegraph.html" class="button next">View Details</a></li>
+</ul>
+
+---
+
 ### The 2019 Australia bushfires displayed in a mapbox heatmap.
 
 <ul class="actions">
@@ -32,6 +40,6 @@ Data visualization gives us a clear idea of what the information means by giving
 
 
 
-
+COVIDplotlylinegraph.md
 ---
 [[<< Back]](https://cvanchieri.github.io/DSPortfolio)
