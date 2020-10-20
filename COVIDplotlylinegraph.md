@@ -71,7 +71,7 @@ df.head()
 (Reworked data frame.)
 
 #### Step 3: Function to configure the browser to display plotly charts properly.
-#### IPython | Plotly
+##### IPython | Plotly
 ```
 def configure_plotly_browser_state():
   import IPython
@@ -89,7 +89,7 @@ def configure_plotly_browser_state():
 ```
 
 #### Step 4: Configure the data, design, and layout for the graph.
-#### Scatter | Layout | Figure
+##### Scatter | Layout | Figure
 ```
 configure_plotly_browser_state()
 init_notebook_mode(connected=True)
@@ -132,6 +132,7 @@ fig = go.Figure(data=data, layout=layout)
 fig.show()
 ```
 ![Covid19LineGraph]/img/PlotlyCOVID19LineGraphPost/PLG3.png) <br>
+(Image of the graph.)
 
 #### Summary
 Just because its a 'line graph' does not mean its not useful and  or engaging.  A static graph may not be the best route 
