@@ -65,7 +65,7 @@ df.head()
 ![Covid19BarRace](/assets/images/CVbar2.png) <br>
 (Reworked data frame.)
 
-#### Step 3: Filter to keep the top 20 countries with the highest death counts.
+#### Step 3: Filter to keep the top 20 countries with the highest deceased counts.
 ```
 yesterday = df['Date'].iloc[-1]
 df1 = (df[df['Date'].eq(yesterday)].sort_values(by='Deaths', ascending=False).head(20))
