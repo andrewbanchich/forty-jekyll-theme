@@ -34,7 +34,7 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 ### Using a randomforest classifier to make game predictions for Liverpool's 2020 English Premier League season.
 
 <ul class="actions">
-   <li><a href="https://cvanchieri.github.io/DSPortfolio/Liverpoolrandomforestprediction.html" class="button next">View Details</a></li>
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/liverpoolrandomforestprediction.html" class="button next">View Details</a></li>
 </ul>
 
 
