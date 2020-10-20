@@ -194,7 +194,7 @@ eli5.show_weights(
     top=None,
     feature_names = feature_names)
 ```
-![LiverpoolFootballClub](/assets/images/LPFC/8.png) <br>
+![LiverpoolFootballClub](/assets/images/LPFC8.png) <br>
 
 #### Step 10: 2nd RandomForestClassifier Model.
 ```
