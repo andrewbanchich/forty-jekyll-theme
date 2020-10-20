@@ -8,7 +8,7 @@ show_tile: false
 
 ---
 
-![Covid19Header2](/assets/images/PLGCovidHeader2.jpeg) <br>
+![Covid19Header2](/assets/images/PLGCovidHeader2.jpg) <br>
 
 ## Visualizing the COVID-19 virus impact on the USA in a plotly line graph.
 
