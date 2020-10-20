@@ -15,7 +15,7 @@ Data visualization gives us a clear idea of what the information means by giving
 
 ---
 
-### World 'death' counts for the COVID-19 virus in a matplotlib bar chart race.
+### World deceased counts for the COVID-19 virus in a matplotlib bar chart race.
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/COVIDbarchartrace.html" class="button next">View Details</a></li>
