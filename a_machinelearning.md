@@ -20,12 +20,21 @@ Machine Learning is the core subarea of artificial intelligence. It makes comput
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/queryingyelpreviewsnlp.html" class="button next">View Details</a></li>
 </ul>
+
 ---
 
 ### Creating a decision tree model from scratch.
 
 <ul class="actions">
    <li><a href="https://cvanchieri.github.io/DSPortfolio/decisiontreefromscratch.html" class="button next">View Details</a></li>
+</ul>
+
+---
+
+### Using a randomforest classifier to make game predictions for Liverpool's 2020 English Premier League season.
+
+<ul class="actions">
+   <li><a href="https://cvanchieri.github.io/DSPortfolio/Liverpoolrandomforestpredictions.html" class="button next">View Details</a></li>
 </ul>
 
 
