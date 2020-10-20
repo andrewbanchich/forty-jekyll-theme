@@ -42,7 +42,7 @@ print(covid_countriessummary.shape)
 covid_countriessummary.head()
 ```
 ![Covid19LineGraph](/assets/images/PLG1.png) <br>
-(COVID Dataframe.)
+(COVID-19 daily dataframe.)
 
 #### Step 2: Clean and filter the data for USA.
 ```
