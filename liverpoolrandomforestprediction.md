@@ -47,7 +47,7 @@ LPFC = pd.read_csv('https://raw.githubusercontent.com/CVanchieri/LSDS-DataSets/m
 print(LPFC.shape)
 LPFC.head()
 ```
-![LiverpoolFootballClub](/img/EnglishPremierLeaguePost/1.png){: .center-block :}
+![LiverpoolFootballClub](/assets/images/LPFC1.png){: .center-block :}
 
 #### Step 2: Clean and rework the data to what is needed.
 ```
