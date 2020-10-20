@@ -53,7 +53,9 @@ df['Date'] = df['Date'].str[:10]
 df = df.rename(columns={"CountryCode": "Code"})
 df = df.drop(columns=['Province', 'City', 'CityCode', 'Active', 'Lat', 'Lon'])
 df = df[['Date', 'Country', 'Code', 'Confirmed', 'Recovered', 'Deaths']]
-df = df.groupby(['Date', 'Country', 'Code']).agg({'Confirmed':'sum', 'Deaths': 'sum', 'Recovered': 'sum'}).reset_index()
+df = df.groupby(['Date', 'Country', 'Code']).agg({'Confirmed':'sum', 
+                                                  'Deaths': 'sum', 
+                                                  'Recovered': 'sum'}).reset_index()
 df = df[df['Country'] == 'United States of America']
 df['ConDiff'] = df['Confirmed'].diff()
 df['DeaDiff'] = df['Deaths'].diff()
