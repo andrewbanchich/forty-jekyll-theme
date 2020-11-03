@@ -18,8 +18,7 @@ image:
     </ul>
 </div> -->
 
-- [2020-01] 侠之大者，为国为民！向真正的医生们致敬！
-- [2020-04] 由于疫情的客观原因，IT侠无法进行线下维修工作，如需帮助请翻至本页底加入互助群，IT侠可以提供线上指导
+- [2020-10] IT侠恢复线下值班啦，24小时招新！
 
 ---
 请<text style="color: rgb(255, 255, 97); font-weight: bold;">务必认真完整地</text>阅读『<a href="#TOS">**预约须知**</a>』后，点击页面下方的『**我已了解，开始预约**』预约维修。
@@ -52,11 +51,11 @@ image:
 
 3. 值班时间：IT侠志愿者均为在校学生，时间精力有限，只能在晚上安排值班。两个校区由于条件差异，值班日期略有不同。鼓楼因为场地的特殊情况，请以与你联系的IT侠的通知为准。
     - 仙林：每周工作日晚上 19:00 – 22：00
-    - 鼓楼：（一般情况）每周周二、周六晚上 19:00 – 22：00
+    - 鼓楼：（一般情况）每周周四、周六晚上 18:30 – 21：30
 
 4. 值班地点
     - 仙林：基础实验楼丙526
-    - 鼓楼：（一般情况）物理楼248
+    - 鼓楼：（一般情况）物理楼248或物理楼233
 
 	
 ---
@@ -128,13 +127,13 @@ image:
         <h4>鼓楼IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>或扫二维码加入群聊
 		<br />
-        <img src="assets/images/gulou-help.png" >
+        <img src="assets/images/gulou-help.png" height='140' width='140'>
     </div>
 	<div class="6u$ 12u$(medium)" style="text-align: center;">
         <h4>仙林IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>或扫二维码加入群聊
 		<br />
-        <img src="assets/images/xianlin-help.jpg" height='141' width='142'>
+        <img src="assets/images/xianlin-help.jpg" height='140' width='140'>
     </div>
 </div>
 <br />
