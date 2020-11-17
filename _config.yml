@@ -6,12 +6,12 @@ description: I am a System Admin focusing on development<br /> and deployment.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 280 Hillside Ave
+city: Palisades Park
+state: NJ
+zip_code: 07650
 country: United States of America
-phone: (716) 555-5555
+phone: (201) 403-8392
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -23,8 +23,8 @@ facebook_url:
 github_url:
 gitlab_url: https://gitlab.com/andrewbanchich
 googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/jerellewis92/
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/andrewbanchich
