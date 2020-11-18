@@ -14,4 +14,4 @@ I'm an Senior IT Operations Technician for Fanduel based in the NJ. I have a hug
 
 In my various roles over the year I have been involved in Consultancy, implementation and support, primarily working with VMware, Cisco, IBM, Dell, HPE, and Microsoft, although previous endeavors have allowed me to cross paths with PBX's Avaya, Cisco and Nortel.  
 
-*Disclaimer: This is my personal blog. Any views or opinions represented in this blog are personal and belong solely to me and do not represent those of people, institutions or organizations that I may or may not be associated with in professional or personal capacity, unless explicitly stated.*
+*Disclaimer: This is my personal portfolio/blog. Any views or opinions represented in this blog are personal and belong solely to me and do not represent those of people, institutions or organizations that I may or may not be associated with in professional or personal capacity, unless explicitly stated.*
