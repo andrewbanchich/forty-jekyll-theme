@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Resume
 image: assets/images/pic09.jpg
 nav-menu: true
 ---
