@@ -2,7 +2,7 @@
 title: Lab.Addict
 subtitle:
 email: jay.a.lewis@gmail.com
-description: Home-Lab portfolio focused around Virtualisation <br /> Storage Servers and other Technology.
+description: Home-Lab portfolio focused around Virtualization <br /> Storage Servers and other Technology.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -27,7 +27,7 @@ instagram_url:
 linkedin_url: https://www.linkedin.com/in/jerellewis92/
 pinterest_url:
 slack_url:
-twitter_url: 
+twitter_url:
 
 # build settings
 markdown: kramdown
