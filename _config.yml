@@ -3,7 +3,7 @@ title: Lab.Addict
 subtitle: by Tech
 email: jay.a.lewis@gmail.com
 description: I am a System Admin focusing on development<br /> and deployment.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 280 Hillside Ave
