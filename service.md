@@ -18,9 +18,7 @@ image:
     </ul>
 </div> -->
 
-- [2019-01] 侠之大者，为国为民！向真正的医生们致敬！
-- [2019-01] 春节快乐！鼠年大吉！
-- [2019-12] 自12月29日起，IT侠们将准备期末考试，不再安排固定时段的值班；如遇问题请加群联系（本页最下方，但不一定有人力解决）
+- [2020-10] IT侠恢复线下值班啦，24小时招新！
 
 ---
 请<text style="color: rgb(255, 255, 97); font-weight: bold;">务必认真完整地</text>阅读『<a href="#TOS">**预约须知**</a>』后，点击页面下方的『**我已了解，开始预约**』预约维修。
@@ -53,17 +51,12 @@ image:
 
 3. 值班时间：IT侠志愿者均为在校学生，时间精力有限，只能在晚上安排值班。两个校区由于条件差异，值班日期略有不同。鼓楼因为场地的特殊情况，请以与你联系的IT侠的通知为准。
     - 仙林：每周工作日晚上 19:00 – 22：00
-    - 鼓楼：（一般情况）每周周二、周六晚上 19:00 – 22：00
+    - 鼓楼：（一般情况）每周周四、周六晚上 18:30 – 21：30
 
 4. 值班地点
     - 仙林：基础实验楼丙526
-    - 鼓楼：（一般情况）物理楼248
+    - 鼓楼：（一般情况）物理楼248或物理楼233
 
-5. IT侠鼓楼急诊室服务：如有下列紧急情况，您可以寻求<span id="first-aid">急诊室服务</span>。本服务是为**已经预约且的确没有任何办法过渡等到值班**的同学开辟的绿色通道，我们会根据紧急的程度优先考虑你的需求。
-    - 电脑进水（进水无需也切勿尝试开机，可以直接寻求帮助）；
-    - （非进水情况）电脑重启后也无法正常使用（开不了机、进不了系统）并且三天内必须使用电脑；
-    - 其他您认为非常紧急但我们没有提及的情形。（若工作人员判定您的请求为非紧急情况，将有可能拒绝提供急诊室服务。）
-    - **网络问题不属于紧急问题**，请直接翻到本页底部加入<a href="#groups">互助群</a>线上尝试解决，无法解决会进入正常预约流程线下解决。
 	
 ---
 
@@ -99,7 +92,7 @@ image:
 
 ## 维修预约
 
-<a href="{{ site.help_url }}" class="button small"><font size="4">我已了解，开始预约</font></a>
+<a href="https://nju.itxia.cn/" class="button small"><font size="4">我已了解，开始预约</font></a>
 
 ---
 <h3 id="groups">IT侠群组</h3>
@@ -110,14 +103,16 @@ image:
             <li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限鼓楼校区）</text></li>
             <ul>
                 <ul>
-                    <li>鼓楼在线互助QQ群：如果预约超过一周没有得到回复，或者有其他非紧急的任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5FvfSUT">鼓楼：887021867</a>）询问。</li>
+                    <li>鼓楼在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5FvfSUT">鼓楼：887021867</a>）询问与求助。</li>
+                    <!--
                     <li>急诊室QQ群（限紧急）：请仔细阅读服务介绍中的<a href="#first-aid">IT侠鼓楼急诊室服务项</a>，判断您是否适用IT侠急诊室服务。如若适用，请<b>先正常预约</b>，然后加入<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">QQ群（861863787）</a>说明您的情况。</li>
+                    -->
                 </ul>
             </ul>
-			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限仙林校区）</text></li><br />
+			<li><text style="color: rgb(255, 255, 97); font-weight: bold;">（仅限仙林校区）</text></li>
             <ul>
                 <ul>
-                    <li>仙林在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">仙林：302228512</a>）询问。</li>
+                    <li>仙林在线互助QQ群（紧急与否皆可）：如果预约超过一周没有得到回复，或者有其他任何问题，请加入互助QQ群（<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">仙林：302228512</a>）询问与求助。</li>
                 </ul>
             </ul>
             <li>除了QQ群，任何校区均可发送邮件至 njuitxia@outlook.com 或者关注IT侠公众号 nju-itxia 联系我们。</li>
@@ -128,19 +123,17 @@ image:
 ---
 
 <div class="inner row">
-    <!--暂时去掉，防止不看文字乱扫码误入
  	<div class="6u 12u$(medium)" style="text-align: center;">
-        <h4>鼓楼IT侠急诊室</h4>
-        点击<a href="https://jq.qq.com/?_wv=1027&k=5dSgKFE">这里</a>或扫二维码加入群聊
+        <h4>鼓楼IT侠在线互助群</h4>
+        点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>或扫二维码加入群聊
 		<br />
-        <img src="assets/images/first-aid.jpg" >
+        <img src="assets/images/gulou-help.png" height='140' width='140'>
     </div>
-    -->
 	<div class="6u$ 12u$(medium)" style="text-align: center;">
         <h4>仙林IT侠在线互助群</h4>
         点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>或扫二维码加入群聊
 		<br />
-        <img src="assets/images/xianlin-help.jpg" height='141' width='142'>
+        <img src="assets/images/xianlin-help.jpg" height='140' width='140'>
     </div>
 </div>
 <br />
