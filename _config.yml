@@ -1,6 +1,6 @@
 # site settings
 title: Lab.Addict
-subtitle: by Tech
+subtitle: 
 email: jay.a.lewis@gmail.com
 description: Home-Lab portfolio focused around Virtualisation, Storage, Server <br /> and other Technology.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
