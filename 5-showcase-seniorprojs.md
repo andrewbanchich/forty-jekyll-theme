@@ -1,31 +1,15 @@
 ---
 layout: landing
-title: Showcase
+title: Showcase - Senior Projects
 image: assets/home/showcase.jpg
 nav-menu: true
+show_tile: false
 ---
 
 <section id="one">
 <div class="inner">
 
 <div class="row">
-<b><a href="5-showcase-seniorprojs.html">Showcase - Senior Projects</a></b>
-<b><a href="6-showcase-pblprojs.html">Showcase - PBL Projects</a></b>
-</div>
-
-<div class="row">
-<p/>
-</div>
-
-<div class="row">
-
-<div class="3u 12u$(small)">
-Conference / Journal:
-<select id="conf_select" onChange="onSelect()">
-  <option value='all'>ALL</option>
-  <option value='siggraph'>SIGGRAPH (Asia) / TOG</option>
-</select>
-</div>
 
 <div class="2u 12u$(small)">
 Year:
@@ -62,16 +46,13 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-dynamicallyLoadScript('publications-eng.js');
+dynamicallyLoadScript('senior-projs.js');
 
 function onSelect() {
-	var items = publications_eng;
+	var items = senior_projs;
 
 	var year_select = document.getElementById("year_select");
 	var year = year_select.options[year_select.selectedIndex].value;
-
-	var conf_select = document.getElementById("conf_select");
-	var conf = conf_select.options[conf_select.selectedIndex].value;
 
 	var contents_code = '';
 	var showCount = 0;
@@ -85,18 +66,6 @@ function onSelect() {
 			show = true;
 		else
 			show = false;
-
-		if(show)
-		{
-			if(conf=='siggraph'
-				&& (item.conference_journal=='SIGGRAPH' || item.conference_journal=='SIGGRAPH Asia'
-					|| item.conference_journal=='TOG'))
-				show = true;
-			else if(conf=='all')
-				show = true;
-			else
-				show = false;
-		}
 
 		if(!('video_iframe' in item))
 			show = false;
@@ -138,10 +107,7 @@ function onSelect() {
 window.onload = function () {
 	var year_select = document.getElementById("year_select");
 	year_select.value = 'all';
-
-	var conf_select = document.getElementById("conf_select");
-	conf_select.value = 'all';
-	conf_select.onchange();
+	year_select.onchange();
 
 }
 
