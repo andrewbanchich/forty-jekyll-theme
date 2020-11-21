@@ -8,6 +8,12 @@ nav-menu: true
 <section id="one">
 <div class="inner">
 
+<h3>2020 Fall</h3>
+<ul>
+<!--<li><a href="courses/2019-fall-csd.html">ITE1015 Creative Software Design</a></li>-->
+<li><a href="courses/2020-fall-senior.html">Senior Projects</a></li>
+</ul>
+
 <h3>2020 Spring</h3>
 <ul>
 <li><a href="courses/2020-spring-isd.html">ITE1014 Introduction to Software Design</a></li>
