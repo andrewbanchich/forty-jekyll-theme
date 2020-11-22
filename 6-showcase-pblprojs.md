@@ -2,7 +2,7 @@
 layout: landing
 title: Showcase - PBL Projects
 image: assets/home/showcase.jpg
-nav-menu: true
+nav-menu: false
 show_tile: false
 ---
 

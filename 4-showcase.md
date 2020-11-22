@@ -10,7 +10,7 @@ nav-menu: true
 
 <div class="row">
 <b><a href="5-showcase-seniorprojs.html">Showcase - Senior Projects</a></b>
-<b><a href="6-showcase-pblprojs.html">Showcase - PBL Projects</a></b>
+<!--<b><a href="6-showcase-pblprojs.html">Showcase - PBL Projects</a></b>-->
 </div>
 
 <div class="row">
