@@ -20,7 +20,7 @@ var senior_projs = [
 		'type': 'senior',
 	},
 	{
-		'title': 'Comparison of Evolutionary Strategy(ES) and Proximal Policy Optimization(PPO) with standard DRL benchmarks',
+		'title': 'Comparison of ES(Evolutionary Strategy() and PPO(Proximal Policy Optimization() with standard DRL benchmarks',
 		'authors': '정근욱, 황정태',
 		'project_page': 'courses/2020-fall-senior.html',
 		'id': 'team6',
@@ -30,7 +30,7 @@ var senior_projs = [
 		'type': 'senior',
 	},
 	{
-		'title': 'Softbody Locomotion Control using Deep Reinforcement Learning',
+		'title': 'A worm-like softbody creature simulated using FEM and learned using deep reinforcement learning',
 		'authors': '백종운, 최기곤, 김환진',
 		'project_page': 'courses/2020-fall-senior.html',
 		'id': 'team8',
