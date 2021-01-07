@@ -30,14 +30,14 @@ In this course the students will learn the fundamentals of C++ language and prac
 | 6  | Oct 08 / Oct 09, 10 | [6 - Class] / Assignment 6  |  |
 | 7  | Oct 15 / Oct 16, 17 | [7 - Standard Template Library] / Assignment 7  | |
 | 8  | Oct 22 / Oct 23, 24 | Midterm Exam  | |
-| 8  | Oct 29 / Oct 30, 31 | [8 - Inheritance, Const & Class] / Assignment 8 | |
-| 9  | Nov 05 / Nov 06, 07 | [9 - Polymorphism 1] / Assignment 9 | |
-| 10 | Nov 12 / Nov 13, 14 | [10 - Polymorphism 2] / Assignment 10  | |
-| 11 | Nov 19 / Nov 20, 21 | [11 - Copy Constructor, Operator Overloading] / Assignment 11  | |
-| 12 | Nov 26 / Nov 27, 28 | [12 - Template] / Assignment 12  | |
-| 13 | Dec 03 / Dec 04, 05 | [13 - ExceptionHandling] / Assignment 13  | |
-| 14 | Dec 10 / Dec 11, 12 | No Class | |
-| 15 | Dec 17 / Dec 18, 19 | Final Exam   | |
+| 9  | Oct 29 / Oct 30, 31 | [8 - Inheritance, Const & Class] / Assignment 8 | |
+| 10 | Nov 05 / Nov 06, 07 | [9 - Polymorphism 1] / Assignment 9 | |
+| 11 | Nov 12 / Nov 13, 14 | [10 - Polymorphism 2] / Assignment 10  | |
+| 12 | Nov 19 / Nov 20, 21 | [11 - Copy Constructor, Operator Overloading] / Assignment 11  | |
+| 13 | Nov 26 / Nov 27, 28 | [12 - Template] / Assignment 12  | |
+| 14 | Dec 03 / Dec 04, 05 | [13 - ExceptionHandling] / Assignment 13  | |
+| 15 | Dec 10 / Dec 11, 12 | No Class | |
+| 16 | Dec 17 / Dec 18, 19 | Final Exam   | |
 
 [1 - Course Intro]: https://gitcgr.hanyang.ac.kr/courses/2019-fall-csd/lecture-slides/1-CourseIntro.pdf
 [1 - Lab1 - Environment Setting, Git, Vim]: https://gitcgr.hanyang.ac.kr/courses/2019-fall-csd/lecture-slides/1-Lab1-EnvSetting,Git,Vim.pdf
