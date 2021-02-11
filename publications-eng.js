@@ -1,5 +1,16 @@
 var publications_eng = [
 	{
+		'title': 'Finite State Machine-Based Motion-Free Learning of Biped Walking',
+		'representative_img': 'assets/publications/2021-fsm-learning/fsm-learning.jpg',
+		'conference_journal': 'Access',
+		'year': 2021,
+		'authors': 'Gyoo-Chul Kang, Yoonsang Lee',
+		'conference_journal_full': 'IEEE Access, Volume 9, 20662-20672, January 2021',
+		'video_iframe': '<iframe width="1047" height="589" src="https://www.youtube.com/embed/jqgf-sHqCz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+		'project_page': 'publications/2021-fsm-learning.html',
+		'type': 'paper',
+	},
+	{
 		'title': 'Fast and Flexible Multilegged Locomotion Using Learned Centroidal Dynamics',
 		'representative_img': 'assets/publications/2020-fast-flexible/2020-fast-flexible.jpg',
 		'conference_journal': 'SIGGRAPH',
@@ -17,7 +28,7 @@ var publications_eng = [
 		'conference_journal': 'Access',
 		'year': 2018,
 		'authors': 'Taesoo Kwon, Hoimin Kim, Yoonsang Lee',
-		'conference_journal_full': 'IEEE Access, Volume 6 Issue 1, Dec 2018',
+		'conference_journal_full': 'IEEE Access, Volume 6, 77931-77939, December 2018',
 		'video_iframe': '<iframe width="1280" height="720" src="https://www.youtube.com/embed/c37VEexDZaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 		'type': 'paper',
 	},
