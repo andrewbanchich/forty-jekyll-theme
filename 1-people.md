@@ -51,6 +51,15 @@ nav-menu: true
 	    j0064423@hanyang.ac.kr	
 	</p>
 	</div>
+	<div class="4u 12u$(small)">
+	<p>
+		<span class="image left"><img src="assets/people/minkwan-kim/minkwan-kim.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/minkwan-kim.html">Minkwan Kim</a></b>
+		<font size="3">김민관</font><br/>
+	    palkan21@hanyang.ac.kr	
+	</p>
+	</div>
+
 </div>
 
 </div>
