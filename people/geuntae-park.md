@@ -25,6 +25,13 @@ e-mail: qkrrmsxo01@hanyang.ac.kr
 </section>
 
 ## Research Interests
-**Data-driven Character Control**
+- Data-driven Character Control
+- Deep Neural Network
 
-**Deep Neural Network**
+## Publications
+**[무게중심을 활용한 모션 생성 기술](https://gitcgr.hanyang.ac.kr/publications/domestic/2020-kcgsjournal-motion-com.pdf)**
+박근태, 손채준, 이윤상
+한국컴퓨터그래픽스학회 논문지, 제 26권 제 2호, 11-19, 2020.06.
+**Learning Time-series Interaction Data by Association**
+Geuntae Park, Yoonsang Lee
+ICEIC 2021
