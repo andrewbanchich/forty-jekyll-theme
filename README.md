@@ -20,12 +20,6 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
 * Set **featured images** in front matter.
 
-# Issues
-
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitHub repository](https://github.com/andrewbanchich/forty-jekyll-theme) and I will be more than happy to help!
-
-Note: The former GitLab repository is no longer used.
-
 # Credits
 
 Original README from HTML5 UP:
