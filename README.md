@@ -13,7 +13,7 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
 - **GitHub**: Fork this repository, set up a Personal Access Token ([instructions](https://jekyllrb.com/docs/continuous-integration/github-actions/#providing-permissions)), and start editing the `_config.yml` file!
 
-> NOTE: Deploying without GitHub Actions no longer works because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
 # Added Features
 
