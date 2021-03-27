@@ -11,7 +11,9 @@ or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontm
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this repository and create a branch named `gh-pages`, then start editing the `_config.yml` file.
+- **GitHub**: Fork this repository, set up a Personal Access Token ([instructions](https://jekyllrb.com/docs/continuous-integration/github-actions/#providing-permissions)), and start editing the `_config.yml` file!
+
+> NOTE: Deploying without GitHub Actions no longer works because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
 # Added Features
 
