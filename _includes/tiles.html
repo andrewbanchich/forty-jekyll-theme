@@ -1,28 +1,18 @@
+{% if 'posts' == site.tiles-source %}
+{% assign tiles = site.posts %}
+{% elsif 'pages' == site.tiles-source %}
+{% assign tiles = site.data.index_url %}
+{% endif %}
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
-        <article>
-                <span class="image">
-                        <img src="{{ post.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-                        <p>{{ post.description }}</p>
-                </header>
-        </article>
-	{% endif %}
-	{% endfor %}
-	{% for page in site.data.index_url limit:site.tiles-count %}
-	{% if site.tiles-source == 'pages' %}
-        <article>
-                <span class="image">
-                        <img src="assets/images/{{ page.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
-                </header>
-        </article>
-	{% endif %}
-	{% endfor %}
+  {% for tile in tiles limit:site.tiles-count %}
+  <article>
+    <span class="image">
+      <img src="assets/images/{{ tile.image }}" alt="{{ tile.title }}" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      <p>{{ tile.description }}</p>
+    </header>
+  </article>
+  {% endfor %}
 </section>

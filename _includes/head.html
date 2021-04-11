@@ -1,23 +1,44 @@
 <head>
 	<title>{{ site.title }}</title>
-
 	<meta charset="utf-8" />
 	<meta name="keywords" content="IT侠, 南京大学, NJU, ITXia, 预约, 维修, 志愿者">
 	<meta name="description" content="南京大学IT侠">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
-	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
+	<link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
 	<script>
-		document.onkeydown = function(event){
-			var e = event || window.event || arguments.callee.caller.arguments[0];
-				if(e && e.keyCode==13){ // enter 键
-				window.location.href = "https://itxia.club/bonus"
-			}
-		};
-
-
+		document.addEventListener('keypress', (event) => {
+			if (event && event.key === 'Enter') location.pathname = '/bonus';
+		});
 	</script>
-
+	<script>
+		/*特殊纪念日黑白页面*/
+		var today = new Date();
+		var year = today.getFullYear();
+		var month = today.getMonth();
+		var date = today.getDate();
+		if ((month==11 && date==13) || (year==2020 && month==3 && date==4)) {
+				var style = document.createElement("style");
+				style.type = "text/css";
+				var memorial = 'html { \
+						filter: grayscale(100%); \
+						-webkit-filter: grayscale(100%); \
+						-moz-filter: grayscale(100%); \
+						-ms-filter: grayscale(100%); \
+						-o-filter: grayscale(100%); \
+						filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
+						-webkit-filter: grayscale(1); \
+						}'
+				try{
+　　		style.appendChild(document.createTextNode(memorial));
+				}catch(ex){
+						style.styleSheet.cssText = memorial;//针对IE
+				}
+				var hpage = document.getElementsByTagName("html")[0];
+				document.getElementsByTagName("body")[0].style.background = "rgb(42,42,42)";
+				hpage.appendChild(style);
+		}
+	</script>
 </head>

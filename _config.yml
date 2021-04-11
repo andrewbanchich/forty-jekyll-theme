@@ -1,39 +1,51 @@
-# Site settings
+# site settings
 title: NJU-ITXIA
-subtitle: 
+# subtitle: 
 email: njuitxia@outlook.com
 description: 侠之大者为国为民 侠之小者为友为邻 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://itxia.club" # the base hostname & protocol for your site
-author: 
-# street_address: 仙林/鼓楼
-# city: 
-# state: 
-# zip_code: 55555
-# country: United States of America
-# phone: (716) 555-5555
+url: https://itxia.club # the base hostname & protocol for your site
+# author:
+# street_address:
+# city:
+# state:
+# zip_code:
+# country:
+# phone:
 
-# Homepage tiles
+# homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# Social settings
-help_url: https://itxia.site
-weixin_url: assets/images/weixin.jpg
-bbs_url: http://bbs.nju.edu.cn/bbsdoc?board=NoteBook
-facebook_url:
-github_url: https://github.com/NJU-itxia/
-blog_url: https://itxia.github.io/
-# gitlab_url: https://gitlab.com/u/andrewbanchich
-# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-# instagram_url: https://instagram.com
-# linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-# twitter_url: https://twitter.com/andrewbanchich
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  BBS: http://bbs.nju.edu.cn/bbsdoc?board=NoteBook
+  Blog: https://itxia.github.io/
+  CRM: https://nju-itxia.mikecrm.com/
+  Gallery: https://nju-itxia.github.io/gallery/
+  GitHub: https://github.com/nju-itxia/
+  GitLab: https://git.nju.edu.cn/nju-itxia/
+  Help: https://itxia.site/
+  HelpNew: https://nju.itxia.cn/
+  WeChat: assets/images/weixin.jpg
+  # Google-Plus:
+  # Instagram:
+  # LinkedIn:
+  # Twitter:
+  # Facebook:
+  # Slack:
 
-# Build settings
+# build settings
 markdown: kramdown
 
 sass:
   style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 

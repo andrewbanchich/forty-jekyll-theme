@@ -1,107 +1,113 @@
 <!-- Contact -->
 <!-- Footer -->
-	<footer id="footer">
-		<div class="inner row">
-			<div class="4u 12u$(medium)" style="text-align: center;">
-				<h4>友情链接</h4>
-				<span><a href="http://bbs.nju.edu.cn/bbsdoc?board=NoteBook">小百合NoteBook版</a></span>
-				<br><span><a href="http://itsc.nju.edu.cn">信息化建设管理服务中心</a></span>
-				<br><span><a href="http://zijingbt.njuftp.org">南大紫荆站</a></span>
-				<br><span><a href="http://mirrors.nju.edu.cn/">南大镜像</a></span>
-				<br><span><a href="http://mirrors.ustc.edu.cn/">科大镜像</a></span>
-			</div>
-			<div class="4u 12u$(medium)" style="text-align: center;">
-				<h4>联系我们</h4>
-				<ul class="icons">
-					{% if site.weixin_url %}
-					<li><a href="{{ site.weixin_url }}" class="icon alt fa-weixin" target="_blank"><span class="label">Wechat</span></a></li>
-					{% endif %}
-					{% if site.gitlab_url %}
-					<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
-					{% endif %}
-					{% if site.github_url %}
-					<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-					{% endif %}
-					{% if site.bbs_url %}
-					{% endif %}
-					<li><a href="mailto:{{site.email}}" class="icon alt fa-envelope" target="_blank"><span class="label">E-mail</span></a></li>
-				</ul>
-			</div>
-			<div class="4u$ 12u$(medium)" style="text-align: center;">
-				<h4>关注我们</h4>
-				<img src="{{ site.weixin_url }}" >
-			</div>
-			
+<footer id="footer">
+	<div class="inner row">
+		<div class="4u 12u$(medium)" style="text-align: center;">
+			<h4>友情链接</h4>
+			<span><a href="https://itsc.nju.edu.cn">信息化建设管理服务中心</a></span>
+			<br><span><a href="{{ site.socials.BBS }}">小百合NoteBook版</a></span>
+			<br><span><a href="https://mirrors.nju.edu.cn/">南大开源镜像站</a></span>
+			<br><span><a href="https://mirrors.ustc.edu.cn/">科大开源镜像站</a></span>
+			<br><span><a href="http://zijingbt.njuftp.org">紫荆站</a></span>
 		</div>
-		<div style="text-align: center;">
-			<span><a href="http://nju-itxia.mikecrm.com/A8LfxV">老人信息收集</a></span>
-			<span><a href="{{site.url}}/board_games">桌游目录</a></span>
-			<span><a href="https://nju.itxia.cn/custom/home">后台登录</a><span>
-			<span><a href="https://itxia.site/wcms/profile">账户设置</a><span>
+		<div class="4u 12u$(medium)" style="text-align: center;">
+			<h4>联系我们</h4>
+			<ul class="icons">
+				{% if site.socials.WeChat %}
+				<li>
+					<a href="{{ site.socials.WeChat }}" class="icon alt fa-wechat" target="_blank">
+						<span class="label">Wechat</span>
+					</a>
+				</li>
+				{% endif %}
+				{% if site.socials.GitLab %}
+				<li>
+					<a href="{{ site.socials.GitLab }}" class="icon alt fa-gitlab" target="_blank">
+						<span class="label">GitLab</span>
+					</a>
+				</li>
+				{% endif %}
+				{% if site.socials.GitHub %}
+				<li>
+					<a href="{{ site.socials.GitHub }}" class="icon alt fa-github" target="_blank">
+						<span class="label">GitHub</span>
+					</a>
+				</li>
+				{% endif %}
+				<li>
+					<a href="mailto:{{site.email}}" class="icon alt fa-envelope" target="_blank">
+						<span class="label">E-mail</span>
+					</a>
+				</li>
+			</ul>
 		</div>
-    <br>
-		<div style="text-align: center;">
-			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}2020</li>
-			</ul>	
+		<div class="4u$ 12u$(medium)" style="text-align: center;">
+			<h4>关注我们</h4>
+			<img src="{{ site.socials.WeChat }}">
 		</div>
-	</footer>
 
+	</div>
+	<div style="text-align: center;">
+		<span><a href="{{ site.socials.CRM }}A8LfxV">老人信息收集</a></span>
+		<span><a href="{{ site.url }}/board_games">桌游目录</a></span>
+		<span><a href="{{ site.socials.HelpNew }}custom/home">后台登录</a><span>
+				<span><a href="{{ site.socials.HelpNew }}wcms/profile">账户设置</a><span>
+	</div>
+	<br>
+	<div style="text-align: center;">
+		<ul class="copyright">
+			<li>&copy; {{ site.title }} {{ site.subtitle }} 2021</li>
+		</ul>
+	</div>
+</footer>
 
 <!-- Scripts -->
-	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-	<!--script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script-->
-	<script src="{{ "assets/js/jquery.scrolly.min.js" | relative_url }}"></script>
-	<script src="{{ "assets/js/jquery.scrollex.min.js" | relative_url }}"></script>
-	<script src="{{ "assets/js/skel.min.js" | relative_url }}"></script>
-	<script src="{{ "assets/js/util.js" | relative_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
-	<script src="{{ "assets/js/main.js" | relative_url }}"></script>
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?43ab9c971d58e2b58e25d906b27399fa";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-	
-	<script>
-	console.log([                                                     
-        '         ..,]O@@@OO^]]],*oOO@@@\\]..                       ',
-        '      .,]@@O]]/o\\]/OO@@@OO]]/o\\]/O@@`.                    ',
-        '    .]@O[/o\\O@@/[[`,]]]]]`,[[@@@\\[oo\\@@`.                 ',
-        '   .\\@\\[,@@/.]/@@@/[[oo[[[O@@@\\],\\@O,o`O@.                ',
-        '     .\\@/*/@O\\oo/[[[oOOOo[[[\\o/[O@\\,@@@/.                 ',
-        '       .=@/=o[,@@@O[[[.[[\\@@@\\`\\o][@\\...         ...      ',
-        '  .@.    ,@@@@//@@@O/[[\\O@@O`.\\@@]@@`           .=O.      ',
-        '  =@@`.,/@@@@@/\\/`]]]]]]]]\\\\[@@@@@@@@@@@@@@@].  =@@^      ',
-        ' .O^O@@@@@@@@@@O@@@@@@@@@@@O]/@@@@@@@@@@@@@@@@]/@\\@^      ',
-        ' .@^`\\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\/=@^      ',
-        '.=@^oo/\\@@@@@@@@@@@Oooo[@@@@@@@@@@@@@@@@@@O[ooooo,@^      ',
-        './O=oooo]\\@@@@@@@@@@@O@O@@@@@@@@@@@@O[ooooooooooo^@\\.     ',
-        '.@O\\ooooooo/@@@@@@@/\\Ooo\\@@@@@@@@[/oooooooooooooo^@O.     ',
-        '.@Oooooooooo\\=@@@@@@@@@@@@@@@@@`,]]]]`[oooooooooo^@O.     ',
-        '.@^ooooooooooo^@@@@@@@@@@@@@@@@@[[..[\\@@\\,ooooooo^@^.     ',
-        ',@^oooooooooooo`O@@@@@@@@@@@@`..........\\@O\\ooooo=@^      ',
-        '=@^ooooooooooooo^\\@@@@@@@@@^....     .....=@/oooo=@^      ',
-        '.@^oooooooo\\oOOO\\]@@@@@@@@^..           ...@O\\ooo=@^      ',
-        '.@\\oooooo\\@@[...,\\@@@@@@@@...            ..=@ooo^/O.      ',
-        '.@O\\oooo=@^.......,@@@@@@@`..            ../@=oo\\@^       ',
-        '.=@`ooo^=O.      ..O@@@@@@@...          ..,@Oooo/@.       ',
-        ' .@\\oooo=@`..     .@@@@@O*\\@^....    ..../@^/oo=@^.       ',
-        '  ,@\\,oooO@\\.....,@O@@@@^=o/O@]..   .../@/,oo/=@^         ',
-        '   .,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.          ',
-        '     =O           ..  .. .  .           .    =@.          ',
-        '     =O        ,]]]]]]]]]]]]]]]]]...         =@.          ',
-        '     .@`.....................................@/.          ',
-		'      ,\\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`.           ',
-		].join('\n'))
-	console.info('欢迎来到IT侠的主页');
-	console.warn('虽然不知道为什么有人会想在主页上按F12？');
-	console.log('来都来了……不如入个伙吧……');
-	console.log('一键直达招新表格↓')
-	console.log('http://nju-itxia.mikecrm.com/L959mSD')
-	</script>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+<!-- <script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script> -->
+<script src="{{ 'assets/js/jquery.scrolly.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/skel.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/util.js' | relative_url }}"></script>
+<!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
+<script src="{{ 'assets/js/main.js' | relative_url }}"></script>
 
+<script>
+</script>
+
+<script>
+	console.log([
+		'         ..,]O@@@OO^]]],*oOO@@@\\]..                       ',
+		'      .,]@@O]]/o\\]/OO@@@OO]]/o\\]/O@@`.                    ',
+		'    .]@O[/o\\O@@/[[`,]]]]]`,[[@@@\\[oo\\@@`.                 ',
+		'   .\\@\\[,@@/.]/@@@/[[oo[[[O@@@\\],\\@O,o`O@.                ',
+		'     .\\@/*/@O\\oo/[[[oOOOo[[[\\o/[O@\\,@@@/.                 ',
+		'       .=@/=o[,@@@O[[[.[[\\@@@\\`\\o][@\\...         ...      ',
+		'  .@.    ,@@@@//@@@O/[[\\O@@O`.\\@@]@@`           .=O.      ',
+		'  =@@`.,/@@@@@/\\/`]]]]]]]]\\\\[@@@@@@@@@@@@@@@].  =@@^      ',
+		' .O^O@@@@@@@@@@O@@@@@@@@@@@O]/@@@@@@@@@@@@@@@@]/@\\@^      ',
+		' .@^`\\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\/=@^      ',
+		'.=@^oo/\\@@@@@@@@@@@Oooo[@@@@@@@@@@@@@@@@@@O[ooooo,@^      ',
+		'./O=oooo]\\@@@@@@@@@@@O@O@@@@@@@@@@@@O[ooooooooooo^@\\.     ',
+		'.@O\\ooooooo/@@@@@@@/\\Ooo\\@@@@@@@@[/oooooooooooooo^@O.     ',
+		'.@Oooooooooo\\=@@@@@@@@@@@@@@@@@`,]]]]`[oooooooooo^@O.     ',
+		'.@^ooooooooooo^@@@@@@@@@@@@@@@@@[[..[\\@@\\,ooooooo^@^.     ',
+		',@^oooooooooooo`O@@@@@@@@@@@@`..........\\@O\\ooooo=@^      ',
+		'=@^ooooooooooooo^\\@@@@@@@@@^....     .....=@/oooo=@^      ',
+		'.@^oooooooo\\oOOO\\]@@@@@@@@^..           ...@O\\ooo=@^      ',
+		'.@\\oooooo\\@@[...,\\@@@@@@@@...            ..=@ooo^/O.      ',
+		'.@O\\oooo=@^.......,@@@@@@@`..            ../@=oo\\@^       ',
+		'.=@`ooo^=O.      ..O@@@@@@@...          ..,@Oooo/@.       ',
+		' .@\\oooo=@`..     .@@@@@O*\\@^....    ..../@^/oo=@^.       ',
+		'  ,@\\,oooO@\\.....,@O@@@@^=o/O@]..   .../@/,oo/=@^         ',
+		'   .,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.          ',
+		'     =O           ..  .. .  .           .    =@.          ',
+		'     =O        ,]]]]]]]]]]]]]]]]]...         =@.          ',
+		'     .@`.....................................@/.          ',
+		'      ,\\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`.           ',
+	].join('\n'))
+	console.info('\x1b[34m欢迎来到IT侠的主页\x1b[0m');
+	console.log('\x1b[43m虽然不知道为什么有人会想在主页上按F12？\x1b[0m')
+	console.log('\x1b[34m来都来了……不如入个伙吧……\x1b[0m');
+	console.log('\x1b[34m一键直达招新表格↓\x1b[0m')
+	console.log('{{ site.socials.CRM }}L959mSD')
+</script>

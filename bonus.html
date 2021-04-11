@@ -1,230 +1,220 @@
 <!DOCTYPE html>
 
-<!--forked from https://github.com/OXOYO/fakeupdate.net-->
-
+<!-- forked from https://github.com/OXOYO/fakeupdate.net -->
+<!-- Mirrored from fakeupdate.net/win10u/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Apr 2017 04:40:46 GMT -->
 
 <html>
 
-<head><title>（按F11体验更佳）</title>
+<head>
+  <title>（按F11体验更佳）</title>
 
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script>
+    document.addEventListener('keypress', (event) => {
+      if (event && event.key === 'Enter') location.pathname = '/bsod';
+    });
+  </script>
 
-
-<script>
-
-$(function() {
-  $(document).keyup(function(e) {
-    switch(e.keyCode) {
-    case 13 : open('bsod.html','_self'); break;
-    case 8 : open('bsod.html','_self'); break;
+  <style>
+    * {
+      cursor: none;
+      font-family: "Segoe UI Light", "Segoe UI", Arial;
+      font-weight: lighter;
     }
-  });
-});
 
-/* setTimeout(function() {
-    open('bsod.html','_self')
-} , 10000) */
-</script>
+    body {
+      background: #006dae;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      vertical-align: middle;
+      text-align: center;
+      z-index: -1;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
 
-<style>
-* { cursor:none;font-family:"Segoe UI Light", "Segoe UI", Arial; font-weight: lighter;}
-body {
+    .CT {
+      position: absolute;
+      top: 50%;
+      height: 70px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 500px;
+      margin-top: -5%;
+      font-family: Segoe UI Light, Segoe UI, Arial;
+      font-size: 23px;
+      color: #fff;
+      font-weight: normal;
+      text-align: center;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
 
-	background:#006dae; 
-user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-vertical-align:middle; 
-text-align:center;
-z-index: -1;
-margin:0;
-padding:0;
-overflow: hidden;
+    .image_block {
+      position: absolute;
+      bottom: 17px;
+      left: 50%;
+      width: 50%;
+      margin: -5% 0 0 -25%;
+    }
 
-}
+    p {
+      display: block;
+      float: middle;
+      text-align: center;
+      width: 100%;
+    }
 
-.CT {
+    .centeragain {
+      width: 500px;
+      margin: 0px auto;
+      text-align: left;
+    }
 
-vertical-align:middle;
-position: absolute;
-top: 50%;
-height: 70px;
-margin-left:auto;
-margin-right:auto;
-display:block;
-width:500px;
-margin-top: -5%;
-font-family:Segoe UI Light, Segoe UI, Arial;
-font-size:23px;
-color:#fff;
-font-weight:normal;
-text-align:center;
-user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
-}
+    .messageBox {
+      display: block;
+      color: #67A2E6;
+      font-family: Segoe UI Light, Segoe UI, Arial;
+      font-size: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      z-index: 999;
+    }
 
-.image_block {
+    .loader {
+      position: relative;
+      padding-top: 100px;
+      width: 50px;
+      margin: auto;
+    }
 
+    .loader .circle {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      opacity: 0;
+      transform: rotate(225deg);
+      animation-iteration-count: infinite;
+      animation-name: orbit;
+      animation-duration: 5.5s;
+    }
 
-position: absolute;
-bottom: 17px;
-left: 50%;
-width: 50%;
-margin: -5% 0 0 -25%;
-		
+    .loader .circle:after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 5px;
+      background: #fff;
+      /* Pick a color */
+    }
 
-}
-p {
+    .loader .circle:nth-child(2) {
+      animation-delay: 240ms;
+    }
 
-display:block;
-float:middle;
-text-align:center;
-width:100%;
+    .loader .circle:nth-child(3) {
+      animation-delay: 480ms;
+    }
 
+    .loader .circle:nth-child(4) {
+      animation-delay: 720ms;
+    }
 
-}
+    .loader .circle:nth-child(5) {
+      animation-delay: 960ms;
+    }
 
-.centeragain {
+    @keyframes orbit {
+      0% {
+        transform: rotate(225deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+      }
 
-width:500px;
-margin:0px auto;
-text-align:left;
+      7% {
+        transform: rotate(345deg);
+        animation-timing-function: linear;
+      }
 
+      30% {
+        transform: rotate(455deg);
+        animation-timing-function: ease-in-out;
+      }
 
-}
-.messageBox {  
-display:block;
-color:#67A2E6;
-font-family:Segoe UI Light, Segoe UI, Arial;
-font-size:20px;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
-z-index:999;  }  
+      39% {
+        transform: rotate(690deg);
+        animation-timing-function: linear;
+      }
 
+      70% {
+        transform: rotate(815deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+      }
 
-.loader {
-  position: relative;
-  padding-top: 100px;
-  width: 50px;
-  margin: auto;
-}
-.loader .circle {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  opacity: 0;
-  transform: rotate(225deg);
-  animation-iteration-count: infinite;
-  animation-name: orbit;
-  animation-duration: 5.5s;
-}
-.loader .circle:after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 5px;
-  background: #fff;
-  /* Pick a color */
-}
-.loader .circle:nth-child(2) {
-  animation-delay: 240ms;
-}
-.loader .circle:nth-child(3) {
-  animation-delay: 480ms;
-}
-.loader .circle:nth-child(4) {
-  animation-delay: 720ms;
-}
-.loader .circle:nth-child(5) {
-  animation-delay: 960ms;
-}
-@keyframes orbit {
-  0% {
-    transform: rotate(225deg);
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  7% {
-    transform: rotate(345deg);
-    animation-timing-function: linear;
-  }
-  30% {
-    transform: rotate(455deg);
-    animation-timing-function: ease-in-out;
-  }
-  39% {
-    transform: rotate(690deg);
-    animation-timing-function: linear;
-  }
-  70% {
-    transform: rotate(815deg);
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: rotate(945deg);
-    animation-timing-function: ease-out;
-  }
-  76% {
-    transform: rotate(945deg);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(945deg);
-    opacity: 0;
-  }
-}
+      75% {
+        transform: rotate(945deg);
+        animation-timing-function: ease-out;
+      }
 
+      76% {
+        transform: rotate(945deg);
+        opacity: 0;
+      }
 
-#bottom {
-    position: fixed;
-    bottom: 10%;
-    width: 100%;
-	left:0;
-	text-align:center;
-}
-</style>
+      100% {
+        transform: rotate(945deg);
+        opacity: 0;
+      }
+    }
 
+    #bottom {
+      position: fixed;
+      bottom: 10%;
+      width: 100%;
+      left: 0;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body scroll="no">
-
-
-
-
-
-<div style="display:block;position:absolute;min-width:100%; min-height:100%;margin:0;padding:0;">
-
-<div class="centeragain">
-<div class="CT">
-<div class="FONT">
-
-<div class='loader' style="vertical-align:middle;padding-top:2px;">
-  <div class='circle'></div>
-  <div class='circle'></div>
-  <div class='circle'></div>
-  <div class='circle'></div>
-  <div class='circle'></div>
-</div>
-<br><br><br>
-<a id="ref" data-translate="_win10workingonupdates">正在准备 Windows</a> <br /><span data-translate="_win10donotturnoff">请不要关闭你的计算机</span>
-
-
-</div>
-
-
-</div>
-</div>
-
-</div>
-</div>
-
+  <div style="display:block;position:absolute;min-width:100%; min-height:100%;margin:0;padding:0;">
+    <div class="centeragain">
+      <div class="CT">
+        <div class="FONT">
+          <div class='loader' style="vertical-align:middle;padding-top:2px;">
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+          </div>
+          <br>
+          <br>
+          <br><a id="ref" data-translate="_win10workingonupdates">正在准备 Windows</a>
+          <br><span data-translate="_win10donotturnoff">请不要关闭你的计算机</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
-<!-- Mirrored from fakeupdate.net/win10u/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Apr 2017 04:40:46 GMT -->
 </html>

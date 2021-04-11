@@ -1,60 +1,71 @@
 <html>
-    <!--forked from https://github.com/OXOYO/fakeupdate.net-->
-    <!-- Mirrored from fakeupdate.net/win10u/bsod.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Apr 2017 04:40:53 GMT -->
-<head><title>（受不了了敲回车）</title>
 
-<style>
-* { cursor:none;font-family:"Segoe UI Light", "Segoe UI", Arial; font-weight: lighter;}
-.content {width:700px; margin:10%;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none; }
-#main {
-  overflow: hidden;
-}
-</style>
-<script src="https://code.jquery.com/jquery-latest.js"></script>
-<script>
-    $(function() {
-      $(document).keyup(function(e) {
-        switch(e.keyCode) {
-        case 13 : open('https://itxia.club','_self'); break;
-        case 8 : open('https://itxia.club','_self'); break;
-        }
-      });
-    });
-</script>
-
-<script>
-    var timer = 0
-    function wait4Complete() {
-
-        num = Math.round(100*(1-Math.exp(-timer/1000)))
-        if (num <= 100) {
-            document.getElementById("message").textContent =  num + "% 完成"
-        timer++
-        }else{
-            document.getElementById("message").textContent = "100% 完成"
-        }
-
-    }
-    window.setInterval(wait4Complete, 200)
-</script>
-</head><body id="main" bgcolor="#0086ac" scroll="no"> 
-
-<div class="content" style="margin:10% 20% 0% 20%;width: 60%;">
-<font size="4" color="#FFFFFF"> 
-<p style="font-size:100pt; margin:0; padding-bottom:20pt">:(</p>
-<p style="font-size:20pt; margin:0; padding:0">你的电脑遇到问题，需要重新启动。 <br />我们只收集某些错误信息，然后你可以重新启动。</p>
-
-<br/><br/><p id="message">0% 完成</p><br/><br/>
-
-
-
-<div style="float:left;width:100%;">
-<img src="./assets/images/weixin_blue.png" style="float:left;"/>
-<p style="font-size:14pt; color:#fff; margin-top:0px;top: 0px; padding:0;line-height:32px;margin-left: 20%;">有关此问题的详细信息和可能的解决方法，请访问 https://itxia.club<br><br>如果致电支持人员，请向他们提供以下信息：<br>终止代码: SYSTEM_SERVICE_EXCEPTION</p>
-
-</div>
-</div>
-</font> 
-</body>
+<!-- forked from https://github.com/OXOYO/fakeupdate.net -->
 <!-- Mirrored from fakeupdate.net/win10u/bsod.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Apr 2017 04:40:53 GMT -->
-</html> 
+
+<head>
+  <title>（受不了了敲回车）</title>
+
+  <style>
+    * {
+      cursor: none;
+      font-family: "Segoe UI Light", "Segoe UI", Arial;
+      font-weight: lighter;
+    }
+
+    .content {
+      width: 700px;
+      margin: 10%;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
+
+    #main {
+      overflow: hidden;
+      background-color: #0086ac;
+    }
+  </style>
+  <script>
+    document.addEventListener('keypress', (event) => {
+      if (event && event.key === 'Enter') location.pathname = '/';
+    });
+  </script>
+
+  <script>
+    var timer = 0;
+    function wait4Complete() {
+      var message = document.querySelector('#message');
+      num = Math.round(100 * (1 - Math.exp(-timer / 1000)));
+      if (num <= 100) {
+        message.textContent = num + "% 完成";
+        timer++;
+      } else {
+        message.textContent = "100% 完成";
+      }
+    }
+    setInterval(wait4Complete, 200);
+  </script>
+</head>
+
+<body id="main" scroll="no">
+  <div class="content" style="margin:10% 20% 0% 20%;width: 60%;">
+    <font size="4" color="#FFFFFF">
+      <p style="font-size:100pt; margin:0; padding-bottom:20pt">:(</p>
+      <p style="font-size:20pt; margin:0; padding:0">你的电脑遇到问题，需要重新启动。 <br />我们只收集某些错误信息，然后你可以重新启动。</p>
+      <br>
+      <br><p id="message">0% 完成</p>
+      <br>
+      <br>
+      <div style="float:left;width:100%;">
+        <img src="./assets/images/weixin_blue.png" style="float:left;" />
+        <p style="font-size:14pt; color:#fff; margin-top:0px;top: 0px; padding:0;line-height:32px;margin-left: 20%;">
+          有关此问题的详细信息和可能的解决方法，请访问 https://itxia.club<br><br>如果致电支持人员，请向他们提供以下信息：<br>终止代码: SYSTEM_SERVICE_EXCEPTION
+        </p>
+      </div>
+    </font>
+  </div>
+</body>
+
+</html>

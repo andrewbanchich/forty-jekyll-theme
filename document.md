@@ -1,8 +1,6 @@
 ---
-title: 教程
 layout: post
-description: 
-image:
+title: 教程
 ---
 
 ## 快速检索
@@ -10,48 +8,42 @@ image:
 为了方便大家对知识库（<a href="#docintro">介绍见下方</a>）的教程内容进行检索，可以直接下方输入进行搜索噢~
 
 <form>
-<input id="yqsearch" style="color:#272727">
-<a id= "sButton" class="button small"><font size="4">检索</font></a>
+  <input id="doc-search-input" style="color: #272727">
+  <a id= "doc-search-button" class="button small"><font size="4">检索</font></a>
 </form>
 
 <script>
-    //一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
-    function search() {
-        var x, encodedx, url;
-        url = "https://www.yuque.com/itxia/s?q="
-        // 获取 id="yqsearch" 的值
-        x = document.getElementById("yqsearch").value;
-        if (x!=""){
-            //转换url
-            encodedx = encodeURI(x)
-            window.open(url + encodedx);
-        }
-    }
-    document.getElementById("sButton").onclick = search;
-
+  // 一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
+  // 被另一个萌新更新了一下
+  document.querySelector('#doc-search-button').addEventListener('click', () => {
+    var text = document.querySelector('#doc-search-input').value;
+    if (!text) return;
+    var q = encodeURIComponent(text);
+    window.open('https://www.yuque.com/search?scope=itxia&q=' + q);
+  });
 </script>
 
->空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。常用关键词：（无法）上网、激活、蓝屏、卸载
+> 空格隔开搜索更佳，如“无法上网”可以搜“无法（空格）上网”。常用关键词：（无法）上网、激活、蓝屏、卸载
 
-## IT侠文档
+## IT 侠文档
 
 ### 推荐阅读
 
 无论你是社团新人还是感兴趣的路人或者尝试自救的勇者，都非常推荐你了解下面的文档：
 
 - [无法上网类问题自我排查指南](https://www.yuque.com/itxia/help/network_problem)
-- [PE制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
-- [IT侠软件工具箱下载](https://pan.baidu.com/s/1D_YV4T-Lv43jF8bWD72SoA)（提取码：yosh）
-- [面向小白的Windows10重装/安装教程](https://www.yuque.com/itxia/article/install_win10_from_scratch)
-- [关于南大正版Adobe全家桶，你还需要知道……](https://www.yuque.com/itxia/article/nju_adobe_tips)
+- [PE 制作与常用工具](https://www.yuque.com/itxia/help/itxia_toolkits)
+- [IT 侠软件工具箱下载](https://pan.baidu.com/s/1D_YV4T-Lv43jF8bWD72SoA)（提取码：yosh）
+- [面向小白的 Windows10 重装/安装教程](https://www.yuque.com/itxia/article/install_win10_from_scratch)
+- [关于南大正版 Adobe 全家桶，你还需要知道……](https://www.yuque.com/itxia/article/nju_adobe_tips)
 
-### IT侠知识库 
+### IT 侠知识库
 
 更多的教程文档可以直接进入我们的文档库浏览。
 
-- [IT侠在线互助常见问题集（杂烩版）](https://www.yuque.com/itxia/timdoc/help_original)
-- [IT侠在线互助常见问题集（优化版）](https://www.yuque.com/itxia/help)
-- [IT侠教程&记录系列](https://www.yuque.com/itxia/article)
+- [IT 侠在线互助常见问题集（杂烩版）](https://www.yuque.com/itxia/timdoc/help_original)
+- [IT 侠在线互助常见问题集（优化版）](https://www.yuque.com/itxia/help)
+- [IT 侠教程&记录系列](https://www.yuque.com/itxia/article)
 
 ## <span id="docintro">介绍</span>
 

@@ -1,10 +1,9 @@
-_site/
-.sass-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
 Gemfile.lock
 *.gem
-
-
 *.swp
 
 # node

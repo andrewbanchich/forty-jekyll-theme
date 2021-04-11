@@ -1,11 +1,8 @@
 ---
-title: 招新
 layout: post
-description: 
+title: 招新
 image: assets/images/recruiment.jpg
 ---
-
-<p></p>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -64,11 +61,7 @@ image: assets/images/recruiment.jpg
 </div>
 
 <div>
-<h3>报名通道</h3>
-
-<p>扫描下方二维码，或者直接点击<a href="http://nju-itxia.mikecrm.com/L959mSD">报名链接</a></p>
-
-<img  src="assets/images/hiring_qrcode.png">
-	
+  <h3>报名通道</h3>
+  <p>扫描下方二维码，或者直接点击<a href="{{ site.socials.CRM }}L959mSD">报名链接</a></p>
+  <img  src="assets/images/hiring_qrcode.png">
 </div>
-

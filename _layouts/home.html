@@ -10,34 +10,6 @@
 
 
 <body>
-    <script>
-        /*特殊纪念日黑白页面*/
-        var today = new Date();
-        var year = today.getFullYear();
-        var month = today.getMonth();
-        var date = today.getDate();
-        if ((month==11 && date==13) || (year==2020 && month==3 && date==4)) {
-            var style = document.createElement("style");
-            style.type = "text/css";
-            var memorial = 'html { \
-                filter: grayscale(100%); \
-                -webkit-filter: grayscale(100%); \
-                -moz-filter: grayscale(100%); \
-                -ms-filter: grayscale(100%); \
-                -o-filter: grayscale(100%); \
-                filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); \
-                -webkit-filter: grayscale(1); \
-                }'
-            try{
-    　　		style.appendChild(document.createTextNode(memorial));
-            }catch(ex){
-                style.styleSheet.cssText = memorial;//针对IE
-            }
-            var hpage = document.getElementsByTagName("html")[0];
-            document.getElementsByTagName("body")[0].style.background = "rgb(42,42,42)";
-            hpage.appendChild(style);
-        }
-    </script>
 
     {% include header.html %}
 

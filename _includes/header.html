@@ -1,25 +1,50 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-<!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ site.url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
+	<!-- Header -->
+	{% if page.layout == "landing" %}
+	<header id="header" class="alt style2">
+		<a href="{{ site.url }}/" class="logo">
+			<strong>{{ site.title }}</strong>
+			<span>{{ site.subtitle }}</span>
+		</a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	{% endif %}
+	{% if page.layout == "home" %}
+	<header id="header" class="alt">
+		<a href="{{ site.url }}/" class="logo">
+			<strong>{{ site.title }}</strong>
+			<span>{{ site.subtitle }}</span>
+		</a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	{% else %}
+	<header id="header">
+		<a href="{{ site.url }}/" class="logo">
+			<strong>{{ site.title }}</strong>
+			<span>{{ site.subtitle }}</span>
+		</a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	{% endif %}
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-		<li><a href="{{ site.url }}">主页</a></li>
-        {% for page in site.data.index_url %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<!-- <li><a href="http://115.159.189.147:8080" class="button special fit">博客</a></li> -->
-		<li><a href="https://itxia.github.io/" class="button special fit">博客</a></li>
-		<li><a href="https://nju-itxia.github.io/gallery/" class="button fit">相册</a></li>
-	</ul>
-</nav>
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="{{ site.url }}/">主页</a></li>
+			{% for page in site.data.index_url %}
+			<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+			{% endfor %}
+		</ul>
+		<ul class="actions vertical">
+			<li><a href="{{ site.socials.Blog }}" class="button special fit">博客</a></li>
+			<li><a href="{{ site.socials.Gallery }}" class="button fit">相册</a></li>
+		</ul>
+	</nav>
