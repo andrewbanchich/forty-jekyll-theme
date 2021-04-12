@@ -62,6 +62,6 @@ image: assets/images/recruiment.jpg
 
 <div>
   <h3>报名通道</h3>
-  <p>扫描下方二维码，或者直接点击<a href="{{ site.socials.CRM }}L959mSD">报名链接</a></p>
+  <p>扫描下方二维码，或者直接点击<a href="https://table.nju.edu.cn/dtable/forms/175053ee-02fe-41b1-8dff-5e3adb6cc2e3/">报名链接</a></p>
   <img  src="assets/images/hiring_qrcode.png">
 </div>
