@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Musica
+title: Musica e Podcast
 description:
 image: assets/images/music.jpg
 nav-menu: true
 ---
-
-<img src="{% link assets/images/music.jpg %}" alt="" data-position="center center" />
 
 ## Funkwhale
 

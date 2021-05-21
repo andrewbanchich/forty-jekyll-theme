@@ -1,10 +1,10 @@
 <!-- Contact -->
-<!-- <section id="contact">
+<section id="contact">
 	<div class="inner">
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
-					<label for="name">Name</label>
+					<label for="name">Nome</label>
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
@@ -12,61 +12,67 @@
 					<input type="text" name="_replyto" id="email" />
 				</div>
 				<div class="field">
-					<label for="message">Message</label>
+					<label for="message">Messaggio</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
+					<li><input type="submit" value="Invia Messaggio" class="special" /></li>
+					<li><input type="reset" value="Annulla" /></li>
 				</ul>
 			</form>
 		</section>
 		<section class="split">
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+					<a href="{{ site.newsletter }}">
+						<span class="icon alt fa-envelope"></span>
+						<h3>Newsletter</h3>
+					</a>
+					<!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a> -->
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+					<a href="{{ site.stanza-matrix }}">
+						<span class="icon alt fedicon-matrix"></span>
+						<h3>Stanza Matrix</h3>
+					</a>
+					<!-- <a href="tel:{{ site.phone }}">{{ site.phone }}</a> -->
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }}
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
+					<a href="{{ site.pagina-ko-fi }}">
+						<span class="icon alt fedicon-ko-fi"></span>
+						<h3>Offrici un caffè</h3>
+					</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<a href="{{ site.pagina-liberapay }}">
+						<span class="icon alt fedicon-liberapay"></span>
+						<h3>Supportaci</h3>
+					</a>
 				</div>
 			</section>
 		</section>
 	</div>
-</section> -->
+</section>
 
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
+				{% for key_value in site.fedi-socials %}
+					{% if key_value[1] %}
+						<li>
+							<a href="{{ key_value[1] }}" class="icon alt fedicon-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+								<span class="label">{{ key_value[0] }}</span>
+							</a>
+						</li>
+					{% endif %}
+				{% endfor %}
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
@@ -78,7 +84,7 @@
 				{% endfor %}
 			</ul>
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>&copy; {{ site.title }}.it</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 

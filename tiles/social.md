@@ -39,7 +39,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/image-sharing-temp.jpg %}" alt="" data-position="center center" />
+		<img src="{{ site.baseurl }}/assets/images/image-sharing-temp.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">

@@ -2,7 +2,7 @@
 title: Video
 layout: landing
 description:
-image: assets/images/peertube.jpg
+image: assets/images/video.jpg
 nav-menu: true
 ---
 
@@ -22,7 +22,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{% link assets/images/peertube.jpg %}" alt="" data-position="center center" />
+		<img src="{{ site.baseurl }}/assets/images/peertube.png" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -38,7 +38,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/invidious.png %}" alt="" data-position="center center" />
+		<img src="{{ site.baseurl }}/assets/images/invidious.png" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -52,7 +52,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/alltubedownload.png %}" alt="" data-position="center center" />
+		<img src="{{ site.baseurl }}/assets/images/alltubedownload.png" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">

@@ -19,9 +19,9 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p style="text-transform: uppercase;">{{ page.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Scopri Come</a></li>
+                    <li><a href="#two" class="button next scrolly">{{ page.button-text }}</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@
         <section id="two">
             <div class="inner">
                 <header class="major">
-                    <h2>Non ho nulla da nascondere, ma neache nulla da mostrare</h2>
+                    <h2>{{ page.section-title }}</h2>
                 </header>
                 <p>{{ content }}</p>
                 <!-- <ul class="actions">
