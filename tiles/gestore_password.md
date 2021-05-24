@@ -1,8 +1,8 @@
 ---
-title: Video
+title: Gestore Password
 layout: landing
 description:
-image: assets/images/video.png
+image: assets/images/password1.jpg
 nav-menu: true
 ---
 
@@ -10,61 +10,61 @@ nav-menu: true
 <div id="main">
 
 <!-- One -->
-<!-- <section id="one">
+<section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Cos'è il Fediverso?</h2>
+			<h2>Perché usare un gestore di password?</h2>
 		</header>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
-</section> -->
+</section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/peertube.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/bitwarden.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Peertube</h3>
+					<h3>Bitwarden</h3>
 				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul class="actions">
-					<li><a href="https://peertube.uno" class="button">Peertube.uno</a></li>
-					<li><a href="https://peertube.devol.it" class="button">Peertube Devol</a></li>
-					<li><a href="https://sepiasearch.peertube.uno" class="button">Sepia Search</a></li>
+					<li><a href="https://bitwarden.devol.it" class="button">Bitwarden Devol</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/invidious.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/keeweb.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Il Tubo</h3>
+					<h3>Keeweb</h3>
 				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul class="actions">
-					<li><a href="https://tubo.peertube.uno" class="button">Tubo</a></li>
+					<li><a href="https://keeweb.devol.it" class="button">Keeweb Devol</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<img src="{{ site.baseurl }}/assets/images/alltubedownload.jpg" alt="">
+	<!-- <section>
+		<a href="generic.html" class="image">
+			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="center center" />
+		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>AllTubeDonwload</h3>
+					<h3>Sed nunc ligula</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
-					<li><a href="https://alltubedownload.peertube.uno" class="button">AllTubeDonwload Devol</a></li>
+					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 </section>
 
 <!-- Three -->

@@ -1,5 +1,5 @@
 ---
-title: Social
+title: Social e Fediverso
 layout: landing
 description:
 image: assets/images/fediverse.jpg
@@ -25,7 +25,10 @@ nav-menu: true
 		<!-- <a href="generic.html" class="image">
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
 		</a> -->
-		<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/d3ae46fe-fd9a-448c-8c94-8fda9b73b54f?start=0s&subtitle=it" frameborder="0" allowfullscreen></iframe>
+		<div style="background-color: black; align-items: center; vertical-align: middle;">
+			<iframe style="display: block;" width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/d3ae46fe-fd9a-448c-8c94-8fda9b73b54f?start=0s&subtitle=it" frameborder="0" allowfullscreen></iframe>
+		</div>
+
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -39,7 +42,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/image-sharing-temp.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/image-sharing.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -53,22 +56,20 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-	<!-- <section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="center center" />
-		</a>
+	<section>
+		<img src="{{ site.baseurl }}/assets/images/writefreely.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Blogging: Noblogo</h3>
 				</header>
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="https://noblogo.org" class="button">Noblogo.org</a></li>
 				</ul>
 			</div>
 		</div>
-	</section> -->
+	</section>
 </section>
 
 <!-- Three -->

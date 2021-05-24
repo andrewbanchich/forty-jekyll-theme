@@ -1,8 +1,8 @@
 ---
-title: Video
+title: Motori di Ricerca
 layout: landing
 description:
-image: assets/images/video.png
+image: assets/images/ricerca.jpg
 nav-menu: true
 ---
 
@@ -22,37 +22,35 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/peertube.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/searx.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Peertube</h3>
+					<h3>SearX</h3>
 				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul class="actions">
-					<li><a href="https://peertube.uno" class="button">Peertube.uno</a></li>
-					<li><a href="https://peertube.devol.it" class="button">Peertube Devol</a></li>
-					<li><a href="https://sepiasearch.peertube.uno" class="button">Sepia Search</a></li>
+					<li><a href="https://searx.devol.it" class="button">SearX Devol</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/invidious.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/searchforplanet.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Il Tubo</h3>
+					<h3>Search For Planet</h3>
 				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul class="actions">
-					<li><a href="https://tubo.peertube.uno" class="button">Tubo</a></li>
+					<li><a href="https://www.searchforplanet.org/" class="button">SearchForPlanet.org</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<img src="{{ site.baseurl }}/assets/images/alltubedownload.jpg" alt="">
+	<!-- <section>
+		<img src="{{ site.baseurl }}/assets/images/alltubedownload.png" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -60,11 +58,11 @@ nav-menu: true
 				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul class="actions">
-					<li><a href="https://alltubedownload.peertube.uno" class="button">AllTubeDonwload Devol</a></li>
+					<li><a href="https://alltubedownload.peertube.uno" class="button">AllTubeDonwload</a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 </section>
 
 <!-- Three -->

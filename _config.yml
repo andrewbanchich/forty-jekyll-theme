@@ -14,7 +14,7 @@ pagina-liberapay:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 12
 
 # profili social (fedi-socials' keys must match the name of a fedicon icon,
 # socials' keys must match name of font awesome 4 icon)
