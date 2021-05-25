@@ -10,7 +10,7 @@ email: youremailaddress@protonmail.com
 newsletter: https://buttondown.email/devol
 stanza-matrix: https://chat.mozilla.org/#/room/#mastodon:mozilla.org
 pagina-ko-fi: https://ko-fi.com/devol
-pagina-liberapay:
+pagina-coindrop: https://coindrop.to/devol
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -20,7 +20,7 @@ tiles-count: 12
 # socials' keys must match name of font awesome 4 icon)
 fedi-socials:
   Telegram: https://t.me/devolitalia
-  Mastodon: https://mastodon.uno/web/accounts/31114
+  Mastodon: https://mastodon.uno/@devol
   Peertube:
   Writefreely:
   Pixelfed: https://pixelfed.uno/devol
