@@ -2,7 +2,7 @@
 title: Gestore Password
 layout: landing
 description:
-image: assets/images/password1.jpg
+image: assets/images/tiles-covers/gestore_password.jpg
 nav-menu: true
 ---
 
@@ -22,7 +22,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/bitwarden.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/gestore_password/bitwarden.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -36,7 +36,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/keeweb.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/gestore_password/keeweb.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">

@@ -6,7 +6,7 @@ baseurl: "/devol-website" # the subpath of your site, e.g. /blog
 url: https://LeonardoMantovani.github.io # the base hostname & protocol for your site
 
 # recapiti
-email: youremailaddress@protonmail.com
+email: admin@devol.it
 newsletter: https://buttondown.email/devol
 stanza-matrix: https://chat.mozilla.org/#/room/#mastodon:mozilla.org
 pagina-ko-fi: https://ko-fi.com/devol

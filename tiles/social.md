@@ -2,7 +2,7 @@
 title: Social e Fediverso
 layout: landing
 description:
-image: assets/images/fediverse.jpg
+image: assets/images/tiles-covers/social.jpg
 nav-menu: true
 ---
 
@@ -36,7 +36,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/image-sharing.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/social/image-sharing.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -51,7 +51,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/writefreely.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/social/writefreely.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">

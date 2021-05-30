@@ -2,7 +2,7 @@
 title: Motori di Ricerca
 layout: landing
 description:
-image: assets/images/ricerca.jpg
+image: assets/images/tiles-covers/motori_di_ricerca.jpg
 nav-menu: true
 ---
 
@@ -12,7 +12,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/searx.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/motori_di_ricerca/searx.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -26,7 +26,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/searchforplanet.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/motori_di_ricerca/searchforplanet.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
