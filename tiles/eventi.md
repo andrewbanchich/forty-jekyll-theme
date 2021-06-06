@@ -2,7 +2,7 @@
 layout: landing
 title: Eventi
 description:
-image: assets/images/tiles-covers/eventi.jpg
+image: assets/images/tiles-covers/eventi2.jpg
 nav-menu: true
 ---
 
