@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Publications
+title: Publications & Presentations
 image: assets/home/publications.jpg
 nav-menu: true
 ---
@@ -18,16 +18,17 @@ Conference / Journal:
 </select>
 </div>
 
-<div class="2u 12u$(small)">
+<div class="3u 12u$(small)">
 Type:
 <select id="type_select" onChange="onSelect()">
   <option value='all'>ALL</option>
-  <option value='paper'>Paper</option>
+  <option value='paper'>Full Paper</option>
+  <option value='extended_abstract'>Extended Abstract</option>
   <option value='talk'>Talk</option>
 </select>
 </div>
 
-<div class="5u 12u$(small)" style="height:1px">
+<div class="4u 12u$(small)" style="height:1px">
 </div>
 
 <div class="2u 12u$(small)">
@@ -102,6 +103,8 @@ function onSelect() {
 		if(show)
 		{
 			if(type=='paper' && (pub.type=='paper'))
+				show = true;
+			else if(type=='extended_abstract' && (pub.type=='extended_abstract'))
 				show = true;
 			else if(type=='talk' && (pub.type=='talk'))
 				show = true;

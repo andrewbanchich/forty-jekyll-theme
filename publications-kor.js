@@ -24,7 +24,7 @@ var publications_kor = [
 		'authors': '강규철, 권태수, 이윤상',
 		'conference_journal_full': '한국컴퓨터그래픽스학회 2019년 학술대회 논문집, 26-27, 2019.07.',
 		'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/domestic/2019-kcgs-learning-fsm.pdf">[article]</a>',
-		'type': 'paper',
+		'type': 'extended_abstract',
 	},
 	{
 		'title': '보행 시뮬레이션을 위한 물리의 기초',
