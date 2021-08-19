@@ -18,16 +18,17 @@ image: assets/images/profile.jpg
 <!-- Content -->
 <h2 id="content">Education</h2>
 <ul>
-	<li>Ph.D University of Miami, 2015-2020 (expected)</li>
+	<li>Ph.D University of Miami, 2015-2020</li>
 	<li>M.S. National Taiwan University, 2011-2013</li>
 	<li>B.S. National Taiwan University, 2007-2011</li>
 </ul>
 
 <h2 id="content">Work Experiences</h2>
 <ul>
-	<li>2015-2020: Research Assistant,  University of Miami</li>
-	<li>2014-2015: Research Assistant,  National Taiwan University</li>
-	<li>2013-2014: Obligatory military service,  Ministry of National Defense Symphony Orchestra</li>
+  <li>2020-current: postdoctoral research,  University of Oklahoma</li>
+	<li>2015-2020   : Research Assistant,  University of Miami</li>
+	<li>2014-2015   : Research Assistant,  National Taiwan University</li>
+	<li>2013-2014   : Obligatory military service,  Ministry of National Defense Symphony Orchestra</li>
 </ul>
 
 <h2 id="content">Skills</h2>

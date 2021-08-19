@@ -1,15 +1,15 @@
 # site settings
 title: SNWu
 subtitle: Shun-Nan Wu
-email: snwu@rsmas.miami.edu
-description: A Ph.D. student at the University of Miami<br /> working on satellite and hurricane research.
+email: swu@ou.edu
+description: Research Associate at the University of Oklahoma<br /> working on satellite and Tropical rainfall research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://swutw.github.io # the base hostname & protocol for your site
 author:
-street_address: 4600 Rickenbacker Causeway
-city: Miami
-state: FL
-zip_code: 33149
+street_address:
+city: Norman
+state: OK
+zip_code:
 country: United States of America
 phone:
 
