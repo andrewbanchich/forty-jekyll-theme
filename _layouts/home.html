@@ -19,12 +19,64 @@
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
+            <h4 style="text-transform: uppercase;"># {{ site.description }}</h4>
             <div class="content">
-                <h4 style="text-transform: uppercase;">{{ site.description }}</h4>
-                <br>
+                <!--受够伸手党了我一定要在这里加个搜索框，他们到底怎么考上南大的？-->
                 <ul class="actions">
-			<li><a href="service" class="button small"><font size="4">点击预约维修</font></a></li>
+                    <li>试试检索IT侠知识库：</li>
+                    <br>
+                    <li><input id="doc-search-input" placeholder="输入简短关键词" list="typelist"
+                            style="margin:0px 0px 5px 0px;color: white;background-color: rgba(255,255,255,0.1);border-style: solid;border-radius: 5px;">
+                        <datalist id="typelist">
+                            <option>重装</option>
+                            <option>Office</option>
+                            <option>Windows 激活</option>
+                            <option>校园网</option>
+                            <option>驱动</option>
+                            <option>PE盘</option>
+                            <option>无法上网</option>
+                            <option>摄像头</option>
+                        </datalist>
+                        <a id="doc-search-button" class="button small">
+                            <font size="4">检索</font>
+                        </a>
+                    </li>
                 </ul>
+                <h4>或者</h4>
+                <ul class="actions">
+                    <li>请求人工维修协助：</li>
+                    <br>
+                    <li><a href="service" class="button small">
+                            <font size="4">点击预约维修</font>
+                        </a></li>
+                </ul>
+                <script>
+                    // 一个简单粗暴的搜索 by某个萌新 ╮(╯▽╰)╭
+                    // 被另一个萌新更新了一下
+                    // 原来的萌新把彩蛋挪到了这里
+                    function search() {
+                                                var text = document.querySelector('#doc-search-input').value;
+                        switch (text) {
+                            case "摸鱼":
+                                location.pathname = "/bonus"
+                                break;
+
+                            default:
+                                if (text) {
+                                    var q = encodeURIComponent(text);
+                                    window.open('https://www.yuque.com/search?scope=itxia&q=' + q);
+                                }
+                                break;
+                        }
+                    }
+
+                    document.querySelector('#doc-search-button').addEventListener('click', search);
+                    document.querySelector('#doc-search-input').addEventListener('keypress', (event)=>{
+                        if (event && event.key === "Enter"){
+                            search()
+                        }
+                    })
+                </script>
             </div>
         </div>
     </section>
@@ -53,4 +105,5 @@
     {% include footer.html %}
 
 </body>
+
 </html>
