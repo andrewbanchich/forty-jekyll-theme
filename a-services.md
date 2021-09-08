@@ -23,7 +23,13 @@ nav-menu: true
 				As a group, we specialise in working with technology startups to translate their ideas into web applications that help them build their business. This includes aiding in hiring an initial team through to build and deployment of the application. We work using agile methodologies such as Scrum or Kanban as required and will work closely with stakeholders every step of the way.
 			</p>
 			<p>
-				TCSG Limited is an FOSS friendly company. We write software that runs on Linux systems and use Open Source tools and languages. We write software to deploy using containers and Amazon Web Services is our preferred choice for hosting these. Conforming to <a href="https://12factor.net" target="_blank">The Twelve Factor App</a> is our baseline approach to development.
+				TCSG Limited is an FOSS friendly company. We write software that runs on Linux-based systems and use Open Source tools and languages. We write software to deploy using containers and Amazon Web Services (AWS) is our preferred choice for hosting and managing these, although we can use any existing cloud based hosting solution you may have.
+			</p>
+			<p>
+				Conforming to <a href="https://12factor.net" target="_blank">The Twelve Factor App</a> is our baseline approach to development.
+			</p>
+			<p>
+				Please contact us below to discuss your needs.
 			</p>
 		</div>
 	</div>
