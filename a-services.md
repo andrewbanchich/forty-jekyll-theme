@@ -15,7 +15,20 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Coming soon</h2>
+		<div class="row">
+			<p>
+				TCSG Limited provides bespoke software systems for businesses of any size, either working with start-ups from the very beginning, or embedding into an existing functional team within an established business and providing high quality solutions that meet and exceed stakeholder expectations.
+			</p>
+			<p>
+				As a group, we specialise in working with startups to translate their ideas into web applications that help them build their business. This includes aiding in hiring an initial team through to build and deployment of the application. We work using agile methodologies such as Scrum or Kanban as required and will work closely with stakeholders every step of the way.
+			</p>
+		</div>
+	</div>
+</section>
+
+</div>
+
+
 
 {% comment %}
 <p></p>
