@@ -20,7 +20,10 @@ nav-menu: true
 				TCSG Limited provides bespoke software systems for businesses of any size, either working with start-ups from the very beginning, or embedding into an existing functional team within an established business and providing high quality solutions that meet and exceed stakeholder expectations.
 			</p>
 			<p>
-				As a group, we specialise in working with startups to translate their ideas into web applications that help them build their business. This includes aiding in hiring an initial team through to build and deployment of the application. We work using agile methodologies such as Scrum or Kanban as required and will work closely with stakeholders every step of the way.
+				As a group, we specialise in working with technology startups to translate their ideas into web applications that help them build their business. This includes aiding in hiring an initial team through to build and deployment of the application. We work using agile methodologies such as Scrum or Kanban as required and will work closely with stakeholders every step of the way.
+			</p>
+			<p>
+				TCSG Limited is an FOSS friendly company. We write software that runs on Linux systems and use Open Source tools and languages. We write software to deploy using containers and Amazon Web Services is our preferred choice for hosting these. Conforming to <a href="https://12factor.net" target="_blank">The Twelve Factor App</a> is our baseline approach to development.
 			</p>
 		</div>
 	</div>
