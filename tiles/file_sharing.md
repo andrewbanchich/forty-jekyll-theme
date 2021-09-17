@@ -18,7 +18,11 @@ nav-menu: true
       <header class="major">
         <h3>Jirafeau</h3>
       </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p><i>“La dimensione dell’allegato supera il limite massimo consentito”<br>
+        “Impossibile condividere il file selezionato: assicurati che le sue dimensioni non superino i 16MB”</i><br>
+        Quante volte ti è capitato di ricevere errori simili? Se ci sei passato almeno una volta, avrai anche letto che la soluzione più semplice è caricare il tuo file su servizi come WeTransfer e poi condividere un link per scaricarlo.<br>
+        Ma ti sei mai chiesto che fine fa il tuo file dopo che è stato scaricato? Noi si, e per questo abbiamo deciso di mettere a disposizione un’istanza di Jirafeau: un software open-source che ti permette di condividere file fino a un massimo di 5GB in tutta sicurezza, potendo essere certo (grazie al software libero) che verranno eliminati dopo il periodo da te prestabilito.
+      </p>
       <ul class="actions">
         <li><a href="https://jirafeau.devol.it" class="button">Jirafeau Devol</a></li>
       </ul>

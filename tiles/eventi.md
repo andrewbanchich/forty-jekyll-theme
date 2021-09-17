@@ -18,7 +18,9 @@ nav-menu: true
       <header class="major">
         <h3>Mobilizon</h3>
       </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Organizzare un evento, sia esso piccolo o grande, può essere molto faticoso ed è fondamentale, quindi, riuscire ad attirare più gente possibile. Per farlo, è utile promuovere il proprio evento online e, al giorno d’oggi, farlo su Facebook è probabilmente la soluzione più popolare.<br>
+      Ma se invece abbiamo a cuore la privacy anche dei partecipanti al nostro evento? Allora ci viene incontro Mobilizon: l’alternativa agli eventi Facebook sviluppata da <a href="https://framasoft.org/it">Framasoft</a>, libera, decentralizzata e federata con il resto del <a href="https://devol.it/tiles/social.html">Fediverso</a>!<br>
+      Essendo un software open-source e decentralizzato, non si basa su un server centrale ma esistono più istanze che comunicano tra di loro, e noi Devol abbiamo deciso di metterne a disposizione una tutta italiana!</p>
       <ul class="actions">
         <li><a href="https://mobilizon.it" class="button">Mobilizon.it</a></li>
       </ul>

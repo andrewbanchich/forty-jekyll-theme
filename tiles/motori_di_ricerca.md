@@ -18,7 +18,7 @@ nav-menu: true
 				<header class="major">
 					<h3>SearX</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Un meta-motore di ricerca che rispetta la privacy: searx è un metamotore di ricerca gratuito su internet che aggrega i risultati di oltre 70 servizi di ricerca. Gli utenti non sono né tracciati né profilati. Il collettivo devol ha reso disponibile l’istanza italiana Searx, la migliore alternativa a Google in quanto aggrega tutti i risultati dei migliori motori di ricerca alternativi localizzati in italiano: Duckduckgo, Qwant, Yahoo, Bing e altri attivabili su “preferenze”.</p>
 				<ul class="actions">
 					<li><a href="https://searx.devol.it" class="button">SearX Devol</a></li>
 				</ul>
@@ -32,7 +32,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Search For Planet</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Motore di ricerca che finanzia cause etiche, ambientali e umanitarie searchforplanet.org E’ un meta-motore che ti permette di cercare informazioni su tutti quei motori di ricerca che utilizzano i proventi pubblicitari per finanziare campagne a sostegno dell’ambiente. E’ un progetto open source indipendente, sviluppato da Selectallfromdual nato da una discussione su mastodon.uno. I motori utilizzati sono: Ecosia, Lilo, Givero, giveWater, Elliot for Water.</p>
 				<ul class="actions">
 					<li><a href="https://www.searchforplanet.org/" class="button">SearchForPlanet.org</a></li>
 				</ul>

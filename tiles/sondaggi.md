@@ -18,7 +18,11 @@ nav-menu: true
       <header class="major">
         <h3>OpenSondage</h3>
       </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        <i>“Quindi? Quando ci troviamo per la serata film?”</i><br>
+        Domanda semplice seguita da una decisamente meno semplice discussione per scegliere la data più congeniale a tutti.<br>
+        Vuoi semplificarti la vita? Opensondage è un software open-source che ti permette di creare semplici sondaggi per trovare velocemente la soluzione migliore per il vostro gruppo.
+      </p>
       <ul class="actions">
         <li><a href="https://opensondage.devol.it" class="button">Opensondage Devol</a></li>
       </ul>

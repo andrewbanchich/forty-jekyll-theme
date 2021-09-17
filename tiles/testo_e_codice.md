@@ -18,7 +18,10 @@ nav-menu: true
 				<header class="major">
 					<h3>Etherpad</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>
+					Le idee migliori non nascono da un singolo, c’è bisogno che più menti collaborino insieme.<br>
+					Con la nostra istanza Etherpad, noi Devol vi offriamo lo spazio per farlo liberamente, con la comodità di un editor collaborativo e la sicurezza dell’open-source.
+				</p>
 				<ul class="actions">
 					<li><a href="https://etherpad.devol.it" class="button">Etherpad Devol</a></li>
 				</ul>
@@ -32,7 +35,7 @@ nav-menu: true
 				<header class="major">
 					<h3>HedgeDoc</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Un editor collaborativo tradizionale non ti basta? Allora prova la nostra istanza Hedgedoc poter sfruttare assieme ai tuoi collaboratori la velocità del linguaggio Markdown</p>
 				<ul class="actions">
 					<li><a href="https://hedgedoc.devol.it" class="button">HedgeDoc Devol</a></li>
 				</ul>
@@ -46,7 +49,7 @@ nav-menu: true
 				<header class="major">
 					<h3>PrivateBin</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Una alternativa sicura e open-source al famoso Pastebin.</p>
 				<ul class="actions">
 					<li><a href="https://privatebin.devol.it" class="button">PrivateBin Devol</a></li>
 				</ul>
@@ -60,7 +63,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Gitea</h3>
 				</header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Parlando di collaborazione, i programmatori qui tra noi sapranno che questa è fondamentale anche per lo sviluppo di un qualsiasi software. Per questo noi Devol abbiamo deciso di offrire anche un’istanza Gitea: la miglior piattaforma libera per rendere il tuo codice accessibile ovunque e da chiunque tu voglia.</p>
 				<ul class="actions">
 					<li><a href="https://gitea.it" class="button">Gitea.it</a></li>
 				</ul>

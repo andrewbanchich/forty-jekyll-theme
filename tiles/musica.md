@@ -18,8 +18,10 @@ nav-menu: true
       <header class="major">
         <h3>Funkwhale</h3>
       </header>
-      <strong>Ricordarsi di fare attenzione con il nome per chiarire che il progetto Funkwhale non è nostro</strong>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        Ti piace comporre musica nel tempo libero? Hai qualcosa da raccontare ma non ti va che il tuo podcast finisca su piattaforme poco attente alla privacy dei loro utenti? Allora arriva in tuo soccorso Funkwhale: l’alternativa open-source e <a href="https://devol.it/tiles/social.html">federata</a> ai servizi di streaming audio tradizionali.<br>
+        Funkwhale è infatti un software libero che permette agli utenti di pubblicare la loro musica e i loro podcast gratuitamente, senza pubblicità e senza traccianti, rendendoli disponibili a tutti gli utenti disseminati nelle diverse istanze, tra cui quella messa a disposizione da noi Devol.
+      </p>
       <ul class="actions">
         <li><a href="https://funkwhale.it" class="button">Funkwhale.it</a></li>
       </ul>
