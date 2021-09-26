@@ -1,17 +1,18 @@
 # site settings
 title: calc.ulator.world
-subtitle: by HTML5 UP
-email: hello@calc.ulator.world
-description: Comming soon<br /> fingers crossed.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
+subtitle: by Martha
+email: calc@ulator.world
+description: Coming soon<br /> fingers crossed.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" 
+#url: "https://calc.ulator.world" # the base hostname & protocol for your site
+author: Martha Laundy-Blair
 street_address: 1234 Somewhere Road
 city: Nearby
 state: Awake
-zip_code: I'm not American I don't know what you mean!
+zip_code: 
 country: (NOT) United States of America
-phone: yeah... right...
+
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -40,4 +41,8 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
+# look back at these later for ideas
+- elements.md
+- landing.md
+- credits.md
