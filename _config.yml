@@ -7,11 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://localhost:4000" 
 url: "https://calc.ulator.world" # the base hostname & protocol for your site
 author: Martha Laundy-Blair
-street_address: 1234 Somewhere Road
-city: Nearby
-state: Awake
-zip_code: 
-country: (NOT) United States of America
+formspree: xwkaydyv
 
 
 # homepage tiles
