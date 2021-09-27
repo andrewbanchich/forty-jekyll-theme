@@ -16,11 +16,11 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Etherpad</h3>
+					<h3>Etherpad MyPad</h3>
 				</header>
 				<p>
 					Le idee migliori non nascono da un singolo, c’è bisogno che più menti collaborino insieme.<br>
-					Con la nostra istanza Etherpad, noi Devol vi offriamo lo spazio per farlo liberamente, con la comodità di un editor collaborativo e la sicurezza dell’open-source.
+					Con la nostra istanza Etherpad MyPad, noi Devol vi offriamo lo spazio per farlo liberamente, con la comodità di un editor collaborativo e la sicurezza dell’open-source.
 				</p>
 				<ul class="actions">
 					<li><a href="https://etherpad.devol.it" class="button">Etherpad Devol</a></li>
@@ -49,7 +49,10 @@ nav-menu: true
 				<header class="major">
 					<h3>PrivateBin</h3>
 				</header>
-				<p>Una alternativa sicura e open-source al famoso Pastebin.</p>
+				<p>
+					Una alternativa sicura e open-source al famoso Pastebin.<br>
+					PrivateBin è un modo semplice e veloce per condividere in modo sicuro e temporaneo un testo online con chiunque. Il testo è memorizzato in modo crittografato sul server per una maggiore privacy e sicurezza.
+				</p>
 				<ul class="actions">
 					<li><a href="https://privatebin.devol.it" class="button">PrivateBin Devol</a></li>
 				</ul>
