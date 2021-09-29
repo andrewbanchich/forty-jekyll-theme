@@ -12,7 +12,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<iframe width="916" height="515" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/watch/c79e7ec9-40c6-4f28-bda4-ca043946a236?start=2s&subtitle=it" frameborder="0" allowfullscreen></iframe>
+		<iframe width="916" height="515" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/c79e7ec9-40c6-4f28-bda4-ca043946a236?start=2s&subtitle=it" frameborder="0" allowfullscreen></iframe>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -29,7 +29,7 @@ nav-menu: true
 				<ul class="actions">
 					<li><a href="https://peertube.uno" class="button">Peertube.uno</a></li>
 					<li><a href="https://peertube.devol.it" class="button">Peertube Devol</a></li>
-					<li><a href="https://sepiasearch.peertube.uno" class="button">Sepia Search</a></li>
+					<li><a href="{{ site.baseurl }}/it/peertube" class="button">Di più su Peertube</a></li>
 				</ul>
 			</div>
 		</div>

@@ -21,6 +21,7 @@ nav-menu: true
 				<p>Un meta-motore di ricerca che rispetta la privacy: searx è un metamotore di ricerca gratuito su internet che aggrega i risultati di oltre 70 servizi di ricerca. Gli utenti non sono né tracciati né profilati. Il collettivo devol ha reso disponibile l’istanza italiana Searx, la migliore alternativa a Google in quanto aggrega tutti i risultati dei migliori motori di ricerca alternativi localizzati in italiano: Duckduckgo, Qwant, Yahoo, Bing e altri attivabili su “preferenze”.</p>
 				<ul class="actions">
 					<li><a href="https://searx.devol.it" class="button">SearX Devol</a></li>
+					<li><a href="{{ site.baseurl }}/it/searx" class="button">Di più su SearX</a></li>
 				</ul>
 			</div>
 		</div>

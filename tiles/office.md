@@ -21,7 +21,7 @@ nav-menu: true
         <p>Una suite office completa, criptata e open-source! Inizia subito a usarla con 5GB di spazio gratuiti messi a disposizione da noi Devol</p>
         <ul class="actions">
           <li><a href="https://cryptpad.devol.it" class="button">CryptPad Devol</a></li>
-          <li><a href="https://cryptpad.fr/what-is-cryptpad.html" class="button">Ulteriori informazioni su CryptPad</a></li>
+          <li><a href="https://cryptpad.devol.it/what-is-cryptpad.html" class="button">Informazioni su CryptPad</a></li>
         </ul>
       </div>
     </div>

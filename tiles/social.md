@@ -22,6 +22,7 @@ nav-menu: true
 		Il Fediverso, infatti, è un universo online in cui coesistono più social network diversi (uno per te a cui piacciono i post brevi, uno per il tuo amico fotografo, perfino uno per il tuo vicino di casa chitarrista) che però tra loro parlano la stessa lingua, così che tu possa seguire il tuo amico pur usando 2 social differenti! E c’è di più: tutto il codice che sta dietro al fediverso è open-source e chiunque può decidere di ospitare un’istanza del suo social preferito, mantenedo così il controllo su ciò che viene condiviso.<br>
 		Il web federato oggi sta crescendo molto velocemente. Ci sono probabilmente molte ragioni per questo. La sfiducia nelle piattaforme commerciali centralizzate e le fughe di dati che hanno subito. Apparizione di più piattaforme federate costruite intorno al nuovo protocollo ActivityPub sostenuto dal World Wide Web Consortium è stato poi fondamentale per costruire un ecosistema alternativo.
 		</p>
+		<p> Vuoi saperne di più sul Fediverso? Dai un'occhiata a <a href="{{ site.baseurl }}/it/fediverso">questo articolo</a></p>
 	</div>
 </section>
 
@@ -42,6 +43,7 @@ nav-menu: true
 				<ul class="actions">
 					<li><a href="https://mastodon.uno" class="button">Mastodon.uno</a></li>
 					<li><a href="https://joinmastodon.org/apps" class="button">App per Mastodon</a></li>
+					<li><a href="{{ site.baseurl }}/it/mastodon" class="button">Di più su Mastodon</a></li>
 				</ul>
 			</div>
 		</div>
@@ -74,6 +76,29 @@ nav-menu: true
 				</p>
 				<ul class="actions">
 					<li><a href="https://noblogo.org" class="button">Noblogo.org</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<iframe width="916" height="515" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/c79e7ec9-40c6-4f28-bda4-ca043946a236?start=2s&subtitle=it" frameborder="0" allowfullscreen></iframe>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Peertube</h3>
+				</header>
+				<p>
+					Quando si pensa a condivisione di video online, sicuramente una piattaforma viene in mente prima delle altre: Youtube.<br>
+					Tutti conoscono Youtube e moltissimi lo usano ogni giorno per i motivi più vari: se hai bisogno di qualcosa sicuramente ci sarà un video che fa al caso tuo.<br>
+					Ma questo significa moltissimi video da conservare su dei server il cui mantenimento diventa di conseguenza sempre più costoso.<br>
+					E come vengono coperte le spese di questi grandi server se il servizio è gratuito? Con pubblicità e profilazione, come abbiamo (purtroppo) già visto in tanti altri campi.<br>
+					Peertube è un software open-source sviluppato da Framasoft che si propone di risolvere questo problema con la decentralizzazione restituendo agli utenti il ruolo di protagonisti e non di prodotti.<br>
+					Vorresti saperne di più? Dai un’occhiata al video qui a fianco o prova subito le nostre istanze:
+				</p>
+				<ul class="actions">
+					<li><a href="https://peertube.uno" class="button">Peertube.uno</a></li>
+					<li><a href="https://peertube.devol.it" class="button">Peertube Devol</a></li>
+					<li><a href="{{ site.baseurl }}/it/peertube" class="button">Di più su Peertube</a></li>
 				</ul>
 			</div>
 		</div>
