@@ -49,11 +49,11 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{{ site.baseurl }}/assets/images/logos/social/image-sharing.jpg" alt="">
+		<img src="{{ site.baseurl }}/assets/images/logos/social/pixelfed.jpg" alt="">
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Image Sharing: Pixelfed e Bibliogram</h3>
+					<h3>Image Sharing: Pixelfed</h3>
 				</header>
 				<p>
 					Parlando di condivisione di immagini, invece, non si può non citare Pixelfed: la risposta del fediverso a Instagram.<br>
@@ -85,7 +85,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Peertube</h3>
+					<h3>Condivisione Video: Peertube</h3>
 				</header>
 				<p>
 					Quando si pensa a condivisione di video online, sicuramente una piattaforma viene in mente prima delle altre: Youtube.<br>
@@ -99,6 +99,39 @@ nav-menu: true
 					<li><a href="https://peertube.uno" class="button">Peertube.uno</a></li>
 					<li><a href="https://peertube.devol.it" class="button">Peertube Devol</a></li>
 					<li><a href="{{ site.baseurl }}/it/peertube" class="button">Di più su Peertube</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+    <img src="{{ site.baseurl }}/assets/images/logos/eventi/mobilizon.jpg" alt="">
+    <div class="content">
+      <div class="inner">
+        <header class="major">
+          <h3>Gruppi ed Eventi: Mobilizon</h3>
+        </header>
+        <p>Organizzare un evento, sia esso piccolo o grande, può essere molto faticoso ed è fondamentale, quindi, riuscire ad attirare più gente possibile. Per farlo, è utile promuovere il proprio evento online e, al giorno d’oggi, farlo su Facebook è probabilmente la soluzione più popolare.<br>
+        Ma se invece abbiamo a cuore la privacy anche dei partecipanti al nostro evento? Allora ci viene incontro Mobilizon: l’alternativa agli eventi Facebook sviluppata da <a href="https://framasoft.org/it">Framasoft</a>, libera, decentralizzata e federata con il resto del <a href="https://devol.it/tiles/social.html">Fediverso</a>!<br>
+        Essendo un software open-source e decentralizzato, non si basa su un server centrale ma esistono più istanze che comunicano tra di loro, e noi Devol abbiamo deciso di metterne a disposizione una tutta italiana!</p>
+        <ul class="actions">
+          <li><a href="https://mobilizon.it" class="button">Mobilizon.it</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+	<section>
+		<img src="{{ site.baseurl }}/assets/images/logos/musica/funkwhale.jpg" alt="">
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Condivisione di Musica e Podcast: Funkwhale</h3>
+				</header>
+				<p>
+					Ti piace comporre musica nel tempo libero? Hai qualcosa da raccontare ma non ti va che il tuo podcast finisca su piattaforme poco attente alla privacy dei loro utenti? Allora arriva in tuo soccorso Funkwhale: l’alternativa open-source e <a href="https://devol.it/tiles/social.html">federata</a> ai servizi di streaming audio tradizionali.<br>
+					Funkwhale è infatti un software libero che permette agli utenti di pubblicare la loro musica e i loro podcast gratuitamente, senza pubblicità e senza traccianti, rendendoli disponibili a tutti gli utenti disseminati nelle diverse istanze, tra cui quella messa a disposizione da noi Devol.
+				</p>
+				<ul class="actions">
+					<li><a href="https://funkwhale.it" class="button">Funkwhale.it</a></li>
 				</ul>
 			</div>
 		</div>
