@@ -1,0 +1,144 @@
+
+/* Calculator */
+
+	.calculator {
+
+		margin: 0 0 _size(element-margin) 0;
+
+		.field {
+			margin: 0 0 (_size(element-margin) * 1) 0;
+			
+			&.half {
+				width: 50%;
+				float: left;
+				padding: 0 0 0 (_size(element-margin) * 1 * 0.5);
+
+				&.first {
+					padding: 0 (_size(element-margin) * 1 * 0.5) 0 0;
+				}
+			}
+		}
+
+		> .actions {
+			margin: (_size(element-margin) * 1.25) 0 0 0 !important;
+		}
+
+		@include breakpoint(small) {
+			.field {
+				margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+				&.half {
+					padding: 0 0 0 (_size(element-margin) * 0.75 * 0.5);
+
+					&.first {
+						padding: 0 (_size(element-margin) * 0.75 * 0.5) 0 0;
+					}
+				}
+			}
+
+			> .actions {
+				margin: (_size(element-margin) * 1) 0 0 0 !important;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			.field {
+				&.half {
+					width: 100%;
+					float: none;
+					padding: 0;
+
+					&.first {
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+
+	#quadratic-container {
+		border-bottom: solid 1px _palette(border);
+		overflow-x: hidden;
+
+		> .inner {
+			@include vendor('display', 'flex');
+			padding: 0 !important;
+
+			> :nth-child(2n - 1) {
+				@include padding(4em, 0, (0, 3em, 0, 0));
+				border-right: solid 1px _palette(border);
+				width: 40%;
+				z-index: 1;
+			}
+
+			> :nth-child(2n) {
+				padding-left: 3em;
+				width: 60%;
+			}
+
+			> .split {
+				padding: 0;
+
+				> * {
+					@include padding(1.5em, 0, (0, 0, 0, 1.5em));
+					position: relative;
+
+					&:before {
+						border-top: solid 1px _palette(border);
+						content: '';
+						display: block;
+						margin-left: -3em;
+						position: absolute;
+						top: 0;
+						width: calc(100vw + 3em);
+					}
+				}
+
+				> :first-child {
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(medium) {
+			> .inner {
+				display: block;
+
+				> :nth-child(2n - 1) {
+					@include padding(4em, 0, (0, 0, 0, 0));
+					border-right: 0;
+					width: 100%;
+				}
+
+				> :nth-child(2n) {
+					padding-left: 0;
+					width: 100%;
+				}
+
+				> .split {
+					> * {
+						@include padding(3em, 0, (0, 0, 0, 0));
+
+						&:before {
+						}
+					}
+
+					> :first-child {
+						&:before {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			> .inner {
+				> :nth-child(2n - 1) {
+					@include padding(3em, 0, (0, 0, 0, 0));
+				}
+			}
+		}
+	}

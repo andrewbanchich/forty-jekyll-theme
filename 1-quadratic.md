@@ -6,4 +6,4 @@ image: assets/images/calculation_one.jpg
 nav-menu: true
 ---
 
-
+<div id="quadratic-container" class="calculator"></div>

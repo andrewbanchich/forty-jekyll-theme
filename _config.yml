@@ -38,7 +38,10 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md
+- svelte-components
 # look back at these later for ideas
 - elements.md
 - landing.md
 - credits.md
+- quadratic.py
+
