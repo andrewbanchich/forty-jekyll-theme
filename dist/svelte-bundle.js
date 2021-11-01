@@ -36,6 +36,12 @@
     function detach(node) {
         node.parentNode.removeChild(node);
     }
+    function destroy_each(iterations, detaching) {
+        for (let i = 0; i < iterations.length; i += 1) {
+            if (iterations[i])
+                iterations[i].d(detaching);
+        }
+    }
     function element(name) {
         return document.createElement(name);
     }
@@ -44,9 +50,6 @@
     }
     function space() {
         return text(' ');
-    }
-    function empty() {
-        return text('');
     }
     function listen(node, event, handler, options) {
         node.addEventListener(event, handler, options);
@@ -313,6 +316,15 @@
         dispatch_dev('SvelteDOMSetData', { node: text, data });
         text.data = data;
     }
+    function validate_each_argument(arg) {
+        if (typeof arg !== 'string' && !(arg && typeof arg === 'object' && 'length' in arg)) {
+            let msg = '{#each} only iterates over array-like objects.';
+            if (typeof Symbol === 'function' && arg && Symbol.iterator in arg) {
+                msg += ' You can use a spread to convert this iterable into an array.';
+            }
+            throw new Error(msg);
+        }
+    }
     function validate_slots(name, slot, keys) {
         for (const slot_key of Object.keys(slot)) {
             if (!~keys.indexOf(slot_key)) {
@@ -344,601 +356,34 @@
 
     const file = "src/Quadratic.svelte";
 
-    // (200:2) {:else}
-    function create_else_block_1(ctx) {
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			p = element("p");
-    			p.textContent = "This quadratic doesn't have any real solutions! Check you've\n\t\t\t\tentered your coefficients correctly! Compatibility with complex\n\t\t\t\tnumbers is a feature calc.ulator.world is working on so check\n\t\t\t\tback again soon for updates!";
-    			add_location(p, file, 200, 3, 4202);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, p, anchor);
-    		},
-    		p: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(p);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_else_block_1.name,
-    		type: "else",
-    		source: "(200:2) {:else}",
-    		ctx
-    	});
-
-    	return block;
+    function get_each_context(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[28] = list[i];
+    	child_ctx[30] = i;
+    	return child_ctx;
     }
 
-    // (137:2) {#if D >= 0}
-    function create_if_block(ctx) {
-    	let p;
-    	let t0;
-    	let t1_value = (/*x*/ ctx[0] || "?") + "";
-    	let t1;
-    	let t2;
-    	let br;
-    	let t3;
-    	let t4_value = (/*y*/ ctx[1] || "?") + "";
-    	let t4;
-    	let t5;
-    	let if_block_anchor;
-    	let if_block = /*count*/ ctx[9] > 0 && create_if_block_1(ctx);
-
-    	const block = {
-    		c: function create() {
-    			p = element("p");
-    			t0 = text("Root 1 = ");
-    			t1 = text(t1_value);
-    			t2 = space();
-    			br = element("br");
-    			t3 = text(" Root 2 = ");
-    			t4 = text(t4_value);
-    			t5 = space();
-    			if (if_block) if_block.c();
-    			if_block_anchor = empty();
-    			add_location(br, file, 137, 26, 2702);
-    			add_location(p, file, 137, 3, 2679);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, p, anchor);
-    			append_dev(p, t0);
-    			append_dev(p, t1);
-    			append_dev(p, t2);
-    			append_dev(p, br);
-    			append_dev(p, t3);
-    			append_dev(p, t4);
-    			insert_dev(target, t5, anchor);
-    			if (if_block) if_block.m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*x*/ 1 && t1_value !== (t1_value = (/*x*/ ctx[0] || "?") + "")) set_data_dev(t1, t1_value);
-    			if (dirty & /*y*/ 2 && t4_value !== (t4_value = (/*y*/ ctx[1] || "?") + "")) set_data_dev(t4, t4_value);
-
-    			if (/*count*/ ctx[9] > 0) {
-    				if (if_block) {
-    					if_block.p(ctx, dirty);
-    				} else {
-    					if_block = create_if_block_1(ctx);
-    					if_block.c();
-    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    				}
-    			} else if (if_block) {
-    				if_block.d(1);
-    				if_block = null;
-    			}
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(p);
-    			if (detaching) detach_dev(t5);
-    			if (if_block) if_block.d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block.name,
-    		type: "if",
-    		source: "(137:2) {#if D >= 0}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (140:3) {#if count > 0}
-    function create_if_block_1(ctx) {
-    	let h4;
-    	let t1;
-    	let p0;
-    	let t2;
-    	let span0;
-    	let t3_value = (/*A*/ ctx[2] || "a") + "";
-    	let t3;
-    	let t4;
-    	let sup0;
-    	let t6;
-    	let t7_value = (/*B*/ ctx[3] || "b") + "";
-    	let t7;
-    	let t8;
-    	let t9_value = (/*C*/ ctx[4] || "c") + "";
-    	let t9;
-    	let t10;
-    	let t11;
-    	let t12;
-    	let t13;
-    	let t14;
-    	let t15;
-    	let t16;
-    	let t17;
-    	let p1;
-    	let t19;
-    	let p2;
-    	let t20;
-    	let span1;
-    	let span2;
-    	let t23;
-    	let sup1;
-    	let t25;
-    	let t26;
-    	let p3;
-    	let t27;
-    	let t28;
-    	let span3;
-    	let span4;
-    	let t31;
-    	let t32;
-    	let sup2;
-    	let t34;
-    	let span5;
-    	let t36;
-    	let span6;
-    	let t38;
-    	let t39;
-    	let span7;
-    	let t41;
-    	let t42;
-    	let t43;
-    	let p4;
-    	let t44;
-    	let t45;
-    	let span8;
-    	let span9;
-    	let t48;
-    	let t49_value = /*B*/ ctx[3] * /*B*/ ctx[3] + "";
-    	let t49;
-    	let t50;
-    	let t51_value = 4 * /*A*/ ctx[2] * /*C*/ ctx[4] + "";
-    	let t51;
-    	let t52;
-    	let t53_value = /*A*/ ctx[2] * 2 + "";
-    	let t53;
-    	let t54;
-    	let p5;
-    	let t55;
-    	let t56;
-    	let span10;
-    	let span11;
-    	let t59;
-    	let t60;
-    	let t61_value = /*A*/ ctx[2] * 2 + "";
-    	let t61;
-    	let t62;
-    	let show_if;
-    	let if_block_anchor;
-
-    	function select_block_type_1(ctx, dirty) {
-    		if (show_if == null || dirty & /*D*/ 32) show_if = !!/*isSquare*/ ctx[10](/*D*/ ctx[5]);
-    		if (show_if) return create_if_block_2;
-    		return create_else_block;
-    	}
-
-    	let current_block_type = select_block_type_1(ctx, -1);
-    	let if_block = current_block_type(ctx);
-
-    	const block = {
-    		c: function create() {
-    			h4 = element("h4");
-    			h4.textContent = "Quadratic Formula Method -";
-    			t1 = space();
-    			p0 = element("p");
-    			t2 = text("From ");
-    			span0 = element("span");
-    			t3 = text(t3_value);
-    			t4 = text("x");
-    			sup0 = element("sup");
-    			sup0.textContent = "2";
-    			t6 = text("+");
-    			t7 = text(t7_value);
-    			t8 = text("x+");
-    			t9 = text(t9_value);
-    			t10 = text("\n\t\t\t\t\twe note that a = ");
-    			t11 = text(/*A*/ ctx[2]);
-    			t12 = text(", b= ");
-    			t13 = text(/*B*/ ctx[3]);
-    			t14 = text(" and c = ");
-    			t15 = text(/*C*/ ctx[4]);
-    			t16 = text("!");
-    			t17 = space();
-    			p1 = element("p");
-    			p1.textContent = "Now we can substitute this into the quadratic formula";
-    			t19 = space();
-    			p2 = element("p");
-    			t20 = text("(-b");
-    			span1 = element("span");
-    			span1.textContent = "±";
-    			span2 = element("span");
-    			span2.textContent = "√";
-    			t23 = text("(b");
-    			sup1 = element("sup");
-    			sup1.textContent = "2";
-    			t25 = text("-4ac))/2a");
-    			t26 = space();
-    			p3 = element("p");
-    			t27 = text("(-");
-    			t28 = text(/*B*/ ctx[3]);
-    			span3 = element("span");
-    			span3.textContent = "±";
-    			span4 = element("span");
-    			span4.textContent = "√";
-    			t31 = text("(");
-    			t32 = text(/*B*/ ctx[3]);
-    			sup2 = element("sup");
-    			sup2.textContent = "2";
-    			t34 = text("-4");
-    			span5 = element("span");
-    			span5.textContent = "×";
-    			t36 = text(/*A*/ ctx[2]);
-    			span6 = element("span");
-    			span6.textContent = "×";
-    			t38 = text(/*C*/ ctx[4]);
-    			t39 = text("))/(2");
-    			span7 = element("span");
-    			span7.textContent = "×";
-    			t41 = text(/*A*/ ctx[2]);
-    			t42 = text(")");
-    			t43 = space();
-    			p4 = element("p");
-    			t44 = text("(-");
-    			t45 = text(/*B*/ ctx[3]);
-    			span8 = element("span");
-    			span8.textContent = "±";
-    			span9 = element("span");
-    			span9.textContent = "√";
-    			t48 = text("(");
-    			t49 = text(t49_value);
-    			t50 = text("-");
-    			t51 = text(t51_value);
-    			t52 = text("))/");
-    			t53 = text(t53_value);
-    			t54 = space();
-    			p5 = element("p");
-    			t55 = text("(-");
-    			t56 = text(/*B*/ ctx[3]);
-    			span10 = element("span");
-    			span10.textContent = "±";
-    			span11 = element("span");
-    			span11.textContent = "√";
-    			t59 = text(/*D*/ ctx[5]);
-    			t60 = text(")/");
-    			t61 = text(t61_value);
-    			t62 = space();
-    			if_block.c();
-    			if_block_anchor = empty();
-    			add_location(h4, file, 140, 4, 2757);
-    			add_location(sup0, file, 143, 17, 2851);
-    			attr_dev(span0, "class", "formula");
-    			add_location(span0, file, 142, 10, 2811);
-    			add_location(p0, file, 141, 4, 2797);
-    			add_location(p1, file, 147, 4, 2960);
-    			add_location(span1, file, 149, 8, 3037);
-    			add_location(span2, file, 149, 27, 3056);
-    			add_location(sup1, file, 149, 49, 3078);
-    			add_location(p2, file, 148, 4, 3025);
-    			add_location(span3, file, 153, 10, 3133);
-    			add_location(span4, file, 153, 29, 3152);
-    			add_location(sup2, file, 153, 53, 3176);
-    			add_location(span5, file, 154, 8, 3196);
-    			add_location(span6, file, 154, 30, 3218);
-    			add_location(span7, file, 154, 57, 3245);
-    			add_location(p3, file, 152, 4, 3119);
-    			add_location(span8, file, 159, 10, 3309);
-    			add_location(span9, file, 159, 29, 3328);
-    			add_location(p4, file, 158, 4, 3295);
-    			add_location(span10, file, 164, 10, 3418);
-    			add_location(span11, file, 164, 29, 3437);
-    			add_location(p5, file, 163, 4, 3404);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h4, anchor);
-    			insert_dev(target, t1, anchor);
-    			insert_dev(target, p0, anchor);
-    			append_dev(p0, t2);
-    			append_dev(p0, span0);
-    			append_dev(span0, t3);
-    			append_dev(span0, t4);
-    			append_dev(span0, sup0);
-    			append_dev(span0, t6);
-    			append_dev(span0, t7);
-    			append_dev(span0, t8);
-    			append_dev(span0, t9);
-    			append_dev(p0, t10);
-    			append_dev(p0, t11);
-    			append_dev(p0, t12);
-    			append_dev(p0, t13);
-    			append_dev(p0, t14);
-    			append_dev(p0, t15);
-    			append_dev(p0, t16);
-    			insert_dev(target, t17, anchor);
-    			insert_dev(target, p1, anchor);
-    			insert_dev(target, t19, anchor);
-    			insert_dev(target, p2, anchor);
-    			append_dev(p2, t20);
-    			append_dev(p2, span1);
-    			append_dev(p2, span2);
-    			append_dev(p2, t23);
-    			append_dev(p2, sup1);
-    			append_dev(p2, t25);
-    			insert_dev(target, t26, anchor);
-    			insert_dev(target, p3, anchor);
-    			append_dev(p3, t27);
-    			append_dev(p3, t28);
-    			append_dev(p3, span3);
-    			append_dev(p3, span4);
-    			append_dev(p3, t31);
-    			append_dev(p3, t32);
-    			append_dev(p3, sup2);
-    			append_dev(p3, t34);
-    			append_dev(p3, span5);
-    			append_dev(p3, t36);
-    			append_dev(p3, span6);
-    			append_dev(p3, t38);
-    			append_dev(p3, t39);
-    			append_dev(p3, span7);
-    			append_dev(p3, t41);
-    			append_dev(p3, t42);
-    			insert_dev(target, t43, anchor);
-    			insert_dev(target, p4, anchor);
-    			append_dev(p4, t44);
-    			append_dev(p4, t45);
-    			append_dev(p4, span8);
-    			append_dev(p4, span9);
-    			append_dev(p4, t48);
-    			append_dev(p4, t49);
-    			append_dev(p4, t50);
-    			append_dev(p4, t51);
-    			append_dev(p4, t52);
-    			append_dev(p4, t53);
-    			insert_dev(target, t54, anchor);
-    			insert_dev(target, p5, anchor);
-    			append_dev(p5, t55);
-    			append_dev(p5, t56);
-    			append_dev(p5, span10);
-    			append_dev(p5, span11);
-    			append_dev(p5, t59);
-    			append_dev(p5, t60);
-    			append_dev(p5, t61);
-    			insert_dev(target, t62, anchor);
-    			if_block.m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*A*/ 4 && t3_value !== (t3_value = (/*A*/ ctx[2] || "a") + "")) set_data_dev(t3, t3_value);
-    			if (dirty & /*B*/ 8 && t7_value !== (t7_value = (/*B*/ ctx[3] || "b") + "")) set_data_dev(t7, t7_value);
-    			if (dirty & /*C*/ 16 && t9_value !== (t9_value = (/*C*/ ctx[4] || "c") + "")) set_data_dev(t9, t9_value);
-    			if (dirty & /*A*/ 4) set_data_dev(t11, /*A*/ ctx[2]);
-    			if (dirty & /*B*/ 8) set_data_dev(t13, /*B*/ ctx[3]);
-    			if (dirty & /*C*/ 16) set_data_dev(t15, /*C*/ ctx[4]);
-    			if (dirty & /*B*/ 8) set_data_dev(t28, /*B*/ ctx[3]);
-    			if (dirty & /*B*/ 8) set_data_dev(t32, /*B*/ ctx[3]);
-    			if (dirty & /*A*/ 4) set_data_dev(t36, /*A*/ ctx[2]);
-    			if (dirty & /*C*/ 16) set_data_dev(t38, /*C*/ ctx[4]);
-    			if (dirty & /*A*/ 4) set_data_dev(t41, /*A*/ ctx[2]);
-    			if (dirty & /*B*/ 8) set_data_dev(t45, /*B*/ ctx[3]);
-    			if (dirty & /*B*/ 8 && t49_value !== (t49_value = /*B*/ ctx[3] * /*B*/ ctx[3] + "")) set_data_dev(t49, t49_value);
-    			if (dirty & /*A, C*/ 20 && t51_value !== (t51_value = 4 * /*A*/ ctx[2] * /*C*/ ctx[4] + "")) set_data_dev(t51, t51_value);
-    			if (dirty & /*A*/ 4 && t53_value !== (t53_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t53, t53_value);
-    			if (dirty & /*B*/ 8) set_data_dev(t56, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32) set_data_dev(t59, /*D*/ ctx[5]);
-    			if (dirty & /*A*/ 4 && t61_value !== (t61_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t61, t61_value);
-
-    			if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block) {
-    				if_block.p(ctx, dirty);
-    			} else {
-    				if_block.d(1);
-    				if_block = current_block_type(ctx);
-
-    				if (if_block) {
-    					if_block.c();
-    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    				}
-    			}
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h4);
-    			if (detaching) detach_dev(t1);
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t17);
-    			if (detaching) detach_dev(p1);
-    			if (detaching) detach_dev(t19);
-    			if (detaching) detach_dev(p2);
-    			if (detaching) detach_dev(t26);
-    			if (detaching) detach_dev(p3);
-    			if (detaching) detach_dev(t43);
-    			if (detaching) detach_dev(p4);
-    			if (detaching) detach_dev(t54);
-    			if (detaching) detach_dev(p5);
-    			if (detaching) detach_dev(t62);
-    			if_block.d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_1.name,
-    		type: "if",
-    		source: "(140:3) {#if count > 0}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (184:4) {:else}
+    // (364:8) {:else}
     function create_else_block(ctx) {
-    	let p0;
-    	let t0;
-    	let t1;
-    	let t2;
-    	let span0;
-    	let t4;
-    	let t5;
-    	let t6_value = /*A*/ ctx[2] * 2 + "";
-    	let t6;
-    	let t7;
-    	let t8;
-    	let t9;
-    	let span1;
-    	let t11;
-    	let t12;
-    	let t13_value = /*A*/ ctx[2] * 2 + "";
-    	let t13;
-    	let t14;
-    	let p1;
-    	let t15;
-    	let t16;
-    	let t17;
-    	let t18_value = /*squareRoot*/ ctx[12](/*D*/ ctx[5]) + "";
-    	let t18;
-    	let t19;
-    	let t20_value = /*A*/ ctx[2] * 2 + "";
-    	let t20;
-    	let t21;
-    	let t22;
-    	let t23;
-    	let t24_value = /*squareRoot*/ ctx[12](/*D*/ ctx[5]) + "";
-    	let t24;
-    	let t25;
-    	let t26_value = /*A*/ ctx[2] * 2 + "";
-    	let t26;
-    	let t27;
-    	let p2;
-    	let t28;
-    	let t29;
-    	let t30;
-    	let t31;
+    	let p;
+    	let br;
+    	let t;
 
     	const block = {
     		c: function create() {
-    			p0 = element("p");
-    			t0 = text("(-");
-    			t1 = text(/*B*/ ctx[3]);
-    			t2 = text("+");
-    			span0 = element("span");
-    			span0.textContent = "√";
-    			t4 = text(/*D*/ ctx[5]);
-    			t5 = text(")/");
-    			t6 = text(t6_value);
-    			t7 = text(" and (-");
-    			t8 = text(/*B*/ ctx[3]);
-    			t9 = text("-");
-    			span1 = element("span");
-    			span1.textContent = "√";
-    			t11 = text(/*D*/ ctx[5]);
-    			t12 = text(")/");
-    			t13 = text(t13_value);
-    			t14 = space();
-    			p1 = element("p");
-    			t15 = text("(-");
-    			t16 = text(/*B*/ ctx[3]);
-    			t17 = text("+");
-    			t18 = text(t18_value);
-    			t19 = text(")/");
-    			t20 = text(t20_value);
-    			t21 = text(" and (-");
-    			t22 = text(/*B*/ ctx[3]);
-    			t23 = text("-");
-    			t24 = text(t24_value);
-    			t25 = text(")/");
-    			t26 = text(t26_value);
-    			t27 = space();
-    			p2 = element("p");
-    			t28 = text("which evaluate to give us the approx. roots ");
-    			t29 = text(/*x*/ ctx[0]);
-    			t30 = text(" and ");
-    			t31 = text(/*y*/ ctx[1]);
-    			add_location(span0, file, 185, 12, 3882);
-    			add_location(span1, file, 185, 55, 3925);
-    			add_location(p0, file, 184, 5, 3866);
-    			add_location(p1, file, 189, 5, 3988);
-    			add_location(p2, file, 194, 5, 4094);
+    			p = element("p");
+    			br = element("br");
+    			t = text("Currently this quadratic calc.ulator is only set to solve quadratics\n                with real solutions.");
+    			add_location(br, file, 365, 16, 11524);
+    			add_location(p, file, 364, 12, 11504);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, p0, anchor);
-    			append_dev(p0, t0);
-    			append_dev(p0, t1);
-    			append_dev(p0, t2);
-    			append_dev(p0, span0);
-    			append_dev(p0, t4);
-    			append_dev(p0, t5);
-    			append_dev(p0, t6);
-    			append_dev(p0, t7);
-    			append_dev(p0, t8);
-    			append_dev(p0, t9);
-    			append_dev(p0, span1);
-    			append_dev(p0, t11);
-    			append_dev(p0, t12);
-    			append_dev(p0, t13);
-    			insert_dev(target, t14, anchor);
-    			insert_dev(target, p1, anchor);
-    			append_dev(p1, t15);
-    			append_dev(p1, t16);
-    			append_dev(p1, t17);
-    			append_dev(p1, t18);
-    			append_dev(p1, t19);
-    			append_dev(p1, t20);
-    			append_dev(p1, t21);
-    			append_dev(p1, t22);
-    			append_dev(p1, t23);
-    			append_dev(p1, t24);
-    			append_dev(p1, t25);
-    			append_dev(p1, t26);
-    			insert_dev(target, t27, anchor);
-    			insert_dev(target, p2, anchor);
-    			append_dev(p2, t28);
-    			append_dev(p2, t29);
-    			append_dev(p2, t30);
-    			append_dev(p2, t31);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*B*/ 8) set_data_dev(t1, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32) set_data_dev(t4, /*D*/ ctx[5]);
-    			if (dirty & /*A*/ 4 && t6_value !== (t6_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t6, t6_value);
-    			if (dirty & /*B*/ 8) set_data_dev(t8, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32) set_data_dev(t11, /*D*/ ctx[5]);
-    			if (dirty & /*A*/ 4 && t13_value !== (t13_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t13, t13_value);
-    			if (dirty & /*B*/ 8) set_data_dev(t16, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32 && t18_value !== (t18_value = /*squareRoot*/ ctx[12](/*D*/ ctx[5]) + "")) set_data_dev(t18, t18_value);
-    			if (dirty & /*A*/ 4 && t20_value !== (t20_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t20, t20_value);
-    			if (dirty & /*B*/ 8) set_data_dev(t22, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32 && t24_value !== (t24_value = /*squareRoot*/ ctx[12](/*D*/ ctx[5]) + "")) set_data_dev(t24, t24_value);
-    			if (dirty & /*A*/ 4 && t26_value !== (t26_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t26, t26_value);
-    			if (dirty & /*x*/ 1) set_data_dev(t29, /*x*/ ctx[0]);
-    			if (dirty & /*y*/ 2) set_data_dev(t31, /*y*/ ctx[1]);
+    			insert_dev(target, p, anchor);
+    			append_dev(p, br);
+    			append_dev(p, t);
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t14);
-    			if (detaching) detach_dev(p1);
-    			if (detaching) detach_dev(t27);
-    			if (detaching) detach_dev(p2);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -946,148 +391,160 @@
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(184:4) {:else}",
+    		source: "(364:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (167:4) {#if isSquare(D)}
-    function create_if_block_2(ctx) {
-    	let p0;
-    	let t0;
-    	let t1;
-    	let span;
-    	let t3_value = Math.sqrt(/*D*/ ctx[5]) + "";
-    	let t3;
-    	let t4;
-    	let t5_value = /*A*/ ctx[2] * 2 + "";
-    	let t5;
-    	let t6;
-    	let p1;
-    	let t7_value = -/*B*/ ctx[3] + Math.sqrt(/*D*/ ctx[5]) + "";
-    	let t7;
-    	let t8;
-    	let t9_value = /*A*/ ctx[2] * 2 + "";
-    	let t9;
-    	let t10;
-    	let t11_value = -/*B*/ ctx[3] - Math.sqrt(/*D*/ ctx[5]) + "";
-    	let t11;
-    	let t12;
-    	let t13_value = /*A*/ ctx[2] * 2 + "";
-    	let t13;
-    	let t14;
-    	let p2;
-    	let t15_value = /*simplify*/ ctx[11](-/*B*/ ctx[3] + Math.sqrt(/*D*/ ctx[5]), /*A*/ ctx[2] * 2) + "";
-    	let t15;
-    	let t16;
-    	let t17_value = /*simplify*/ ctx[11](-/*B*/ ctx[3] - Math.sqrt(/*D*/ ctx[5]), /*A*/ ctx[2] * 2) + "";
-    	let t17;
-    	let t18;
-    	let p3;
-    	let t19;
-    	let t20;
-    	let t21;
-    	let t22;
-    	let t23;
+    // (359:8) {#if compWithComplex}
+    function create_if_block_1(ctx) {
+    	let p;
+    	let br;
+    	let t;
 
     	const block = {
     		c: function create() {
-    			p0 = element("p");
-    			t0 = text("(-");
-    			t1 = text(/*B*/ ctx[3]);
-    			span = element("span");
-    			span.textContent = "±";
-    			t3 = text(t3_value);
-    			t4 = text(")/");
-    			t5 = text(t5_value);
-    			t6 = space();
-    			p1 = element("p");
-    			t7 = text(t7_value);
-    			t8 = text("/");
-    			t9 = text(t9_value);
-    			t10 = text(" and ");
-    			t11 = text(t11_value);
-    			t12 = text("/");
-    			t13 = text(t13_value);
-    			t14 = space();
-    			p2 = element("p");
-    			t15 = text(t15_value);
-    			t16 = text(" and ");
-    			t17 = text(t17_value);
-    			t18 = space();
-    			p3 = element("p");
-    			t19 = text("giving us the roots ");
-    			t20 = text(/*x*/ ctx[0]);
-    			t21 = text(" and ");
-    			t22 = text(/*y*/ ctx[1]);
-    			t23 = text("!");
-    			add_location(span, file, 168, 11, 3521);
-    			add_location(p0, file, 167, 5, 3506);
-    			add_location(p1, file, 170, 5, 3579);
-    			add_location(p2, file, 174, 5, 3671);
-    			add_location(p3, file, 180, 5, 3796);
+    			p = element("p");
+    			br = element("br");
+    			t = text("Currently this quadratic calc.ulator is set to solve quadratics with\n                both real and complex solutions.");
+    			add_location(br, file, 360, 16, 11337);
+    			add_location(p, file, 359, 12, 11317);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, p0, anchor);
-    			append_dev(p0, t0);
-    			append_dev(p0, t1);
-    			append_dev(p0, span);
-    			append_dev(p0, t3);
-    			append_dev(p0, t4);
-    			append_dev(p0, t5);
-    			insert_dev(target, t6, anchor);
-    			insert_dev(target, p1, anchor);
-    			append_dev(p1, t7);
-    			append_dev(p1, t8);
-    			append_dev(p1, t9);
-    			append_dev(p1, t10);
-    			append_dev(p1, t11);
-    			append_dev(p1, t12);
-    			append_dev(p1, t13);
-    			insert_dev(target, t14, anchor);
-    			insert_dev(target, p2, anchor);
-    			append_dev(p2, t15);
-    			append_dev(p2, t16);
-    			append_dev(p2, t17);
-    			insert_dev(target, t18, anchor);
-    			insert_dev(target, p3, anchor);
-    			append_dev(p3, t19);
-    			append_dev(p3, t20);
-    			append_dev(p3, t21);
-    			append_dev(p3, t22);
-    			append_dev(p3, t23);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*B*/ 8) set_data_dev(t1, /*B*/ ctx[3]);
-    			if (dirty & /*D*/ 32 && t3_value !== (t3_value = Math.sqrt(/*D*/ ctx[5]) + "")) set_data_dev(t3, t3_value);
-    			if (dirty & /*A*/ 4 && t5_value !== (t5_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t5, t5_value);
-    			if (dirty & /*B, D*/ 40 && t7_value !== (t7_value = -/*B*/ ctx[3] + Math.sqrt(/*D*/ ctx[5]) + "")) set_data_dev(t7, t7_value);
-    			if (dirty & /*A*/ 4 && t9_value !== (t9_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t9, t9_value);
-    			if (dirty & /*B, D*/ 40 && t11_value !== (t11_value = -/*B*/ ctx[3] - Math.sqrt(/*D*/ ctx[5]) + "")) set_data_dev(t11, t11_value);
-    			if (dirty & /*A*/ 4 && t13_value !== (t13_value = /*A*/ ctx[2] * 2 + "")) set_data_dev(t13, t13_value);
-    			if (dirty & /*B, D, A*/ 44 && t15_value !== (t15_value = /*simplify*/ ctx[11](-/*B*/ ctx[3] + Math.sqrt(/*D*/ ctx[5]), /*A*/ ctx[2] * 2) + "")) set_data_dev(t15, t15_value);
-    			if (dirty & /*B, D, A*/ 44 && t17_value !== (t17_value = /*simplify*/ ctx[11](-/*B*/ ctx[3] - Math.sqrt(/*D*/ ctx[5]), /*A*/ ctx[2] * 2) + "")) set_data_dev(t17, t17_value);
-    			if (dirty & /*x*/ 1) set_data_dev(t20, /*x*/ ctx[0]);
-    			if (dirty & /*y*/ 2) set_data_dev(t22, /*y*/ ctx[1]);
+    			insert_dev(target, p, anchor);
+    			append_dev(p, br);
+    			append_dev(p, t);
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t6);
-    			if (detaching) detach_dev(p1);
-    			if (detaching) detach_dev(t14);
-    			if (detaching) detach_dev(p2);
-    			if (detaching) detach_dev(t18);
-    			if (detaching) detach_dev(p3);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2.name,
+    		id: create_if_block_1.name,
     		type: "if",
-    		source: "(167:4) {#if isSquare(D)}",
+    		source: "(359:8) {#if compWithComplex}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (383:32) {#if showStep1}
+    function create_if_block(ctx) {
+    	let h6;
+    	let t0;
+    	let t1_value = /*i*/ ctx[30] + 1 + "";
+    	let t1;
+
+    	const block = {
+    		c: function create() {
+    			h6 = element("h6");
+    			t0 = text("Step ");
+    			t1 = text(t1_value);
+    			add_location(h6, file, 383, 28, 11988);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h6, anchor);
+    			append_dev(h6, t0);
+    			append_dev(h6, t1);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h6);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block.name,
+    		type: "if",
+    		source: "(383:32) {#if showStep1}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (381:12) {#each steps as step, i}
+    function create_each_block(ctx) {
+    	let div;
+    	let t0;
+    	let span0;
+    	let t1_value = /*step*/ ctx[28].comment + "";
+    	let t1;
+    	let br0;
+    	let t2;
+    	let span1;
+    	let t3_value = /*step*/ ctx[28].formula + "";
+    	let t3;
+    	let br1;
+    	let t4;
+    	let if_block = /*showStep1*/ ctx[7] && create_if_block(ctx);
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			if (if_block) if_block.c();
+    			t0 = space();
+    			span0 = element("span");
+    			t1 = text(t1_value);
+    			br0 = element("br");
+    			t2 = space();
+    			span1 = element("span");
+    			t3 = text(t3_value);
+    			br1 = element("br");
+    			t4 = space();
+    			attr_dev(span0, "class", "comment");
+    			add_location(span0, file, 385, 24, 12072);
+    			add_location(br0, file, 385, 67, 12115);
+    			attr_dev(span1, "class", "formula");
+    			add_location(span1, file, 386, 24, 12146);
+    			add_location(br1, file, 386, 67, 12189);
+    			attr_dev(div, "class", "step");
+    			add_location(div, file, 381, 24, 11893);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			if (if_block) if_block.m(div, null);
+    			append_dev(div, t0);
+    			append_dev(div, span0);
+    			append_dev(span0, t1);
+    			append_dev(div, br0);
+    			append_dev(div, t2);
+    			append_dev(div, span1);
+    			append_dev(span1, t3);
+    			append_dev(div, br1);
+    			append_dev(div, t4);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (/*showStep1*/ ctx[7]) {
+    				if (if_block) ; else {
+    					if_block = create_if_block(ctx);
+    					if_block.c();
+    					if_block.m(div, t0);
+    				}
+    			} else if (if_block) {
+    				if_block.d(1);
+    				if_block = null;
+    			}
+
+    			if (dirty & /*steps*/ 256 && t1_value !== (t1_value = /*step*/ ctx[28].comment + "")) set_data_dev(t1, t1_value);
+    			if (dirty & /*steps*/ 256 && t3_value !== (t3_value = /*step*/ ctx[28].formula + "")) set_data_dev(t3, t3_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			if (if_block) if_block.d();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block.name,
+    		type: "each",
+    		source: "(381:12) {#each steps as step, i}",
     		ctx
     	});
 
@@ -1095,19 +552,19 @@
     }
 
     function create_fragment(ctx) {
-    	let div3;
+    	let div4;
     	let section0;
     	let h1;
     	let span;
-    	let t0_value = (/*A*/ ctx[2] || "a") + "";
+    	let t0_value = (/*A*/ ctx[1] || "a") + "";
     	let t0;
     	let t1;
     	let sup;
     	let t3;
-    	let t4_value = (/*B*/ ctx[3] || "b") + "";
+    	let t4_value = (/*B*/ ctx[2] || "b") + "";
     	let t4;
     	let t5;
-    	let t6_value = (/*C*/ ctx[4] || "c") + "";
+    	let t6_value = (/*C*/ ctx[3] || "c") + "";
     	let t6;
     	let t7;
     	let t8;
@@ -1127,31 +584,43 @@
     	let t17;
     	let input2;
     	let t18;
-    	let button;
-    	let t20;
-    	let section1;
-    	let h4;
+    	let div3;
+    	let input3;
+    	let t19;
+    	let label3;
     	let t21;
-    	let t22;
-    	let t23_value = (/*count*/ ctx[9] === 1 ? "quadratic" : "quadratics") + "";
+    	let button;
     	let t23;
     	let t24;
+    	let section1;
+    	let h4;
     	let t25;
     	let t26;
+    	let t27_value = (/*count*/ ctx[9] === 1 ? "quadratic" : "quadratics") + "";
+    	let t27;
+    	let t28;
+    	let t29;
     	let mounted;
     	let dispose;
 
     	function select_block_type(ctx, dirty) {
-    		if (/*D*/ ctx[5] >= 0) return create_if_block;
-    		return create_else_block_1;
+    		if (/*compWithComplex*/ ctx[0]) return create_if_block_1;
+    		return create_else_block;
     	}
 
     	let current_block_type = select_block_type(ctx);
     	let if_block = current_block_type(ctx);
+    	let each_value = /*steps*/ ctx[8];
+    	validate_each_argument(each_value);
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    	}
 
     	const block = {
     		c: function create() {
-    			div3 = element("div");
+    			div4 = element("div");
     			section0 = element("section");
     			h1 = element("h1");
     			span = element("span");
@@ -1184,60 +653,79 @@
     			t17 = space();
     			input2 = element("input");
     			t18 = space();
+    			div3 = element("div");
+    			input3 = element("input");
+    			t19 = space();
+    			label3 = element("label");
+    			label3.textContent = "include complex solutions";
+    			t21 = space();
     			button = element("button");
     			button.textContent = "Calc.ulate";
-    			t20 = space();
+    			t23 = space();
+    			if_block.c();
+    			t24 = space();
     			section1 = element("section");
     			h4 = element("h4");
-    			t21 = text(/*count*/ ctx[9]);
-    			t22 = space();
-    			t23 = text(t23_value);
-    			t24 = text(" calc.ulated!");
-    			t25 = space();
-    			if_block.c();
-    			t26 = text("\n1");
-    			add_location(sup, file, 95, 15, 1874);
+    			t25 = text(/*count*/ ctx[9]);
+    			t26 = space();
+    			t27 = text(t27_value);
+    			t28 = text(" calc.ulated!");
+    			t29 = space();
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			add_location(sup, file, 310, 27, 9939);
     			attr_dev(span, "class", "formula");
-    			add_location(span, file, 94, 3, 1836);
-    			add_location(h1, file, 93, 2, 1828);
+    			add_location(span, file, 309, 12, 9889);
+    			add_location(h1, file, 308, 8, 9872);
     			attr_dev(label0, "for", "coef-a");
-    			add_location(label0, file, 100, 3, 1957);
+    			add_location(label0, file, 315, 12, 10052);
     			attr_dev(input0, "name", "coef-a");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "placeholder", "enter coefficient a");
-    			add_location(input0, file, 101, 3, 2002);
+    			add_location(input0, file, 316, 12, 10106);
     			attr_dev(div0, "class", "field");
-    			add_location(div0, file, 99, 2, 1934);
+    			add_location(div0, file, 314, 8, 10020);
     			attr_dev(label1, "for", "coef-b");
-    			add_location(label1, file, 109, 3, 2140);
+    			add_location(label1, file, 324, 12, 10322);
     			attr_dev(input1, "name", "coef-b");
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "placeholder", "enter coefficient b");
-    			add_location(input1, file, 110, 3, 2185);
+    			add_location(input1, file, 325, 12, 10376);
     			attr_dev(div1, "class", "field");
-    			add_location(div1, file, 108, 2, 2117);
+    			add_location(div1, file, 323, 8, 10290);
     			attr_dev(label2, "for", "coef-c");
-    			add_location(label2, file, 119, 3, 2324);
+    			add_location(label2, file, 334, 12, 10593);
     			attr_dev(input2, "name", "coef-c");
     			attr_dev(input2, "type", "text");
     			attr_dev(input2, "placeholder", "enter coefficient c");
-    			add_location(input2, file, 120, 3, 2369);
+    			add_location(input2, file, 335, 12, 10647);
     			attr_dev(div2, "class", "field");
-    			add_location(div2, file, 118, 2, 2301);
-    			add_location(button, file, 128, 2, 2485);
-    			add_location(section0, file, 92, 1, 1816);
-    			add_location(h4, file, 131, 2, 2577);
+    			add_location(div2, file, 333, 8, 10561);
+    			attr_dev(input3, "type", "checkbox");
+    			attr_dev(input3, "id", "comp-complex");
+    			attr_dev(input3, "name", "comp-complex");
+    			add_location(input3, file, 344, 3, 10865);
+    			attr_dev(label3, "for", "comp-complex");
+    			add_location(label3, file, 351, 3, 11107);
+    			attr_dev(div3, "class", "6u$ 12u$(small)");
+    			add_location(div3, file, 343, 8, 10832);
+    			add_location(button, file, 354, 8, 11185);
+    			add_location(section0, file, 307, 4, 9854);
+    			add_location(h4, file, 374, 8, 11723);
     			attr_dev(section1, "class", "split");
-    			add_location(section1, file, 130, 1, 2551);
-    			attr_dev(div3, "class", "inner");
-    			add_location(div3, file, 91, 0, 1795);
+    			add_location(section1, file, 373, 4, 11691);
+    			attr_dev(div4, "class", "inner");
+    			add_location(div4, file, 306, 0, 9830);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div3, anchor);
-    			append_dev(div3, section0);
+    			insert_dev(target, div4, anchor);
+    			append_dev(div4, section0);
     			append_dev(section0, h1);
     			append_dev(h1, span);
     			append_dev(span, t0);
@@ -1254,81 +742,119 @@
     			append_dev(div0, label0);
     			append_dev(div0, t11);
     			append_dev(div0, input0);
-    			set_input_value(input0, /*a*/ ctx[6]);
+    			set_input_value(input0, /*a*/ ctx[4]);
     			append_dev(section0, t12);
     			append_dev(section0, div1);
     			append_dev(div1, label1);
     			append_dev(div1, t14);
     			append_dev(div1, input1);
-    			set_input_value(input1, /*b*/ ctx[7]);
+    			set_input_value(input1, /*b*/ ctx[5]);
     			append_dev(section0, t15);
     			append_dev(section0, div2);
     			append_dev(div2, label2);
     			append_dev(div2, t17);
     			append_dev(div2, input2);
-    			set_input_value(input2, /*c*/ ctx[8]);
+    			set_input_value(input2, /*c*/ ctx[6]);
     			append_dev(section0, t18);
+    			append_dev(section0, div3);
+    			append_dev(div3, input3);
+    			input3.checked = /*compWithComplex*/ ctx[0];
+    			append_dev(div3, t19);
+    			append_dev(div3, label3);
+    			append_dev(section0, t21);
     			append_dev(section0, button);
-    			append_dev(div3, t20);
-    			append_dev(div3, section1);
+    			append_dev(section0, t23);
+    			if_block.m(section0, null);
+    			append_dev(div4, t24);
+    			append_dev(div4, section1);
     			append_dev(section1, h4);
-    			append_dev(h4, t21);
-    			append_dev(h4, t22);
-    			append_dev(h4, t23);
-    			append_dev(h4, t24);
-    			append_dev(section1, t25);
-    			if_block.m(section1, null);
-    			insert_dev(target, t26, anchor);
+    			append_dev(h4, t25);
+    			append_dev(h4, t26);
+    			append_dev(h4, t27);
+    			append_dev(h4, t28);
+    			append_dev(section1, t29);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(section1, null);
+    			}
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[14]),
-    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[15]),
-    					listen_dev(input2, "input", /*input2_input_handler*/ ctx[16]),
-    					listen_dev(button, "click", /*handleClick*/ ctx[13], false, false, false)
+    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[11]),
+    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[12]),
+    					listen_dev(input2, "input", /*input2_input_handler*/ ctx[13]),
+    					listen_dev(input3, "change", /*input3_change_handler*/ ctx[14]),
+    					listen_dev(input3, "click", /*click_handler*/ ctx[15], false, false, false),
+    					listen_dev(button, "click", /*click_handler_1*/ ctx[16], false, false, false)
     				];
 
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*A*/ 4 && t0_value !== (t0_value = (/*A*/ ctx[2] || "a") + "")) set_data_dev(t0, t0_value);
-    			if (dirty & /*B*/ 8 && t4_value !== (t4_value = (/*B*/ ctx[3] || "b") + "")) set_data_dev(t4, t4_value);
-    			if (dirty & /*C*/ 16 && t6_value !== (t6_value = (/*C*/ ctx[4] || "c") + "")) set_data_dev(t6, t6_value);
+    			if (dirty & /*A*/ 2 && t0_value !== (t0_value = (/*A*/ ctx[1] || "a") + "")) set_data_dev(t0, t0_value);
+    			if (dirty & /*B*/ 4 && t4_value !== (t4_value = (/*B*/ ctx[2] || "b") + "")) set_data_dev(t4, t4_value);
+    			if (dirty & /*C*/ 8 && t6_value !== (t6_value = (/*C*/ ctx[3] || "c") + "")) set_data_dev(t6, t6_value);
 
-    			if (dirty & /*a*/ 64 && input0.value !== /*a*/ ctx[6]) {
-    				set_input_value(input0, /*a*/ ctx[6]);
+    			if (dirty & /*a*/ 16 && input0.value !== /*a*/ ctx[4]) {
+    				set_input_value(input0, /*a*/ ctx[4]);
     			}
 
-    			if (dirty & /*b*/ 128 && input1.value !== /*b*/ ctx[7]) {
-    				set_input_value(input1, /*b*/ ctx[7]);
+    			if (dirty & /*b*/ 32 && input1.value !== /*b*/ ctx[5]) {
+    				set_input_value(input1, /*b*/ ctx[5]);
     			}
 
-    			if (dirty & /*c*/ 256 && input2.value !== /*c*/ ctx[8]) {
-    				set_input_value(input2, /*c*/ ctx[8]);
+    			if (dirty & /*c*/ 64 && input2.value !== /*c*/ ctx[6]) {
+    				set_input_value(input2, /*c*/ ctx[6]);
     			}
 
-    			if (dirty & /*count*/ 512) set_data_dev(t21, /*count*/ ctx[9]);
-    			if (dirty & /*count*/ 512 && t23_value !== (t23_value = (/*count*/ ctx[9] === 1 ? "quadratic" : "quadratics") + "")) set_data_dev(t23, t23_value);
+    			if (dirty & /*compWithComplex*/ 1) {
+    				input3.checked = /*compWithComplex*/ ctx[0];
+    			}
 
-    			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block) {
-    				if_block.p(ctx, dirty);
-    			} else {
+    			if (current_block_type !== (current_block_type = select_block_type(ctx))) {
     				if_block.d(1);
     				if_block = current_block_type(ctx);
 
     				if (if_block) {
     					if_block.c();
-    					if_block.m(section1, null);
+    					if_block.m(section0, null);
     				}
+    			}
+
+    			if (dirty & /*count*/ 512) set_data_dev(t25, /*count*/ ctx[9]);
+    			if (dirty & /*count*/ 512 && t27_value !== (t27_value = (/*count*/ ctx[9] === 1 ? "quadratic" : "quadratics") + "")) set_data_dev(t27, t27_value);
+
+    			if (dirty & /*steps, showStep1*/ 384) {
+    				each_value = /*steps*/ ctx[8];
+    				validate_each_argument(each_value);
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    					} else {
+    						each_blocks[i] = create_each_block(child_ctx);
+    						each_blocks[i].c();
+    						each_blocks[i].m(section1, null);
+    					}
+    				}
+
+    				for (; i < each_blocks.length; i += 1) {
+    					each_blocks[i].d(1);
+    				}
+
+    				each_blocks.length = each_value.length;
     			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div3);
+    			if (detaching) detach_dev(div4);
     			if_block.d();
-    			if (detaching) detach_dev(t26);
+    			destroy_each(each_blocks, detaching);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -1353,7 +879,7 @@
     		return Math.sqrt(n) === Math.round(Math.sqrt(n));
     	};
 
-    	var simplify = function (numOne, numTwo) {
+    	var simpleFraction = function (numOne, numTwo) {
     		let sign = numOne < 0 && numTwo > 0 || numOne >= 0 && numTwo < 0
     		? "-"
     		: "";
@@ -1366,11 +892,30 @@
     				num2 = num2 / i;
 
     				if (num2 == 1) {
-    					return `${sign}${num1}`;
+    					return {
+    						fraction: `${sign}${num1}`,
+    						num1: `${num1}`,
+    						num2: ``,
+    						sign: `${sign}`
+    					};
     				} else {
-    					return `${sign}${num1}/${num2}`;
+    					return {
+    						fraction: `${sign}${num1}/${num2}`,
+    						num1: `${num1}`,
+    						num2: `/${num2}`,
+    						sign: `${sign}`
+    					};
     				}
     			}
+    		}
+
+    		if (num1 == Math.abs(numOne) && num2 == Math.abs(numTwo)) {
+    			return {
+    				fraction: `${sign}${num1}/${num2}`,
+    				num1: `${num1}`,
+    				num2: `/${num2}`,
+    				sign: `${sign}`
+    			};
     		}
     	};
 
@@ -1386,9 +931,19 @@
     		}
 
     		if (factor == 1) {
-    			return `${complex}√${surd}`;
+    			return {
+    				fullSurd: `${complex}√${surd}`,
+    				factor: `${factor}`,
+    				complex: `${complex}`,
+    				surd: `√${surd}`
+    			};
     		} else {
-    			return `${factor}${complex}√${surd}`;
+    			return {
+    				fullSurd: `${factor}${complex}√${surd}`,
+    				factor: `${factor}`,
+    				complex: `${complex}`,
+    				surd: `√${surd}`
+    			};
     		}
     	};
 
@@ -1403,37 +958,220 @@
     			ans = Math.sqrt(Math.abs(num));
     			return `${ans}i`;
     		} else {
-    			ans = simpleSurd(num);
+    			ans = simpleSurd(num).fullSurd;
     			return ans;
     		}
     	};
 
-    	let x = "";
-    	let y = "";
+    	// Quadratic Calc functions
+    	var calculationParts = function (a, b, c) {
+    		let A = parseFloat(a);
+    		let B = parseFloat(b);
+    		let C = parseFloat(c);
+    		let D = B * B - 4 * A * C;
+    		let isComplex = D < 0;
+    		let modD = Math.abs(D);
+    		let minusB = -1 * B;
+    		let twoA = 2 * A;
+    		let sqrtD = squareRoot(D);
+    		let sqrtModD = squareRoot(modD);
+    		let SObject = simpleSurd(D);
+
+    		return {
+    			a,
+    			b,
+    			c,
+    			A,
+    			B,
+    			C,
+    			D,
+    			isComplex,
+    			modD,
+    			minusB,
+    			twoA,
+    			sqrtD,
+    			sqrtModD,
+    			SObject,
+    			isSqr() {
+    				return isSquare(this.D);
+    			},
+    			isComplexSqr() {
+    				return this.isComplex && isSquare(this.modD);
+    			}
+    		};
+    	};
+
+    	var initialSteps = function (calcParts) {
+    		// extract the calculation parts we need
+    		let { A, B, C, D, minusB, twoA } = calcParts;
+
+    		return [
+    			{
+    				comment: `We start off by noting the quadratic formula`,
+    				formula: `(-b\xB1√(b\u00B2-4ac))/2a`
+    			},
+    			{
+    				comment: `In this case we note that a=${A}, b=${B} and c=${C} which we can simply substitute in giving`,
+    				formula: `(${minusB}\xB1√(${B}\u00B2-4\u00D7${A}\u00D7${C}))/(2√${A})`
+    			},
+    			{
+    				comment: `Simplifying the denominator and discriminant gives`,
+    				formula: `(${minusB}\xB1√${D})/${twoA}`
+    			}
+    		];
+    	};
+
+    	var squareSteps = function (calcData) {
+    		let { minusB, twoA, D, sqrtD } = calcData;
+    		let numeratorA = minusB + sqrtD;
+    		let numeratorB = minusB - sqrtD;
+
+    		return [
+    			{
+    				comment: `${D} is a perfect square which we can square root to give ${calcData.sqrtD}`,
+    				formula: `(${minusB}\xB1${sqrtD})/${twoA}`
+    			},
+    			{
+    				comment: `This can be split to give the following two cases`,
+    				formula: `${numeratorA}/${twoA} and ${numeratorB}/${twoA}`
+    			},
+    			{
+    				comment: `This simplifies to give a final answer of`,
+    				formula: `${simpleFraction(numeratorA, twoA).fraction} and ${simpleFraction(numeratorB, twoA).fraction}`
+    			}
+    		];
+    	};
+
+    	var complexSquareSteps = function (calcData) {
+    		let { minusB, twoA, sqrtModD, D, sqrtD } = calcData;
+    		let component1 = simpleFraction(minusB, twoA).fraction;
+    		let component2 = simpleFraction(sqrtModD, twoA).fraction;
+
+    		return [
+    			{
+    				comment: `because ${D} is negative, its square root must be imaginary and is therefore given by ${sqrtD}`,
+    				formula: `(${minusB}\xB1${sqrtD})/${twoA}`
+    			},
+    			{
+    				comment: `This can be split to give the following two cases`,
+    				formula: `${minusB}/${twoA}+${sqrtD}/${twoA} and ${minusB}/${twoA}-${sqrtD}/${twoA}`
+    			},
+    			{
+    				comment: `This simplifies to give a final answer of`,
+    				formula: `${component1}+${component2}i and ${component1}-${component2}i`
+    			}
+    		];
+    	};
+
+    	var step4NonSquare = function (calcData) {
+    		let { minusB, twoA, sqrtModD, modD, D, sqrtD, SObject } = calcData;
+    		var comment;
+
+    		if (calcData.isComplex && SObject.factor != "1") {
+    			comment = `${D} is negative so its square root must be imaginary and is therefore it is given by ${sqrtD} (where √${modD}=${sqrtModD})`;
+    		} else if (calcData.isComplex && SObject.factor == "1") {
+    			comment = `${D} is negative so its square root must be imaginary and is therefore it is given by ${sqrtD}`;
+    		} else if (SObject.factor == "1") {
+    			comment = `The square root of ${D} can't be simplified any further`;
+    		} else {
+    			comment = `The square root of ${D} simplifies to give ${sqrtD}`;
+    		}
+
+    		let formula = `(${minusB}\xB1${sqrtD})/${twoA}`;
+    		return { formula, comment };
+    	};
+
+    	var step5NonSquare = function (calcData) {
+    		let { minusB, twoA, sqrtD } = calcData;
+
+    		return {
+    			comment: `This can be split to give the following two cases`,
+    			formula: `${minusB}/${twoA}+${sqrtD}/${twoA} and ${minusB}/${twoA}-${sqrtD}/${twoA}`
+    		};
+    	};
+
+    	var step6NonSquare = function (calcData) {
+    		let { minusB, twoA, SObject } = calcData;
+    		var component1 = simpleFraction(minusB, twoA).fraction;
+    		let result = simpleFraction(SObject.factor, twoA);
+
+    		if (result.num1 == 1 && result.num2 == 1) {
+    			var component2 = `${SObject.complex}${SObject.surd}`;
+    		} else if (result.num1 == 1 && result.num2 != 1) {
+    			var component2 = `${SObject.complex}${SObject.surd}${result.num2}`;
+    		} else if (result.num1 != 1 && result.num2 == 1) {
+    			var component2 = `${result.num1}${SObject.complex}${SObject.surd}`;
+    		} else if (result.num1 != 1 && result.num2 != 1) {
+    			var component2 = `${result.num1}${SObject.complex}${SObject.surd}${result.num2}`;
+    		}
+
+    		return {
+    			comment: `This simplifies to give a final answer of`,
+    			formula: `${component1}+${component2} and ${component1}-${component2}`
+    		};
+    	};
+
+    	function calculate(useComplexNumbers) {
+    		var calcData = calculationParts(a, b, c);
+
+    		if (isNaN(parseInt(a)) || isNaN(parseInt(b)) || isNaN(parseInt(c))) {
+    			$$invalidate(7, showStep1 = false);
+
+    			$$invalidate(8, steps = [
+    				{
+    					comment: "Oops something went wrong!",
+    					formula: "Try inputting integer coefficients instead!"
+    				}
+    			]);
+
+    			return {};
+    		}
+
+    		$$invalidate(9, count += 1);
+
+    		// Set the vars for displaying the formula
+    		$$invalidate(1, A = calcData.A);
+
+    		$$invalidate(2, B = calcData.B);
+    		$$invalidate(3, C = calcData.C);
+    		$$invalidate(7, showStep1 = true);
+
+    		if (calcData.isComplex && !useComplexNumbers) {
+    			$$invalidate(8, steps = [
+    				{
+    					comment: "There is no real answer!",
+    					formula: "have your tried our complex numbers flavour?"
+    				}
+    			]);
+
+    			$$invalidate(7, showStep1 = false);
+    			$$invalidate(9, count -= 1);
+    		} else if (calcData.isSqr()) {
+    			$$invalidate(8, steps = [...initialSteps(calcData), ...squareSteps(calcData)]);
+    		} else if (calcData.isComplexSqr()) {
+    			$$invalidate(8, steps = [...initialSteps(calcData), ...complexSquareSteps(calcData)]);
+    		} else {
+    			$$invalidate(8, steps = [
+    				...initialSteps(calcData),
+    				step4NonSquare(calcData),
+    				step5NonSquare(calcData),
+    				step6NonSquare(calcData)
+    			]);
+    		}
+    	}
+
+    	// Variables
+    	let compWithComplex = false;
+
     	let A = "";
     	let B = "";
     	let C = "";
-    	let D = 0;
     	let a = "";
     	let b = "";
     	let c = "";
+    	let showStep1 = "";
+    	let steps = [];
     	let count = 0;
-
-    	function handleClick() {
-    		$$invalidate(9, count += 1);
-    		$$invalidate(2, A = parseFloat(a));
-    		$$invalidate(3, B = parseFloat(b));
-    		$$invalidate(4, C = parseFloat(c));
-    		$$invalidate(5, D = B * B - 4 * A * C);
-
-    		if (D < 0) {
-    			alert(`This quadratic doesn't have any real solutions! Check you've entered your coefficients correctly!`);
-    		}
-
-    		$$invalidate(0, x = (-B + Math.sqrt(B * B - 4 * A * C)) / (2 * A));
-    		$$invalidate(1, y = (-B - Math.sqrt(B * B - 4 * A * C)) / (2 * A));
-    	}
-
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -1442,51 +1180,73 @@
 
     	function input0_input_handler() {
     		a = this.value;
-    		$$invalidate(6, a);
+    		$$invalidate(4, a);
     	}
 
     	function input1_input_handler() {
     		b = this.value;
-    		$$invalidate(7, b);
+    		$$invalidate(5, b);
     	}
 
     	function input2_input_handler() {
     		c = this.value;
-    		$$invalidate(8, c);
+    		$$invalidate(6, c);
     	}
+
+    	function input3_change_handler() {
+    		compWithComplex = this.checked;
+    		$$invalidate(0, compWithComplex);
+    	}
+
+    	const click_handler = () => calculate(!compWithComplex);
+    	const click_handler_1 = () => calculate(compWithComplex);
 
     	$$self.$capture_state = () => ({
     		isSquare,
-    		simplify,
+    		simpleFraction,
     		simpleSurd,
     		squareRoot,
-    		x,
-    		y,
+    		calculationParts,
+    		initialSteps,
+    		squareSteps,
+    		complexSquareSteps,
+    		step4NonSquare,
+    		step5NonSquare,
+    		step6NonSquare,
+    		calculate,
+    		compWithComplex,
     		A,
     		B,
     		C,
-    		D,
     		a,
     		b,
     		c,
-    		count,
-    		handleClick
+    		showStep1,
+    		steps,
+    		count
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('isSquare' in $$props) $$invalidate(10, isSquare = $$props.isSquare);
-    		if ('simplify' in $$props) $$invalidate(11, simplify = $$props.simplify);
+    		if ('isSquare' in $$props) isSquare = $$props.isSquare;
+    		if ('simpleFraction' in $$props) simpleFraction = $$props.simpleFraction;
     		if ('simpleSurd' in $$props) simpleSurd = $$props.simpleSurd;
-    		if ('squareRoot' in $$props) $$invalidate(12, squareRoot = $$props.squareRoot);
-    		if ('x' in $$props) $$invalidate(0, x = $$props.x);
-    		if ('y' in $$props) $$invalidate(1, y = $$props.y);
-    		if ('A' in $$props) $$invalidate(2, A = $$props.A);
-    		if ('B' in $$props) $$invalidate(3, B = $$props.B);
-    		if ('C' in $$props) $$invalidate(4, C = $$props.C);
-    		if ('D' in $$props) $$invalidate(5, D = $$props.D);
-    		if ('a' in $$props) $$invalidate(6, a = $$props.a);
-    		if ('b' in $$props) $$invalidate(7, b = $$props.b);
-    		if ('c' in $$props) $$invalidate(8, c = $$props.c);
+    		if ('squareRoot' in $$props) squareRoot = $$props.squareRoot;
+    		if ('calculationParts' in $$props) calculationParts = $$props.calculationParts;
+    		if ('initialSteps' in $$props) initialSteps = $$props.initialSteps;
+    		if ('squareSteps' in $$props) squareSteps = $$props.squareSteps;
+    		if ('complexSquareSteps' in $$props) complexSquareSteps = $$props.complexSquareSteps;
+    		if ('step4NonSquare' in $$props) step4NonSquare = $$props.step4NonSquare;
+    		if ('step5NonSquare' in $$props) step5NonSquare = $$props.step5NonSquare;
+    		if ('step6NonSquare' in $$props) step6NonSquare = $$props.step6NonSquare;
+    		if ('compWithComplex' in $$props) $$invalidate(0, compWithComplex = $$props.compWithComplex);
+    		if ('A' in $$props) $$invalidate(1, A = $$props.A);
+    		if ('B' in $$props) $$invalidate(2, B = $$props.B);
+    		if ('C' in $$props) $$invalidate(3, C = $$props.C);
+    		if ('a' in $$props) $$invalidate(4, a = $$props.a);
+    		if ('b' in $$props) $$invalidate(5, b = $$props.b);
+    		if ('c' in $$props) $$invalidate(6, c = $$props.c);
+    		if ('showStep1' in $$props) $$invalidate(7, showStep1 = $$props.showStep1);
+    		if ('steps' in $$props) $$invalidate(8, steps = $$props.steps);
     		if ('count' in $$props) $$invalidate(9, count = $$props.count);
     	};
 
@@ -1495,23 +1255,23 @@
     	}
 
     	return [
-    		x,
-    		y,
+    		compWithComplex,
     		A,
     		B,
     		C,
-    		D,
     		a,
     		b,
     		c,
+    		showStep1,
+    		steps,
     		count,
-    		isSquare,
-    		simplify,
-    		squareRoot,
-    		handleClick,
+    		calculate,
     		input0_input_handler,
     		input1_input_handler,
-    		input2_input_handler
+    		input2_input_handler,
+    		input3_change_handler,
+    		click_handler,
+    		click_handler_1
     	];
     }
 

@@ -40,8 +40,7 @@ exclude:
 - README.md
 - svelte-components
 # look back at these later for ideas
-- elements.md
+#- elements.md
 - landing.md
 - credits.md
 - quadratic.py
-
