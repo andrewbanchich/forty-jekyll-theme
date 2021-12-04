@@ -213,6 +213,32 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/herveabdi
 
+scholar:
+  style: apa 
+  locale: en
+
+  sort_by: type, year
+  order: descending
+  bibliography_list_tag: ol 
+  bibliography_list_attributes:
+      reversed: "reversed"
+      class: "book"
+
+  source: _publications
+  repository: ./papers/pdf
+  bibliography: references
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+  bibliography_template: bib
+
+
 # build settings
 markdown: kramdown
 
