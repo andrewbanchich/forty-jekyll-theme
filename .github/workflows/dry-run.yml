@@ -12,3 +12,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.5
         build_only: true
+        run: export JEKYLL_PAT=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
+          
