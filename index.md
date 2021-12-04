@@ -1,9 +1,9 @@
 ---
-layout: home
+layout: page
 title: Home
 landing-title: 'Hervé Abdi'
 description: null
-image: ./img/HerveAbdi-2015.jpeg
+image: HerveAbdi-2015.jpeg
 author: null
 show_tile: false
 ---
