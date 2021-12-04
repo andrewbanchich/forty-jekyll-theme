@@ -3,7 +3,7 @@ title: Hervé Abdi
 subtitle: Professor
 email: herve@utdallas.edu
 description: Prof. Hervé Abdi's website
-baseurl: "/fourty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: lynnejwilliams.io # the base hostname & protocol for your site
 author: LJW
 street_address: "School of Behavioral and Brain Sciences<br>
