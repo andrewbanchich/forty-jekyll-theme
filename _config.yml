@@ -1,17 +1,19 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+title: Hervé Abdi
+subtitle: Professor
+email: herve@utdallas.edu
+description: Prof. Hervé Abdi's website
+baseurl: "/test-page" # the subpath of your site, e.g. /blog
+url: lynnejwilliams.io # the base hostname & protocol for your site
+author: LJW
+street_address: "School of Behavioral and Brain Sciences<br>
+  The University of Texas at Dallas<br>
+  MS: GR4.1<br>800 West Campbell Road"
+city: Richardson
+state: TX
+zip_code: 75080-3021
 country: United States of America
-phone: (716) 555-5555
+phone:  (972) 883-2065
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,14 +24,7 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  GitHub: https://github.com/herveabdi
 
 # build settings
 markdown: kramdown
