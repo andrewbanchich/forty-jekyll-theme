@@ -11,9 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
         build_only: true
         
 
