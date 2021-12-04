@@ -2,7 +2,9 @@
 title: Hervé Abdi
 subtitle: Professor
 email: herve@utdallas.edu
-description: Prof. Hervé Abdi's website
+description: Professor<br>
+  School of Behvioral & Brain Sciences<br>
+  University of Texas at Dallas
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: lynnejwilliams.io # the base hostname & protocol for your site
 author: LJW

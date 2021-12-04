@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Hervé Abdi'
 description: null
-image: null
+image: ./img/HerveAbdi-2015.jpeg
 author: null
 show_tile: false
 ---
