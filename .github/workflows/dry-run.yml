@@ -8,12 +8,12 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
-    run: export {{ secret.JEKYLL_PAT }}
     steps:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
         build_only: true
-        env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+
      
           
