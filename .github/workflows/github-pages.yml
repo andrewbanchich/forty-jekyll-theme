@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@master
         with:
-          token: ${{ secrets.JEKYLL_PAT }} 
+          token: ${{ secrets.GITHUB_TOKEN }} 
           target_branch: 'gh-pages'
