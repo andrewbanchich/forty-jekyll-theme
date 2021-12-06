@@ -10,10 +10,7 @@ For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jek
 or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**:
-1. Fork this repository.
-2. Start editing the `_config.yml` file!
+Simply fork this repository and start editing the `_config.yml` file!
 
 > NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
