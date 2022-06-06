@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-image: assets/images/pic01.jpg
+title: Publications
+image: assets/images/quill_guy.jpg
 nav-menu: true
 ---
 

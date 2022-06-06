@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-image: assets/images/pic01.jpg
+image: assets/images/zebra_finch.jpg
 nav-menu: true
 ---
 

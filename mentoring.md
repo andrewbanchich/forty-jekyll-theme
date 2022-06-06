@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Teaching & Mentoring
+description: Here is my teaching statement!
+image: assets/images/duke_engn.jpg
 nav-menu: true
 ---
 
