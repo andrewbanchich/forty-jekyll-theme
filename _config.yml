@@ -1,17 +1,17 @@
 # site settings
 title: Forty
 subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+email: mail@neerajprem.in
+description: A collection of all my works and posts.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://portfolio.neerajpre.in "# the base hostname & protocol for your site
+author: "Neeraj Prem Verma"
+street_address: " Brigade Lakefront, Whitefield"
+city: "Bangalore"
+state: "Karanataka"
+zip_code: "560048"
+country: "India"
+phone: +91 998-623-9645
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/neerajprem
   GitLab:
   Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn: https://www.linkedin.com/in/neerajprem
+  Twitter: https://twitter.com/NeerajPremV
   Facebook:
   Slack:
 
