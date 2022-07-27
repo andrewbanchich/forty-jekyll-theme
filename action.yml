@@ -1,0 +1,9 @@
+
+name: jekyll-deploy-gh-pages
+description: 'Deploying your Jekyll repo back to the gh-pages branch of the same repository'
+branding: 
+  icon: 'upload-cloud'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
