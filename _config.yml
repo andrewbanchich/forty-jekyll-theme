@@ -21,6 +21,8 @@ tiles-count: 7
   <i class="fa-solid fa-user-graduate fa-flip"></i>
 </div>
 
+- name: jekyll-deploy-gh-pages
+  uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
 
 socials:
   GitHub: https://victoriachoy.github.io/
