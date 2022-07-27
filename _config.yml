@@ -1,36 +1,32 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Victoria Choy's Teaching Portfolio
+subtitle: IB Educator and Leadership
+email: guitaracole@gmail.com
+description: A Manifestation of Teaching, Educational Leadership, and Project-based Learning
+baseurl: "/teaching-portfolio" 
 url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Victoria Choy
+city: Hong Kong
+
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: pages 
+tiles-count: 7
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
+# social settings
+
+<div class="fa-3x">
+  <i class="fa-solid fa-user-graduate fa-flip"></i>
+  <i class="fa-solid fa-user-graduate-rotate fa-flip"></i>
+  <i class="fa-solid fa-user-graduate fa-flip"></i>
+</div>
+
+
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  GitHub: https://victoriachoy.github.io/
+  LinkedIn: https://www.linkedin.com/in/victoria-choy-1717a2205/
 
+  
 # build settings
 markdown: kramdown
 
