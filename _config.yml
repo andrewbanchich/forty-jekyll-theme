@@ -12,6 +12,7 @@ state: TN
 zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
+formspreeEndpoint: https://formspree.io/f/mdodeqbe # create a form on Formspree and add the API endpoint here
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
