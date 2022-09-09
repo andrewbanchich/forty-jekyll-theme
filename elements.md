@@ -12,13 +12,20 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>About Me</h1>
 		</header>
 
 <!-- Content -->
 <h2 id="content">Sample Content</h2>
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
-<div class="row">
+
+		<!-- Box -->
+<h3>Box</h3>
+<div class="box">
+	<p>test test</p>
+</div>
+		
+		<div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
@@ -362,7 +369,7 @@ Finally, this is a <a href="#">link</a>.</p>
 <h3>Image</h3>
 
 <h4>Fit</h4>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<span class="image fit"><img src="{% link Pictures/fancySelfie.jpg %}" alt="" /></span>
 <div class="box alt">
 	<div class="row 50% uniform">
 		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
