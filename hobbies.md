@@ -2,7 +2,7 @@
 title: Hobbies
 layout: post
 description: 'A little more about me.'
-image: assets/images/portugal.JPG
+image: assets/images/ID_Photo.jpg
 nav-menu: true
 ---
 
@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pizza.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/smallPizza.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
