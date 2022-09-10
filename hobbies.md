@@ -1,6 +1,6 @@
 ---
 title: Hobbies
-layout: Hobbies
+layout: post
 description: 'A little more about me.'
 image: assets/images/pizza.jpg
 nav-menu: true
