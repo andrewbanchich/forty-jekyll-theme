@@ -22,7 +22,8 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-			<img src="{% link assets/images/smallPizza.jpg %}" alt="" data-position="25% 25%" />
+		<a href="link" style="text-align: center">
+			<img src="{% link assets/images/smallPizza.jpg %}" align="center"></a>
 
 		<div class="content">
 			<div class="inner">
