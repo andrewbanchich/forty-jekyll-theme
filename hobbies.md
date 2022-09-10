@@ -22,9 +22,8 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
 			<img src="{% link assets/images/smallPizza.jpg %}" alt="" data-position="center center" />
-		</a>
+
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -35,9 +34,8 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
 			<img src="{% link assets/images/banner.jpg %}" alt="" data-position="top center" />
-		</a>
+
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -48,9 +46,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
 			<img src="{% link assets/images/portugal.JPG %}" alt="" data-position="25% 25%" />
-		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
