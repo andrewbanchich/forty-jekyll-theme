@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-<h1>this is just a test</h1>
+Currently, I'm a first-year Computer Science major at the University of Calgary with a deep interest in involving myself in the field. 
