@@ -17,9 +17,7 @@ nav-menu: true
 
 <!-- Content -->
 <div style="display:inline-block;vertical-align:top;">
-<a href="generic.html" class="image">
-			<img src="{% link assets/images/fancyCropped.jpg %}" alt="" data-position="center center" />
-		</a>
+
 <div>
 </div>
 <div style="display:inline-block;">
