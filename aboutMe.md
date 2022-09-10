@@ -12,7 +12,7 @@ nav-menu: true
 {
 width:400px;
 height:400px;
-padding: 75px 50px;
+padding: 100px 500px;
 	}
 	
 <!-- One -->
