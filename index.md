@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Feel free to contact me at <b>marianna.ferreira@ucalgary.ca</b>. 
+Feel free to reach out at <b>marianna.ferreira@ucalgary.ca</b>. 
