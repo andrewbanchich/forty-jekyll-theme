@@ -7,13 +7,6 @@ nav-menu: true
 
 <!-- Main -->
 <div id="main" class="alt">
-
-.padding
-{
-width:400px;
-height:400px;
-padding: 100px 500px;
-	}
 	
 <!-- One -->
 <section id="one">
@@ -30,6 +23,5 @@ padding: 100px 500px;
 <div style="display:inline-block;">
 <!-- Content -->
 	
-			<img border="0" src="{% link assets/images/fancyCropped.jpg %}" align="left" class="padding"> I don’t want to just be a coder, but someone who can be relied on in a team to contribute meaningful solutions to daunting problems. I’m a methodical maniac by nature, and I believe one must constantly keep learning in order to be able to solve complications effectively. Recently, my curiosity has been piqued by the field of Information Security. The last 2 years I've spent as a member of the InfoSec Club at the University of Calgary has been monumental in my search for knowledge within the fields I am interested in, and I hope I can continue to grow and satiate my desire to learn.
-	
+	<p><img src="{% link assets/images/fancyCropped.jpg %}" alt="Alternative Text" width="42" height="42" align="middle" hspace="20" vspace="20"> I don’t want to just be a coder, but someone who can be relied on in a team to contribute meaningful solutions to daunting problems. I’m a methodical maniac by nature, and I believe one must constantly keep learning in order to be able to solve complications effectively. Recently, my curiosity has been piqued by the field of Information Security. The last 2 years I've spent as a member of the InfoSec Club at the University of Calgary has been monumental in my search for knowledge within the fields I am interested in, and I hope I can continue to grow and satiate my desire to learn.</p>
 
