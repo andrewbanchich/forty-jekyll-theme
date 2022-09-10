@@ -2,7 +2,7 @@
 layout: post
 title: My Projects
 description: With the Ucalgary Infosec Club
-image: assets/images/Cute_Lil_Guy (2).jpg
+image: assets/images/Cute_Lil_Guy(2).jpg
 nav-menu: true
 ---
 
