@@ -2,7 +2,7 @@
 title: Hobbies
 layout: post
 description: 'Some things I enjoy :)'
-image: assets/images/pandaSmall.jpg
+image: <p>assets/images/pandaSmall.jpg<p>
 nav-menu: true
 ---
 
@@ -32,7 +32,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Foodie</h3>
 				</header>
-				<p>I'm a gourmand at heart who loves to try all kinds of cuisines. Despite this fact, you might be surprised to learn that I grew up as a picky eater. I am espeically fond of Italian dishes!</p>
+				<p>I'm a gourmand at heart who loves to try all kinds of cuisines. Despite this fact, you might be surprised to learn that I grew up as a picky eater. A good meal can change my whole day, and I believe you should always treat yourself kindly and eat well. I am espeically fond of Italian dishes!</p>
 			</div>
 		</div>
 	</section>
