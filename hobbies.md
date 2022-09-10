@@ -2,7 +2,7 @@
 title: Hobbies
 layout: post
 description: 'A little more about me.'
-image: assets/images/ID_Photo.jpg
+image: assets/images/banner.jpg
 nav-menu: true
 ---
 
