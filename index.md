@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Currently, I'm a first-year Computer Science major at the University of Calgary with a deep interest in involving myself in the field. 
+Feel free to contact me at <b>marianna.ferreira@ucalgary.ca</b>. 
