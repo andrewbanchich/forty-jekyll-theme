@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-image: assets/images/fancySelfie.jpg
+image: assets/images/fancyCropped.jpg
 nav-menu: true
 ---
 
