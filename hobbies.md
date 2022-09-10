@@ -37,8 +37,9 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-			<img src="{% link assets/images/wren.JPG %}" alt="" data-position="top center" />
-
+			<a class="image">
+			<img src="{% link assets/images/wren.JPG %}" align="center">
+		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -48,7 +49,9 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-			<img src="{% link assets/images/portugal.JPG %}" alt="" data-position="25% 25%" />
+			<a class="image">
+			<img src="{% link assets/images/portugal.JPG %}" align="center">
+		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
