@@ -24,10 +24,10 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   GitHub: https://github.com/MariannaFerr
-  GitLab:
+  GitLab: https://gitlab.cpsc.ucalgary.ca/marianna.ferreira
   Google-Plus:
-  Instagram:
-  LinkedIn: 
+  Instagram: https://www.instagram.com/marianna.ferr/
+  LinkedIn: https://www.linkedin.com/in/marianna--ferreira--/
   Twitter: 
   Facebook:
   Slack:
