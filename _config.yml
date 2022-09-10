@@ -6,12 +6,8 @@ description: University of Calgary
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://MariannaFerr.github.io"
-author:
-street_address: 10794 Valley Springs Rd NW
-city: Calgary
-state: AB
-zip_code: T3B5R2
-country: Canada
+author: Marianna
+
 phone: (587) 500 9990
 
 # homepage tiles
