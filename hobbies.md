@@ -34,7 +34,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-			<img src="{% link assets/images/banner.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/wren.JPG %}" alt="" data-position="top center" />
 
 		<div class="content">
 			<div class="inner">
