@@ -16,7 +16,6 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-	<div>
 <a href="generic.html" class="image">
 			<img src="{% link assets/images/fancyCropped.jpg %}" alt="" data-position="center center" />
 		</a>
