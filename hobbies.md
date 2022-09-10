@@ -60,7 +60,7 @@ nav-menu: true
 				</header>
 				<p>Though I'm not a huge fan of physically travelling from point A to point B, I love to explore new cities. My latest and greatest adventure was a trip to Portugal with my famiy, where we enjoyed breathtaking hikes, fresh fish, and black sand beaches. 
 
-		
+
 <!-- Three -->
 <section id="three">
 	<div class="inner">
@@ -68,6 +68,6 @@ nav-menu: true
 			<h2>My Motto</h2>
 		</header>
 		<p>Be patient-- as if you're waiting to take a batch of cookies out of the oven. Good things are always worth the wait :)</p>
-
 	</div>
 </section>
+				
