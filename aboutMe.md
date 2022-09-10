@@ -16,8 +16,8 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest</p>
+<h3 id="content">Special Skills</h3>
+<p>can watch kdramas for 12 hours straight.</p>
 
 </div>
 
