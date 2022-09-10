@@ -2,7 +2,7 @@
 title: Hobbies
 layout: post
 description: 'Some things I enjoy :)'
-image: assets/images/pandaSmall.jpg
+image: assets/images/cookies.jpg
 nav-menu: true
 ---
 
@@ -38,7 +38,7 @@ nav-menu: true
 	</section>
 	<section>
 			<a class="image">
-			<img src="{% link assets/images/wren.JPG %}" align="center">
+			<img src="{% link assets/images/wrenPaint.jpg %}" align="center">
 		</a>
 		<div class="content">
 			<div class="inner">
