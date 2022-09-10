@@ -20,7 +20,5 @@ nav-menu: true
 <p>can watch kdramas for 12 hours straight.</p>
 
 </div>
-
-</div>
 </section>
-
+</div>
