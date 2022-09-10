@@ -60,10 +60,6 @@ nav-menu: true
 				</header>
 				<p>Though I'm not a huge fan of physically travelling from point A to point B, I love to explore new cities. My latest and greatest adventure was a trip to Portugal with my famiy, where we enjoyed breathtaking hikes, fresh fish, and black sand beaches. 
 
-			</div>
-		</div>
-	</section>
-</section>
 
 <!-- Three -->
 <section id="three">
