@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>My Artwork</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>I’ve been drawing as early as I can remember. My hobby took off when I started drawing frequently in math class back in junior high, which began as small character doodles. There is lots of sketching, construction lines, and placeholder shapes that must be laid down before the drawing becomes more intermediate. Breaking down an idea has helped me navigate through rather large-scale projects and given me a deeper understanding of how to enhance my artwork. This ability translates well to how I attack problems, whether that be disputes in my friend groups or particularly tricky math computations. It may be a very time-consuming hobby, with some projects taking me over 12 hours, but I feel such immense pleasure from bringing an idea to life with my own hands. </p>
 	</div>
 </section>
 
@@ -41,7 +41,6 @@ nav-menu: true
 				<header class="major">
 					<h3>Drawing</h3>
 				</header>
-				<p>I love to draw.</p>
 			</div>
 		</div>
 	</section>
