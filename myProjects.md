@@ -2,7 +2,7 @@
 layout: post
 title: My Projects
 description: With the Ucalgary Infosec Club
-image: assets/images/magpieLogo.png
+image: assets/images/magpieLogo.jpg
 nav-menu: true
 ---
 
