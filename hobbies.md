@@ -45,6 +45,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Drawing</h3>
 				</header>
+				<p>My favourite things to draw are people; I love coming up with complicated poses and telling small stories with my art.</p>
 			</div>
 		</div>
 	</section>
