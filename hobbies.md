@@ -46,7 +46,9 @@ nav-menu: true
 					<h3>Drawing</h3>
 				</header>
 				<p>My favourite things to draw are people; I love coming up with complicated poses and telling small stories with my art.</p>
-			
+			</div>
+		</div>
+	</section>
 	<section>
 			<a class="image">
 			<img src="{% link assets/images/portugal.JPG %}" align="center">
