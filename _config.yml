@@ -1,4 +1,6 @@
 # site settings
+
+remote_theme : forty-jekyll-theme
 title: Shubham Chavan
 subtitle: Engineer
 email: chavanshubham@mitaoe.ac.in
