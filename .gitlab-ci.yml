@@ -1,0 +1,12 @@
+image: ruby
+
+pages:
+  stage: build
+  script:
+  - gem install jekyll
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
