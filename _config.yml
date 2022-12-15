@@ -3,7 +3,7 @@ title: The Kuo Lab
 subtitle: Integrative Behavioral & Evolutionary Ecology
 email: kuochiyun@gmail.com
 description: Thank you for checking us out!
-baseurl: "chiyun0529.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: chiyun0529.github.io # the base hostname & protocol for your site
 author:
 street_address: N921 1st Teaching Bldg <br /> 100 Shih-Chuan 1st Rd
