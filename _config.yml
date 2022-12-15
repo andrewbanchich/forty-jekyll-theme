@@ -1,35 +1,36 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+title: The Kuo Lab
+subtitle: Integrative Behavioral & Evolutionary Ecology
+email: kuochiyun@gmail.com
+description: Thank you for checking us out!
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: chiyun0529.github.io # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: N921 1st Teaching Bldg <br /> 100 Shih-Chuan 1st Rd
+city: Kaohsiung City 
+state: 
+zip_code: 80707
+country: Taiwan
+phone: +886-7-312-1101 ext 2693
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 3
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/chiyun0529
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn: 
+  Twitter: https://twitter.com/ChifromT
   Facebook:
   Slack:
+  Researchgate: https://www.researchgate.net/profile/Chi-Yun-Kuo
 
 # build settings
 markdown: kramdown
@@ -42,3 +43,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- landing.md
+- generic.md
+- all_posts.md
+- elements.md
