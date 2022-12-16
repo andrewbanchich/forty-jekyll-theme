@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+title: Ile-de-France
+subtitle: Planets
+email:
+description: We are a community of planetary scientists that works in Paris and the surrounding region of Ile-de-France.
+baseurl: /website # the subpath of your site, e.g. /blog
+url: https://idf-planets.github.io
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,12 +22,16 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  Mastodon: https://astrodon.social/@IDF_Planets
+  Keybase: https://keybase.io/team/idf_planets
+  Matrix: https://matrix.to/#/#IDF-Planets:matrix.org
+  GitHub: https://github.com/idf-planets
+  Email: mailto:&#105;&#100;&#102;&#45;&#112;&#108;&#97;&#110;&#101;&#116;&#115;&#46;&#107;&#57;&#48;&#53;&#105;&#64;&#97;&#108;&#101;&#101;&#97;&#115;&#46;&#99;&#111;&#109;
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus:
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn:
+  Twitter:
   Facebook:
   Slack:
 
@@ -41,4 +45,4 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
