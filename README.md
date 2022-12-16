@@ -14,4 +14,4 @@ We are a community of planetary scientists that works in Paris and the surroundi
 * [Matrix](https://matrix.to/#/#IDF-Planets:matrix.org)
 
 ## Acknowledgements
-This website is built on [Jekyll](https://jekyllrb.com/) using the [Forty(https://github.com/andrewbanchich/forty-jekyll-theme) theme by [HTML5 UP](https://html5up.net/).
+This website is built on [Jekyll](https://jekyllrb.com/) using the [Forty](https://github.com/andrewbanchich/forty-jekyll-theme) theme by [HTML5 UP](https://html5up.net/).
