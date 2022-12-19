@@ -8,7 +8,7 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 _size(element-margin) _size(element-margin);
 		padding-left: 1.25em;
 
 		li {
@@ -18,7 +18,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 _size(element-margin) _size(element-margin);
 		padding-left: 1em;
 
 		li {
