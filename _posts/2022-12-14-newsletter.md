@@ -9,7 +9,7 @@ Hello world! This is the first monthly newsletter of the Ile-de-France Planets c
 
 ## News
 Since starting this initiative a few weeks ago, we have set up a few things online:
-* We now have a simple [web site](https://idf-planets.github.io/website). It should only take you a few minutes to go through all the text, so please let us know if you have any comments or suggestions. In particular, please let us know if your laboratory is missing from the list!
+* We now have a simple [web site](https://www.ile-de-france-planets.fr/). It should only take you a few minutes to go through all the text, so please let us know if you have any comments or suggestions. In particular, please let us know if your laboratory is missing from the list!
 * We have created a [Github organization](https://github.com/idf-planets) that hosts the web site. The easiest way to make changes to the website is to open a pull request.
 * We have set up a [mastodon account](https://astrodon.social/@IDF_Planets) on the astrodon.social server.
 * We have set up two forums for online discussions: one using [Matrix](https://matrix.to/#/#IDF-Planets:matrix.org) and the other [Keybase](https://keybase.io/team/idf_planets). If you would like to use a different platform, please create the forum and we will add it to the list!
