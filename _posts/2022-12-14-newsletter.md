@@ -1,6 +1,6 @@
 ---
 layout: post
-title: January 2023
+title: Newsletter
 description: Ile-de-France newsletter and seminars for January 2023
 image:
 ---
