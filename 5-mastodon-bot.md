@@ -14,7 +14,7 @@ If you would like to post something on Mastodon using your own account, and have
 ```
 !@IDF_Planets
 ```
-at any place in your post. The bot looks for such posts every 5 minutes, and when a post is found found, it is automatically boosted.
+at any place in your post. The bot looks for such posts every 5 minutes, and when a post is found, it is automatically boosted.
 
 ### Post directly using @IDF_Planets
 If you would like to post something directly from the @IDF_Planets account, you only need to send a private message to @IDF_Planets. To do so, start your post with
