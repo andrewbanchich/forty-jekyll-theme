@@ -2,7 +2,7 @@
 layout: post
 title: News and Announcements
 description:  
-image: assets/images/mercury.jpg
+image: assets/images/pluto.jpg
 image-show: false
 nav-menu: true
 ---
@@ -12,6 +12,7 @@ nav-menu: true
 
   <!-- One -->
   <section id="one">
+  <a style="border-bottom-color: transparent;" href="{{ site.url }}/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
   <div class="inner">
 
   <table>
@@ -35,7 +36,6 @@ nav-menu: true
   </table>
 
   </div>
-  <a style="border-bottom-color: transparent;" href="{{ site.url }}/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
   </section>
 
 <!--</div>-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Seminars and Events
-description: Calendar of seminars and events
+description: Online Calendar
 image: assets/images/phobos.jpg
 image-show: false
 nav-menu: true

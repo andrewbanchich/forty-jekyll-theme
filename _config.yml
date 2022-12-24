@@ -1,21 +1,16 @@
 # site settings
-title: Ile-de-France
-subtitle: Planets
-email:
+title: Ile-de-France Planets
+subtitle:
+name: Ile-de-France Planets
 description: We are a community of planetary scientists that works in Paris and the surrounding region of Ile-de-France.
 baseurl:  # the subpath of your site, e.g. /blog
 url: https://www.ile-de-france-planets.fr
-author:
-street_address:
-city:
-state:
-zip_code:
-country:
-phone:
+logo1: Ile-de-france
+logo2: Planets
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 7
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
