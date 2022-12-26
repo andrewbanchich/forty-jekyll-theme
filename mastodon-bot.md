@@ -5,6 +5,7 @@ description: Use our bot to post or boost
 image: assets/images/mercury.jpg
 image-show: false
 nav-menu: true
+order: 6
 ---
 
 If you are a planetary scientist working in Ile-de-France, you can have your Mastodon posts automatically boosted by our account, or post directly using our account. We use a bot to do this, and in order for the bot to recognize you, it is necessary for the <a href="https://astrodon.social/@IDF_Planets">@IDF-Planets</a> account to follow you. Just send us a message and we will be happy to add you to the list.

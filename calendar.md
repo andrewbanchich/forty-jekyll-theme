@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Seminars and Events
-description: Online Calendar
+title: Calendar
+description: Online calendar of seminars and events
 image: assets/images/phobos.jpg
 image-show: false
 nav-menu: true
+order: 4
 ---
 
 <script>
@@ -19,7 +20,7 @@ window.getSelection().removeAllRanges();
 }
 </script>
 
-<iframe width="1100" height="820" src="https://framagenda.org/apps/calendar/embed/BJkXk4dmeB3P89Lz"></iframe>
+<iframe width="1000" height="800" src="https://framagenda.org/apps/calendar/embed/BJkXk4dmeB3P89Lz"></iframe>
 
 <p></p>
 *You can subscribe to this calendar by using this url in your calendar application:*

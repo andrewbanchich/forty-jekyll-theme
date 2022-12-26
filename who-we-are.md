@@ -5,6 +5,7 @@ description: Research laboratories in Ile-de-France
 image: assets/images/mars.jpeg
 image-show: false
 nav-menu: true
+order: 2
 ---
 
 <h3-mb0><a href="https://irfu.cea.fr/dap/index.php">Astrophysique Instrumentation Modélisation (AIM)</a></h3-mb0>

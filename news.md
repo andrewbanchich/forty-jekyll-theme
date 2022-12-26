@@ -1,10 +1,11 @@
 ---
 layout: post
-title: News and Announcements
-description:  
+title: News
+description: Newsletters, announcements, and seminar listings
 image: assets/images/pluto.jpg
 image-show: false
 nav-menu: true
+order: 7
 ---
 
 <!-- Main -->

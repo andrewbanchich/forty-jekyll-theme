@@ -5,6 +5,7 @@ description:
 image: assets/images/venus.jpg
 image-show: false
 nav-menu: true
+order: 1
 ---
 
 Paris and the surrounding region of Ile-de-France host a large number of researchers in the field of planetary science. However, we are spread across several different laboratories, sites, and institutional structures, and this is not always conducive for promoting interactions and the development of collaborations within this community. Though geographical and institutional barriers contribute to this problem, one of the main barriers is simply the lack of information about what is occurring in other research groups.
