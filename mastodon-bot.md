@@ -13,14 +13,14 @@ If you are a planetary scientist working in Ile-de-France, you can have your Mas
 ### Automatically boost a post
 If you would like to post something on Mastodon using your own account, and have @IDF_Planets automatically boost this post, just include
 ```
-!@IDF_Planets
+!@IPGP_Planets@scicomm.xyz
 ```
-at any place in your post. The bot looks for such posts every 5 minutes, and when a post is found, it is automatically boosted.
+at any place in your post. The bot looks for such posts every 5 minutes, and when a post is found, it will be automatically boosted.
 
 ### Post directly using @IDF_Planets
 If you would like to post something directly from the @IDF_Planets account, you only need to send a private message to @IDF_Planets. To do so, start your post with
 ```
-@IDF_Planets
+@IPGP_Planets@scicomm.xyz
 ```
 Then, make sure that the post visibility is set to "private": depending on the client you are using, this could be something similar to "@", "mentioned people only", "direct message", or the mailbox symbol. The bot will search for these private messages every 5 minutes, and then repost everything that comes after `@IDF_Planets` directly from the @IDF_Planets account.
 
