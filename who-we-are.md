@@ -36,7 +36,7 @@ order: 2
 <p><b>Location</b><br />
 1 rue Jussieu, 75005, Paris</p>
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
 
 </div>
 </div>
@@ -52,7 +52,7 @@ order: 2
 <p><b>Location</b><br />
 1 rue Jussieu, 75005, Paris.</p>
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
 
 </div>
 </div>
@@ -81,7 +81,7 @@ Lamarck A (6th and 7th floors), 50 Rue Alice Domon et Léonie Duquet, 75013, Par
 Note: There is no reception and a badge is required to enter the building. Please call your point-of-contact once you have arrived. (The seminar room in Lamarck B is accessible without a badge.)
 </p>
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3775959014892583%2C48.8262347017078%2C2.3828396201133732%2C48.82843309758655&amp;layer=mapnik&amp;marker=48.827333400024955%2C2.3802188999999316" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.82733&amp;mlon=2.38022#map=19/48.82733/2.38022" style="font-size: 80%;">View Larger Map</a>
+<object loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" data="https://www.openstreetmap.org/export/embed.html?bbox=2.3775959014892583%2C48.8262347017078%2C2.3828396201133732%2C48.82843309758655&amp;layer=mapnik&amp;marker=48.827333400024955%2C2.3802188999999316" style="border: 1px solid black"></object><br/><a href="https://www.openstreetmap.org/?mlat=48.82733&amp;mlon=2.38022#map=19/48.82733/2.38022" style="font-size: 80%;">View Larger Map</a>
 
 </div>
 </div>
@@ -97,7 +97,7 @@ Note: There is no reception and a badge is required to enter the building. Pleas
 <p><b>Location</b><br />
 1 rue Jussieu, 75005, Paris.</p>
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
 
 </div>
 </div>
