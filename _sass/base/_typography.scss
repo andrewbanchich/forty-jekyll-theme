@@ -178,3 +178,46 @@
 	.align-right {
 		text-align: right;
 	}
+
+/* More-less box for research groups */
+	.research-group {
+		padding-left: 1.5em;
+	}
+
+	.more {
+		display: none;
+	}
+
+	.more-box {
+		margin-top: 0.5em;
+	}
+
+	.show-more {
+	  display: none;
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	.hide-more:target + .show-more {
+	  display: inline;
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	.hide-more:target {
+	  display: none;
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	.hide-more:target ~ .more {
+	  display: inline;
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	@media print {
+	  .hide-more, .show-more {
+	    display: none;
+	  }
+	}
