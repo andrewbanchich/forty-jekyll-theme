@@ -33,6 +33,14 @@ order: 2
 <div class="box more-box">
 <p><a href="https://www.ipgp.fr/en/geoexp/experimental-geophysics">Group website</a></p>
 
+<p><b>Research themes</b><br />
+Core formation, core composition, properties of silicates and metals at high pressure, origin and formation of meteorites, cosmochemistry, atmospheric noble gasses.
+</p>
+
+<p><b>Research staff (planetary science only)</b><br />
+Guillaume Avice, James Badro, Razvan Caracas, Sébastien Charnoz, Marc Chaussidon, Frédéric Moynier, Julien Siebert.
+</p>
+
 <p><b>Location</b><br />
 1 rue Jussieu, 75005, Paris</p>
 
@@ -49,8 +57,16 @@ order: 2
 <div class="box more-box">
 <p><a href="https://www.ipgp.fr/fr/dfg/dynamique-fluides-geologiques">Group website</a></p>
 
+<p><b>Research themes</b><br />
+Planetary dynamos, core formation, metal-silicate mixing, planetary dunes.
+</p>
+
+<p><b>Research staff (planetary science only)</b><br />
+Julien Aubert, Maylis Landeau, Clément Narteau.
+</p>
+
 <p><b>Location</b><br />
-1 rue Jussieu, 75005, Paris.</p>
+1 rue Jussieu, 75005, Paris</p>
 
 <iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
 
@@ -69,13 +85,13 @@ order: 2
 Internal structure of the terrestrial planets, planetary seismology, crustal and lithospheric thickness, crustal magnetism, thermal evolution and mantle dynamics, remote sensing, landslides and surface processes, icy satellites.
 </p>
 
-<p><b>Research staff</b><br />
-Cécile Ferrari, Stéphane Jacquemoud, Taichi Kawamura, Philippe Lognonné, Antoine Lucas, Sébastien Rodriguez, Henri Samuel, Mark Wieczorek
+<p><b>Research staff (planetary science only)</b><br />
+Cécile Ferrari, Stéphane Jacquemoud, Taichi Kawamura, Philippe Lognonné, Antoine Lucas, Sébastien Rodriguez, Henri Samuel, Mark Wieczorek.
 </p>
 
 <p>
 <b>Location</b><br />
-Lamarck A (6th and 7th floors), 50 Rue Alice Domon et Léonie Duquet, 75013, Paris.</p>
+Lamarck A (6th and 7th floors), 50 Rue Alice Domon et Léonie Duquet, 75013, Paris</p>
 
 <p>
 Note: There is no reception and a badge is required to enter the building. Please call your point-of-contact once you have arrived. (The seminar room in Lamarck B is accessible without a badge.)
@@ -94,8 +110,16 @@ Note: There is no reception and a badge is required to enter the building. Pleas
 <div class="box more-box">
 <p><a href="https://www.ipgp.fr/fr/sismo/sismologie">Group website</a></p>
 
+<p><b>Research themes</b><br />
+Mars seismology.
+</p>
+
+<p><b>Research staff (planetary science only)</b><br />
+Nobuaki Fuji, Eléonore Stutzmann.
+</p>
+
 <p><b>Location</b><br />
-1 rue Jussieu, 75005, Paris.</p>
+1 rue Jussieu, 75005, Paris</p>
 
 <iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
 
