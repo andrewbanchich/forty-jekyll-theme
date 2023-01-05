@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: About me 経歴などの自己紹介
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
