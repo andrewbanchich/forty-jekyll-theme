@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generic
+title: Research Topics これまでの研究内容の紹介
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
