@@ -1,10 +1,10 @@
 # site settings
 title: Forty
 subtitle: by HTML5 UP
-email: sh.takaoka.91@gmail.com
+email: xxxx@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: /stakaoka0.github.io # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: 
+url: 
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
