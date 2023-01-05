@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Blogs
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: '勉強したことなどをまとめたブログへのリンクを貼る予定'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
