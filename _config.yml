@@ -1,21 +1,21 @@
 # site settings
 title: Forty
 subtitle: by HTML5 UP
-email: xxxx@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+email: sh.takaoka.91@gmail.com
+description: 開発途中なので<br /> 不真面目なことも書かれています。
 baseurl: 
 url: 
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) xxx-xxx
+street_address: NA
+city: St. Petersburg
+state: Florida
+zip_code: 33705
+country: The United States of America
+phone: (727) 220-xxxx
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -24,7 +24,7 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/stakaoka0
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram: 
   LinkedIn: https://www.linkedin.com/in/shohei-takaoka-8727ab120/
   Twitter: 
@@ -42,3 +42,4 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- template.md
