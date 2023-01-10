@@ -2,10 +2,11 @@
 layout: post
 title: Email distribution lists
 description: Subscribe
-image: assets/images/jupiter.jpg
+image: assets/images/phobos.jpg
 image-show: false
 nav-menu: true
-order: 3
+show-tile: true
+order: 4
 ---
 
 You can make use of the following email lists to communicate with members of the planetary science community in Ile-de-France:

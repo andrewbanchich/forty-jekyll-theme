@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Who we are
+title: Where we are
 description: Research laboratories in Ile-de-France
-image: assets/images/mars.jpeg
+image: assets/images/venus.jpg
 image-show: false
 nav-menu: true
+show-tile: true
 order: 2
 ---
 <h3 class="mb-0"><a href="https://irfu.cea.fr/dap/index.php">Astrophysique Instrumentation Modélisation (AIM)</a></h3>

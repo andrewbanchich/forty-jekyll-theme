@@ -5,7 +5,8 @@ description: Newsletters, announcements, and seminar listings
 image: assets/images/pluto.jpg
 image-show: false
 nav-menu: true
-order: 7
+show-tile: true
+order: 8
 ---
 
 <!-- Main -->

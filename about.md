@@ -2,9 +2,10 @@
 layout: post
 title: About us
 description:
-image: assets/images/venus.jpg
+image: assets/images/mercury.jpg
 image-show: false
 nav-menu: true
+show-tile: true
 order: 1
 ---
 
