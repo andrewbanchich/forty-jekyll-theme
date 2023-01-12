@@ -43,9 +43,8 @@ Guillaume Avice, James Badro, Razvan Caracas, Sébastien Charnoz, Marc Chaussido
 </p>
 
 <p><b>Location</b><br />
-1 rue Jussieu, 75005, Paris</p>
-
-<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+1 rue Jussieu, 75005, Paris<br />
+<a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/Rw3sAustbgmATBUGA" style="font-size: 80%;">[Google maps]</a></p>
 
 </div>
 </div>
@@ -67,9 +66,8 @@ Julien Aubert, Maylis Landeau, Clément Narteau.
 </p>
 
 <p><b>Location</b><br />
-1 rue Jussieu, 75005, Paris</p>
-
-<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+1 rue Jussieu, 75005, Paris<br />
+<a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/Rw3sAustbgmATBUGA" style="font-size: 80%;">[Google maps]</a></p>
 
 </div>
 </div>
@@ -80,7 +78,7 @@ Julien Aubert, Maylis Landeau, Clément Narteau.
 <a href="#show-pss" class="show-more" id="show-pss">&#10134; Planetary and Space Sciences</a>
 <div class="more">
 <div class="box more-box">
-<p><a href="https://www.ipgp.fr/fr/pss/planetologie-sciences-spatiales">Group website</a></p>
+<p><a href="https://www.ipgp.fr/en/research/teams/planetology-and-space-sciences/">Group website</a></p>
 
 <p><b>Research themes</b><br />
 Internal structure of the terrestrial planets, planetary seismology, crustal and lithospheric thickness, crustal magnetism, thermal evolution and mantle dynamics, remote sensing, landslides and surface processes, icy satellites.
@@ -92,13 +90,12 @@ Cécile Ferrari, Stéphane Jacquemoud, Taichi Kawamura, Philippe Lognonné, Anto
 
 <p>
 <b>Location</b><br />
-Lamarck A (6th and 7th floors), 50 Rue Alice Domon et Léonie Duquet, 75013, Paris</p>
+Lamarck A (6th and 7th floors), 50 Rue Alice Domon et Léonie Duquet, 75013, Paris<br />
+<a href="https://www.openstreetmap.org/export/embed.html?bbox=2.3775959014892583%2C48.8262347017078%2C2.3828396201133732%2C48.82843309758655&amp;layer=mapnik&amp;marker=48.827333400024955%2C2.3802188999999316" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/w2iyHH1SLmNzBXer7" style="font-size: 80%;">[Google maps]</a></p>
 
 <p>
 Note: There is no reception and a badge is required to enter the building. Please call your point-of-contact once you have arrived. (The seminar room in Lamarck B is accessible without a badge.)
 </p>
-
-<object loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" data="https://www.openstreetmap.org/export/embed.html?bbox=2.3775959014892583%2C48.8262347017078%2C2.3828396201133732%2C48.82843309758655&amp;layer=mapnik&amp;marker=48.827333400024955%2C2.3802188999999316" style="border: 1px solid black"></object><br/><a href="https://www.openstreetmap.org/?mlat=48.82733&amp;mlon=2.38022#map=19/48.82733/2.38022" style="font-size: 80%;">View Larger Map</a>
 
 </div>
 </div>
@@ -120,9 +117,8 @@ Nobuaki Fuji, Eléonore Stutzmann.
 </p>
 
 <p><b>Location</b><br />
-1 rue Jussieu, 75005, Paris</p>
-
-<iframe loading="lazy" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3534962534904484%2C48.843681482622266%2C2.3587399721145634%2C48.84587911300733&amp;layer=mapnik&amp;marker=48.84477955211402%2C2.356118649999985" style="border: 1px solid black"></iframe><br/><a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">View Larger Map</a>
+1 rue Jussieu, 75005, Paris<br />
+<a href="https://www.openstreetmap.org/?mlat=48.84478&amp;mlon=2.35612#map=19/48.84478/2.35612" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/Rw3sAustbgmATBUGA" style="font-size: 80%;">[Google maps]</a></p>
 
 </div>
 </div>
