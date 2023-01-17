@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'このホームページの存在に気づくとは、<br />やはり天才か'
+landing-title: 'This website is currently in production<br />ホームページ作成中'
 description: null
 image: null
 author: null
