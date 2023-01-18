@@ -57,6 +57,12 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		&.mb-0 {
+			margin-bottom: 0;
+		}
+		&.mt-0 {
+			margin-top: 0;
+		}
 	}
 
 	blockquote > p {
@@ -75,6 +81,9 @@
 		}
 		&.mb-0 {
 			margin-bottom: 0;
+		}
+		&.mt-0 {
+			margin-top: 0;
 		}
 	}
 

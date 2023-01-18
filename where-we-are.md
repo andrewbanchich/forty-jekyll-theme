@@ -15,7 +15,32 @@ order: 2
 <p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
 <h3 class="mb-0"><a href="(https://www.ias.u-psud.fr/">Institut d'Astrophysique Spatiale (IAS)</a></h3>
-<p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
+<p class="mb-0"><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
+
+<div>
+<a href="#hide-pss" class="hide-more" id="hide-pss" style="border-bottom: none;"><p>&#10133; more</p></a>
+<a href="#show-pss" class="show-more" id="show-pss">&#10134; less</a>
+
+<div class="more">
+<div class="box more-box">
+<p><a href="https://www.ias.u-psud.fr/">Group website</a></p>
+
+<p><b>Research themes</b><br />
+Early solar system evolution, planetary evolution, exoplanets.
+</p>
+
+<p><b>Research staff</b><br />
+Alice Aléon, Donia Baklouti, Jean-Pierre Bibring, Rosario Brunetto, John Carter, Zélia Dionnet, Zahia Djouadi, Yves Langevin, Cateline Lantz, Marc Ollivier, Cédric Pilorget, François Poulet, Mathieu Vincendon.
+</p>
+
+<p>
+<b>Location</b><br />
+IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 Bures-sur-Yvette<br />
+<a href="https://www.openstreetmap.org/?mlat=48.69887&mlon=2.17480#map=19/48.69887/2.17480" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/1Lrp362nPmNtp5SR7" style="font-size: 80%;">[Google maps]</a></p>
+
+</div>
+</div>
+</div>
 
 <h3 class="mb-0"><a href="https://www.imcce.fr/">Institut de Mécanique Céleste et de Calcul des Ephémérides (IMCCE)</a></h3>
 <p><a href="https://www.observatoiredeparis.psl.eu/?lang=fr">Observatoire de Paris</a>, <a href="https://www.psl.eu/">Université Paris Sciences & Lettres</a>, <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
