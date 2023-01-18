@@ -18,8 +18,8 @@ order: 2
 <p class="mb-0"><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
 <div>
-<a href="#hide-pss" class="hide-more" id="hide-pss" style="border-bottom: none;"><p>&#10133; more</p></a>
-<a href="#show-pss" class="show-more" id="show-pss">&#10134; less</a>
+<a href="#hide-ias" class="hide-more" id="hide-ias" style="border-bottom: none;"><p>&#10133; more</p></a>
+<a href="#show-ias" class="show-more" id="show-ias">&#10134; less</a>
 
 <div class="more">
 <div class="box more-box">
