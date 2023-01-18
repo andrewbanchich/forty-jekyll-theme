@@ -26,7 +26,7 @@ order: 2
 <p><a href="https://www.ias.u-psud.fr/">Group website</a></p>
 
 <p><b>Research themes</b><br />
-Early solar system evolution, planetary evolution, exoplanets.
+Early solar system evolution, planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
 </p>
 
 <p><b>Research staff</b><br />
