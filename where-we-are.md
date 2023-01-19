@@ -14,19 +14,19 @@ order: 2
 <h3 class="mb-0"><a href="http://geops.geol.u-psud.fr/?lang=fr">Géosciences Paris-Saclay (GEOPS)</a></h3>
 <p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
-<h3 class="mb-0"><a href="(https://www.ias.u-psud.fr/">Institut d'Astrophysique Spatiale (IAS)</a></h3>
-<p class="mb-0"><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
+<h3 class="mb-0"><a href="https://www.ias.u-psud.fr/">Institut d'Astrophysique Spatiale (IAS)</a></h3>
+<p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
-<div>
-<a href="#hide-ias" class="hide-more" id="hide-ias" style="border-bottom: none;"><p>&#10133; more</p></a>
-<a href="#show-ias" class="show-more" id="show-ias">&#10134; less</a>
+<div class="research-group">
+<a href="#hide-ias-sps" class="hide-more" id="hide-ias-sps" style="border-bottom: none;">&#10133; Solar and Planetary Systems</a>
+<a href="#show-ias-sps" class="show-more" id="show-ias-sps">&#10134; Solar and Planetary Systems</a>
 
 <div class="more">
 <div class="box more-box">
-<p><a href="https://www.ias.u-psud.fr/">Group website</a></p>
+<p><a href="https://www.ias.universite-paris-saclay.fr/en/research-activities/solar-and-planetary-systems">Group website</a></p>
 
 <p><b>Research themes</b><br />
-Early solar system evolution, planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
+Space exploration, space instrumentation, laboratory experiments and analysis, early Solar System and planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
 </p>
 
 <p><b>Research staff</b><br />
@@ -41,6 +41,32 @@ IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 
 </div>
 </div>
 </div>
+
+<div class="research-group">
+<a href="#hide-ias-ao" class="hide-more" id="hide-ias-ao" style="border-bottom: none;">&#10133; Astrochemistry and Origins</a>
+<a href="#show-ias-ao" class="show-more" id="show-ias-ao">&#10134; Astrochemistry and Origins</a>
+
+<div class="more">
+<div class="box more-box">
+<p><a href="https://www.ias.universite-paris-saclay.fr/en/research-activities/astrochemistry-and-origins">Group website</a></p>
+
+<p><b>Research themes</b><br />
+Composition and evolution of solid materials in our galaxy and early Solar System, early solar nebular processes.
+</p>
+
+<p><b>Research staff (planetary science only)</b><br />
+Yann Arribard, Elsa Henault, Léna Jossé, Cateline Lantz, Tania Le Pivert-Jolivet, Obadias Mivumbi.
+</p>
+
+<p>
+<b>Location</b><br />
+IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 Bures-sur-Yvette<br />
+<a href="https://www.openstreetmap.org/?mlat=48.69887&mlon=2.17480#map=19/48.69887/2.17480" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/1Lrp362nPmNtp5SR7" style="font-size: 80%;">[Google maps]</a></p>
+
+</div>
+</div>
+</div>
+<p></p>
 
 <h3 class="mb-0"><a href="https://www.imcce.fr/">Institut de Mécanique Céleste et de Calcul des Ephémérides (IMCCE)</a></h3>
 <p><a href="https://www.observatoiredeparis.psl.eu/?lang=fr">Observatoire de Paris</a>, <a href="https://www.psl.eu/">Université Paris Sciences & Lettres</a>, <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
@@ -57,7 +83,7 @@ IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 
 <a href="#show-cage" class="show-more" id="show-cage">&#10134; Cosmochemistry, Astrophysics and Experimental Geophysics</a>
 <div class="more">
 <div class="box more-box">
-<p><a href="https://www.ipgp.fr/en/geoexp/experimental-geophysics">Group website</a></p>
+<p><a href="https://www.ipgp.fr/en/research/teams/cage/">Group website</a></p>
 
 <p><b>Research themes</b><br />
 Core formation, core composition, properties of silicates and metals at high pressure, origin and formation of meteorites, cosmochemistry, atmospheric noble gasses.
@@ -80,7 +106,7 @@ Guillaume Avice, James Badro, Razvan Caracas, Sébastien Charnoz, Marc Chaussido
 <a href="#show-gfd" class="show-more" id="show-gfd">&#10134; Geological fluid dynamics</a>
 <div class="more">
 <div class="box more-box">
-<p><a href="https://www.ipgp.fr/fr/dfg/dynamique-fluides-geologiques">Group website</a></p>
+<p><a href="https://www.ipgp.fr/en/research/teams/dfg/">Group website</a></p>
 
 <p><b>Research themes</b><br />
 Planetary dynamos, core formation, metal-silicate mixing, planetary dunes.
@@ -131,7 +157,7 @@ Note: There is no reception and a badge is required to enter the building. Pleas
 <a href="#show-seis" class="show-more" id="show-seis">&#10134; Seismology</a>
 <div class="more">
 <div class="box more-box">
-<p><a href="https://www.ipgp.fr/fr/sismo/sismologie">Group website</a></p>
+<p><a href="https://www.ipgp.fr/en/research/teams/seismology/">Group website</a></p>
 
 <p><b>Research themes</b><br />
 Mars seismology.
@@ -148,8 +174,8 @@ Nobuaki Fuji, Eléonore Stutzmann.
 </div>
 </div>
 </div>
-
 <p></p>
+
 <h3 class="mb-0"><a href="https://www.latmos.ipsl.fr">Laboratoire Atmosphères, Observations Spatiales (LATMOS)</a></h3>
 <p><a href="https://www.ipsl.fr/">Institut Pierre-Simon Laplace</a>, <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, <a href="">
 Université de Versailles Saint-Quentin-en-Yvelines</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>

@@ -28,6 +28,5 @@ window.getSelection().removeAllRanges();
 *You can subscribe to this calendar by using this url in your calendar application:*
 
 <span id="calendar">
-```https://framagenda.org/remote.php/dav/public-calendars/BJkXk4dmeB3P89Lz?export
-```</span>
+```https://framagenda.org/remote.php/dav/public-calendars/BJkXk4dmeB3P89Lz?export```</span>
 <a href="#" onclick="CopyToClipboard('calendar');return false;" class="button small">Copy</a>
