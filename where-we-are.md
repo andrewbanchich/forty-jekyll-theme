@@ -29,8 +29,8 @@ order: 2
 Space exploration, space instrumentation, laboratory experiments and analysis, early Solar System and planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
 </p>
 
-<p><b>Research staff</b><br />
-Alice Aléon, Donia Baklouti, Jean-Pierre Bibring, Rosario Brunetto, John Carter, Zélia Dionnet, Zahia Djouadi, Yves Langevin, Cateline Lantz, Marc Ollivier, Cédric Pilorget, François Poulet, Mathieu Vincendon.
+<p><b>Planetary science research staff</b><br />
+Jean-Pierre Bibring, John Carter, Yves Langevin, Cateline Lantz, Marc Ollivier, Cédric Pilorget, François Poulet, Mathieu Vincendon.
 </p>
 
 <p>
@@ -54,8 +54,8 @@ IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 
 Composition and evolution of solid materials in our galaxy and early Solar System, early solar nebular processes.
 </p>
 
-<p><b>Research staff (planetary science only)</b><br />
-Yann Arribard, Elsa Henault, Léna Jossé, Cateline Lantz, Tania Le Pivert-Jolivet, Obadias Mivumbi.
+<p><b>Planetary science research staff</b><br />
+Alice Aléon, Donia Baklouti, Rosario Brunetto, Zélia Dionnet, Zahia Djouadi, Cateline Lantz, Obadias Mivumbi.
 </p>
 
 <p>
@@ -89,7 +89,7 @@ IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 
 Core formation, core composition, properties of silicates and metals at high pressure, origin and formation of meteorites, cosmochemistry, atmospheric noble gasses.
 </p>
 
-<p><b>Research staff (planetary science only)</b><br />
+<p><b>Planetary science research staff</b><br />
 Guillaume Avice, James Badro, Razvan Caracas, Sébastien Charnoz, Marc Chaussidon, Frédéric Moynier, Julien Siebert.
 </p>
 
@@ -112,7 +112,7 @@ Guillaume Avice, James Badro, Razvan Caracas, Sébastien Charnoz, Marc Chaussido
 Planetary dynamos, core formation, metal-silicate mixing, planetary dunes.
 </p>
 
-<p><b>Research staff (planetary science only)</b><br />
+<p><b>Planetary science research staff</b><br />
 Julien Aubert, Maylis Landeau, Clément Narteau.
 </p>
 
@@ -135,7 +135,7 @@ Julien Aubert, Maylis Landeau, Clément Narteau.
 Internal structure of the terrestrial planets, planetary seismology, crustal and lithospheric thickness, crustal magnetism, thermal evolution and mantle dynamics, remote sensing, landslides and surface processes, icy satellites.
 </p>
 
-<p><b>Research staff (planetary science only)</b><br />
+<p><b>Planetary science research staff</b><br />
 Cécile Ferrari, Stéphane Jacquemoud, Taichi Kawamura, Philippe Lognonné, Antoine Lucas, Sébastien Rodriguez, Henri Samuel, Mark Wieczorek.
 </p>
 
@@ -163,7 +163,7 @@ Note: There is no reception and a badge is required to enter the building. Pleas
 Mars seismology.
 </p>
 
-<p><b>Research staff (planetary science only)</b><br />
+<p><b>Planetary science research staff</b><br />
 Nobuaki Fuji, Eléonore Stutzmann.
 </p>
 
