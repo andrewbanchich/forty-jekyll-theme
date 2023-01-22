@@ -27,7 +27,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1.59.1
         with:
-          ruby-version: 2.7.2
+          ruby-version: 2.6
       - name: Install dependencies
         run: bundle install
       - name: Jekyll build
