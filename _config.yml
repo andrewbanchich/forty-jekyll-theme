@@ -1,8 +1,8 @@
 # site settings
-title: John-Michael
-subtitle: 
+title: John-Michael Linares
+subtitle: jmal
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: But my friends call me jmal :)
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.jmal.io" # the base hostname & protocol for your site
 author:
@@ -41,3 +41,9 @@ exclude:
 license: CC-BY-NC-4.0
 
 excerpt_separator: "<!-- more -->"
+
+plugins:
+  - jemoji
+
+gems:
+  - jekyll-tagging-related_posts
