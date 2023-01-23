@@ -1,6 +1,6 @@
 # site settings
 title: John-Michael Linares
-subtitle: jmal
+subtitle: 
 email: youremailaddress@gmail.com
 description: But my friends call me jmal :)
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -47,3 +47,5 @@ plugins:
 
 gems:
   - jekyll-tagging-related_posts
+  - reading_time
+  - liquid_pluralize

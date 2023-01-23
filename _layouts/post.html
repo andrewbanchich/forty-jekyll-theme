@@ -22,20 +22,22 @@
 				<header class="major">
 					<h1>{{ page.title }}</h1>
 				</header>
+				{% if page.date %}<p>{{ page.date | date: "%B %d, %Y" }}</p>{% endif %}
+				<p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
 				{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}"
 						alt="" /></span>{% endif %}
 				{{ content }}
+				{% if site.related_posts.size >= 1 %}
+				<div>
+					<h3>Related Posts</h3>
+					<ul>
+						{% for related_post in site.related_posts limit: 5 %}
+						<a href="{{ related_post.url }}">{{ related_post.title }}</a>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
 			</div>
-			{% if site.related_posts.size >= 1 %}
-			<div>
-				<h3>Related Posts</h3>
-				<ul>
-					{% for related_post in site.related_posts limit: 5 %}
-					<li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
-					{% endfor %}
-				</ul>
-			</div>
-			{% endif %}
 		</section>
 
 	</div>
