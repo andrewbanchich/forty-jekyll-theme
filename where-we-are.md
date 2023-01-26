@@ -18,31 +18,6 @@ order: 2
 <p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
 <div class="research-group">
-<a href="#hide-ias-sps" class="hide-more" id="hide-ias-sps" style="border-bottom: none;">&#10133; Solar and Planetary Systems</a>
-<a href="#show-ias-sps" class="show-more" id="show-ias-sps">&#10134; Solar and Planetary Systems</a>
-
-<div class="more">
-<div class="box more-box">
-<p><a href="https://www.ias.universite-paris-saclay.fr/en/research-activities/solar-and-planetary-systems">Group website</a></p>
-
-<p><b>Research themes</b><br />
-Space exploration, space instrumentation, laboratory experiments and analysis, early Solar System and planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
-</p>
-
-<p><b>Planetary science research staff</b><br />
-Jean-Pierre Bibring, John Carter, Yves Langevin, Cateline Lantz, Marc Ollivier, Cédric Pilorget, François Poulet, Mathieu Vincendon.
-</p>
-
-<p>
-<b>Location</b><br />
-IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 Bures-sur-Yvette<br />
-<a href="https://www.openstreetmap.org/?mlat=48.69887&mlon=2.17480#map=19/48.69887/2.17480" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/1Lrp362nPmNtp5SR7" style="font-size: 80%;">[Google maps]</a></p>
-
-</div>
-</div>
-</div>
-
-<div class="research-group">
 <a href="#hide-ias-ao" class="hide-more" id="hide-ias-ao" style="border-bottom: none;">&#10133; Astrochemistry and Origins</a>
 <a href="#show-ias-ao" class="show-more" id="show-ias-ao">&#10134; Astrochemistry and Origins</a>
 
@@ -66,13 +41,64 @@ IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 
 </div>
 </div>
 </div>
+
+<div class="research-group">
+<a href="#hide-ias-sps" class="hide-more" id="hide-ias-sps" style="border-bottom: none;">&#10133; Solar and Planetary Systems</a>
+<a href="#show-ias-sps" class="show-more" id="show-ias-sps">&#10134; Solar and Planetary Systems</a>
+
+<div class="more">
+<div class="box more-box">
+<p><a href="https://www.ias.universite-paris-saclay.fr/en/research-activities/solar-and-planetary-systems">Group website</a></p>
+
+<p><b>Research themes</b><br />
+Space exploration, space instrumentation, laboratory experiments and analysis, early Solar System and planetary evolution, exoplanets, remote sensing, aqueous alteration of planetary materials.
+</p>
+
+<p><b>Planetary science research staff</b><br />
+Jean-Pierre Bibring, John Carter, Yves Langevin, Cateline Lantz, Marc Ollivier, Cédric Pilorget, François Poulet, Mathieu Vincendon.
+</p>
+
+<p>
+<b>Location</b><br />
+IAS, Bâtiment 121, Université Paris-Saclay, Rue Jean-Dominique Cassini, 91440 Bures-sur-Yvette<br />
+<a href="https://www.openstreetmap.org/?mlat=48.69887&mlon=2.17480#map=19/48.69887/2.17480" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/1Lrp362nPmNtp5SR7" style="font-size: 80%;">[Google maps]</a></p>
+
+</div>
+</div>
+</div>
 <p></p>
 
 <h3 class="mb-0"><a href="https://www.imcce.fr/">Institut de Mécanique Céleste et de Calcul des Ephémérides (IMCCE)</a></h3>
 <p><a href="https://www.observatoiredeparis.psl.eu/?lang=fr">Observatoire de Paris</a>, <a href="https://www.psl.eu/">Université Paris Sciences & Lettres</a>, <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
-<h3 class="mb-0">Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie (IMPMC)</h3>
+<h3 class="mb-0"><a href="http://impmc.sorbonne-universite.fr/en/index.html">Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie (IMPMC)</a></h3>
 <p><a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
+
+<div class="research-group">
+<a href="#hide-impmc-mp3" class="hide-more" id="hide-impmc-mp3" style="border-bottom: none;">&#10133; Mineralogy, Petrology and Planetary Physics (MP3)</a>
+<a href="#show-impmc-mp3" class="show-more" id="show-impmc-mp3">&#10134; Mineralogy, Petrology and Planetary Physics (MP3)</a>
+
+<div class="more">
+<div class="box more-box">
+<p><a href="http://impmc.sorbonne-universite.fr/en/research_teams/mineralogy-petrology-and-planetary-physics-mp3.html">Group website</a></p>
+
+<p><b>Research themes</b><br />
+Internal structure of the terrestrial planets, phase diagrams, thermoelastic properties of solids and liquids at high pressure and high temperature, volatile elements in planetary interiors, halogens and noble gasses and their chemical behaviour at depth.
+</p>
+
+<p><b>Planetary science research staff</b><br />
+Daniele Antonangeli, Silvia Boccato, Eglantine Boulard, Hélène Bureau, Frederic Decremps, Michel Gauthier, Chrystèle Sanloup.
+</p>
+
+<p>
+<b>Location</b><br />
+4 place Jussieu, 75005, Paris<br />
+<a href="https://www.openstreetmap.org/?mlat=48.84614&mlon=2.35565#map=19/48.84614/2.35565" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/hnx3Mw1XmoAxtz9x5" style="font-size: 80%;">[Google maps]</a></p>
+
+</div>
+</div>
+</div>
+<p></p>
 
 <h3 class="mb-0"><a href="https://www.ipgp.fr/">Institut de Physique du Globe de Paris (IPGP)</a></h3>
 <p><a href="https://u-paris.fr/en/">Université Paris Cité</a>, <a href="https://www.cnrs.fr/fr">CNRS</a>
