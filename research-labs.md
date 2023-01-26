@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where we are
+title: Research labs
 description: Research laboratories in Ile-de-France
 image: assets/images/venus.jpg
 image-show: false
