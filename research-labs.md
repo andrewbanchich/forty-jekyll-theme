@@ -93,6 +93,7 @@ Daniele Antonangeli, Silvia Boccato, Eglantine Boulard, Hélène Bureau, Frederi
 <p>
 <b>Location</b><br />
 4 place Jussieu, 75005, Paris<br />
+Tower 23, 4th floor, Corridor 22-23<br />
 <a href="https://www.openstreetmap.org/?mlat=48.84614&mlon=2.35565#map=19/48.84614/2.35565" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/hnx3Mw1XmoAxtz9x5" style="font-size: 80%;">[Google maps]</a></p>
 
 </div>
