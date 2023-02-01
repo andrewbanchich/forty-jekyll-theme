@@ -11,7 +11,7 @@ order: 3
 
 **COMING SOON!**
 
-Please add (or remove) your name to the list using the link below if you are a Ph.D. student, post-doc, or permanent researcher working in Paris or Ile-de-France.
+Please add (or remove) your name to the list using the link below if you are a Ph.D. student, post-doc, or permanent researcher working in Paris or Ile-de-France. We will update this list once we get a critical mass of responses.
 
 <!-- ## Permanent research scientists
 
