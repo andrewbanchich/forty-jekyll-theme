@@ -6,7 +6,7 @@ image: assets/images/pluto.jpg
 image-show: false
 nav-menu: true
 show-tile: true
-order: 8
+order: 10
 ---
 
 <!-- Main -->

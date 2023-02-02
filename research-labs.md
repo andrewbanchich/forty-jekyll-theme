@@ -14,6 +14,32 @@ order: 2
 <h3 class="mb-0"><a href="http://geops.geol.u-psud.fr/?lang=fr">Géosciences Paris-Saclay (GEOPS)</a></h3>
 <p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
+<div class="research-group">
+<a href="#hide-geops" class="hide-more" id="hide-geops" style="border-bottom: none;">&#10133; Geomorphology and Geochronology of Planetary and Volcanic Surfaces</a>
+<a href="#show-geops" class="show-more" id="show-geops">&#10134; Geomorphology and geochronology of planetary and volcanic surfaces</a>
+
+<div class="more">
+<div class="box more-box">
+<p><a href="http://geops.geol.u-psud.fr/spip.php?article6&lang=fr">Group website</a></p>
+
+<p><b>Research themes</b><br />
+Surfaces and geology of planetary bodies, ices and volatiles, Mars climate, habitability, magma oceans, spaceborn remote sensing, hyperspectral imaging, photometry, artificial intelligence, analogue Earth studies, cold-room experiments.
+</p>
+
+<p><b>Planetary science research staff</b><br />
+Jacques-Marie Bardintzeff, Sylvain Bouley, Benjamin Bultel, François Costard, Laure Dupeyrat, Julien Gargani, Pierre-Yves Gillot, Anthony Hildenbrsnd, Pierre Lahitte, Hélène Massol, Xavier Quidelleur, Bertrand Saint-Bezar, Philippe Sarda, Frédéric Schmidt, Antoine Séjourné.
+</p>
+
+<p>
+<b>Location</b><br />
+Bâtiments 504/509, Rue du Belvédère, 91400 Orsay<br />
+<a href="https://www.openstreetmap.org/?mlat=48.70639&mlon=2.17913#map=19/48.70639/2.17913" style="font-size: 80%;">[Open Streetmap]</a> <a href="https://goo.gl/maps/qmFSSUmdd3Lynbnh8" style="font-size: 80%;">[Google maps]</a></p>
+
+</div>
+</div>
+</div>
+<p></p>
+
 <h3 class="mb-0"><a href="https://www.ias.u-psud.fr/">Institut d'Astrophysique Spatiale (IAS)</a></h3>
 <p><a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a>, <a href="https://www.cnrs.fr/fr">CNRS</a></p>
 
