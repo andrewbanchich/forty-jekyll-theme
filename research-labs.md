@@ -16,7 +16,7 @@ order: 2
 
 <div class="research-group">
 <a href="#hide-geops" class="hide-more" id="hide-geops" style="border-bottom: none;">&#10133; Geomorphology and Geochronology of Planetary and Volcanic Surfaces</a>
-<a href="#show-geops" class="show-more" id="show-geops">&#10134; Geomorphology and geochronology of planetary and volcanic surfaces</a>
+<a href="#show-geops" class="show-more" id="show-geops">&#10134; Geomorphology and Geochronology of Planetary and Volcanic Surfaces</a>
 
 <div class="more">
 <div class="box more-box">
