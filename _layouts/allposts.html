@@ -28,15 +28,15 @@
         </header>
 
         <p>{{ post.content | strip_html | truncatewords:75 }}</p>
-        
+
         <!-- display the tags for the post -->
         {% if post.tags.size > 0 %}
         <p>
           {% for tag in post.tags %}
-          <a href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+          <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>
           {% endfor %}
-          {% endif %}
         </p>
+        {% endif %}
         {% endif %}
         {% endfor %}
       </div>

@@ -42,6 +42,15 @@ license: CC-BY-NC-4.0
 
 excerpt_separator: "<!-- more -->"
 
+jekyll-archives:
+  enabled:
+    - tags
+    - years
+  layout: tag
+  permalinks:
+    tag: /tag/:name/
+    year: '/archives/year/:year/'
+
 plugins:
   - jemoji
 
