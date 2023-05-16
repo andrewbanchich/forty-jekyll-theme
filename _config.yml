@@ -1,7 +1,7 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: Jones Lab
+subtitle: circadian circuits research @ TAMU
+email: jjones@bio.tamu.edu
 description: circadian circuits research
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
@@ -21,10 +21,9 @@ socials:
   Google-Plus: 
   Instagram:
   LinkedIn: 
-  Twitter: 
+  Twitter: https://www.twitter.com/jonesjeffr
   Facebook:
   Slack:
-  Email: jjones@bio.tamu.edu
 
 # build settings
 markdown: kramdown

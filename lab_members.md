@@ -30,13 +30,13 @@ nav-menu: true
 				<header class="major">
 					<h4>Nicole Armitage</h4>
 				</header>
-				<p></p>
+				<p>Nicole is a first year Biology PhD student. She received her Bachelor’s degree in Biology magna cum laude from Tarleton State University. Nicole joined the Jones lab in the Spring of 2023, focusing her research on the dopamine circuit and behavioral rhythms. Apart from research, Nicole enjoys reading and baking.</p>
 			</div>
 			<div><span class="image"><img src="{% link assets/images/Jordan.jpg %}" style="max-height: 20vw; min-height: 20vw; border: 3px solid white;" alt="" /></span>
 				<header class="major">
 					<h4>Jordan Cook</h4>
 				</header>
-				<p></p>
+				<p>Jordan Cook is a PhD student at the Texas A&M Institute of Neuroscience (TAMIN). She graduated from the University of South Carolina with a B.S. in Biochemistry and Molecular Biology in 2020. Now with the Jones lab, Jordan studies circadian rhythms in the brain’s reward circuit using mice models. In her free time, Jordan enjoys powerlifting, rollerblading with her dog, and reading fiction.</p>
 			</div>
 			
 			<div><span class="image"><img src="{% link assets/images/logan.jpg %}" style="max-height: 20vw; min-height: 20vw; border: 3px solid white;" alt="" /></span>

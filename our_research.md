@@ -102,40 +102,40 @@ nav-menu: true
 				
 			
 				<!-- Break -->
-				<div ><span class="image"><img src="{% link assets/images/circbeh.png %}" alt="" />
+				<div ><span class="image"><img src="{% link assets/images/circbeh.png %}" style="max-width:20vw; max-height:20vw;" alt="" />
                     </span>
 					<h4 style="text-align:center; font-size:.7em;">Circadian behavioral analysis <br> (wheel running, infrared tracking)</h4>
 				</div>
 				<!-- Break -->
-                <div ><span class="image"><img src="{% link assets/images/opto.png %}" alt="" /></span>
+                <div ><span class="image"><img src="{% link assets/images/opto.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Neuromodulation <br> (in vivo, in vitro optogenetics, chemogenetics)</h4>
 				</div>
                 <!-- Break -->
-                <div ><span class="image"><img src="{% link assets/images/photom.png %}" alt="" /></span>
+                <div ><span class="image"><img src="{% link assets/images/photom.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">In vivo imaging <br> (fiber photometry recording of calcium and clock genes)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/vitro.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/vitro.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">In vitro imaging <br> (time-lapse recording of calcium and clock genes)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/crispr.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/crispr.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Neurogenetics <br> (CRISPR/Cas9 editing of clock genes/receptors)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/tracing.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/tracing.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Neuroanatomy <br> (circuit tracing, IHC, confocal imaging)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/hormones.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/hormones.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Manipulation and measurement of hormones <br> (ELISA, drug delivery)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/machlearn.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/machlearn.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Complex behavioral analysis <br> (video tracking, machine learning)</h4>
 				</div>
                 <!-- Break -->
-                <div><span class="image"><img src="{% link assets/images/makerspace.png %}" alt="" /></span>
+                <div><span class="image"><img src="{% link assets/images/makerspace.png %}" alt="" style="max-width:20vw; max-height:20vw;" /></span>
 					<h4 style="text-align:center; font-size:.7em;">Open-source tool development <br> (3D printing, laser cutting, electronics)</h4>
 				</div>
 			</div>
