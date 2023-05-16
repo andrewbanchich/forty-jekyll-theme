@@ -38,6 +38,13 @@ nav-menu: true
 				</header>
 				<p>Jordan Cook is a PhD student at the Texas A&M Institute of Neuroscience (TAMIN). She graduated from the University of South Carolina with a B.S. in Biochemistry and Molecular Biology in 2020. Now with the Jones lab, Jordan studies circadian rhythms in the brain’s reward circuit using mice models. In her free time, Jordan enjoys powerlifting, rollerblading with her dog, and reading fiction.</p>
 			</div>
+
+			<div><span class="image"><img src="{% link assets/images/velena.jpg %}" style="max-height: 20vw; min-height: 20vw; border: 3px solid white;" alt="" /></span>
+				<header class="major">
+					<h4>Velena Fisher</h4>
+				</header>
+				<p></p>
+			</div>
 			
 			<div><span class="image"><img src="{% link assets/images/logan.jpg %}" style="max-height: 20vw; min-height: 20vw; border: 3px solid white;" alt="" /></span>
 				<header class="major">
