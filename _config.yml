@@ -1,17 +1,17 @@
 # site settings
-title: Victor Eregare
-subtitle: by Techcove
-email: eregaresvictor@gmail.com
+title: "Victor Eregare"
+subtitle: "by Techcove"
+email: "eregaresvictor@gmail.com"
 description: A responsive site template designed by Techcove<br /> and released under the Creative Commons.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author: Techcove
-street_address: Plot 22B, Fani Kayode crescent 
-city: Victoria Island
-state: Lagos
-zip_code: 100001
-country: Federal Republic of Nigeria
-phone: 234(810) 213-4445
+author: "Techcove"
+street_address: "Plot 22B, Fani Kayode crescent" 
+city: "Victoria Island"
+state: "Lagos"
+zip_code: "100001"
+country: "Federal Republic of Nigeria"
+phone: "234(810) 213-4445"
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -24,7 +24,7 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/eregarevictor
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+eregarevictor
+  Google-Plus: "https://plus.google.com/u/0/+eregarevictor"
   Instagram:
   LinkedIn: https://www.linkedin.com/in/eregarevictor
   Twitter: https://twitter.com/@victorovie45
