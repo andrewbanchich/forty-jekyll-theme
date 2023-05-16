@@ -16,6 +16,8 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
+			@include vendor('justify-content', 'center');
+			@include vendor('align-items', 'center');
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
 			> .image {
@@ -25,6 +27,8 @@
 				display: block;
 				position: relative;
 				width: 30%;
+
+				padding: 10px;
 
 				img {
 					border-radius: 0;

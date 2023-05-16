@@ -12,23 +12,71 @@
 
         {% include header.html %}
 
-        <section id="banner" class="style2">
-            <div class="inner">
-                <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-                </span>
-                <header class="major">
+        <!-- Main -->
+    <div id="main" class="alt">
 
-                    <h1>{{ page.title }}</h1>
-
-                </header>
-                <div class="content">
-
-                    {{ page.description }}
-
-                </div>
-            </div>
+        <section id="highlight">
+          <div class="inner">
+            <header class="major">
+              <h1>Highlights</h1>
+            </header>
+            {% for post in site.posts %}
+            
+              {% if post.description == 'showcase publications' %}
+  
+                  <p>{{ post.content }}</p>
+              {% endif %}
+            {% endfor %}
+          </div>
         </section>
+  
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h1>All Publications</h1>
+            </header>
+            {% for post in site.posts %}
+            
+              {% if post.description == 'publication' %}
+                {% assign currentdate = post.date | date: "%Y" %}
+  
+                {% if currentdate != date %}
+                  <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+                  {% assign date = currentdate %} 
+                {% endif %}
+  
+                  <p>{{ post.content }}</p>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+  
+        <section id="two">
+          <div class="inner">
+            <header class="major">
+              <h1>News</h1>
+            </header>
+                  {% for post in site.posts %}
+            {% if post.date != 404  and post.description != "publication" and post.description != "showcase publications"%}
+            <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
+  
+  
+            <div style="display: flex;flex-direction: column; align-items: center; justify-content: space-around;">
+  
+              {% if post.image %}<span class="img center" ><img style="max-width: 30vw; max-height: 20vw;" src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+  
+          
+              <p >{{ post.content }}</p>
+  
+            </div>
+  
+            {% endif %}
+                  {% endfor %}
+          </div>
+        </section>
+  
+      </div>
+  
 
     {{ content }}
 

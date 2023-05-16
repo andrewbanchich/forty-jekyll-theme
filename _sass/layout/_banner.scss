@@ -8,7 +8,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("../images/all.png")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -33,7 +33,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.65;
 			position: absolute;
 			top: 0;
 			width: 100%;

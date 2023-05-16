@@ -50,6 +50,58 @@ img {
 			}
 		}
 
+		&.center {
+			background-position: center;
+			max-width: 20vw;
+			max-height: 35vh;
+
+			background-position: cover;
+
+	
+			
+
+
+			overflow-y: hidden;
+			margin: 0 0 _size(element-margin) 0;
+
+			border: 4px solid #eee;
+		}
+
+		&.center1 {
+			background-position: center;
+			max-width: 30vw;
+			max-height: 30vw;
+
+			min-width: 250px;
+			min-height: 250px;
+
+			display: block;
+			
+
+
+			overflow-y: hidden;
+			margin: 0 0 _size(element-margin) 0;
+
+			border: 4px solid #eee;
+		}
+		&.center2 {
+			background-position: center;
+			max-width: 30vw;
+			max-height: 30vw;
+
+			min-width: 140px;
+			min-height: 140px;
+
+			display: block;
+			
+
+
+			overflow-y: hidden;
+			margin: 0 0 _size(element-margin) 0;
+
+			border: 4px solid #eee;
+		}
+
 		&.main {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
