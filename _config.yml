@@ -1,10 +1,10 @@
 # site settings
 title: UXD
-subtitle: 
+subtitle: sub
 email: mail@vinceben.com
-description: 
-baseurl: 
-url: https://vinceben.com
+description: dec
+baseurl: /
+url: vinceben.com
 author:
 street_address: 
 city: 
