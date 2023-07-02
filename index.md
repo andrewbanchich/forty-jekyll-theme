@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Si algo es lo suficientemente importante, deberías intentarlo.'
+landing-title: 'Hi, my name is Forty'
 description: null
 image: null
 author: null
