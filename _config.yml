@@ -1,20 +1,20 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+title: Portfolio
+subtitle: by Darío Placencio
+email: darioplacenciohidalgo@gmail.com
+description: Welcome to my digital portfolio of my work in the fields of Machine Learning and Data Analytics.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: https://placenciohid.github.io # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 908 Eagle Heights Drive
+city: Madison
+state: WI
+zip_code: 53705
 country: United States of America
-phone: (716) 555-5555
+phone: (608) 800-7317
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/placenciohid/Resume
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn: https://www.linkedin.com/in/darioplacencio
+  Twitter: 
   Facebook:
   Slack:
 
@@ -42,3 +42,4 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+    
