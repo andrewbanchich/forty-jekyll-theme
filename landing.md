@@ -1,8 +1,8 @@
 ---
-title: Landing
+title: About Me
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: 'Passionate about leveraging data science and analytics to drive innovation and solve complex business problems.'
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 
