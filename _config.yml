@@ -6,6 +6,8 @@ description: circadian circuits research
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
+remote_theme: andrewbanchich/forty-jekyll-theme
+
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
