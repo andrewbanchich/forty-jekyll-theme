@@ -1,6 +1,6 @@
 ---
 layout: allposts
-title: All posts
+title: Todas as novidades   
 landing-title: 'All posts'
 nav-menu: true
 description: null

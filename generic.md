@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Noticias
+description: Arquitetura e urbanismo na cidade de São Paulo
+image: assets/images/600.jpg
 nav-menu: true
 ---
 

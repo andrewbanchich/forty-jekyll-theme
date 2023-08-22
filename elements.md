@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: Projetos
+image: assets/images/500.jpg
 nav-menu: true
 ---
 

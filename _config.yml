@@ -1,9 +1,9 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Urbanismo
+subtitle: Social
+email: spurbanismo@spurbanismo.sp.gov.br
+description: Nosso site governamental é o ponto de partida para explorar e compreender a evolução dinâmica da maior metrópole do Brasil. Aqui, você encontrará informações abrangentes sobre o planejamento urbano, desenvolvimento sustentável e as iniciativas que moldam o cenário urbano de São Paulo.
+baseurl: "/urbanismo-social" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road

@@ -4,7 +4,7 @@
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
-					<label for="name">Name</label>
+					<label for="name">Nome</label>
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
@@ -12,12 +12,12 @@
 					<input type="text" name="_replyto" id="email" />
 				</div>
 				<div class="field">
-					<label for="message">Message</label>
+					<label for="message">Sua mensagem</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
+					<li><input type="submit" value="Enviar mensagem" class="special" /></li>
+					<li><input type="reset" value="Limpar campos" /></li>
 				</ul>
 			</form>
 		</section>
@@ -32,14 +32,14 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
+					<h3>Telefone</h3>
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
+					<h3>Endereço</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
