@@ -7,7 +7,7 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 
-city: N
+city:
 state: 
 zip_code:
 country: 
