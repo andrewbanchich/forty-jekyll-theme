@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Photography
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Landscape photography, aerial shots, & astrophotography'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
