@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: PowerBi Projects
+description: Showcase of my PowerBi Dashboards
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
