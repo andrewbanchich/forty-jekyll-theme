@@ -2,7 +2,7 @@
 title: Photography
 layout: landing
 description: 'Landscape photography, aerial shots, & astrophotography'
-image: assets/images/pic07.jpg
+image: assets/images/MAC04102-Enhanced.jpg
 nav-menu: true
 ---
 
