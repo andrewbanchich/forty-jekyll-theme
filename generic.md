@@ -1,7 +1,6 @@
 ---
-layout: post
-title: PowerBi Projects
-description: Showcase of my PowerBi Dashboards
+layout: page
+title: PowerBi Showcase
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
