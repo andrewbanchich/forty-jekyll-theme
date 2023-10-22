@@ -3,7 +3,7 @@ title: Malcolm's Portfolio
 subtitle: by Macworks
 email: macworks273@gmail.com
 description: My portfolio content contains my development of PowerBi & Tableau dashbaords. Along with my extensive photography collection
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 
