@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 title: About Me
 # description: Lorem ipsum dolor est
 # image: assets/images/pic11.jpg
 nav-menu: true
 ---
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Main -->
+<div id="main" class="alt">
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
@@ -21,7 +21,6 @@ nav-menu: true
 							<li><a href="Project.html">Project</a></li>
 						</ul>
 					</nav>
-
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
 					<section id="banner" class="style2">
@@ -38,10 +37,8 @@ nav-menu: true
 							</div>
 						</div>
 					</section>
-
 				<!-- Main -->
 					<div id="main">
-
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
@@ -51,7 +48,6 @@ nav-menu: true
 									<p>Test, test, test</p>
 								</div>
 							</section>
-
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
@@ -97,7 +93,6 @@ nav-menu: true
 									</div>
 								</section>
 							</section>
-
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
@@ -110,7 +105,6 @@ nav-menu: true
 									</ul>
 								</div>
 							</section>
-
 					</div>
 			</div>
 
