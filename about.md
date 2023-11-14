@@ -6,7 +6,6 @@ title: About Me
 nav-menu: true
 ---
 
-<!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -222,4 +221,3 @@ A new Landing page has to be created for each option
 			<script src="js/main.js"></script>
 
 	</body>
-</html>
