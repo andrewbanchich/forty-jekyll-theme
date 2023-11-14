@@ -6,7 +6,6 @@ title: About Me
 nav-menu: true
 ---
 
-<html>
 	<head>
 		<title>Tyrone Lim</title>
 		<meta charset="utf-8" />
