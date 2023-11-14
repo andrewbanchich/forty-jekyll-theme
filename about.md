@@ -10,22 +10,12 @@ nav-menu: true
 		<title>Tyrone Lim</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="css/main.css" />
-		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+		<!-- <link rel="stylesheet" href="css/main.css" /> -->
+		<!-- <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript> -->
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><span>Jane Doe</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
