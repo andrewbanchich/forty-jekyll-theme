@@ -6,12 +6,6 @@ title: About Me
 nav-menu: true
 ---
 
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-A new Landing page has to be created for each option
--->
 <html>
 	<head>
 		<title>Tyrone Lim</title>
@@ -21,7 +15,6 @@ A new Landing page has to be created for each option
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
