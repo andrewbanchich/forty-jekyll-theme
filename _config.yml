@@ -3,7 +3,7 @@ title: Nathan LaBeff
 subtitle: Computer Science Student, eager to learn and grow.
 email: nathanlabeff@outlook.com
 description: A personal webpage for Nathan LaBeff. Here will be a collection of my projects, resume, and contact information.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1429 Main St.
